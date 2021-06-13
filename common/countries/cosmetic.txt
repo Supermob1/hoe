@@ -57,6 +57,14 @@ CZE_AUS = {
 	color = rgb {220 221 172} 
 	color_ui = rgb {226 231 172} 
 }
+SLV_AUS = {
+	color = rgb {210 211 162} 
+	color_ui = rgb {226 231 172} 
+}
+CRO_AUS = {
+	color = rgb {220 231 172} 
+	color_ui = rgb {226 231 172} 
+}
 SER_AUS = {
 	color = rgb { 224  190  167 } 
 	color_ui = rgb { 224  190  167 } 

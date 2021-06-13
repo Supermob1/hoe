@@ -4,7 +4,8 @@ state={
 	name="STATE_552"
 
 	history={
-		owner = UNC
+		owner = AUS
+		add_core_of = AUS
 		buildings = {
 			infrastructure = 0
 
@@ -13,7 +14,7 @@ state={
 	}
 
 	provinces={
-		1143 2064 4138 7148 7216 7987 8103 10097 10127 10869 10900 10907 12099 12733 12764 12816 
+		4117 4176 12009 
 	}
 	manpower=2950
 	buildings_max_level_factor=1.000

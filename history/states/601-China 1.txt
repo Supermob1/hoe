@@ -1,13 +1,9 @@
 
 state={
 	id=601
-	name="STATE_601" #Xikang
-	manpower = 707570
-	
-	state_category = pastoral
-	
+	name="STATE_601"
 	resources={
-		oil=2
+		oil=2.000
 	}
 
 	history={
@@ -15,11 +11,15 @@ state={
 		add_core_of = TIB
 		buildings = {
 			infrastructure = 1
+
 		}
 
 	}
 
 	provinces={
-		1918 1999 4407 4999 5018 5080 5102 7988 8041 8059 8104 10741 10841 10856 12724 12837 
+		1918 1961 1991 1999 2010 2014 2093 2098 4407 4900 4994 4999 5011 5018 5033 5080 5094 5102 7926 7988 8029 8037 8041 8059 8068 8104 8121 10741 10755 10802 10841 10856 10918 12724 12784 12801 12807 12837 
 	}
+	manpower=707570
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

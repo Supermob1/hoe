@@ -1135,6 +1135,34 @@ CUB = {
 	color = rgb { 140 65 166 }
 	color_ui = rgb { 140 65 166 }
 }
+PIO = {
+	color = rgb { 135 13 0 }
+	color_ui = rgb { 135 13 0 }
+}
+LEA = {
+	color = rgb { 122 120 56 }
+	color_ui = rgb { 122 120 56}
+}
+BSL = {
+	color = rgb { 119 31 109 }
+	color_ui = rgb { 135 13 0 }
+}
+NCH = {
+	color = rgb { 148 211 93 }
+	color_ui = rgb { 135 13 0 }
+}
+GNV = {
+	color = rgb { 211 162 210 }
+	color_ui = rgb { 135 13 0 }
+}
+STD = {
+	color = rgb { 255 109 225 }
+	color_ui = rgb { 135 13 0 }
+}
+SLV = {
+	color = rgb { 163 202 255 }
+	color_ui = rgb { 68 115 27 }
+}
 
 D01 = {
 	color = rgb { 200 100 31 }

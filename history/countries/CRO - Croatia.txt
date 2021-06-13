@@ -1,9 +1,9 @@
-﻿capital = 109
+﻿capital = 257
 
-set_research_slots = 2
+set_research_slots = 1
 
 set_convoys = 5
-
+set_cosmetic_tag = CRO_AUS
 
 set_popularities = {
 	order = 100

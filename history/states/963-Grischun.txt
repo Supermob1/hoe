@@ -3,8 +3,8 @@ state={
 	name="STATE_963"
 	
 	history={
-		owner = SWI
-		add_core_of = SWI
+		owner = LEA
+		add_core_of = LEA
 		buildings = {
 			infrastructure = 6
 

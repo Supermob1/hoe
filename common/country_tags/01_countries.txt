@@ -72,6 +72,12 @@ WLE = "countries/Wales.txt"
 WRZ = "countries/Wurzburg.txt"
 WUU = "countries/Wurtenburg.txt"
 FLA = "countries/Flanders.txt"
+LEA = "countries/Switzerland.txt"
+STD = "countries/Switzerland.txt"
+BSL = "countries/Switzerland.txt"
+NCH = "countries/Switzerland.txt"
+GNV = "countries/Switzerland.txt"
+SLV = "countries/Croatia.txt"
 
 ######################
 #	Africa      #

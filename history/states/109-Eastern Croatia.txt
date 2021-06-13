@@ -4,21 +4,17 @@ state={
 	name="STATE_109"
 
 	history={
-		owner = HUN
+		owner = SLV
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
 
 		}
-		victory_points = {
-			11581 3 
-		}
-		add_core_of = CRO
+		add_core_of = SLV
 
 	}
 
 	provinces={
-		624 3627 6647 9595 9611 11577 11580 11581 11594 
+		3627 6647 11580 11594 
 	}
 	manpower=847155
 	buildings_max_level_factor=1.000

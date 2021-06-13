@@ -12,15 +12,13 @@ state={
 		add_core_of = MNT
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			
 
 		}
 
 	}
 
 	provinces={
-		982 3984 9809 9821 
+		9821 
 	}
 	manpower=143944
 	buildings_max_level_factor=1.000

@@ -4,25 +4,17 @@ state={
 	name="STATE_448"
 
 	history={
-		owner = LBA
-		victory_points = {
-			1149 10 
-		}
+		owner = ALG
 		buildings = {
 			infrastructure = 3
-			air_base = 6
-			1149 = {
-				naval_base = 5
-
-			}
 
 		}
-		add_core_of = LBA
+		add_core_of = ALG
 
 	}
 
 	provinces={
-		1118 1149 1189 4194 7066 7209 9980 10067 12039 
+		2049 3991 4116 4150 4692 4962 7008 10045 11923 12018 12842 12866 13074 13283 
 	}
 	manpower=852125
 	buildings_max_level_factor=1.000

@@ -1,0 +1,21 @@
+
+state={
+	id=661
+	name="STATE_661"
+
+	history={
+		owner = UNC #MSK
+		#add_core_of = MSK
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		4993 10904 
+	}
+	manpower=41140
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

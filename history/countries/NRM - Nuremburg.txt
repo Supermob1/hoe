@@ -1,0 +1,44 @@
+﻿capital = 787
+
+oob = "NRM_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+add_ideas = {
+	HRE_free_city
+	
+	HRE_member
+	
+	}
+set_research_slots = 2
+set_convoys = 0
+
+set_cosmetic_tag = NRM_HRE
+
+set_popularities = {
+	liberty = 100
+	order = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 12
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Nuremburg City Council"
+	desc = "POLITICS_Nuremburg_City_Council_DESC"
+	picture = "Portrait_NRM_City_Council.dds"
+	expire = "1947.1.1"
+	ideology = oligarchic
+	traits = {
+		
+	}
+}
+
+}

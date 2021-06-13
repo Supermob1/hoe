@@ -1,0 +1,36 @@
+﻿capital = 278
+
+oob = "ARG_1790"
+set_cosmetic_tag = ARG_SPR
+# Starting tech
+set_technology = {
+	
+}
+
+
+set_convoys = 120
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 100
+	order = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.11.8"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Nicolás Antonio de Arredondo"
+	desc = ""
+	picture = "Portrait_ARG_Arredondo.dds"
+	expire = "1795.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}

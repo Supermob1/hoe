@@ -1,0 +1,93 @@
+defined_text = {
+	name = GetlowerClassLoyaltyEffects
+	text = {
+		trigger = {
+			has_idea = lower_class_extremely_high_loyalty
+		}
+		localization_key = lower_class_extremely_high_loyalty_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_very_high_loyalty
+		}
+		localization_key = lower_class_very_high_loyalty_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_high_loyalty
+		}
+		localization_key = lower_class_high_loyalty_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_medium_loyalty
+		}
+		localization_key = lower_class_medium_loyalty_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_low_loyalty
+		}
+		localization_key = lower_class_low_loyalty_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_very_low_loyalty
+		}
+		localization_key = lower_class_very_low_loyalty_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_extremely_low_loyalty
+		}
+		localization_key = lower_class_extremely_low_loyalty_effect
+	}
+	
+}
+
+defined_text = {
+	name = GetlowerClassInfluenceEffects
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_very_high_influence
+		}
+		localization_key = lower_class_very_high_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_high_influence
+		}
+		localization_key = lower_class_high_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_medium_influence
+		}
+		localization_key = lower_class_medium_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_low_influence
+		}
+		localization_key = lower_class_low_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = lower_class_very_low_influence
+		}
+		localization_key = lower_class_very_low_influence_effect
+	}
+	
+	
+}

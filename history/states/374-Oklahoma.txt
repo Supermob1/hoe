@@ -1,0 +1,31 @@
+
+state={
+	id=374
+	name="STATE_374"
+	resources={
+		oil=100.000
+		aluminium=32.000
+	}
+
+	history={
+		owner = KIO
+		add_core_of = KIO
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		victory_points = {
+			1806 1 
+		}
+
+	}
+
+	provinces={
+		4740 4919 7762 7904 9822 10340 10702 10798 11743 11802 12024 
+	}
+	manpower=324
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

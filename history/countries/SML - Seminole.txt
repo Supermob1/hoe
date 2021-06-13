@@ -1,0 +1,50 @@
+﻿capital = 1051
+
+oob = "SML_1790"
+
+#starting tech
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_popularities = {
+    glory = 100
+    equality = 0
+    liberty = 0
+    order = 0
+}
+
+set_politics = {
+    ruling_party = glory
+    last_election = "1790.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Ahaya"
+	desc = ""
+	#picture = ".dds"
+	ideology = glory_tribalism
+}
+
+1781.1.1 = {
+	create_country_leader = {
+		name = "Payne"
+		desc = ""
+		#picture = "Payne.dds"
+		ideology = glory_tribalism
+	}
+}
+create_corps_commander = {
+	name = "Payne"
+	#picture = "Portrait_ENG_Adolphus.dds"
+	traits = { young_leader }
+	skill = 2
+}

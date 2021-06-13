@@ -1,0 +1,22 @@
+
+state={
+	id=112
+	name="STATE_112"
+
+	history={
+		owner = POR
+		add_core_of = POR
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		970 980 11805 
+	}
+	manpower=442211
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

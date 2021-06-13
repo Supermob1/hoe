@@ -1,0 +1,168 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+	volume = 0.45
+}
+
+music = {
+	name = "hoe_divertimento"
+	file = "hoe_divertimento.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoe_sextet"
+	file = "hoe_sextet.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoe_trio"
+	file = "hoe_trio.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoe_canon"
+	file = "hoe_canon.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoe_fur_elise"
+	file = "hoe_fur_elise.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoe_idyll"
+	file = "hoe_idyll.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoe_le_corsair"
+	file = "hoe_le_corsair.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoe_roman_carnival"
+	file = "hoe_roman_carnival.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoew_prince_igor"
+	file = "hoew_prince_igor.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoew_carmagnole"
+	file = "hoew_carmagnole.ogg"
+	volume = 0.65
+}
+
+
+
+music = {
+	name = "hoew_chant_du_depart"
+	file = "hoew_chant_du_depart.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoew_requiem"
+	file = "hoew_requiem.ogg"
+	volume = 0.65
+}
+
+
+music = {
+	name = "hoew_polovetsian_dance"
+	file = "hoew_polovetsian_dance.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoew_russian_sailors"
+	file = "hoew_russian_sailors.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_star_spangled_banner"
+	file = "usa_star_spangled_banner.ogg"
+	volume = 0.65
+}
+music = {
+	name = "victory_battle_new_orleans"
+	file = "victory_battle_new_orleans.ogg"
+	volume = 0.65
+}
+music = {
+	name = "hoew_la_victoire_est_a_nous"
+	file = "hoew_la_victoire_est_a_nous.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tur_mah_yuzune_asikanim"
+	file = "tur_mah_yuzune_asikanim.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tur_su_karsiki_dagda_bir_yesil_cadir"
+	file = "tur_su_karsiki_dagda_bir_yesil_cadir.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tur_farig"
+	file = "tur_farig.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tur_uzzal"
+	file = "tur_uzzal.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tur_uskudara"
+	file = "tur_uskudara.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tur_guldur"
+	file = "tur_guldur.ogg"
+	volume = 0.80
+}
+music = {
+	name = "spa_albeniz_sonata_d"
+	file = "spa_albeniz_sonata_d.ogg"
+	volume = 0.65
+}
+music = {
+	name = "spa_rondo"
+	file = "spa_rondo.ogg"
+	volume = 0.65
+}
+music = {
+	name = "spa_fandango"
+	file = "spa_fandango.ogg"
+	volume = 0.65
+}
+music = {
+	name = "spa_sor_6"
+	file = "spa_sor_6.ogg"
+	volume = 0.65
+}
+music = {
+	name = "spa_celebren"
+	file = "spa_celebren.ogg"
+	volume = 0.50
+}
+music = {
+	name = "spa_encouragement"
+	file = "spa_encouragement.ogg"
+	volume = 0.65
+}
+music = {
+	name = "vivaldi_spring"
+	file = "vivaldi_spring.ogg"
+	volume = 0.65
+}
+music = {
+	name = "zul_umanqoba"
+	file = "zul_umanqoba.ogg"
+	volume = 0.70
+}

@@ -1,0 +1,81 @@
+ideas = {
+	country = {
+		HRE_free_city = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = HRE_free_city
+						
+			modifier = {
+                production_factory_max_efficiency_factor = 0.25
+				trade_cost_for_target_factor = -0.5
+				trade_opinion_factor = 0.1
+			}
+	    }
+	    HRE_member = {
+
+	        allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = HRE_member
+						
+			modifier = {
+                stability_factor = 0.05
+			}
+	    }
+
+	    HRE_elector = {
+
+	        allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = HRE_elector
+						
+			modifier = {
+			    political_power_gain = 0.05
+            }
+	    }
+
+	    HRE_emperor = {
+
+	        allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = HRE_emperor
+						
+			modifier = {
+			    political_power_gain = 0.10
+			    conscription_factor = 0.25
+            }
+	    }
+
+	}
+}

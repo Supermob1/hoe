@@ -1,0 +1,22 @@
+
+state={
+	id=579
+	name="STATE_579"
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PRU
+
+	}
+
+	provinces={
+		6375 11245 
+	}
+	manpower=562
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

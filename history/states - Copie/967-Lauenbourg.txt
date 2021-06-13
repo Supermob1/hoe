@@ -1,0 +1,20 @@
+state={
+	id=967
+	name="STATE_967"
+	
+	history={
+		owner = UNC #HAN
+		buildings = {
+			infrastructure = 7
+		}
+		#add_core_of = HAN
+
+	}
+	
+	provinces={
+		9320 
+	}
+	manpower=20120
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

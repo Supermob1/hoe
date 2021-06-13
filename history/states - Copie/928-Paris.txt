@@ -1,0 +1,19 @@
+state={
+	id=928
+	name="STATE_928"
+	
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 8
+		}
+	}
+	
+	provinces={
+		11506 
+	}
+	manpower=640504
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

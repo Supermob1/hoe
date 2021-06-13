@@ -1,0 +1,20 @@
+state={
+	id=909
+	name="STATE_909" #Natal
+	manpower = 962157
+	
+	state_category = rural
+
+
+	history={
+		owner = SZL
+		add_core_of = SZL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		7900 13270 13271
+	}
+}

@@ -1,0 +1,37 @@
+﻿capital = 315
+
+oob = "CUB_1790"
+set_cosmetic_tag = CUB_SPR
+# Starting tech
+set_technology = {
+	
+}
+
+
+set_convoys = 20
+
+
+set_popularities = {
+	liberty = 100
+	order = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.1.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Luis de Las Casas"
+	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}

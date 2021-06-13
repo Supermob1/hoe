@@ -1,0 +1,27 @@
+state=
+{
+	id=550
+	name="STATE_550"
+	manpower = 366733
+	
+	state_category = rural
+	
+	history=
+	{
+		owner = UNC #MHR
+		#add_core_of = MHR
+		victory_points = {
+			12766 1
+		}
+		buildings = {
+			infrastructure = 4
+			
+			12766 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		5017 5047 5091 8043 12723 12766
+	}
+}

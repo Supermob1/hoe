@@ -1,0 +1,32 @@
+
+state={
+	id=377
+	name="STATE_377"
+	resources={
+		steel=40.000
+		oil=10.000
+		aluminium=16.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			853 3 
+		}
+
+	}
+
+	provinces={
+		853 1793 4796 7747 
+	}
+	manpower=3302
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

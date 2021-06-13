@@ -1,0 +1,216 @@
+#Guildline for Loyalty and Influence
+#0-5 #Extremely Low Loyalty
+#6-20 #Very Low Loyalty
+#21-40 #Low Loyalty
+#41-60 #Medium Loyalty
+#61-80 #High Loyalty
+#81-95 #Very High Loyalty
+#96-100 #Extremely High Loyalty
+#Influence
+#0-20 #Very Low Influence
+#21-40 #Low Influence
+#41-60 #Medium Influence
+#61-80 #High Influence
+#81-100 #Very High Influence
+
+update_lower_class = {
+	#Ensuring that loyalty and influence is not below 0 or above 100
+	if = {
+		limit = {
+			check_variable = {
+				var = lower_class_loyalty
+				value = 100
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = lower_class_loyalty
+			value = 100
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_loyalty
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = lower_class_loyalty
+			value = 0
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = lower_class_influence
+				value = 100
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = lower_class_influence
+			value = 100
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_influence
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = lower_class_influence
+			value = 0
+		}
+	}
+	#Making it so I dont have to repeat this for every check below
+	remove_ideas = lower_class_extremely_high_loyalty
+	remove_ideas = lower_class_very_high_loyalty
+	remove_ideas = lower_class_high_loyalty
+	remove_ideas = lower_class_medium_loyalty
+	remove_ideas = lower_class_low_loyalty
+	remove_ideas = lower_class_very_low_loyalty
+	remove_ideas = lower_class_extremely_low_loyalty
+	remove_ideas = lower_class_very_high_influence
+	remove_ideas = lower_class_high_influence
+	remove_ideas = lower_class_medium_influence
+	remove_ideas = lower_class_low_influence
+	remove_ideas = lower_class_very_low_influence
+
+	if = {
+		limit = {
+			check_variable = {
+				var = lower_class_loyalty
+				value = 96
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_extremely_high_loyalty
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_loyalty
+				value = 81
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_very_high_loyalty
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_loyalty
+				value = 61
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_high_loyalty
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_loyalty
+				value = 41
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_medium_loyalty
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_loyalty
+				value = 21
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_low_loyalty
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_loyalty
+				value = 6
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_very_low_loyalty
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_loyalty
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_extremely_low_loyalty
+	}
+	
+	if = {
+		limit = {
+			check_variable = {
+				var = lower_class_influence
+				value = 81
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_very_high_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_influence
+				value = 61
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_high_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_influence
+				value = 41
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_medium_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_influence
+				value = 21
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_low_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = lower_class_influence
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = lower_class_very_low_influence
+	}
+	
+}

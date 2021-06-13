@@ -1,0 +1,23 @@
+
+state={
+	id=1007
+	name="STATE_1007"
+
+	history={
+		owner = NSC
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = NSC
+		add_core_of = USA
+
+	}
+
+	provinces={
+		4287 10247 
+	}
+	manpower=12210
+	buildings_max_level_factor=1.000
+	state_category=town
+}

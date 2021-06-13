@@ -1,0 +1,28 @@
+
+state={
+	id=4
+	name="STATE_4"
+
+	history={
+		owner = UNC #UNC
+		victory_points = {
+			11666 30.0 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 2
+
+		}
+		#add_core_of = AUS
+
+	}
+
+	provinces={
+		704 6552 6690 6723 6739 9527 11651 11666 
+	}
+	manpower=1210250
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

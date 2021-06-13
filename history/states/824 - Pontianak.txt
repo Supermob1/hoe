@@ -1,0 +1,22 @@
+state= {
+	id=824
+	name="STATE_824"
+	manpower = 942317
+	
+	state_category = rural
+
+	history= {
+		owner = PTK
+		add_core_of = PTK
+
+		buildings = {
+			infrastructure = 2
+			1316 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		1316 10282
+	}
+}

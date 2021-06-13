@@ -1,0 +1,21 @@
+
+state={
+	id=846
+	name="STATE_846"
+	manpower = 217336
+	state_category = small_island
+	history={
+		owner = UNC #HW2
+		buildings = {
+			infrastructure = 2
+		}
+		#add_core_of = HW2
+		victory_points = {
+			4180 1
+		 }
+	}
+
+	provinces={
+		4180
+	}
+}

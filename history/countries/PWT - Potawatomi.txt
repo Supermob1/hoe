@@ -1,0 +1,56 @@
+﻿capital = 393
+
+oob = "PWT_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_popularities = {
+    glory = 70
+    equality = 30
+    liberty = 0
+    order = 0
+}
+
+set_politics = {
+    ruling_party = glory
+    last_election = "1790.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+create_country_leader = {
+	name = "Charles Michel de Langlade"
+	desc = ""
+	#picture = ".dds"
+	expire = "1820.1.1"
+	ideology = glory_tribalism
+	traits = {
+		
+	}
+}
+1790.1.1 = {
+	create_country_leader = {
+		name = "Black Patridge"
+		desc = "POLITICS_Black_Patridge_DESC"
+		picture = "Portrait_PWT_Patridge.dds"
+		expire = "1820.1.1"
+		ideology = glory_tribalism
+		traits = {
+			
+		}
+	}
+}
+create_corps_commander = {
+	name = "Matchekewis"
+	#picture = ".dds"
+	traits = { }
+	skill = 2
+}
+

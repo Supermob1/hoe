@@ -1,0 +1,62 @@
+﻿capital = 19
+
+oob = "CHK_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_politics = {
+	
+	parties = {
+		liberal = { 
+			popularity = 0
+		}
+
+		conservatist = {
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 0
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 100
+		}
+	}
+	ruling_party = neutrality
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Pushmataha"
+	desc = "POLITICS_Pushmataha_DESC"
+	picture = "Portrait_CHK_Pushmataha.dds"
+	expire = "1947.1.1"
+	ideology = tribalism
+	traits = {
+		
+	}

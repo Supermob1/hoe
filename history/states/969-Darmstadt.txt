@@ -1,0 +1,18 @@
+
+state={
+	id=969
+	name="STATE_969"
+
+	history={
+		owner = MNZ
+		add_core_of = MNZ
+
+	}
+
+	provinces={
+		589 3574 
+	}
+	manpower=42700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

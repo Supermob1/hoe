@@ -1,0 +1,25 @@
+state={
+	id=1012
+	name="STATE_1012"
+	
+	history={
+		owner = HUR
+		add_core_of = HUR
+		add_claim_by = USA
+		buildings = {
+			infrastructure = 1
+			
+			industrial_complex = 1
+
+		}
+		
+
+	}
+	
+	provinces={
+		722 774 779 6610 9667 9711 9743 11695 11725 
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

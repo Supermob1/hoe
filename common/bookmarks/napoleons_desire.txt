@@ -1,0 +1,63 @@
+bookmarks = {
+	bookmark = {
+		name = "napoleons_desire_name"
+		desc = "napeoleons_desire_DESC"
+		date = 1805.2.2.12
+		picture = "GFX_select_date_1805"
+		default_country = "FRA"
+	
+		FRA = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = glory
+			ideas={
+				
+			}
+			focuses = {
+				
+			}
+		}
+		USA = {
+			history = USA_BLITZKRIEG_DESC
+			ideology = liberty
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ENG = {
+			history = ENG_BLITZKRIEG_DESC
+			ideology = order
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+			
+		}	
+		SOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = order
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

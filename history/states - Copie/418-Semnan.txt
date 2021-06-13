@@ -1,0 +1,22 @@
+
+state={
+	id=418
+	name="STATE_418"
+	manpower = 136929
+	
+	state_category = wasteland
+
+	history={
+		owner = UNC #QAJ
+		buildings = {
+			infrastructure = 1
+		}
+		#add_core_of = PER
+		#add_core_of = QAJ
+		#add_core_of = ZAN
+	}
+
+	provinces={
+		7602 8093 10873 11671 12704 12748 12818 
+	}
+}

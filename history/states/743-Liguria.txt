@@ -1,0 +1,28 @@
+
+state={
+	id=743
+	name="STATE_743"
+
+	history={
+		owner = GEN
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			6788 = {
+				naval_base = 8
+
+			}
+		}
+		add_core_of = GEN
+		victory_points = {
+			6788 15 
+		}
+	}
+
+	provinces={
+		3772 6788 11891 13205 
+	}
+	manpower=2011000
+	buildings_max_level_factor=4.000
+	state_category=town
+}

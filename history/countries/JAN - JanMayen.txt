@@ -1,0 +1,44 @@
+﻿capital = 889
+
+oob = "JAN_1790"
+
+set_research_slots = 3
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+
+set_convoys = 5
+
+set_popularities = {
+	equality = 0
+	glory = 0
+	order = 100
+	liberty = 0
+}
+set_politics = {
+	
+	
+	ruling_party = order
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Bjorn Bjornson" 
+	desc = ""
+	picture = "Portrait_JAN_Bjorn.dds"
+	expire = "1814.1.1"
+	ideology = tribalism
+	traits = {
+		#
+	}
+}
+

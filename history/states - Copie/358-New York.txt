@@ -1,0 +1,36 @@
+
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		steel=24.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 7
+			dockyard = 3
+			air_base = 4
+			3878 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			3878 30.0 
+		}
+
+	}
+
+	provinces={
+		706 859 3806 3878 3894 6707 6911 9774 11650 11654 11660 
+	}
+	manpower=337540
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

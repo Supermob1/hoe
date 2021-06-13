@@ -1,0 +1,60 @@
+﻿capital = 324
+
+oob = "BHU_1790"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 0
+		}
+
+		conservatist = {
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 100
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	ruling_party = monarchist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Druk Tenzen"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

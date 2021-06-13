@@ -1,0 +1,28 @@
+
+state={
+	id=897
+	name="STATE_897"
+	manpower = 25000
+	
+	state_category = city
+
+	history={
+		owner = UNC #MRC
+		victory_points = {
+			13258 1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		#add_core_of = MRC
+		
+		
+	}
+
+	provinces={
+		13258
+	}
+	
+}

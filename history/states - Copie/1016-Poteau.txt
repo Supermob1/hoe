@@ -1,0 +1,20 @@
+state={
+	id=1016
+	name="STATE_1016"
+	
+	history={
+		owner = OSG
+		add_core_of = OSG
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+	provinces={
+		1618 2043 4567 4597 5103 6803 7945 8025 12778 
+	}
+	manpower=315
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

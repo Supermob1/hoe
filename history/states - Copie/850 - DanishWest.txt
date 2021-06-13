@@ -1,0 +1,22 @@
+
+state={
+	id=850
+	name="STATE_850"
+	manpower = 40000
+	
+	state_category = tiny_island
+	
+
+	history={
+		owner = DNO 
+		add_core_of = DNO
+		buildings = {
+			infrastructure = 1
+			
+		}
+	}
+
+	provinces={
+		4155
+	}
+}

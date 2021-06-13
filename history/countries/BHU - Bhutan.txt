@@ -1,0 +1,34 @@
+﻿capital = 324
+
+oob = "BHU_1790"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+
+set_politics = {
+	ruling_party = order
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Druk Tenzen"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

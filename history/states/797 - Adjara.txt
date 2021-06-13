@@ -1,0 +1,24 @@
+
+state={
+	id=797
+	name="STATE_797"
+
+	history={
+		owner = TUR
+		add_core_of = GEO
+		buildings = {
+		3653 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+		}
+	}
+
+	provinces={
+		3653 6669 7454 10403 10472 12441 
+	}
+	manpower=137341
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

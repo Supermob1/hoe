@@ -1,0 +1,35 @@
+﻿capital = 756
+
+oob = "RGS_1936"
+
+set_research_slots = 2
+
+set_technology = {
+	
+}
+set_popularities = {
+	liberty = 80	
+	glory = 10
+	order = 10
+	equality = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.11.9"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+
+
+create_country_leader = {
+	name = "Grand Council"
+	desc = "POLITICS_Grand_council_RGS_DESC"
+	picture = "Portrait_RGS_Grand_Council.dds"
+	expire = "1965.1.1"
+	ideology = oligarchic
+	traits = {
+		#
+	}
+}

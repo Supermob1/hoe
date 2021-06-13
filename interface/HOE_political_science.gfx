@@ -1,0 +1,113 @@
+spriteTypes = {	
+
+	### categories
+	####### TECH SCREEN ######
+	spriteType = {
+		name = "political_science_background"
+		texturefile = "gfx/interface/political_science_background.dds"
+	}
+	spriteType = {
+		name = "GFX_political_science_portrait_barred"
+		texturefile = "gfx/interface/political_science_portrait_barred.dds"
+	}
+	spriteType = {
+		name = "GFX_political_science_portrait_normal"
+		texturefile = "gfx/interface/political_science_portrait_normal.dds" 
+	}
+	
+	
+	
+	########## Scientists Screen ##########
+	spriteType = {
+		name = "GFX_political_scientists_background"
+		texturefile = "gfx/interface/political_scientists_background.dds" 
+	}
+	spriteType = {
+		name = "GFX_political_scientists_selection_bg"
+		texturefile = "gfx/interface/political_scientists_selection_bg.dds" 
+	}
+	spriteType = {
+		name = "GFX_political_scientists_button_available"
+		texturefile = "gfx/interface/political_scientists_button_available.dds" 
+	}
+	spriteType = {
+		name = "GFX_political_scientists_button_unavailable"
+		texturefile = "gfx/interface/political_scientists_button_unavailable.dds" 
+	}
+	spriteType = {
+		name = "GFX_political_scientists_button_selected"
+		texturefile = "gfx/interface/political_scientists_button_selected.dds" 
+	}
+	spriteType = {
+		name = "GFX_political_scientists_banned_stamp"
+		texturefile = "gfx/interface/political_scientists_banned_stamp.dds" 
+	}
+	spriteType = {
+		name = "GFX_political_scientists_funded_stamp"
+		texturefile = "gfx/interface/political_scientists_funded_stamp.dds" 
+	}
+	
+	
+	
+	
+	########## SCIENTISTS ##########
+	
+	
+	
+	########## USA ##########
+	spriteType = {
+		name = "GFX_scientist_USA_benjamin_franklin"
+		texturefile = "gfx/interface/scientists/USA_Benjamin_Franklin.dds" 
+	}
+	spriteType = {
+		name = "GFX_scientist_USA_thomas_paine"
+		texturefile = "gfx/interface/scientists/USA_Thomas_Paine.dds" 
+	}
+	spriteType = {
+		name = "GFX_scientist_USA_david_bushnell"
+		texturefile = "gfx/interface/scientists/USA_David_Bushnell.dds" 
+	}
+	
+	
+	########## STATS ##########
+	
+	spriteType = {
+		name = "GFX_science_stat_economic"
+		texturefile = "gfx/interface/scientists/science_traits/science_stat_economic.dds" 
+	}
+	spriteType = {
+		name = "GFX_science_stat_military"
+		texturefile = "gfx/interface/scientists/science_traits/science_stat_military.dds" 
+	}
+	spriteType = {
+		name = "GFX_science_stat_naval"
+		texturefile = "gfx/interface/scientists/science_traits/science_stat_naval.dds" 
+	}
+	spriteType = {
+		name = "GFX_science_stat_political"
+		texturefile = "gfx/interface/scientists/science_traits/science_stat_political.dds" 
+	}
+	
+	########## TRAITS ##########
+	spriteType = {
+		name = "GFX_science_trait_electricity"
+		texturefile = "gfx/interface/scientists/science_traits/science_trait_electricity.dds" 
+	}
+	spriteType = {
+		name = "GFX_science_trait_liberal"
+		texturefile = "gfx/interface/scientists/science_traits/science_trait_liberal.dds" 
+	}
+	spriteType = {
+		name = "GFX_science_trait_submarines"
+		texturefile = "gfx/interface/scientists/science_traits/science_trait_submarines.dds" 
+	}
+	spriteType = {
+		name = "GFX_science_trait_equality"
+		texturefile = "gfx/interface/scientists/science_traits/science_trait_equality.dds" 
+	}
+	spriteType = {
+		name = "GFX_science_trait_anarchist"
+		texturefile = "gfx/interface/scientists/science_traits/science_trait_anarchist.dds" 
+	}
+	
+}

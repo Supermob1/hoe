@@ -1,0 +1,55 @@
+﻿capital = 318
+
+oob = "FRA_1790"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	
+}
+
+
+set_convoys = 300
+
+set_popularities = {
+	liberty = 20	
+	order = 70
+	equality = 10
+	glory = 0
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+}
+
+
+
+create_country_leader = {
+	name = "Louis XVI"
+	desc = "POLITICS_LOUIS_XVI_DESC"
+	picture = "Portrait_France_Louis_XVI.dds"
+	expire = "2000.1.1"
+	ideology = absolutist
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Louis XV"
+	desc = "POLITICS_LOUIS_XV_DESC"
+	picture = "Portrait_France_Louis_XV.dds"
+	expire = "1774.5.10"
+	ideology = absolutist
+	traits = {
+		
+	}
+}
+

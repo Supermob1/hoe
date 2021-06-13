@@ -1,0 +1,25 @@
+
+state={
+	id=683
+	name="STATE_683"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = HUD
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = HUD
+
+	}
+
+	provinces={
+		5239 7185 7782 10721 13188 13190 
+	}
+	manpower=110
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_endgame_leader"
+		texturefile = "//gfx//interface//end_leader_flag.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_endgame_flag"
+		texturefile = "//gfx//interface//end_country_flag.dds"
+		noOfFrames = 1
+	}
+}

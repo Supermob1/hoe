@@ -1,0 +1,3132 @@
+guiTypes = {
+   containerWindowType = {
+       name = "imperial_authority_button"
+       position = { x = 1740 y = 875 }
+ 
+       buttonType ={
+           name ="imperial_authority_bg"
+           spriteType = "GFX_HRE_button"
+           position = { x=0 y=0 }
+           shortcut = "ctrl+i"
+		   pdx_tooltip = "IMPERIAL_TAB_TOOLTIP"
+       }
+ 
+                    
+           
+           
+       
+   }
+   containerWindowType = {
+       name = "imperial_authority_button_close"
+       position = { x = 1740 y = 875 }
+ 
+       buttonType ={
+           name ="imperial_authority_bg"
+           spriteType = "GFX_HRE_button"
+           position = { x=0 y=0 }
+           shortcut = "ctrl+i"
+		   pdx_tooltip = "IMPERIAL_TAB_TOOLTIP"
+       }
+ 
+                    
+           
+           
+       
+   }
+  
+   containerWindowType = {
+       name = "imperial_authority_container"
+       position = { x = 200 y = 150 }
+	   size = { width= 1250 height=800 }
+	
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_HRE_background"
+		}
+		
+		buttonType = {
+			name = "imperial_authority_close" 
+			position = {x=1045 y=43}	
+			spriteType = "GFX_closebutton"
+		}
+	
+		buttonType ={
+			name ="imperial_authority_amount_bg"
+			spriteType = "GFX_group_div_count_bg"
+			position = { x=820 y=150 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_eagle_bg"
+			spriteType = "GFX_HRE_Eagle"
+			position = { x=822 y=175 }
+			
+			
+		}
+		
+		buttonType ={
+			name ="imperial_authority_button_stability"
+			spriteType = "GFX_HRE_stability"
+			position = { x=700 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_political"
+			spriteType = "GFX_HRE_political"
+			position = { x=835 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_XP"
+			spriteType = "GFX_HRE_XP"
+			position = { x=985 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_manpower"
+			spriteType = "GFX_HRE_manpower"
+			position = { x=700 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_war"
+			spriteType = "GFX_HRE_war"
+			position = { x=835 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_peace"
+			spriteType = "GFX_HRE_peace"
+			position = { x=985 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_tech"
+			spriteType = "GFX_HRE_tech"
+			position = { x=700 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_diplo"
+			spriteType = "GFX_HRE_diplo"
+			position = { x=985 y=175 }
+			
+			
+		}
+		iconType ={
+			name ="imperial_authority_eagle_emperor"
+			spriteType = "GFX_HRE_Eagle_emperor"
+			position = { x=425 y=110 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_1_Bohemia"
+			spriteType = "GFX_HRE_elector_bohemia_bg"
+			position = { x=385 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_2_Brandenburg"
+			spriteType = "GFX_HRE_elector_brandenburg_bg"
+			position = { x=475 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_3_Saxony"
+			spriteType = "GFX_HRE_elector_saxony_bg"
+			position = { x=565 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_4_Bavaria"
+			spriteType = "GFX_HRE_elector_bavaria_bg"
+			position = { x=655 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_5_Cologne"
+			spriteType = "GFX_HRE_elector_cologne_bg"
+			position = { x=745 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_6_Hannover"
+			spriteType = "GFX_HRE_elector_hannover_bg"
+			position = { x=835 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_7_Mainz"
+			spriteType = "GFX_HRE_elector_mainz_bg"
+			position = { x=925 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_8_Trier"
+			spriteType = "GFX_HRE_elector_trier_bg"
+			position = { x=1015 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Member_1_BAD"
+			spriteType = "GFX_HRE_member_BAD_bg"
+			position = { x=410 y=520 }
+			
+		}
+		iconType ={
+			name ="Member_2_BRS"
+			spriteType = "GFX_HRE_member_BRS_bg"
+			position = { x=460 y=520 }
+		}
+		iconType ={
+			name ="Member_3_HES"
+			spriteType = "GFX_HRE_member_HES_bg"
+			position = { x=510 y=520 }
+		}
+		iconType ={
+			name ="Member_4_HOH"
+			spriteType = "GFX_HRE_member_HOH_bg"
+			position = { x=560 y=520 }
+		}
+		iconType ={
+			name ="Member_5_LIE"
+			spriteType = "GFX_HRE_member_LIE_bg"
+			position = { x=610 y=520 }
+		}
+		iconType ={
+			name ="Member_6_MCK"
+			spriteType = "GFX_HRE_member_MCK_bg"
+			position = { x=660 y=520 }
+		}
+		iconType ={
+			name ="Member_7_NSS"
+			spriteType = "GFX_HRE_member_NSS_bg"
+			position = { x=710 y=520 }
+		}
+		iconType ={
+			name ="Member_8_SLZ"
+			spriteType = "GFX_HRE_member_SLZ_bg"
+			position = { x=760 y=520 }
+		}
+		iconType ={
+			name ="Member_9_SXG"
+			spriteType = "GFX_HRE_member_SXG_bg"
+			position = { x=810 y=520 }
+		}
+		iconType ={
+			name ="Member_10_TNT"
+			spriteType = "GFX_HRE_member_TNT_bg"
+			position = { x=860 y=520 }
+		}
+		iconType ={
+			name ="Member_11_VAD"
+			spriteType = "GFX_HRE_member_VAD_bg"
+			position = { x=410 y=580 }
+		}
+		iconType ={
+			name ="Member_12_WEI"
+			spriteType = "GFX_HRE_member_WEI_bg"
+			position = { x=460 y=580 }
+		}
+		iconType ={
+			name ="Member_13_WRZ"
+			spriteType = "GFX_HRE_member_WRZ_bg"
+			position = { x=510 y=580 }
+		}
+		iconType ={
+			name ="Member_14_WUU"
+			spriteType = "GFX_HRE_member_WUU_bg"
+			position = { x=560 y=580 }
+		}
+		iconType ={
+			name ="Free_city_1_FRK"
+			spriteType = "GFX_HRE_free_city_FRK_bg"
+			position = { x=940 y=520 }
+		}
+		iconType ={
+			name ="Free_city_2_HAM"
+			spriteType = "GFX_HRE_free_city_HAM_bg"
+			position = { x=1010 y=520 }
+		}
+		iconType ={
+			name ="Free_city_3_LUB"
+			spriteType = "GFX_HRE_free_city_LUB_bg"
+			position = { x=940 y=580 }
+		}
+		iconType ={
+			name ="Free_city_4_NRM"
+			spriteType = "GFX_HRE_free_city_NRM_bg"
+			position = { x=1010 y=580 }
+		}
+		iconType ={
+			name ="Free_city_5_ULM"
+			spriteType = "GFX_HRE_free_city_ULM_bg"
+			position = { x=940 y=640 }
+		}
+		
+		instantTextboxType = {
+			name = "Is the Emperor"
+			position = {x=450 y=310}
+			font = "hoi_12header"
+			text = "[GetEmperorName]"
+			maxWidth = 150
+			maxHeight = 23
+			format = center
+		} 
+		
+		instantTextboxType = {
+			name = "Imperial_Authority_button"
+			position = {x=735 y=100}
+			font = "hoi_36header"
+			text = "Imperial Authority"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		} 
+		instantTextBoxType = {
+			name ="imperial_authority_text"
+			position = { x= 841 y = 157 }
+			font = "hoi_18mbs"
+			text = "[?imperial_authority]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+		}
+		instantTextboxType = {
+			name = "Holy Roman Electors"
+			position = {x=655 y=380}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Electors"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Free Cities"
+			position = {x=970 y=500}
+			font = "hoi_16mbs"
+			text = "Free Cities"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Members"
+			position = {x=575 y=497}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Members"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}	
+        instantTextboxType = {
+			name = "Holy Roman Empire"
+			position = {x=600 y=43}
+			font = "hoi_36header"
+			text = "Holy Roman Empire"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		}      
+		instantTextboxType = {
+			name = "Holy Roman Emperor"
+			position = {x=450 y=90}
+			font = "hoi_20b"
+			text = "Holy Roman Emperor"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}  
+        buttonType = {
+			name = "hre_button_left" 
+			position = {x=345 y=415}		
+			spriteType = "GFX_open_left"
+		}
+		buttonType = {
+			name = "hre_button_right" 
+			position = {x= 1085 y=415}	
+			spriteType = "GFX_open_right"
+		}
+		buttonType = {
+			name = "hre_button_down" 
+			position = {x=695 y = 725}	
+			spriteType = "GFX_open_down"
+		}
+           
+       
+   }
+   containerWindowType = {
+       name = "imperial_authority_container_down"
+       position = { x = 200 y = 150 }
+	   size = { width=1500 height=800 }
+		
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_HRE_background_down"
+		}
+		
+		buttonType = {
+			name = "imperial_authority_close" 
+			position = {x=1045 y=43}	
+			spriteType = "GFX_closebutton"
+		}
+		buttonType ={
+			name ="imperial_authority_amount_bg"
+			spriteType = "GFX_group_div_count_bg"
+			position = { x=820 y=150 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_eagle_bg"
+			spriteType = "GFX_HRE_Eagle"
+			position = { x=822 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_stability"
+			spriteType = "GFX_HRE_stability"
+			position = { x=700 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_political"
+			spriteType = "GFX_HRE_political"
+			position = { x=835 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_XP"
+			spriteType = "GFX_HRE_XP"
+			position = { x=985 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_manpower"
+			spriteType = "GFX_HRE_manpower"
+			position = { x=700 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_war"
+			spriteType = "GFX_HRE_war"
+			position = { x=835 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_peace"
+			spriteType = "GFX_HRE_peace"
+			position = { x=985 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_tech"
+			spriteType = "GFX_HRE_tech"
+			position = { x=700 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_diplo"
+			spriteType = "GFX_HRE_diplo"
+			position = { x=985 y=175 }
+			
+			
+		}
+		iconType ={
+			name ="imperial_authority_eagle_emperor"
+			spriteType = "GFX_HRE_Eagle_emperor"
+			position = { x=425 y=110 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_1_Bohemia"
+			spriteType = "GFX_HRE_elector_bohemia_bg"
+			position = { x=385 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_2_Brandenburg"
+			spriteType = "GFX_HRE_elector_brandenburg_bg"
+			position = { x=475 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_3_Saxony"
+			spriteType = "GFX_HRE_elector_saxony_bg"
+			position = { x=565 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_4_Bavaria"
+			spriteType = "GFX_HRE_elector_bavaria_bg"
+			position = { x=655 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_5_Cologne"
+			spriteType = "GFX_HRE_elector_cologne_bg"
+			position = { x=745 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_6_Hannover"
+			spriteType = "GFX_HRE_elector_hannover_bg"
+			position = { x=835 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_7_Mainz"
+			spriteType = "GFX_HRE_elector_mainz_bg"
+			position = { x=925 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_8_Trier"
+			spriteType = "GFX_HRE_elector_trier_bg"
+			position = { x=1015 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Member_1_BAD"
+			spriteType = "GFX_HRE_member_BAD_bg"
+			position = { x=410 y=520 }
+			
+		}
+		iconType ={
+			name ="Member_2_BRS"
+			spriteType = "GFX_HRE_member_BRS_bg"
+			position = { x=460 y=520 }
+		}
+		iconType ={
+			name ="Member_3_HES"
+			spriteType = "GFX_HRE_member_HES_bg"
+			position = { x=510 y=520 }
+		}
+		iconType ={
+			name ="Member_4_HOH"
+			spriteType = "GFX_HRE_member_HOH_bg"
+			position = { x=560 y=520 }
+		}
+		iconType ={
+			name ="Member_5_LIE"
+			spriteType = "GFX_HRE_member_LIE_bg"
+			position = { x=610 y=520 }
+		}
+		iconType ={
+			name ="Member_6_MCK"
+			spriteType = "GFX_HRE_member_MCK_bg"
+			position = { x=660 y=520 }
+		}
+		iconType ={
+			name ="Member_7_NSS"
+			spriteType = "GFX_HRE_member_NSS_bg"
+			position = { x=710 y=520 }
+		}
+		iconType ={
+			name ="Member_8_SLZ"
+			spriteType = "GFX_HRE_member_SLZ_bg"
+			position = { x=760 y=520 }
+		}
+		iconType ={
+			name ="Member_9_SXG"
+			spriteType = "GFX_HRE_member_SXG_bg"
+			position = { x=810 y=520 }
+		}
+		iconType ={
+			name ="Member_10_TNT"
+			spriteType = "GFX_HRE_member_TNT_bg"
+			position = { x=860 y=520 }
+		}
+		iconType ={
+			name ="Member_11_VAD"
+			spriteType = "GFX_HRE_member_VAD_bg"
+			position = { x=410 y=580 }
+		}
+		iconType ={
+			name ="Member_12_WEI"
+			spriteType = "GFX_HRE_member_WEI_bg"
+			position = { x=460 y=580 }
+		}
+		iconType ={
+			name ="Member_13_WRZ"
+			spriteType = "GFX_HRE_member_WRZ_bg"
+			position = { x=510 y=580 }
+		}
+		iconType ={
+			name ="Member_14_WUU"
+			spriteType = "GFX_HRE_member_WUU_bg"
+			position = { x=560 y=580 }
+		}
+		iconType ={
+			name ="Free_city_1_FRK"
+			spriteType = "GFX_HRE_free_city_FRK_bg"
+			position = { x=940 y=520 }
+		}
+		iconType ={
+			name ="Free_city_2_HAM"
+			spriteType = "GFX_HRE_free_city_HAM_bg"
+			position = { x=1010 y=520 }
+		}
+		iconType ={
+			name ="Free_city_3_LUB"
+			spriteType = "GFX_HRE_free_city_LUB_bg"
+			position = { x=940 y=580 }
+		}
+		iconType ={
+			name ="Free_city_4_NRM"
+			spriteType = "GFX_HRE_free_city_NRM_bg"
+			position = { x=1010 y=580 }
+		}
+		iconType ={
+			name ="Free_city_5_ULM"
+			spriteType = "GFX_HRE_free_city_ULM_bg"
+			position = { x=940 y=640 }
+		}
+		
+		instantTextboxType = {
+			name = "Is the Emperor"
+			position = {x=450 y=310}
+			font = "hoi_12header"
+			text = "[GetEmperorName]"
+			maxWidth = 150
+			maxHeight = 23
+			format = center
+		} 
+		
+		instantTextboxType = {
+			name = "Imperial_Authority_button"
+			position = {x=735 y=100}
+			font = "hoi_36header"
+			text = "Imperial Authority"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		} 
+		instantTextBoxType = {
+			name ="imperial_authority_text"
+			position = { x= 841 y = 157 }
+			font = "hoi_18mbs"
+			text = "[?imperial_authority]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+		}
+		instantTextboxType = {
+			name = "Holy Roman Electors"
+			position = {x=655 y=380}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Electors"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Free Cities"
+			position = {x=970 y=500}
+			font = "hoi_16mbs"
+			text = "Free Cities"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Members"
+			position = {x=575 y=497}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Members"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+        instantTextboxType = {
+			name = "Holy Roman Empire"
+			position = {x=600 y=43}
+			font = "hoi_36header"
+			text = "Holy Roman Empire"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		}      
+		instantTextboxType = {
+			name = "Holy Roman Emperor"
+			position = {x=450 y=90}
+			font = "hoi_20b"
+			text = "Holy Roman Emperor"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		
+        buttonType = {
+			name = "hre_button_left" 
+			position = {x=345 y=415}		
+			spriteType = "GFX_open_left"
+		}
+		buttonType = {
+			name = "hre_button_right" 
+			position = {x= 1085 y=415}	
+			spriteType = "GFX_open_right"
+		}
+		buttonType = {
+			name = "hre_button_down" 
+			position = {x=695 y = 725}	
+			spriteType = "GFX_open_up"
+		}
+           
+       
+   }
+   containerWindowType = {
+       name = "imperial_authority_container_left"
+       position = {x = 200 y = 150 }
+	   size = { width=1500 height=800 }
+		
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_HRE_background_left"
+		}
+		
+		buttonType = {
+			name = "imperial_authority_close" 
+			position = {x=1045 y=43}	
+			spriteType = "GFX_closebutton"
+		}
+		buttonType ={
+			name ="imperial_authority_amount_bg"
+			spriteType = "GFX_group_div_count_bg"
+			position = { x=820 y=150 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_eagle_bg"
+			spriteType = "GFX_HRE_Eagle"
+			position = { x=822 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_stability"
+			spriteType = "GFX_HRE_stability"
+			position = { x=700 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_political"
+			spriteType = "GFX_HRE_political"
+			position = { x=835 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_XP"
+			spriteType = "GFX_HRE_XP"
+			position = { x=985 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_manpower"
+			spriteType = "GFX_HRE_manpower"
+			position = { x=700 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_war"
+			spriteType = "GFX_HRE_war"
+			position = { x=835 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_peace"
+			spriteType = "GFX_HRE_peace"
+			position = { x=985 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_tech"
+			spriteType = "GFX_HRE_tech"
+			position = { x=700 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_diplo"
+			spriteType = "GFX_HRE_diplo"
+			position = { x=985 y=175 }
+			
+			
+		}
+		iconType ={
+			name ="imperial_authority_eagle_emperor"
+			spriteType = "GFX_HRE_Eagle_emperor"
+			position = { x=425 y=110 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_1_Bohemia"
+			spriteType = "GFX_HRE_elector_bohemia_bg"
+			position = { x=385 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_2_Brandenburg"
+			spriteType = "GFX_HRE_elector_brandenburg_bg"
+			position = { x=475 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_3_Saxony"
+			spriteType = "GFX_HRE_elector_saxony_bg"
+			position = { x=565 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_4_Bavaria"
+			spriteType = "GFX_HRE_elector_bavaria_bg"
+			position = { x=655 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_5_Cologne"
+			spriteType = "GFX_HRE_elector_cologne_bg"
+			position = { x=745 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_6_Hannover"
+			spriteType = "GFX_HRE_elector_hannover_bg"
+			position = { x=835 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_7_Mainz"
+			spriteType = "GFX_HRE_elector_mainz_bg"
+			position = { x=925 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_8_Trier"
+			spriteType = "GFX_HRE_elector_trier_bg"
+			position = { x=1015 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Member_1_BAD"
+			spriteType = "GFX_HRE_member_BAD_bg"
+			position = { x=410 y=520 }
+			
+		}
+		iconType ={
+			name ="Member_2_BRS"
+			spriteType = "GFX_HRE_member_BRS_bg"
+			position = { x=460 y=520 }
+		}
+		iconType ={
+			name ="Member_3_HES"
+			spriteType = "GFX_HRE_member_HES_bg"
+			position = { x=510 y=520 }
+		}
+		iconType ={
+			name ="Member_4_HOH"
+			spriteType = "GFX_HRE_member_HOH_bg"
+			position = { x=560 y=520 }
+		}
+		iconType ={
+			name ="Member_5_LIE"
+			spriteType = "GFX_HRE_member_LIE_bg"
+			position = { x=610 y=520 }
+		}
+		iconType ={
+			name ="Member_6_MCK"
+			spriteType = "GFX_HRE_member_MCK_bg"
+			position = { x=660 y=520 }
+		}
+		iconType ={
+			name ="Member_7_NSS"
+			spriteType = "GFX_HRE_member_NSS_bg"
+			position = { x=710 y=520 }
+		}
+		iconType ={
+			name ="Member_8_SLZ"
+			spriteType = "GFX_HRE_member_SLZ_bg"
+			position = { x=760 y=520 }
+		}
+		iconType ={
+			name ="Member_9_SXG"
+			spriteType = "GFX_HRE_member_SXG_bg"
+			position = { x=810 y=520 }
+		}
+		iconType ={
+			name ="Member_10_TNT"
+			spriteType = "GFX_HRE_member_TNT_bg"
+			position = { x=860 y=520 }
+		}
+		iconType ={
+			name ="Member_11_VAD"
+			spriteType = "GFX_HRE_member_VAD_bg"
+			position = { x=410 y=580 }
+		}
+		iconType ={
+			name ="Member_12_WEI"
+			spriteType = "GFX_HRE_member_WEI_bg"
+			position = { x=460 y=580 }
+		}
+		iconType ={
+			name ="Member_13_WRZ"
+			spriteType = "GFX_HRE_member_WRZ_bg"
+			position = { x=510 y=580 }
+		}
+		iconType ={
+			name ="Member_14_WUU"
+			spriteType = "GFX_HRE_member_WUU_bg"
+			position = { x=560 y=580 }
+		}
+		iconType ={
+			name ="Free_city_1_FRK"
+			spriteType = "GFX_HRE_free_city_FRK_bg"
+			position = { x=940 y=520 }
+		}
+		iconType ={
+			name ="Free_city_2_HAM"
+			spriteType = "GFX_HRE_free_city_HAM_bg"
+			position = { x=1010 y=520 }
+		}
+		iconType ={
+			name ="Free_city_3_LUB"
+			spriteType = "GFX_HRE_free_city_LUB_bg"
+			position = { x=940 y=580 }
+		}
+		iconType ={
+			name ="Free_city_4_NRM"
+			spriteType = "GFX_HRE_free_city_NRM_bg"
+			position = { x=1010 y=580 }
+		}
+		iconType ={
+			name ="Free_city_5_ULM"
+			spriteType = "GFX_HRE_free_city_ULM_bg"
+			position = { x=940 y=640 }
+		}
+		
+		instantTextboxType = {
+			name = "Is the Emperor"
+			position = {x=450 y=310}
+			font = "hoi_12header"
+			text = "[GetEmperorName]"
+			maxWidth = 150
+			maxHeight = 23
+			format = center
+		} 
+		
+		instantTextboxType = {
+			name = "Imperial_Authority_button"
+			position = {x=735 y=100}
+			font = "hoi_36header"
+			text = "Imperial Authority"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		} 
+		instantTextBoxType = {
+			name ="imperial_authority_text"
+			position = { x= 841 y = 157 }
+			font = "hoi_18mbs"
+			text = "[?imperial_authority]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+		}
+		instantTextboxType = {
+			name = "Holy Roman Electors"
+			position = {x=655 y=380}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Electors"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Free Cities"
+			position = {x=970 y=500}
+			font = "hoi_16mbs"
+			text = "Free Cities"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Members"
+			position = {x=575 y=497}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Members"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+        instantTextboxType = {
+			name = "Holy Roman Empire"
+			position = {x=600 y=43}
+			font = "hoi_36header"
+			text = "Holy Roman Empire"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		}      
+		instantTextboxType = {
+			name = "Holy Roman Emperor"
+			position = {x=450 y=90}
+			font = "hoi_20b"
+			text = "Holy Roman Emperor"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}  
+        buttonType = {
+			name = "hre_button_left" 
+			position = {x=345 y=415}		
+			spriteType = "GFX_open_right"
+		}
+		buttonType = {
+			name = "hre_button_right" 
+			position = {x= 1085 y=415}	
+			spriteType = "GFX_open_right"
+		}
+		buttonType = {
+			name = "hre_button_down" 
+			position = {x=695 y = 725}	
+			spriteType = "GFX_open_down"
+		}
+       
+   }
+
+   containerWindowType = {
+       name = "imperial_authority_container_right"
+       position = { x = 200 y = 150 }
+	   size = { width=1500 height=800 }
+		
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_HRE_background_right"
+		}
+		
+		buttonType = {
+			name = "imperial_authority_close" 
+			position = {x=1045 y=43}	
+			spriteType = "GFX_closebutton"
+		}
+		buttonType ={
+			name ="imperial_authority_amount_bg"
+			spriteType = "GFX_group_div_count_bg"
+			position = { x=820 y=150 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_eagle_bg"
+			spriteType = "GFX_HRE_Eagle"
+			position = { x=822 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_stability"
+			spriteType = "GFX_HRE_stability"
+			position = { x=700 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_political"
+			spriteType = "GFX_HRE_political"
+			position = { x=835 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_XP"
+			spriteType = "GFX_HRE_XP"
+			position = { x=985 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_manpower"
+			spriteType = "GFX_HRE_manpower"
+			position = { x=700 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_war"
+			spriteType = "GFX_HRE_war"
+			position = { x=835 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_peace"
+			spriteType = "GFX_HRE_peace"
+			position = { x=985 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_tech"
+			spriteType = "GFX_HRE_tech"
+			position = { x=700 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_diplo"
+			spriteType = "GFX_HRE_diplo"
+			position = { x=985 y=175 }
+			
+			
+		}
+		iconType ={
+			name ="imperial_authority_eagle_emperor"
+			spriteType = "GFX_HRE_Eagle_emperor"
+			position = { x=425 y=110 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_1_Bohemia"
+			spriteType = "GFX_HRE_elector_bohemia_bg"
+			position = { x=385 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_2_Brandenburg"
+			spriteType = "GFX_HRE_elector_brandenburg_bg"
+			position = { x=475 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_3_Saxony"
+			spriteType = "GFX_HRE_elector_saxony_bg"
+			position = { x=565 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_4_Bavaria"
+			spriteType = "GFX_HRE_elector_bavaria_bg"
+			position = { x=655 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_5_Cologne"
+			spriteType = "GFX_HRE_elector_cologne_bg"
+			position = { x=745 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_6_Hannover"
+			spriteType = "GFX_HRE_elector_hannover_bg"
+			position = { x=835 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_7_Mainz"
+			spriteType = "GFX_HRE_elector_mainz_bg"
+			position = { x=925 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_8_Trier"
+			spriteType = "GFX_HRE_elector_trier_bg"
+			position = { x=1015 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Member_1_BAD"
+			spriteType = "GFX_HRE_member_BAD_bg"
+			position = { x=410 y=520 }
+			
+		}
+		iconType ={
+			name ="Member_2_BRS"
+			spriteType = "GFX_HRE_member_BRS_bg"
+			position = { x=460 y=520 }
+		}
+		iconType ={
+			name ="Member_3_HES"
+			spriteType = "GFX_HRE_member_HES_bg"
+			position = { x=510 y=520 }
+		}
+		iconType ={
+			name ="Member_4_HOH"
+			spriteType = "GFX_HRE_member_HOH_bg"
+			position = { x=560 y=520 }
+		}
+		iconType ={
+			name ="Member_5_LIE"
+			spriteType = "GFX_HRE_member_LIE_bg"
+			position = { x=610 y=520 }
+		}
+		iconType ={
+			name ="Member_6_MCK"
+			spriteType = "GFX_HRE_member_MCK_bg"
+			position = { x=660 y=520 }
+		}
+		iconType ={
+			name ="Member_7_NSS"
+			spriteType = "GFX_HRE_member_NSS_bg"
+			position = { x=710 y=520 }
+		}
+		iconType ={
+			name ="Member_8_SLZ"
+			spriteType = "GFX_HRE_member_SLZ_bg"
+			position = { x=760 y=520 }
+		}
+		iconType ={
+			name ="Member_9_SXG"
+			spriteType = "GFX_HRE_member_SXG_bg"
+			position = { x=810 y=520 }
+		}
+		iconType ={
+			name ="Member_10_TNT"
+			spriteType = "GFX_HRE_member_TNT_bg"
+			position = { x=860 y=520 }
+		}
+		iconType ={
+			name ="Member_11_VAD"
+			spriteType = "GFX_HRE_member_VAD_bg"
+			position = { x=410 y=580 }
+		}
+		iconType ={
+			name ="Member_12_WEI"
+			spriteType = "GFX_HRE_member_WEI_bg"
+			position = { x=460 y=580 }
+		}
+		iconType ={
+			name ="Member_13_WRZ"
+			spriteType = "GFX_HRE_member_WRZ_bg"
+			position = { x=510 y=580 }
+		}
+		iconType ={
+			name ="Member_14_WUU"
+			spriteType = "GFX_HRE_member_WUU_bg"
+			position = { x=560 y=580 }
+		}
+		iconType ={
+			name ="Free_city_1_FRK"
+			spriteType = "GFX_HRE_free_city_FRK_bg"
+			position = { x=940 y=520 }
+		}
+		iconType ={
+			name ="Free_city_2_HAM"
+			spriteType = "GFX_HRE_free_city_HAM_bg"
+			position = { x=1010 y=520 }
+		}
+		iconType ={
+			name ="Free_city_3_LUB"
+			spriteType = "GFX_HRE_free_city_LUB_bg"
+			position = { x=940 y=580 }
+		}
+		iconType ={
+			name ="Free_city_4_NRM"
+			spriteType = "GFX_HRE_free_city_NRM_bg"
+			position = { x=1010 y=580 }
+		}
+		iconType ={
+			name ="Free_city_5_ULM"
+			spriteType = "GFX_HRE_free_city_ULM_bg"
+			position = { x=940 y=640 }
+		}
+		
+		instantTextboxType = {
+			name = "Is the Emperor"
+			position = {x=450 y=310}
+			font = "hoi_12header"
+			text = "[GetEmperorName]"
+			maxWidth = 150
+			maxHeight = 23
+			format = center
+		} 
+		
+		instantTextboxType = {
+			name = "Imperial_Authority_button"
+			position = {x=735 y=100}
+			font = "hoi_36header"
+			text = "Imperial Authority"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		} 
+		instantTextBoxType = {
+			name ="imperial_authority_text"
+			position = { x= 841 y = 157 }
+			font = "hoi_18mbs"
+			text = "[?imperial_authority]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+		}
+		instantTextboxType = {
+			name = "Holy Roman Electors"
+			position = {x=655 y=380}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Electors"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Free Cities"
+			position = {x=970 y=500}
+			font = "hoi_16mbs"
+			text = "Free Cities"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Members"
+			position = {x=575 y=497}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Members"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+        instantTextboxType = {
+			name = "Holy Roman Empire"
+			position = {x=600 y=43}
+			font = "hoi_36header"
+			text = "Holy Roman Empire"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		}      
+		instantTextboxType = {
+			name = "Holy Roman Emperor"
+			position = {x=450 y=90}
+			font = "hoi_20b"
+			text = "Holy Roman Emperor"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}  
+        buttonType = {
+			name = "hre_button_left" 
+			position = {x=345 y=415}		
+			spriteType = "GFX_open_left"
+		}
+		buttonType = {
+			name = "hre_button_right" 
+			position = {x= 1085 y=415}	
+			spriteType = "GFX_open_left"
+		}
+		buttonType = {
+			name = "hre_button_down" 
+			position = {x=695 y = 725}	
+			spriteType = "GFX_open_down"
+		}
+           
+       
+   }
+   containerWindowType = {
+       name = "imperial_authority_container_left_right"
+       position = { x = 200 y = 150 }
+	   size = { width=1500 height=800 }
+		
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_HRE_background_left_right"
+		}
+		
+		buttonType = {
+			name = "imperial_authority_close" 
+			position = {x=1045 y=43}	
+			spriteType = "GFX_closebutton"
+		}
+		buttonType ={
+			name ="imperial_authority_amount_bg"
+			spriteType = "GFX_group_div_count_bg"
+			position = { x=820 y=150 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_eagle_bg"
+			spriteType = "GFX_HRE_Eagle"
+			position = { x=822 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_stability"
+			spriteType = "GFX_HRE_stability"
+			position = { x=700 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_political"
+			spriteType = "GFX_HRE_political"
+			position = { x=835 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_XP"
+			spriteType = "GFX_HRE_XP"
+			position = { x=985 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_manpower"
+			spriteType = "GFX_HRE_manpower"
+			position = { x=700 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_war"
+			spriteType = "GFX_HRE_war"
+			position = { x=835 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_peace"
+			spriteType = "GFX_HRE_peace"
+			position = { x=985 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_tech"
+			spriteType = "GFX_HRE_tech"
+			position = { x=700 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_diplo"
+			spriteType = "GFX_HRE_diplo"
+			position = { x=985 y=175 }
+			
+			
+		}
+		iconType ={
+			name ="imperial_authority_eagle_emperor"
+			spriteType = "GFX_HRE_Eagle_emperor"
+			position = { x=425 y=110 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_1_Bohemia"
+			spriteType = "GFX_HRE_elector_bohemia_bg"
+			position = { x=385 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_2_Brandenburg"
+			spriteType = "GFX_HRE_elector_brandenburg_bg"
+			position = { x=475 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_3_Saxony"
+			spriteType = "GFX_HRE_elector_saxony_bg"
+			position = { x=565 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_4_Bavaria"
+			spriteType = "GFX_HRE_elector_bavaria_bg"
+			position = { x=655 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_5_Cologne"
+			spriteType = "GFX_HRE_elector_cologne_bg"
+			position = { x=745 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_6_Hannover"
+			spriteType = "GFX_HRE_elector_hannover_bg"
+			position = { x=835 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_7_Mainz"
+			spriteType = "GFX_HRE_elector_mainz_bg"
+			position = { x=925 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_8_Trier"
+			spriteType = "GFX_HRE_elector_trier_bg"
+			position = { x=1015 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Member_1_BAD"
+			spriteType = "GFX_HRE_member_BAD_bg"
+			position = { x=410 y=520 }
+			
+		}
+		iconType ={
+			name ="Member_2_BRS"
+			spriteType = "GFX_HRE_member_BRS_bg"
+			position = { x=460 y=520 }
+		}
+		iconType ={
+			name ="Member_3_HES"
+			spriteType = "GFX_HRE_member_HES_bg"
+			position = { x=510 y=520 }
+		}
+		iconType ={
+			name ="Member_4_HOH"
+			spriteType = "GFX_HRE_member_HOH_bg"
+			position = { x=560 y=520 }
+		}
+		iconType ={
+			name ="Member_5_LIE"
+			spriteType = "GFX_HRE_member_LIE_bg"
+			position = { x=610 y=520 }
+		}
+		iconType ={
+			name ="Member_6_MCK"
+			spriteType = "GFX_HRE_member_MCK_bg"
+			position = { x=660 y=520 }
+		}
+		iconType ={
+			name ="Member_7_NSS"
+			spriteType = "GFX_HRE_member_NSS_bg"
+			position = { x=710 y=520 }
+		}
+		iconType ={
+			name ="Member_8_SLZ"
+			spriteType = "GFX_HRE_member_SLZ_bg"
+			position = { x=760 y=520 }
+		}
+		iconType ={
+			name ="Member_9_SXG"
+			spriteType = "GFX_HRE_member_SXG_bg"
+			position = { x=810 y=520 }
+		}
+		iconType ={
+			name ="Member_10_TNT"
+			spriteType = "GFX_HRE_member_TNT_bg"
+			position = { x=860 y=520 }
+		}
+		iconType ={
+			name ="Member_11_VAD"
+			spriteType = "GFX_HRE_member_VAD_bg"
+			position = { x=410 y=580 }
+		}
+		iconType ={
+			name ="Member_12_WEI"
+			spriteType = "GFX_HRE_member_WEI_bg"
+			position = { x=460 y=580 }
+		}
+		iconType ={
+			name ="Member_13_WRZ"
+			spriteType = "GFX_HRE_member_WRZ_bg"
+			position = { x=510 y=580 }
+		}
+		iconType ={
+			name ="Member_14_WUU"
+			spriteType = "GFX_HRE_member_WUU_bg"
+			position = { x=560 y=580 }
+		}
+		iconType ={
+			name ="Free_city_1_FRK"
+			spriteType = "GFX_HRE_free_city_FRK_bg"
+			position = { x=940 y=520 }
+		}
+		iconType ={
+			name ="Free_city_2_HAM"
+			spriteType = "GFX_HRE_free_city_HAM_bg"
+			position = { x=1010 y=520 }
+		}
+		iconType ={
+			name ="Free_city_3_LUB"
+			spriteType = "GFX_HRE_free_city_LUB_bg"
+			position = { x=940 y=580 }
+		}
+		iconType ={
+			name ="Free_city_4_NRM"
+			spriteType = "GFX_HRE_free_city_NRM_bg"
+			position = { x=1010 y=580 }
+		}
+		iconType ={
+			name ="Free_city_5_ULM"
+			spriteType = "GFX_HRE_free_city_ULM_bg"
+			position = { x=940 y=640 }
+		}
+		
+		instantTextboxType = {
+			name = "Is the Emperor"
+			position = {x=450 y=310}
+			font = "hoi_12header"
+			text = "[GetEmperorName]"
+			maxWidth = 150
+			maxHeight = 23
+			format = center
+		} 
+		
+		instantTextboxType = {
+			name = "Imperial_Authority_button"
+			position = {x=735 y=100}
+			font = "hoi_36header"
+			text = "Imperial Authority"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		} 
+		instantTextBoxType = {
+			name ="imperial_authority_text"
+			position = { x= 841 y = 157 }
+			font = "hoi_18mbs"
+			text = "[?imperial_authority]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+		}
+		instantTextboxType = {
+			name = "Holy Roman Electors"
+			position = {x=655 y=380}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Electors"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Free Cities"
+			position = {x=970 y=500}
+			font = "hoi_16mbs"
+			text = "Free Cities"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Members"
+			position = {x=575 y=497}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Members"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+        instantTextboxType = {
+			name = "Holy Roman Empire"
+			position = {x=600 y=43}
+			font = "hoi_36header"
+			text = "Holy Roman Empire"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		}      
+		instantTextboxType = {
+			name = "Holy Roman Emperor"
+			position = {x=450 y=90}
+			font = "hoi_20b"
+			text = "Holy Roman Emperor"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}  
+        buttonType = {
+			name = "hre_button_left" 
+			position = {x=345 y=415}		
+			spriteType = "GFX_open_right"
+		}
+		buttonType = {
+			name = "hre_button_right" 
+			position = {x= 1085 y=415}	
+			spriteType = "GFX_open_left"
+		}
+		buttonType = {
+			name = "hre_button_down" 
+			position = {x=695 y = 725}	
+			spriteType = "GFX_open_down"
+		}
+           
+       
+   }
+   containerWindowType = {
+       name = "imperial_authority_container_down_left"
+       position = { x = 200 y = 150 }
+	   size = { width=1500 height=800 }
+	
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_HRE_background_down_left"
+		}
+		
+		buttonType = {
+			name = "imperial_authority_close" 
+			position = {x=1045 y=43}	
+			spriteType = "GFX_closebutton"
+		}
+		buttonType ={
+			name ="imperial_authority_amount_bg"
+			spriteType = "GFX_group_div_count_bg"
+			position = { x=820 y=150 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_eagle_bg"
+			spriteType = "GFX_HRE_Eagle"
+			position = { x=822 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_stability"
+			spriteType = "GFX_HRE_stability"
+			position = { x=700 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_political"
+			spriteType = "GFX_HRE_political"
+			position = { x=835 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_XP"
+			spriteType = "GFX_HRE_XP"
+			position = { x=985 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_manpower"
+			spriteType = "GFX_HRE_manpower"
+			position = { x=700 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_war"
+			spriteType = "GFX_HRE_war"
+			position = { x=835 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_peace"
+			spriteType = "GFX_HRE_peace"
+			position = { x=985 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_tech"
+			spriteType = "GFX_HRE_tech"
+			position = { x=700 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_diplo"
+			spriteType = "GFX_HRE_diplo"
+			position = { x=985 y=175 }
+			
+			
+		}
+		iconType ={
+			name ="imperial_authority_eagle_emperor"
+			spriteType = "GFX_HRE_Eagle_emperor"
+			position = { x=425 y=110 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_1_Bohemia"
+			spriteType = "GFX_HRE_elector_bohemia_bg"
+			position = { x=385 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_2_Brandenburg"
+			spriteType = "GFX_HRE_elector_brandenburg_bg"
+			position = { x=475 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_3_Saxony"
+			spriteType = "GFX_HRE_elector_saxony_bg"
+			position = { x=565 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_4_Bavaria"
+			spriteType = "GFX_HRE_elector_bavaria_bg"
+			position = { x=655 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_5_Cologne"
+			spriteType = "GFX_HRE_elector_cologne_bg"
+			position = { x=745 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_6_Hannover"
+			spriteType = "GFX_HRE_elector_hannover_bg"
+			position = { x=835 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_7_Mainz"
+			spriteType = "GFX_HRE_elector_mainz_bg"
+			position = { x=925 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_8_Trier"
+			spriteType = "GFX_HRE_elector_trier_bg"
+			position = { x=1015 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Member_1_BAD"
+			spriteType = "GFX_HRE_member_BAD_bg"
+			position = { x=410 y=520 }
+			
+		}
+		iconType ={
+			name ="Member_2_BRS"
+			spriteType = "GFX_HRE_member_BRS_bg"
+			position = { x=460 y=520 }
+		}
+		iconType ={
+			name ="Member_3_HES"
+			spriteType = "GFX_HRE_member_HES_bg"
+			position = { x=510 y=520 }
+		}
+		iconType ={
+			name ="Member_4_HOH"
+			spriteType = "GFX_HRE_member_HOH_bg"
+			position = { x=560 y=520 }
+		}
+		iconType ={
+			name ="Member_5_LIE"
+			spriteType = "GFX_HRE_member_LIE_bg"
+			position = { x=610 y=520 }
+		}
+		iconType ={
+			name ="Member_6_MCK"
+			spriteType = "GFX_HRE_member_MCK_bg"
+			position = { x=660 y=520 }
+		}
+		iconType ={
+			name ="Member_7_NSS"
+			spriteType = "GFX_HRE_member_NSS_bg"
+			position = { x=710 y=520 }
+		}
+		iconType ={
+			name ="Member_8_SLZ"
+			spriteType = "GFX_HRE_member_SLZ_bg"
+			position = { x=760 y=520 }
+		}
+		iconType ={
+			name ="Member_9_SXG"
+			spriteType = "GFX_HRE_member_SXG_bg"
+			position = { x=810 y=520 }
+		}
+		iconType ={
+			name ="Member_10_TNT"
+			spriteType = "GFX_HRE_member_TNT_bg"
+			position = { x=860 y=520 }
+		}
+		iconType ={
+			name ="Member_11_VAD"
+			spriteType = "GFX_HRE_member_VAD_bg"
+			position = { x=410 y=580 }
+		}
+		iconType ={
+			name ="Member_12_WEI"
+			spriteType = "GFX_HRE_member_WEI_bg"
+			position = { x=460 y=580 }
+		}
+		iconType ={
+			name ="Member_13_WRZ"
+			spriteType = "GFX_HRE_member_WRZ_bg"
+			position = { x=510 y=580 }
+		}
+		iconType ={
+			name ="Member_14_WUU"
+			spriteType = "GFX_HRE_member_WUU_bg"
+			position = { x=560 y=580 }
+		}
+		iconType ={
+			name ="Free_city_1_FRK"
+			spriteType = "GFX_HRE_free_city_FRK_bg"
+			position = { x=940 y=520 }
+		}
+		iconType ={
+			name ="Free_city_2_HAM"
+			spriteType = "GFX_HRE_free_city_HAM_bg"
+			position = { x=1010 y=520 }
+		}
+		iconType ={
+			name ="Free_city_3_LUB"
+			spriteType = "GFX_HRE_free_city_LUB_bg"
+			position = { x=940 y=580 }
+		}
+		iconType ={
+			name ="Free_city_4_NRM"
+			spriteType = "GFX_HRE_free_city_NRM_bg"
+			position = { x=1010 y=580 }
+		}
+		iconType ={
+			name ="Free_city_5_ULM"
+			spriteType = "GFX_HRE_free_city_ULM_bg"
+			position = { x=940 y=640 }
+		}
+		
+		instantTextboxType = {
+			name = "Is the Emperor"
+			position = {x=450 y=310}
+			font = "hoi_12header"
+			text = "[GetEmperorName]"
+			maxWidth = 150
+			maxHeight = 23
+			format = center
+		} 
+		
+		instantTextboxType = {
+			name = "Imperial_Authority_button"
+			position = {x=735 y=100}
+			font = "hoi_36header"
+			text = "Imperial Authority"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		} 
+		instantTextBoxType = {
+			name ="imperial_authority_text"
+			position = { x= 841 y = 157 }
+			font = "hoi_18mbs"
+			text = "[?imperial_authority]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+		}
+		instantTextboxType = {
+			name = "Holy Roman Electors"
+			position = {x=655 y=380}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Electors"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Free Cities"
+			position = {x=970 y=500}
+			font = "hoi_16mbs"
+			text = "Free Cities"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Members"
+			position = {x=575 y=497}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Members"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+        instantTextboxType = {
+			name = "Holy Roman Empire"
+			position = {x=600 y=43}
+			font = "hoi_36header"
+			text = "Holy Roman Empire"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		}      
+		instantTextboxType = {
+			name = "Holy Roman Emperor"
+			position = {x=450 y=90}
+			font = "hoi_20b"
+			text = "Holy Roman Emperor"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}  
+        buttonType = {
+			name = "hre_button_left" 
+			position = {x=345 y=415}		
+			spriteType = "GFX_open_right"
+		}
+		buttonType = {
+			name = "hre_button_right" 
+			position = {x= 1085 y=415}	
+			spriteType = "GFX_open_right"
+		}
+		buttonType = {
+			name = "hre_button_down" 
+			position = {x=695 y = 725}	
+			spriteType = "GFX_open_up"
+		}
+           
+       
+   }
+   
+   containerWindowType = {
+       name = "imperial_authority_container_all"
+       position = { x = 200 y = 150 }
+	   size = { width=1500 height=800 }
+		
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_HRE_background_all"
+		}
+		
+		buttonType = {
+			name = "imperial_authority_close" 
+			position = {x=1045 y=43}	
+			spriteType = "GFX_closebutton"
+		}
+		buttonType ={
+			name ="imperial_authority_amount_bg"
+			spriteType = "GFX_group_div_count_bg"
+			position = { x=820 y=150 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_eagle_bg"
+			spriteType = "GFX_HRE_Eagle"
+			position = { x=822 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_stability"
+			spriteType = "GFX_HRE_stability"
+			position = { x=700 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_political"
+			spriteType = "GFX_HRE_political"
+			position = { x=835 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_XP"
+			spriteType = "GFX_HRE_XP"
+			position = { x=985 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_manpower"
+			spriteType = "GFX_HRE_manpower"
+			position = { x=700 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_war"
+			spriteType = "GFX_HRE_war"
+			position = { x=835 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_peace"
+			spriteType = "GFX_HRE_peace"
+			position = { x=985 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_tech"
+			spriteType = "GFX_HRE_tech"
+			position = { x=700 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_diplo"
+			spriteType = "GFX_HRE_diplo"
+			position = { x=985 y=175 }
+			
+			
+		}
+		iconType ={
+			name ="imperial_authority_eagle_emperor"
+			spriteType = "GFX_HRE_Eagle_emperor"
+			position = { x=425 y=110 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_1_Bohemia"
+			spriteType = "GFX_HRE_elector_bohemia_bg"
+			position = { x=385 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_2_Brandenburg"
+			spriteType = "GFX_HRE_elector_brandenburg_bg"
+			position = { x=475 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_3_Saxony"
+			spriteType = "GFX_HRE_elector_saxony_bg"
+			position = { x=565 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_4_Bavaria"
+			spriteType = "GFX_HRE_elector_bavaria_bg"
+			position = { x=655 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_5_Cologne"
+			spriteType = "GFX_HRE_elector_cologne_bg"
+			position = { x=745 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_6_Hannover"
+			spriteType = "GFX_HRE_elector_hannover_bg"
+			position = { x=835 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_7_Mainz"
+			spriteType = "GFX_HRE_elector_mainz_bg"
+			position = { x=925 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_8_Trier"
+			spriteType = "GFX_HRE_elector_trier_bg"
+			position = { x=1015 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Member_1_BAD"
+			spriteType = "GFX_HRE_member_BAD_bg"
+			position = { x=410 y=520 }
+			
+		}
+		iconType ={
+			name ="Member_2_BRS"
+			spriteType = "GFX_HRE_member_BRS_bg"
+			position = { x=460 y=520 }
+		}
+		iconType ={
+			name ="Member_3_HES"
+			spriteType = "GFX_HRE_member_HES_bg"
+			position = { x=510 y=520 }
+		}
+		iconType ={
+			name ="Member_4_HOH"
+			spriteType = "GFX_HRE_member_HOH_bg"
+			position = { x=560 y=520 }
+		}
+		iconType ={
+			name ="Member_5_LIE"
+			spriteType = "GFX_HRE_member_LIE_bg"
+			position = { x=610 y=520 }
+		}
+		iconType ={
+			name ="Member_6_MCK"
+			spriteType = "GFX_HRE_member_MCK_bg"
+			position = { x=660 y=520 }
+		}
+		iconType ={
+			name ="Member_7_NSS"
+			spriteType = "GFX_HRE_member_NSS_bg"
+			position = { x=710 y=520 }
+		}
+		iconType ={
+			name ="Member_8_SLZ"
+			spriteType = "GFX_HRE_member_SLZ_bg"
+			position = { x=760 y=520 }
+		}
+		iconType ={
+			name ="Member_9_SXG"
+			spriteType = "GFX_HRE_member_SXG_bg"
+			position = { x=810 y=520 }
+		}
+		iconType ={
+			name ="Member_10_TNT"
+			spriteType = "GFX_HRE_member_TNT_bg"
+			position = { x=860 y=520 }
+		}
+		iconType ={
+			name ="Member_11_VAD"
+			spriteType = "GFX_HRE_member_VAD_bg"
+			position = { x=410 y=580 }
+		}
+		iconType ={
+			name ="Member_12_WEI"
+			spriteType = "GFX_HRE_member_WEI_bg"
+			position = { x=460 y=580 }
+		}
+		iconType ={
+			name ="Member_13_WRZ"
+			spriteType = "GFX_HRE_member_WRZ_bg"
+			position = { x=510 y=580 }
+		}
+		iconType ={
+			name ="Member_14_WUU"
+			spriteType = "GFX_HRE_member_WUU_bg"
+			position = { x=560 y=580 }
+		}
+		iconType ={
+			name ="Free_city_1_FRK"
+			spriteType = "GFX_HRE_free_city_FRK_bg"
+			position = { x=940 y=520 }
+		}
+		iconType ={
+			name ="Free_city_2_HAM"
+			spriteType = "GFX_HRE_free_city_HAM_bg"
+			position = { x=1010 y=520 }
+		}
+		iconType ={
+			name ="Free_city_3_LUB"
+			spriteType = "GFX_HRE_free_city_LUB_bg"
+			position = { x=940 y=580 }
+		}
+		iconType ={
+			name ="Free_city_4_NRM"
+			spriteType = "GFX_HRE_free_city_NRM_bg"
+			position = { x=1010 y=580 }
+		}
+		iconType ={
+			name ="Free_city_5_ULM"
+			spriteType = "GFX_HRE_free_city_ULM_bg"
+			position = { x=940 y=640 }
+		}
+		
+		instantTextboxType = {
+			name = "Is the Emperor"
+			position = {x=450 y=310}
+			font = "hoi_12header"
+			text = "[GetEmperorName]"
+			maxWidth = 150
+			maxHeight = 23
+			format = center
+		} 
+		
+		instantTextboxType = {
+			name = "Imperial_Authority_button"
+			position = {x=735 y=100}
+			font = "hoi_36header"
+			text = "Imperial Authority"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		} 
+		instantTextBoxType = {
+			name ="imperial_authority_text"
+			position = { x= 841 y = 157 }
+			font = "hoi_18mbs"
+			text = "[?imperial_authority]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+		}
+		instantTextboxType = {
+			name = "Holy Roman Electors"
+			position = {x=655 y=380}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Electors"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Free Cities"
+			position = {x=970 y=500}
+			font = "hoi_16mbs"
+			text = "Free Cities"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Members"
+			position = {x=575 y=497}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Members"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+        instantTextboxType = {
+			name = "Holy Roman Empire"
+			position = {x=600 y=43}
+			font = "hoi_36header"
+			text = "Holy Roman Empire"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		}      
+		instantTextboxType = {
+			name = "Holy Roman Emperor"
+			position = {x=450 y=90}
+			font = "hoi_20b"
+			text = "Holy Roman Emperor"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}  
+        buttonType = {
+			name = "hre_button_left" 
+			position = {x=345 y=415}		
+			spriteType = "GFX_open_right"
+		}
+		buttonType = {
+			name = "hre_button_right" 
+			position = {x= 1085 y=415}	
+			spriteType = "GFX_open_left"
+		}
+		buttonType = {
+			name = "hre_button_down" 
+			position = {x=695 y = 725}	
+			spriteType = "GFX_open_up"
+		}
+           
+       
+   }
+   containerWindowType = {
+       name = "imperial_authority_container_down_right"
+       position = { x = 200 y = 150 }
+	   size = { width=1500 height=800 }
+		
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_HRE_background_down_right"
+		}
+		
+		buttonType = {
+			name = "imperial_authority_close" 
+			position = {x=1045 y=43}	
+			spriteType = "GFX_closebutton"
+		}
+		buttonType ={
+			name ="imperial_authority_amount_bg"
+			spriteType = "GFX_group_div_count_bg"
+			position = { x=820 y=150 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_eagle_bg"
+			spriteType = "GFX_HRE_Eagle"
+			position = { x=822 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_stability"
+			spriteType = "GFX_HRE_stability"
+			position = { x=700 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_political"
+			spriteType = "GFX_HRE_political"
+			position = { x=835 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_XP"
+			spriteType = "GFX_HRE_XP"
+			position = { x=985 y=250 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_manpower"
+			spriteType = "GFX_HRE_manpower"
+			position = { x=700 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_war"
+			spriteType = "GFX_HRE_war"
+			position = { x=835 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_peace"
+			spriteType = "GFX_HRE_peace"
+			position = { x=985 y=310 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_tech"
+			spriteType = "GFX_HRE_tech"
+			position = { x=700 y=175 }
+			
+			
+		}
+		buttonType ={
+			name ="imperial_authority_button_diplo"
+			spriteType = "GFX_HRE_diplo"
+			position = { x=985 y=175 }
+			
+			
+		}
+		iconType ={
+			name ="imperial_authority_eagle_emperor"
+			spriteType = "GFX_HRE_Eagle_emperor"
+			position = { x=425 y=110 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_1_Bohemia"
+			spriteType = "GFX_HRE_elector_bohemia_bg"
+			position = { x=385 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_2_Brandenburg"
+			spriteType = "GFX_HRE_elector_brandenburg_bg"
+			position = { x=475 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_3_Saxony"
+			spriteType = "GFX_HRE_elector_saxony_bg"
+			position = { x=565 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_4_Bavaria"
+			spriteType = "GFX_HRE_elector_bavaria_bg"
+			position = { x=655 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_5_Cologne"
+			spriteType = "GFX_HRE_elector_cologne_bg"
+			position = { x=745 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_6_Hannover"
+			spriteType = "GFX_HRE_elector_hannover_bg"
+			position = { x=835 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_7_Mainz"
+			spriteType = "GFX_HRE_elector_mainz_bg"
+			position = { x=925 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Elector_8_Trier"
+			spriteType = "GFX_HRE_elector_trier_bg"
+			position = { x=1015 y=400 }
+			
+			
+		}
+		iconType ={
+			name ="Member_1_BAD"
+			spriteType = "GFX_HRE_member_BAD_bg"
+			position = { x=410 y=520 }
+			
+		}
+		iconType ={
+			name ="Member_2_BRS"
+			spriteType = "GFX_HRE_member_BRS_bg"
+			position = { x=460 y=520 }
+		}
+		iconType ={
+			name ="Member_3_HES"
+			spriteType = "GFX_HRE_member_HES_bg"
+			position = { x=510 y=520 }
+		}
+		iconType ={
+			name ="Member_4_HOH"
+			spriteType = "GFX_HRE_member_HOH_bg"
+			position = { x=560 y=520 }
+		}
+		iconType ={
+			name ="Member_5_LIE"
+			spriteType = "GFX_HRE_member_LIE_bg"
+			position = { x=610 y=520 }
+		}
+		iconType ={
+			name ="Member_6_MCK"
+			spriteType = "GFX_HRE_member_MCK_bg"
+			position = { x=660 y=520 }
+		}
+		iconType ={
+			name ="Member_7_NSS"
+			spriteType = "GFX_HRE_member_NSS_bg"
+			position = { x=710 y=520 }
+		}
+		iconType ={
+			name ="Member_8_SLZ"
+			spriteType = "GFX_HRE_member_SLZ_bg"
+			position = { x=760 y=520 }
+		}
+		iconType ={
+			name ="Member_9_SXG"
+			spriteType = "GFX_HRE_member_SXG_bg"
+			position = { x=810 y=520 }
+		}
+		iconType ={
+			name ="Member_10_TNT"
+			spriteType = "GFX_HRE_member_TNT_bg"
+			position = { x=860 y=520 }
+		}
+		iconType ={
+			name ="Member_11_VAD"
+			spriteType = "GFX_HRE_member_VAD_bg"
+			position = { x=410 y=580 }
+		}
+		iconType ={
+			name ="Member_12_WEI"
+			spriteType = "GFX_HRE_member_WEI_bg"
+			position = { x=460 y=580 }
+		}
+		iconType ={
+			name ="Member_13_WRZ"
+			spriteType = "GFX_HRE_member_WRZ_bg"
+			position = { x=510 y=580 }
+		}
+		iconType ={
+			name ="Member_14_WUU"
+			spriteType = "GFX_HRE_member_WUU_bg"
+			position = { x=560 y=580 }
+		}
+		iconType ={
+			name ="Free_city_1_FRK"
+			spriteType = "GFX_HRE_free_city_FRK_bg"
+			position = { x=940 y=520 }
+		}
+		iconType ={
+			name ="Free_city_2_HAM"
+			spriteType = "GFX_HRE_free_city_HAM_bg"
+			position = { x=1010 y=520 }
+		}
+		iconType ={
+			name ="Free_city_3_LUB"
+			spriteType = "GFX_HRE_free_city_LUB_bg"
+			position = { x=940 y=580 }
+		}
+		iconType ={
+			name ="Free_city_4_NRM"
+			spriteType = "GFX_HRE_free_city_NRM_bg"
+			position = { x=1010 y=580 }
+		}
+		iconType ={
+			name ="Free_city_5_ULM"
+			spriteType = "GFX_HRE_free_city_ULM_bg"
+			position = { x=940 y=640 }
+		}
+		
+		instantTextboxType = {
+			name = "Is the Emperor"
+			position = {x=450 y=310}
+			font = "hoi_12header"
+			text = "[GetEmperorName]"
+			maxWidth = 150
+			maxHeight = 23
+			format = center
+		} 
+		
+		instantTextboxType = {
+			name = "Imperial_Authority_button"
+			position = {x=735 y=100}
+			font = "hoi_36header"
+			text = "Imperial Authority"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		} 
+		instantTextBoxType = {
+			name ="imperial_authority_text"
+			position = { x= 841 y = 157 }
+			font = "hoi_18mbs"
+			text = "[?imperial_authority]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+		}
+		instantTextboxType = {
+			name = "Holy Roman Electors"
+			position = {x=655 y=380}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Electors"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Free Cities"
+			position = {x=970 y=500}
+			font = "hoi_16mbs"
+			text = "Free Cities"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		instantTextboxType = {
+			name = "Holy Roman Members"
+			position = {x=575 y=497}
+			font = "hoi_18mbs"
+			text = "Holy Roman Empire Members"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+        instantTextboxType = {
+			name = "Holy Roman Empire"
+			position = {x=600 y=43}
+			font = "hoi_36header"
+			text = "Holy Roman Empire"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		}      
+		instantTextboxType = {
+			name = "Holy Roman Emperor"
+			position = {x=450 y=90}
+			font = "hoi_20b"
+			text = "Holy Roman Emperor"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}  
+        buttonType = {
+			name = "hre_button_left" 
+			position = {x=345 y=415}		
+			spriteType = "GFX_open_left"
+		}
+		buttonType = {
+			name = "hre_button_right" 
+			position = {x= 1085 y=415}	
+			spriteType = "GFX_open_left"
+		}
+		buttonType = {
+			name = "hre_button_down" 
+			position = {x=695 y = 725}	
+			spriteType = "GFX_open_up"
+		}
+           
+       
+   }
+   containerWindowType = {
+		name = "HRE_focuses_window"
+		position = { x = 200 y = 10 }
+		size = { width = 2100 height = 1500 }
+	
+		
+		fade_time = 500
+		fade_type = linear
+		moveable = no
+		click_to_front = yes
+		
+		background = {
+			name = "hre_focus_background"
+			spriteType ="GFX_HRE_focus_bg"
+		}
+		buttonType = {
+			name = "imperial_authority_focus_close" 
+			position = {x=1475 y=5}	
+			spriteType = "GFX_closebutton"
+		}
+		instantTextboxType = {
+			name = "Holy Roman Emperor Focus Tree"
+			position = {x=70 y=7}
+			font = "vic_36s"
+			text = "Holy Roman Emperor Focus Tree"
+			maxWidth = 500
+			maxHeight = 23
+			format = left
+		}  
+		
+		
+		#####################################
+		###Start of Directional pieces#######
+		#####################################
+		iconType = {
+				name = "HRE_focus_1_link_down"
+				spriteType = "GFX_focus_link_up_down"
+				frame = 3
+				position = { x = 760 y = 128 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_down_1"
+				spriteType = "GFX_focus_link_up_down"
+				frame = 3
+				position = { x = 760 y = 144 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_down_2"
+				spriteType = "GFX_focus_link_up_down"
+				frame = 3
+				position = { x = 760 y = 160 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_down_3"
+				spriteType = "GFX_focus_link_up_down"
+				frame = 3
+				position = { x = 760 y = 176 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_down_left_right_1"
+				spriteType = "GFX_focus_link_up_left_right"
+				frame = 3
+				position = { x = 760 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_1"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 776 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_2"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 792 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_3"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 808 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_4"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 824 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_5"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 840 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_6"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 856 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_7"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 872 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_8"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 888 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_9"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 904 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_10"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 920 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_11"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 936 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_12"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 952 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_13"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 968 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_14"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 984 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_15"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1000 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_16"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1016 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_17"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1032 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_18"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1048 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_19"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1064 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_20"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1080 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_21"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1096 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_22"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1112 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_23"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1128 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_24"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1138 y = 189 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_down_4"
+				spriteType = "GFX_focus_link_up_down"
+				frame = 3
+				position = { x = 1184 y = 260 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_down_left_right_2"
+				spriteType = "GFX_focus_link_up_left_right"
+				frame = 3
+				position = { x = 1184 y = 275 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_25"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1168 y = 275 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_26"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1152 y = 275 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_27"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1136 y = 275 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_28"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1200 y = 275 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_29"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1216 y = 275 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_30"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1232 y = 275 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_31"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1248 y = 275 }
+		}
+		iconType = {
+				name = "HRE_focus_1_link_right_32"
+				spriteType = "GFX_focus_link_left_right"
+				frame = 3
+				position = { x = 1264 y = 275 }
+		}
+		
+		
+		
+		buttonType = {
+				name = "HRE_focus_diplomacy_title_button"
+				spriteType = "GFX_focus_unavailable"
+				position = { x = 685 y = 120 }
+				
+		}
+		iconType = {
+				name = "HRE_focus_diplomacy_title_can_start"
+				spriteType = "GFX_focus_can_start"
+				position = { x = 685 y = 120 }
+				alwaystransparent = yes
+		}
+		buttonType = {
+			name = "HRE_diplomacy"
+			position = { x = 720 y = 60}
+			spriteType = "GFX_focus_AUS_austrian_diplomacy"
+		}
+		instantTextBoxType = {
+				name = "HRE_focus_diplomacy_title"
+				position = { x = 703 y = 138 }
+				font = "hoi_18mbs"
+				maxWidth = 130
+				maxHeight = 20
+				text = "Imperial Diplomacy"
+				format = center
+				alwaystransparent = yes
+		}
+		
+		
+		
+		buttonType = {
+				name = "HRE_focus_ambitions_title_button"
+				spriteType = "GFX_focus_unavailable"
+				position = { x = 1110 y = 210 }
+				
+		}
+		
+		buttonType = {
+			name = "HRE_ambitions"
+			position = { x = 1150 y = 150}
+			spriteType = "GFX_focus_HRE_ambitions"
+		}
+		instantTextBoxType = {
+				name = "HRE_focus_ambitions_title"
+				position = { x = 1129 y = 228 }
+				font = "hoi_18mbs"
+				maxWidth = 130
+				maxHeight = 20
+				text = "Imperial Ambitions"
+				format = center
+				alwaystransparent = yes
+		}
+		
+		
+		buttonType = {
+				name = "HRE_focus_dutch_friend_title_button"
+				spriteType = "GFX_focus_unavailable"
+				position = { x = 1215 y = 310 }
+				
+		}
+		buttonType = {
+			name = "HRE_dutch_friend"
+			position = { x = 1250 y = 254 }
+			spriteType = "GFX_AUS_dutch_friend"
+		}
+		instantTextBoxType = {
+				name = "HRE_focus_dutch_friend_title"
+				position = { x = 1236 y = 320 }
+				font = "hoi_18mbs"
+				maxWidth = 130
+				maxHeight = 20
+				text = "Influence the Dutch"
+				format = center
+				alwaystransparent = yes
+		}
+		
+		
+		buttonType = {
+				name = "HRE_focus_dutch_foe_title_button"
+				spriteType = "GFX_focus_unavailable"
+				position = { x = 1021 y = 310 }
+				
+		}
+		buttonType = {
+			name = "HRE_dutch_foe"
+			position = { x = 1050 y = 250}
+			spriteType = "GFX_AUS_dutch_foe"
+		}
+		instantTextBoxType = {
+				name = "HRE_focus_dutch_foe_title"
+				position = { x = 1036 y = 328 }
+				font = "hoi_18mbs"
+				maxWidth = 130
+				maxHeight = 20
+				text = "Force the Dutch"
+				format = center
+				alwaystransparent = yes
+		}
+	
+	}
+}

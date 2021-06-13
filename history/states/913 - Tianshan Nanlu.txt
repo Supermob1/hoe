@@ -1,0 +1,22 @@
+
+state={
+	id=913
+	name="STATE_913"
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		12466 
+	}
+	manpower=602000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

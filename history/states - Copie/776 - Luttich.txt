@@ -1,0 +1,25 @@
+
+state={
+	id=776
+	name="STATE_776"
+
+	history={
+		owner = UNC #LIE
+		#add_core_of = LIE
+		victory_points = {
+			11519 10 
+		}
+		buildings = {
+			infrastructure = 8
+
+		}
+
+	}
+
+	provinces={
+		6537 11407 11519 13081 
+	}
+	manpower=321640
+	buildings_max_level_factor=1.000
+	state_category=city
+}

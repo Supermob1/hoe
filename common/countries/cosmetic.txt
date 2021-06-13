@@ -1,0 +1,79 @@
+
+MAL_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+INS_HOL = {
+    color = rgb { 203 138 74 }
+    color_ui = rgb { 255 179 96 }
+}
+BEL_HRE = { 
+	color = rgb {118  193  153} 
+	color_ui = rgb {118  193  153}
+}
+PHI_SPR = { 
+	color = rgb {242 205 104} 
+	color_ui = rgb {242 205 104} 
+}
+GUA_SPR = { 
+	color = rgb {242 205 104} 
+	color_ui = rgb {242 205 104} 
+}
+ARG_SPR = { 
+	color = rgb {245 233 97} 
+	color_ui = rgb {245 233 97}
+}
+CHL_SPR = { color = rgb {245 210 97} color_ui = rgb {245 210 97}}
+COL_SPR = { color = rgb {231  191  12} color_ui = rgb {231  191  12} }
+VNZ_SPR = { color = rgb {210 200 20} color_ui = rgb {210 200 20} }
+LOU_SPR = { color = rgb {220 210 20} color_ui = rgb {220 210 20} }
+HAI_FRA = { color = rgb {57 113 208} color_ui = rgb {57 113 208} }
+VCP_SPR = { color = rgb {245 210 70} color_ui = rgb {200 210 12} }
+CUB_SPR = { color = rgb {240 200 90} color_ui = rgb {240 200 90} }
+MEX_SPR = { color = rgb {251 236 99} color_ui = rgb {251 236 99} }
+QUE_ALY = { color = rgb {177 35 35} color_ui = rgb {177 35 35} }
+QUE_ENG = { color = rgb {177 35 35} color_ui = rgb {177 35 35} }
+PRR_SPR = { color = rgb {231 233 78} color_ui = rgb {231 233 78} }
+SAF_HOL = { color = rgb {241 172 92} color_ui = rgb {241 172 92} }
+WLE_GWY = { color = rgb {117  127  174} color_ui = rgb {117  127  174} }
+IRQ_TUR = { color = rgb {184 93 71} color_ui = rgb {184 94 71} }
+EGY_TUR = { color = rgb {200 77 70} color_ui = rgb {200 77 70} }
+LBA_TUR = { color = rgb {189 51 44} color_ui = rgb {189 51 44} }
+TUN_TUR = { color = rgb {146 61 57} color_ui = rgb {146 61 57} }
+ALG_TUR = { color = rgb {230 130 110} color_ui = rgb {230 130 110} }
+JAM_ENG = { color = rgb {214 45 72} color_ui = rgb {214 45 72} }
+USA_ENG = { color = rgb {194 75 72} color_ui = rgb {194 75 72} }
+DOM_SPR = { color = rgb {223 171 30} color_ui = rgb {223 171 30} }
+GAL_AUS = { color = rgb {220 180 179} color_ui = rgb {220 180 179} }
+HUN_AUS = { 
+	color = rgb {220 197 179}
+	color_ui = rgb {220 197 179}
+}
+TRN_AUS = {
+	color = rgb {220 218 179} 
+	color_ui = rgb {220 218 179}
+}
+CZE_AUS = {
+	color = rgb {220 221 172} 
+	color_ui = rgb {226 231 172} 
+}
+SER_AUS = {
+	color = rgb { 224  190  167 } 
+	color_ui = rgb { 224  190  167 } 
+}
+ALA_SOV = {color = rgb {42 142 32} color_ui = rgb {42 142 32} }
+ALA_company_russia = {color = rgb {42 142 32} color_ui = rgb {42 142 32} }
+
+
+HDJ_TUR = { color = rgb {178 68 38} color_ui = rgb {178 68 38} }
+
+JOR_TUR = { color = rgb {178 100 30} color_ui = rgb {178 100 30} }
+LEB_TUR = { color = rgb {178 80 30} color_ui = rgb {178 80 30} }
+TIB_CHI = { color = hsv { 0.18 0.6 0.9 } color_ui = hsv { 0.18 0.3 0.9 } }
+MON_CHI = { color = hsv { 0.18 0.6 0.9 } color_ui = hsv { 0.18 0.3 0.9 } }
+
+MAN_CHI = { color = hsv { 0.18 0.6 0.9 } color_ui = hsv { 0.18 0.3 0.9 } }
+
+XSM_CHI = { color = hsv { 0.18 0.6 0.9 } color_ui = hsv { 0.18 0.3 0.9 } }
+
+SIK_CHI = { color = hsv { 0.18 0.6 0.9 } color_ui = hsv { 0.18 0.3 0.9 } }

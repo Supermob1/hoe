@@ -1,0 +1,20 @@
+state={
+	id=1088
+	name="STATE_1088"
+	
+	history={
+		owner = DOM
+		add_core_of = DOM
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	provinces={
+		4598 10484 
+	}
+	manpower=212450
+	buildings_max_level_factor=1.000
+	state_category=town
+}

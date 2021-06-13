@@ -1,0 +1,124 @@
+﻿capital = 696
+
+oob = "ENG_1790"
+
+set_research_slots = 4
+
+
+# Starting tech
+set_technology = {
+
+}
+
+add_ideas = {
+}
+
+set_convoys = 800
+
+# DIPLOMACY
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = HUD
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = NSC
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = USA
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = CAN
+		puppet = HUD
+		puppet = USA
+		puppet = NSC
+		
+	}
+}
+
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = commonwealth_research
+}
+
+set_popularities = {
+	liberty = 10
+	order = 90
+	equality = 0
+	glory = 0
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1770.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "William Pitt the Younger"
+	desc = "POLITICS_William_Pitt_DESC"
+	picture = "Portrait_ENG_Pitt.dds"
+	expire = "2000.1.1"
+	ideology = tory
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Frederick North"
+	desc = "POLITICS_Frederick_North_DESC"
+	picture = "Portrait_ENG_North.dds"
+	expire = "2000.1.1"
+	ideology = tory
+	traits = {
+		
+	}
+}
+create_corps_commander = {
+	name = "Ralph Abercromby"
+	picture = "Portrait_ENG_Abercromby.dds"
+	traits = { inspirational_leader}
+	skill = 2
+}
+create_corps_commander = {
+	name = "Prince Adolphus"
+	picture = "Portrait_ENG_Adolphus.dds"
+	traits = { young_leader }
+	skill = 1
+}
+create_corps_commander = {
+	name = "Henry Paget"
+	picture = "Portrait_ENG_Paget.dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "William Beresford"
+	picture = "Portrait_ENG_Beresford.dds"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "William Schaw Cathcart"
+	picture = "Portrait_ENG_Cathcart.dds"
+	traits = { }
+	skill = 2
+}

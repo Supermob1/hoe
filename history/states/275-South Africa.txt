@@ -1,0 +1,24 @@
+
+state={
+	id=275
+	name="STATE_275" #Transvaal
+	manpower = 408929
+	
+	state_category = city
+	
+	resources={
+		steel=8
+		chromium=80
+	}
+
+	history={
+		owner = UNC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1688 2171 2213 5106 5217 5231 10400 10566 10668 12064 12648 
+	}
+}

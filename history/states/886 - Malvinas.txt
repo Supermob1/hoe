@@ -1,0 +1,17 @@
+state= {
+	id=886
+	name="STATE_886"
+	manpower= 100
+	
+	state_category = enclave
+	
+	history= 	{
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 2
+		}
+		add_claim_by = ENG
+	}
+	provinces= { 13237 }
+}

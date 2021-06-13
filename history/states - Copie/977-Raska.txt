@@ -1,0 +1,22 @@
+state={
+	id=977
+	name="STATE_977"
+	
+	history={
+		owner = UNC #TUR
+		buildings = {
+			infrastructure = 4
+
+		}
+		#add_core_of = TUR
+		#add_core_of = SER
+
+	}
+	
+	provinces={
+		3956 6970 
+	}
+	manpower=30312
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

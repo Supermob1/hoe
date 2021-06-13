@@ -1,0 +1,22 @@
+
+state={
+	id=853
+	name="STATE_853"
+
+	history={
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1758 8083 10281 10657 10824 10909 12501 12670 
+	}
+	manpower=123638
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

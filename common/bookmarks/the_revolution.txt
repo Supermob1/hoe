@@ -1,0 +1,132 @@
+bookmarks = {
+	bookmark = {
+		name = "the_revolution_NAME"
+		desc = "the_revolution_DESC"
+		date = 1790.1.1.1
+		picture = "GFX_select_date_1790"
+		default_country = "FRA"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_THE_REVOLUTION_DESC"
+			ideology = order
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"SWE"={
+			history = "SWE_THE_REVOLUTION_DESC"
+			ideology = order
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ENG"={
+			history = "ENG_THE_REVOLUTION_DESC"
+			ideology = order
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"PRU"={
+			history = "PRU_THE_REVOLUTION_DESC"
+			ideology = order
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"AUS"={
+			history = "AUS_THE_REVOLUTION_DESC"
+			ideology = order
+			ideas = {
+				
+			}	
+			focuses = {
+	
+			}		
+		}
+		"TUR"={
+			history = "TUR_THE_REVOLUTION_DESC"
+			ideology = order
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}			
+		}
+		"SOV"={
+			history = "SOV_THE_REVOLUTION_DESC"
+			ideology = order
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+		"SPR"={
+			history = "SPR_THE_REVOLUTION_DESC"
+			ideology = order
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+		
+
+
+		# minors ####
+		"PLI"={
+			minor = yes
+			history = "PLI_THE_REVOLUTION_DESC"
+			ideology = order
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			minor = yes
+			history = "USA_the_revolution_DESC"
+			ideology = liberty
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		"RAJ"={
+			minor = yes
+			history = "RAJ_GATHERING_STORM_DESC"
+			ideology = order
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

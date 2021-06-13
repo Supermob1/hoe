@@ -1,0 +1,67 @@
+﻿capital = 783
+
+oob = "HOH_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 0
+
+add_ideas = {
+
+	HRE_member
+	}
+set_politics = {
+	
+	parties = {
+		liberal = { 
+			popularity = 0
+		}
+
+		conservatist = {
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 100
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	ruling_party = monarchist
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Anton Aloys"
+	desc = "POLITICS_Anton_DESC"
+	picture = "Portrait_HOH_Anton.dds"
+	expire = "1831.1.1"
+	ideology = dukedom
+	traits = {
+		
+	}
+}
+
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=71
+	name="STATE_71"
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		555 3548 3550 3565 3581 6571 6573 6586 6604 9537 9563 9704 11520 11536 11691 
+	}
+	manpower=928010
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

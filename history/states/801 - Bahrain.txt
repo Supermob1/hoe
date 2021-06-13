@@ -1,0 +1,22 @@
+
+state={
+	id=801
+	name="STATE_801"
+
+	history={
+		owner = BHR
+		add_core_of = BHR
+		add_claim_by = PER
+		victory_points = {
+			13220 1 
+		}
+
+	}
+
+	provinces={
+		4932 10791 12702 
+	}
+	manpower=52780
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=791
+	name="STATE_791"
+	manpower = 183802
+	
+	state_category = large_town
+	resources = {
+		rubber = 6
+		aluminium = 12
+	}
+	history={
+		owner = WRZ
+		add_core_of = WRZ
+		victory_points = {
+	 6421 1
+	}
+	victory_points = {
+	9572 10
+		
+		
+	}
+	
+	}
+	provinces={
+		6421 9572 9557
+	}
+}

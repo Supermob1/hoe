@@ -1,0 +1,54 @@
+spriteTypes = {
+
+	# Lakes
+	spriteType = {
+		name = "GFX_terrain_water_lakes_night_rain"
+		textureFile = "gfx/interface/terrains/terrain_lakes_night_rain.dds"
+	}
+
+	spriteType = {
+		name = "GFX_terrain_water_lakes_night_storm"
+		textureFile = "gfx/interface/terrains/terrain_lakes_night_storm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_water_lakes_night_snow_storm"
+		textureFile = "gfx/interface/terrains/terrain_lakes_night_snow_storm.dds"
+	}
+
+	spriteType = {
+		name = "GFX_terrain_water_lakes_night_snow"
+		textureFile = "gfx/interface/terrains/terrain_lakes_night_snow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_water_lakes_day"
+		textureFile = "gfx/interface/terrains/terrain_lakes_day.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_terrain_water_lakes_day_rain"
+		textureFile = "gfx/interface/terrains/terrain_lakes_day_rain.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_terrain_water_lakes_day_storm"
+		textureFile = "gfx/interface/terrains/terrain_lakes_day_storm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_water_lakes_day_snow"
+		textureFile = "gfx/interface/terrains/terrain_lakes_day_snow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_water_lakes_day_snow_storm"
+		textureFile = "gfx/interface/terrains/terrain_lakes_day_snow_storm.dds"
+	}
+
+	spriteType = {
+		name = "GFX_terrain_water_lakes_night"
+		textureFile = "gfx/interface/terrains/terrain_lakes_night.dds"
+	}
+	
+}

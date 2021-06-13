@@ -1,0 +1,37 @@
+﻿capital = 206 #Minsk
+
+
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+
+}
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 100
+	order = 0
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1786.4.4"
+	election_frequency = 62
+	elections_allowed = yes
+}
+
+create_country_leader = {
+    name = "Tadeusz Kosciuszko"
+    desc = ""
+    picture = "Portrait_BLR_Tadeusz_3.dds"
+    expire = "1965.1.1"
+    ideology = republicanist
+    traits = {
+        #
+    }
+}
+
+
+

@@ -1,0 +1,50 @@
+﻿capital = 43
+
+
+
+set_research_slots = 3
+
+set_technology = {
+
+}
+
+set_politics = {
+	parties = {
+		liberal = { 
+			popularity = 60
+		}
+
+		conservatist = {
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 30
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 10
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = liberal
+	last_election = "1790.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+

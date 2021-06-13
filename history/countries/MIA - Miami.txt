@@ -1,0 +1,46 @@
+﻿capital = 1003
+
+oob = "MII_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_popularities = {
+    glory = 0
+    equality = 40
+    liberty = 60
+    order = 0
+}
+
+set_politics = {
+    ruling_party = liberty
+    last_election = "1790.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Little Turtle"
+	desc = "POLITICS_Little_Turtle_DESC"
+	picture = "Portrait_MII_Little_Turtle.dds"
+	expire = "1812.1.1"
+	ideology = traditionalist
+	traits = {
+		
+	}
+}
+set_country_flag = leader2_Pacanne
+create_corps_commander = {
+	name = "Pacanne"
+	#picture = ".dds"
+	traits = { }
+	skill = 2
+}
+

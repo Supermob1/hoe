@@ -1,0 +1,22 @@
+
+state={
+	id=1008
+	name="STATE_1008"
+
+	history={
+		owner = CHK
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = CHK
+
+	}
+
+	provinces={
+		1587 4565 4622 8110 12429 12735 
+	}
+	manpower=5247
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

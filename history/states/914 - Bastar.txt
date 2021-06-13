@@ -1,0 +1,25 @@
+
+state={
+	id=914
+	name="STATE_914"
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 4
+			13280 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = MNT
+
+	}
+
+	provinces={
+		13280 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

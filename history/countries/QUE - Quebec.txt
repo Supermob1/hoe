@@ -1,0 +1,40 @@
+﻿capital = 468
+
+oob = "QUE_1790"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	
+}
+set_cosmetic_tag = QUE_ALY
+
+
+set_popularities = {
+	liberty = 0
+	order = 100
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Alured Clarke"
+	desc = "POLITICS_Alured_Clarke_DESC"
+	picture = "Portrait_QUE_Clarke.dds"
+	expire = "2000.1.1"
+	ideology = tory
+	traits = {
+		#
+	}
+}
+
+
+set_convoys = 100

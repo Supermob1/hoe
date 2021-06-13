@@ -1,0 +1,16 @@
+state={
+	id=727
+	name="STATE_727"
+	manpower=367
+	state_category = small_island
+
+	history={
+		owner = UNC
+		buildings = {
+		}
+	}
+	
+	provinces={
+		13048 13049 13053 
+	}
+}

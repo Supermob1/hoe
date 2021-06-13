@@ -1,0 +1,22 @@
+
+state={
+	id=1065
+	name="STATE_1065"
+
+	history={
+		owner = SRR
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = SRR
+
+	}
+
+	provinces={
+		823 9814 9855 10387 10483 11757 11795 12303 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

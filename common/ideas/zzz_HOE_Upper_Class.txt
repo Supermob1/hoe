@@ -1,0 +1,155 @@
+ideas = {
+
+	hidden_ideas = {
+		upper_class_extremely_high_loyalty = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+				military_leader_cost_factor = 0.15
+				#political_advisor_cost_factor = 0.15
+
+			}
+		}
+		
+		upper_class_very_high_loyalty = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.10
+				military_leader_cost_factor = 0.10
+				#political_advisor_cost_factor = 0.10
+
+
+			}
+		}
+		
+		upper_class_high_loyalty = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				military_leader_cost_factor = 0.05
+				#political_advisor_cost_factor = 0.05
+				
+
+			}
+		}
+		
+		upper_class_medium_loyalty = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				
+
+			}
+		}
+		
+		upper_class_low_loyalty = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				military_leader_cost_factor = -0.05
+				#political_advisor_cost_factor = -0.05
+				
+
+			}
+		}
+		
+		upper_class_very_low_loyalty = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.10
+				military_leader_cost_factor = -0.10
+				#political_advisor_cost_factor = -0.10
+
+			}
+		}
+		
+		upper_class_extremely_low_loyalty = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				military_leader_cost_factor = -0.15
+				#political_advisor_cost_factor = -0.15
+				
+
+			}
+		}
+		
+		upper_class_very_high_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.10
+
+			}
+		}
+		
+		upper_class_high_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.05
+
+			}
+		}
+		
+		upper_class_medium_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+		
+		upper_class_low_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
+
+			}
+		}
+		
+		upper_class_very_low_influence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.10
+
+			}
+		}
+	
+	
+	
+	}
+
+}

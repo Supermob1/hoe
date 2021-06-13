@@ -1,0 +1,19 @@
+state= {
+	id=828
+	name="STATE_828"
+	manpower = 835590
+	
+	state_category = pastoral
+
+	history= {
+		owner = YGK
+		add_core_of = YGK
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		10135 1209
+	}
+}

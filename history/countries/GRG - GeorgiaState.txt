@@ -1,0 +1,39 @@
+﻿capital = 365
+
+oob = "GRG_1790"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+
+
+}
+
+set_convoys = 400
+set_popularities = {
+	liberty = 80
+	order = 20
+	equality = 0
+	glory = 0
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "George Mathews"
+	desc = "POLITICS_GEORGE_MATHEWS_DESC"
+	picture = "Portrait_GRG_George_MATHEWS.dds"
+	expire = "1947.1.1"
+	ideology = democrat_republican
+	traits = {
+		
+	}
+}

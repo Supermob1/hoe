@@ -1,0 +1,29 @@
+
+state={
+	id=64
+	name="STATE_64"
+
+	history={
+		owner = PRU
+		victory_points = {
+			3499 20 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 3
+			air_base = 1
+
+		}
+		add_core_of = PRU
+		add_core_of = BND
+
+	}
+
+	provinces={
+		375 3207 3312 3367 3499 6441 9428 9456 9496 11219 11444 11505 
+	}
+	manpower=422115
+	buildings_max_level_factor=1.000
+	state_category=city
+}

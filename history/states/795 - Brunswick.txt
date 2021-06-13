@@ -1,0 +1,21 @@
+
+state={
+	id=795
+	name="STATE_795"
+
+	history={
+		owner = BRS
+		add_core_of = BRS
+		victory_points = {
+			11402 5 
+		}
+
+	}
+
+	provinces={
+		9375 11402 
+	}
+	manpower=27600
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

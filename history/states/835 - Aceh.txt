@@ -1,0 +1,20 @@
+state= {
+	id=835
+	name="STATE_835"
+	manpower = 1277393
+	
+	state_category = pastoral
+
+	history= {
+		owner = ACH
+		add_core_of = ACH
+		
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		7658 10509 12488
+	}
+}

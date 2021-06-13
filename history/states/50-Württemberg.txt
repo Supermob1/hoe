@@ -1,0 +1,28 @@
+
+state={
+	id=50
+	name="STATE_50"
+
+	history={
+		owner = WUU
+		victory_points = {
+			9517 5 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+			
+
+		}
+		add_core_of = WUU
+
+	}
+
+	provinces={
+		519 6555 9517 9545 11486 11499 13126 13218 
+	}
+	manpower=1245003
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

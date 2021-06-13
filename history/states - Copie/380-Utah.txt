@@ -1,0 +1,26 @@
+
+state={
+	id=380
+	name="STATE_380"
+	resources={
+		tungsten=106.000
+	}
+
+	history={
+		owner = UTE
+		add_core_of = UTE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1756 4668 4742 6887 7764 10535 10662 
+	}
+	manpower=56
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

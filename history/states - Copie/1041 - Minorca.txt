@@ -1,0 +1,18 @@
+state=
+{
+	id=1041
+	name="STATE_1041"
+	manpower = 24061
+	
+	state_category = pastoral
+	
+	history={
+		owner = SPR
+		add_core_of = ARA
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	provinces={9845 }
+}

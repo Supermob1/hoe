@@ -1,0 +1,36 @@
+﻿capital = 392
+oob = "IOW_1790"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+set_politics = {
+	
+	ruling_party = glory
+	last_election = "1790.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mahaska"	
+	desc = ""
+	picture = "Portrait_IOW_Mahaskadds"
+	expire = "1832.1.1"
+	ideology = glory_tribalism
+	traits = {
+		
+	}
+}
+
+
+
+

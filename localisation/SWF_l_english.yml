@@ -1,0 +1,20 @@
+﻿l_english:
+ famous_war_chief:0 "Famous War Chief"
+ unifying_force:0 "Unifying Force"
+ brilliant_orator:0 "Brilliant Orator"
+ Western_Educated:0 "Western Educated"
+ 
+ FRANKLIN1:0 "GFX_scientist_USA_benjamin_franklin" 
+ PAINE1:0 "GFX_scientist_USA_thomas_paine"
+ BUSHNELL1:0 "GFX_scientist_USA_david_bushnell"
+ 
+ PICKADVISOR:0 "[specialAdvisorInfoName]"
+ 
+ ELECTRICITY_TRAIT:0 "   £science_trait_electricity"
+ LIBERAL_TRAIT:0 "   £science_trait_liberal"
+ SUBMARINES_TRAIT:0 "   £science_trait_submarines"
+ EQUALITY_TRAIT:0 "   £science_trait_equality"
+ ANARCHIST_TRAIT:0 "   £science_trait_anarchist"
+ 
+ 
+ gfx_loc:0 "[specialAdvisorInfoTraitElectricity][specialAdvisorInfoTraitLiberal][specialAdvisorInfoTraitSubmarines][specialAdvisorInfoTraitEquality][specialAdvisorInfoTraitAnarchist]"

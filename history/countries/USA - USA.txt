@@ -1,0 +1,255 @@
+﻿capital = 861
+
+oob = "USA_1790"
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+
+
+}
+set_convoys = 400
+
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 20
+	order = 80
+}
+set_politics = {
+	
+	ruling_party = liberty
+	last_election = "1789.1.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+
+}
+### SCIENTISTS
+	add_to_array = {
+        array = specialAdvisorList
+        value = 0    #specialAdvisorList^0 Ben Franklin
+    }
+    add_to_array = {
+        array = specialAdvisorList
+        value = 0    #specialAdvisorList^1 Thomas Paine
+    }
+    add_to_array = {
+        array = specialAdvisorList
+        value = 0    #specialAdvisorList^2 David Bushnell
+    }#
+### SCIENTISTS STATS
+	add_to_array = {
+        array = specialAdvisorListStat
+        value = 6    
+    }
+	add_to_array = {
+        array = specialAdvisorListStat
+        value = 4    
+    }
+	add_to_array = {
+        array = specialAdvisorListStat
+        value = 2    
+    }
+	#Economic
+	add_to_array = {
+        array = specialAdvisorListStatEconomic
+        value = 4    
+    }
+	add_to_array = {
+        array = specialAdvisorListStatEconomic
+        value = 5    
+    }
+	add_to_array = {
+        array = specialAdvisorListStatEconomic
+        value = 1    
+    }
+	#Military
+	add_to_array = {
+        array = specialAdvisorListStatMilitary
+        value = 3    
+    }
+	add_to_array = {
+        array = specialAdvisorListStatMilitary
+        value = 1    
+    }
+	add_to_array = {
+        array = specialAdvisorListStatMilitary
+        value = 1    
+    }	
+	#Naval
+	add_to_array = {
+        array = specialAdvisorListStatNaval
+        value = 1    
+    }
+	add_to_array = {
+        array = specialAdvisorListStatNaval
+        value = 1    
+    }
+	add_to_array = {
+        array = specialAdvisorListStatNaval
+        value = 4    
+    }	
+	#Political
+	add_to_array = {
+        array = specialAdvisorListStatPolitical
+        value = 6    
+    }
+	add_to_array = {
+        array = specialAdvisorListStatPolitical
+        value = 4    
+    }
+	add_to_array = {
+        array = specialAdvisorListStatPolitical
+        value = 1    
+    }
+	#Electricity
+	add_to_array = {
+        array = specialAdvisorListTraitsElectricity
+        value = 1    
+    }
+	add_to_array = {
+        array = specialAdvisorListTraitsElectricity
+        value = 0    
+    }
+	add_to_array = {
+        array = specialAdvisorListTraitsElectricity
+        value = 0    
+    }	
+	#Liberal
+	add_to_array = {
+        array = specialAdvisorListTraitsLiberal
+        value = 1    
+    }
+	add_to_array = {
+        array = specialAdvisorListTraitsLiberal
+        value = 0    
+    }
+	add_to_array = {
+        array = specialAdvisorListTraitsLiberal
+        value = 0    
+    }		
+	#Submarines
+	add_to_array = {
+        array = specialAdvisorListTraitsSubmarines
+        value = 0    
+    }
+	add_to_array = {
+        array = specialAdvisorListTraitsSubmarines
+        value = 0    
+    }
+	add_to_array = {
+        array = specialAdvisorListTraitsSubmarines
+        value = 1    
+    }		
+	#Equality
+	add_to_array = {
+        array = specialAdvisorListTraitsEquality
+        value = 1    
+    }
+	add_to_array = {
+        array = specialAdvisorListTraitsEquality
+        value = 1    
+    }
+	add_to_array = {
+        array = specialAdvisorListTraitsEquality
+        value = 0    
+    }		
+	#Anarchist
+	add_to_array = {
+        array = specialAdvisorListTraitsAnarchist
+        value = 0    
+    }
+	add_to_array = {
+        array = specialAdvisorListTraitsAnarchist
+        value = 1    
+    }
+	add_to_array = {
+        array = specialAdvisorListTraitsAnarchist
+        value = 0    
+    }	
+###
+create_country_leader = {
+	name = "John Adams"
+	desc = "POLITICS_John_Adams_DESC"
+	picture = "Portrait_USA_John_Adams.dds"
+	expire = "2000.1.1"
+	ideology = federalist
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Thomas Jefferson"
+	desc = "POLITICS_Thomas_Jefferson_DESC"
+	picture = "Portrait_USA_Thomas_Jefferson.dds"
+	expire = "2000.1.1"
+	ideology = democrat_republican
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Thomas Paine"
+	desc = "POLITICS_Thomas_Paine_DESC"
+	picture = "Portrait_USA_Thomas_Paine.dds"
+	expire = "2000.1.1"
+	ideology = enlightenmentism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Henry Knox"
+	desc = "POLITICS_Henry_Knox_DESC"
+	picture = "Portrait_USA_Henry_Knox.dds"
+	expire = "2000.1.1"
+	ideology = militarism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Robert Owen"
+	desc = "POLITICS_Robert_Owen_DESC"
+	picture = "Portrait_USA_Robert_Owen.dds"
+	expire = "2000.1.1"
+	ideology = utopianist
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Richard Allen"
+	desc = "POLITICS_Richard_Allen_DESC"
+	picture = "Portrait_USA_Richard_Allen.dds"
+	expire = "2000.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "George Washington"
+	desc = "POLITICS_GEORGE_WASHINGTON_DESC"
+	picture = "Portrait_USA_George_Washington.dds"
+	expire = "2000.1.1"
+	ideology = washington
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Thomas Gage"
+	desc = "POLITICS_Thomas_Gage_DESC"
+	picture = "Portrait_USA_Thomas_Gage.dds"
+	expire = "2000.1.1"
+	ideology = commander_in_chief
+	traits = {
+		
+	}
+}

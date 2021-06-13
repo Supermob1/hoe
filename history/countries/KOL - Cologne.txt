@@ -1,0 +1,42 @@
+﻿capital = 921
+
+oob = "KOL_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+add_ideas = {
+	HRE_elector
+	HRE_member
+	}
+
+set_research_slots = 2
+
+set_cosmetic_tag = KOL_HRE
+set_popularities = {
+
+	order = 100
+	liberty = 0
+	glory = 0
+	equality = 0
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 42
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Maximilian Francis"
+	desc = "POLITICS_Maximilian_Francis_DESC"
+	picture = "Portrait_KOL_Maximilian_Francis.dds"
+	expire = "1947.1.1"
+	ideology = dukedom
+	traits = {
+		
+	}
+}
+
+}

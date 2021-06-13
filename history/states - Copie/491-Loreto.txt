@@ -1,0 +1,23 @@
+
+state={
+	id=491
+	name="STATE_491"
+
+	history={
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		8213 10942 
+	}
+	manpower=19625
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	impassable = yes
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=416
+	name="STATE_416"
+	manpower = 917748
+	state_category = rural
+
+	history={
+		owner = UNC #PER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			5029 5 
+		}
+		#add_core_of = PER
+		#add_core_of = ZAN
+		#add_core_of = QAJ
+	}
+
+	provinces={
+		1521 1888 1957 2000 5029 5073 7573 10351 10806 8009
+	}
+}

@@ -1,0 +1,41 @@
+﻿capital = 55
+
+oob = "HES_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+add_ideas = {
+
+	HRE_member
+	}
+set_research_slots = 2
+set_convoys = 0
+
+set_cosmetic_tag = HES_HRE
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Louis I"
+	desc = "POLITICS_Louis_Hesse_DESC"
+	picture = "Portrait_HES_Louis.dds"
+	expire = "1947.1.1"
+	ideology = dukedom
+	traits = {
+		
+	}
+}
+
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=782
+	name="STATE_782"
+
+	history={
+		owner = BAD
+		add_core_of = BAD
+		victory_points = {
+			6542 3 
+		}
+
+	}
+
+	provinces={
+		3530 6542 6568 6581 
+	}
+	manpower=473000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

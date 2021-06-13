@@ -1,0 +1,49 @@
+﻿capital = 1015
+
+oob = "SAK_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_popularities = {
+    glory = 0
+    equality = 0
+    liberty = 0
+    order = 100
+}
+
+set_politics = {
+    ruling_party = order
+    last_election = "1790.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+create_country_leader = {
+	name = "Pyesa"	#Father of https://en.wikipedia.org/wiki/Black_Hawk_(Sauk_leader)
+	desc = ""
+	picture = "Portrait_SAK_Pyesa.dds"
+	expire = "1832.1.1"
+	ideology = tribal_kingdom
+	traits = {
+		
+	}
+}
+1780.1.1 = {
+	create_country_leader = {
+		name = "Quashquame"
+		desc = "POLITICS_Quashquame_DESC"
+		picture = "Portrait_SAK_Quashquame.dds"
+		expire = "1832.1.1"
+		ideology = tribalism
+		traits = {
+			
+		}
+	}
+}

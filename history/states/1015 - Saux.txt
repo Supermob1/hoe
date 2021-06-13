@@ -1,0 +1,28 @@
+state={
+	id=1015
+	name="STATE_1015"
+	
+	history={
+		owner = SAK
+		add_core_of = SAK
+		add_claim_by = USA
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			
+
+		}
+		
+
+	}
+	
+	provinces={
+		1527 1560 4590 6737 10339 10341 10393 11589 12312 12365 
+	
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

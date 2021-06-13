@@ -1,0 +1,25 @@
+
+state={
+	id=1017
+	name="STATE_1017"
+
+	history={
+		owner = OSG
+		add_core_of = OSG
+		buildings = {
+			infrastructure = 5
+
+		}
+		victory_points = {
+			10370 1 
+		}
+
+	}
+
+	provinces={
+		1441 1534 1564 1806 4811 7834 9802 10370 12463 
+	}
+	manpower=2121
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,39 @@
+﻿capital = 111
+
+oob = "FIN_1790"
+
+set_research_slots = 3
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_convoys = 5
+
+set_popularities = {
+	liberty = 30
+	order = 60
+	equality = 10
+	glory = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Georg Magnus Sprengtporten"
+	desc = "POLITICS_Georg_Magnus_DESC"
+	picture = "Portrait_FIN_Georg.dds"
+	expire = "1819.10.13"
+	ideology = dukedom
+	traits = {
+	}
+}

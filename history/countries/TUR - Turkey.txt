@@ -1,0 +1,91 @@
+﻿capital = 341
+
+oob = "TUR_1790"
+
+set_research_slots = 3
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = MOL
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = LBA
+		autonomous_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = WAL
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = ALG
+		autonomous_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = TUN
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = IRQ
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = HDJ
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = JOR
+		autonomous_state = autonomy_colony
+	}
+	else = { 
+		puppet = EGY
+		puppet = TUN
+		puppet = ALG
+		puppet = WAL
+		puppet = LBA
+		puppet = MOL
+		puppet = IRQ
+	}
+}
+set_popularities = {
+	liberty = 25	
+	order = 75
+	equality = 0
+	glory = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.2.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 80
+
+
+
+create_country_leader = {
+	name = "Selim III"
+	desc = "POLITICS_Selim_DESC"
+	picture = "gfx/leaders/TUR/Portrait_TUR_Selim_III.dds"
+	expire = "1938.11.10"
+	ideology = absolutist
+	traits = {
+		
+	}
+}

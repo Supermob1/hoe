@@ -1,0 +1,21 @@
+state={
+	id=1003
+	name="STATE_1003"
+	
+	history={
+		owner = MIA
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = MIA
+
+	}
+	
+	provinces={
+		4437 6713 9653 9654 11641 
+	}
+	manpower=1100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

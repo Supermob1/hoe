@@ -1,0 +1,20 @@
+
+state={
+	id=681
+	name="STATE_681" #Cape
+	manpower = 20212
+
+	state_category = town
+
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		 4528 4822 10415 12547 12589 12692 
+	}
+}

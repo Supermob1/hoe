@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	
+	spriteType = {
+		name = "GFX_classical_europe_album_art"
+		texturefile = "//gfx//interface//topbar//musicplayer//classical_europe_album_art.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_opera_medium"
+		texturefile = "//gfx//interface//topbar//musicplayer//opera_medium.dds"
+		noOfFrames = 1
+	}
+}

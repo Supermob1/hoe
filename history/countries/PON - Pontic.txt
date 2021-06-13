@@ -1,0 +1,50 @@
+﻿capital = 354
+
+oob = "PON_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+}
+
+set_technology = {
+
+}
+
+set_convoys = 10
+
+set_popularities = {
+	liberty = 60
+	order = 40
+	equality = 0
+	glory = 0
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1789.6.9"
+	election_frequency = 12
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Charles Alexandre Guillaume Joseph de Lorraine"
+	desc = "POLITICS_Alexandre_Lorraine_DESC"
+	picture = "Portrait_PON_Alexandre.dds"
+	expire = "1824.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Charles Alexandre Guillaume Joseph de Lorraine"
+	desc = "POLITICS_Alexandre_Lorraine_DESC"
+	picture = "Portrait_PON_Alexandre.dds"
+	expire = "1824.1.1"
+	ideology = military_administration
+	traits = {
+		#
+	}
+}

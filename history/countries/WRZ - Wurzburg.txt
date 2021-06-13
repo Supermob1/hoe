@@ -1,0 +1,40 @@
+﻿capital = 791
+
+oob = "WRZ_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 0
+add_ideas = {
+	HRE_member
+	}
+set_cosmetic_tag = WRZ_HRE
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 12
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Franz Ludwig von Erthal"
+	desc = "POLITICS_Franz_Erthal_DESC"
+	picture = "Portrait_WRZ_Franz_Erthal.dds"
+	expire = "1947.1.1"
+	ideology = bishopric
+	traits = {
+		
+	}
+}
+
+}

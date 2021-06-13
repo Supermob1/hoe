@@ -1,0 +1,22 @@
+
+state={
+	id=893
+	name="STATE_893"
+
+	history={
+		owner = UNC #PIO
+		buildings = {
+			infrastructure = 2
+
+		}
+		#add_core_of = PIO
+
+	}
+
+	provinces={
+		3924 9598 
+	}
+	manpower=30420
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

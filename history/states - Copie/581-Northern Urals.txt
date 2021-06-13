@@ -1,0 +1,22 @@
+
+state={
+	id=581
+	name="STATE_581"
+
+	history={
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2900 13060 
+	}
+	manpower=602
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

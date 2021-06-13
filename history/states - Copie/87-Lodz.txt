@@ -1,0 +1,26 @@
+
+state={
+	id=87
+	name="STATE_87"
+
+	history={
+		owner = UNC #PLI
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			9508 1 
+		}
+		#add_core_of = PLI
+
+	}
+
+	provinces={
+		479 506 584 3482 3586 9508 11428 11492 
+	}
+	manpower=892444
+	buildings_max_level_factor=1.000
+	state_category=town
+}

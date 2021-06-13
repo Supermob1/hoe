@@ -1,0 +1,21 @@
+
+state={
+	id=304
+	name="STATE_304"
+
+	history={
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 4
+
+		}
+	}
+
+	provinces={
+		1633 4611 4624 7617 7630 10482 
+	}
+	manpower=51900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

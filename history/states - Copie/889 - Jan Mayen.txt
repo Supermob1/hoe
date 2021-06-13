@@ -1,0 +1,22 @@
+
+state={
+	id=889
+	name="STATE_889"
+	manpower = 100
+	
+	state_category = tiny_island
+
+	history={
+		owner = UNC #HOL
+		buildings = {
+			
+		}
+		#add_core_of = JAN
+		
+	}
+
+	provinces={
+		13239 
+	}
+	
+}

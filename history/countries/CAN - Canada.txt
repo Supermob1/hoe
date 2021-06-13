@@ -1,0 +1,48 @@
+﻿capital = 276
+
+oob = "CAN_1790"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	
+}
+set_cosmetic_tag = CAN_ALY
+
+set_popularities = {
+	liberty = 0
+	order = 100
+	equality = 0
+	glory = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1735.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "John Graves Simcoe"
+	desc = "POLITICS_JOHN_SIMCOE_DESC"
+	picture = "Portrait_CAN_Simcoe.dds"
+	expire = "2000.1.1"
+	ideology = tory
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Guy Carleton"
+	desc = "POLITICS_GUY_CARLETON_DESC"
+	picture = "Portrait_CAN_Carleton.dds"
+	expire = "1808.9.3"
+	ideology = tory
+	traits = {
+		#
+	}
+}
+
+set_convoys = 100

@@ -1,0 +1,35 @@
+﻿capital = 113
+
+oob = "IRE_1790"
+
+set_research_slots = 4
+
+
+
+# Starting tech
+set_technology = {
+
+}
+set_popularities = {
+	liberty = 100
+	order = 0
+	equality = 0
+	glory = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Wolfe Tone"
+	desc = "POLITICS_Wolfe_Tone_DESC"
+	picture = "Portrait_IRE_Wolfe.dds"
+	expire = "1820.1.1"
+	ideology = republicanist
+	traits = {
+		
+	}
+}

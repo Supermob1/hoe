@@ -1,0 +1,24 @@
+
+state={
+	id=466
+	name="STATE_466"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = UNC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		983 1657 1785 3911 4666 4787 6740 10176 12600 13162 13164 13165 
+	}
+	manpower=35314
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

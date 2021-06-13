@@ -1,0 +1,83 @@
+form_sioux_category = {
+	form_sioux_militarily = {
+
+		icon = generic_form_nation
+		
+
+		allowed = {
+			OR = {
+				original_tag = TTN
+				original_tag = ASS
+				original_tag = YKR
+				original_tag = YKT
+				original_tag = SNT
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Teton
+			custom_trigger_tooltip = {
+				tooltip = form_sioux_teton_required_states_tt
+				controls_state = 1021
+			}
+			# Assinaboine
+			custom_trigger_tooltip = {
+				tooltip = form_sioux_ass_required_states_tt
+				controls_state = 389
+			}
+			# yanktonrai
+			custom_trigger_tooltip = {
+				tooltip = form_sioux_ykr_required_states_tt
+				controls_state = 390
+			}
+			# yankton
+			custom_trigger_tooltip = {
+				tooltip = form_sioux_ykt_required_states_tt
+				controls_state = 1023
+			}
+			# SNT
+			custom_trigger_tooltip = {
+				tooltip = form_sioux_snt_required_states_tt
+				controls_state = 391
+			}
+			
+		}
+
+		visible = {
+			OR = {
+				original_tag = TTN
+				original_tag = ASS
+				original_tag = YKR
+				original_tag = YKT
+				original_tag = SNT
+			}
+			NOT = { has_global_flag = form_sioux_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SIOUX_UNIFIED
+			custom_effect_tooltip = form_country_sioux_coring_states_tt
+			hidden_effect = {
+				1021 = { add_core_of = ROOT }
+				389 = { add_core_of = ROOT }
+				390 = { add_core_of = ROOT }
+				1023 = { add_core_of = ROOT }
+				391 = { add_core_of = ROOT }
+			}
+			
+			hidden_effect = {
+				news_event = { id = HOE_news.88 hours = 6 }
+				set_global_flag = form_sioux_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

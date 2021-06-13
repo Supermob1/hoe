@@ -1,0 +1,19 @@
+state={
+	id=8
+	name="STATE_8"
+	
+	state_category = town
+	
+	manpower = 146843
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = LUX
+		add_core_of = BEL
+	}
+
+	provinces={	6583 13229	}
+}

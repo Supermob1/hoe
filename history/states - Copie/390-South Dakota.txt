@@ -1,0 +1,26 @@
+
+state={
+	id=390
+	name="STATE_390"
+
+	history={
+		owner = YKR
+		add_core_of = YKR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1747 1 
+		}
+
+	}
+
+	provinces={
+		1767 1867 3750 4880 7862 12620 12667 
+	}
+	manpower=535
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=718
+	name="STATE_718"
+	history={
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		9883 
+	}
+	manpower=1082745
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

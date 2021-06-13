@@ -1,0 +1,25 @@
+
+state={
+	id=495
+	name="STATE_495"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = UNC
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		2147 2168 2204 2214 5008 5151 5208 5214 5232 8172 8175 8185 8254 10934 10956 11010 12939 12959 12965 
+	}
+	manpower=108800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	impassable = yes
+}

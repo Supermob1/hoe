@@ -1,0 +1,31 @@
+
+state={
+	id=155
+	name="STATE_155"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = HUN
+		victory_points = {
+			11610 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			
+
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		684 699 716 3713 3731 6700 6703 6716 6751 9660 9676 11625 11663 
+	}
+	manpower=624132
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,36 @@
+﻿capital = 303
+
+oob = "PRU_1790"
+
+# Starting tech
+set_technology = {
+	
+}
+set_cosmetic_tag = VCP_SPR
+
+set_convoys = 10
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 100
+	order = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Francisco Gil de Taboada"
+	desc = ""
+	picture = "Portrait_VCP_Taboada.dds"
+	expire = "1797.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}

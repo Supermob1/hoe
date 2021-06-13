@@ -1,0 +1,22 @@
+
+state={
+	id=1006
+	name="STATE_1006"
+
+	history={
+		owner = CUB
+		add_core_of = CUB
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		7480 10352 10380 10520 
+	}
+	manpower=2538
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,24 @@
+state={
+	id=953
+	name="STATE_953"
+	
+	history={
+		owner = UNC #HOL
+		buildings = {
+			infrastructure = 6
+			6336 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		6336 9335 11318 
+	}
+	manpower=242325
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

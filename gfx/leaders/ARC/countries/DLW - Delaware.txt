@@ -1,0 +1,66 @@
+﻿capital = 857
+
+oob = "DLW_1790"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+
+
+}
+
+set_convoys = 400
+
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 20
+		}
+
+		conservatist = {
+			popularity = 80
+		}
+		
+		monarchist = {
+			popularity = 0
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservatist
+	last_election = "1790.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Joshua Clayton"
+	desc = "POLITICS_Joshua_Clayton_DESC"
+	picture = "Portrait_DLW_Clayton.dds"
+	expire = "1947.1.1"
+	ideology = federalist
+	traits = {
+		
+	}
+}

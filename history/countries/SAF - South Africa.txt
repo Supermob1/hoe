@@ -1,0 +1,36 @@
+﻿capital = 681
+
+oob = "SAF_1790"
+
+# Starting tech
+set_technology = {
+	
+}
+
+set_cosmetic_tag = SAF_HOL
+set_convoys = 25
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "J. B. M. Hertzog"
+	desc = "Cornelis Jacob van de Graaf"
+	picture = "GFX_SAF_Graaf.dds"
+	expire = "1965.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}

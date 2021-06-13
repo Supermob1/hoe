@@ -1,0 +1,22 @@
+state=
+{
+	id=518
+	name="STATE_518"
+	manpower = 2250
+	
+	state_category = small_island
+
+	history=
+	{
+		owner = UNC #UNC
+		victory_points = {
+			2189 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		2183 2189 5181 5187 10665 12645
+	}
+}

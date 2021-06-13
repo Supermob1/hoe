@@ -1,0 +1,22 @@
+
+state={
+	id=45
+	name="STATE_45"
+
+	history={
+		owner = UNC #HUN
+		buildings = {
+			infrastructure = 6
+
+		}
+		#add_core_of = SER
+
+	}
+
+	provinces={
+		619 3617 3623 6670 9621 
+	}
+	manpower=514022
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

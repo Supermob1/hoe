@@ -1,0 +1,26 @@
+
+state={
+	id=771
+	name="STATE_771"
+
+	history={
+		owner = UNC #PRU
+		#add_core_of = PRU
+		#add_core_of = ESF
+		buildings = {
+			infrastructure = 8
+
+		}
+		victory_points = {
+			11360 3 
+		}
+
+	}
+
+	provinces={
+		336 11360 
+	}
+	manpower=321300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

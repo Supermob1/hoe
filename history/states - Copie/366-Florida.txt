@@ -1,0 +1,23 @@
+
+state={
+	id=366
+	name="STATE_366"
+
+	history={
+		owner = CUB
+		add_core_of = CUB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1556 1843 1913 7388 9834 10407 10489 12381 12439 12752 
+	}
+	manpower=308000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

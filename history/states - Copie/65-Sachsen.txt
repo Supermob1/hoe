@@ -1,0 +1,30 @@
+
+state={
+	id=65
+	name="STATE_65"
+
+	history={
+		owner = UNC #SAX
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			514 5 
+		}
+		victory_points = {
+			3535 5 
+		}
+		#add_core_of = SAX
+
+	}
+
+	provinces={
+		514 3535 6559 9441 9471 11481 
+	}
+	manpower=320256
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,274 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_imperial_authority"
+		texturefile = "gfx/scripted_gui/imperial_authority.dds"
+		legacy_lazy_load = no
+	}
+    spriteType = {
+		name = "GFX_HRE_button"
+		texturefile = "gfx/scripted_gui/HRE_button.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_background"
+		texturefile = "gfx/scripted_gui/HRE_background.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_background_down"
+		texturefile = "gfx/scripted_gui/HRE_background_down.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_background_all"
+		texturefile = "gfx/scripted_gui/HRE_background_all.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_background_down_left"
+		texturefile = "gfx/scripted_gui/HRE_background_down_left.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_background_down_right"
+		texturefile = "gfx/scripted_gui/HRE_background_down_right.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_background_left"
+		texturefile = "gfx/scripted_gui/HRE_background_left.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_background_left_right"
+		texturefile = "gfx/scripted_gui/HRE_background_left_right.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_background_right"
+		texturefile = "gfx/scripted_gui/HRE_background_right.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_open_up"
+		texturefile = "gfx/scripted_gui/open_up.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_open_down"
+		texturefile = "gfx/scripted_gui/open_down.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_open_right"
+		texturefile = "gfx/scripted_gui/open_right.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_open_left"
+		texturefile = "gfx/scripted_gui/open_left.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_Eagle"
+		texturefile = "gfx/scripted_gui/HRE_Eagle.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_stability"
+		texturefile = "gfx/scripted_gui/HRE_stability.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_political"
+		texturefile = "gfx/scripted_gui/HRE_political.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_XP"
+		texturefile = "gfx/scripted_gui/HRE_XP.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_manpower"
+		texturefile = "gfx/scripted_gui/HRE_manpower.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_war"
+		texturefile = "gfx/scripted_gui/HRE_war.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_peace"
+		texturefile = "gfx/scripted_gui/HRE_peace.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_tech"
+		texturefile = "gfx/scripted_gui/HRE_tech.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_diplo"
+		texturefile = "gfx/scripted_gui/HRE_diplo.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_Eagle_emperor"
+		texturefile = "gfx/scripted_gui/HRE_Eagle_emperor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_focus_bg"
+		texturefile = "gfx/scripted_gui/HRE_focuses.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_elector_brandenburg_bg"
+		texturefile = "gfx/scripted_gui/HRE_elector_brandenburg.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_elector_bohemia_bg"
+		texturefile = "gfx/scripted_gui/HRE_elector_bohemia.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_elector_bavaria_bg"
+		texturefile = "gfx/scripted_gui/HRE_elector_bavaria.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_elector_mainz_bg"
+		texturefile = "gfx/scripted_gui/HRE_elector_mainz.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_elector_trier_bg"
+		texturefile = "gfx/scripted_gui/HRE_elector_trier.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_elector_cologne_bg"
+		texturefile = "gfx/scripted_gui/HRE_elector_cologne.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_elector_saxony_bg"
+		texturefile = "gfx/scripted_gui/HRE_elector_saxony.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_elector_hannover_bg"
+		texturefile = "gfx/scripted_gui/HRE_elector_hannover_eng.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_BAD_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_BAD.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_BRS_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_BRS.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_HES_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_HES.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_HOH_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_HOH.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_LIE_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_LIE.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_MCK_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_MCK.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_NRM_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_NRM.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_NSS_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_NSS.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_SLZ_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_SLZ.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_SXG_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_SXG.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_TNT_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_TNT.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_ULM_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_ULM.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_VAD_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_VAD.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_WEI_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_WEI.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_WRZ_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_WRZ.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_member_WUU_bg"
+		texturefile = "gfx/scripted_gui/HRE_member_WUU.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_free_city_FRK_bg"
+		texturefile = "gfx/scripted_gui/HRE_free_city_FRK.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_free_city_HAM_bg"
+		texturefile = "gfx/scripted_gui/HRE_free_city_HAM.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_free_city_LUB_bg"
+		texturefile = "gfx/scripted_gui/HRE_free_city_LUB.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_free_city_NRM_bg"
+		texturefile = "gfx/scripted_gui/HRE_free_city_NRM.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRE_free_city_ULM_bg"
+		texturefile = "gfx/scripted_gui/HRE_free_city_ULM.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=468
+	name="STATE_468"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = QUE
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		1341 1356 4270 4345 4417 7289 7291 7345 7433 7435 9601 10320 12149 12223 
+	}
+	manpower=20034
+	buildings_max_level_factor=1.000
+	state_category=city
+}

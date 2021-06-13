@@ -1,0 +1,31 @@
+
+state={
+	id=6
+	name="STATE_6"
+
+	history={
+		owner = UNC #BEL
+		victory_points = {
+			6598 30 
+		}
+		victory_points = {
+			6560 5 
+		}
+		buildings = {
+			infrastructure = 8
+			
+		}
+		#add_core_of = AUS
+		#add_core_of = FLA
+		#add_claim_by = HOL
+		#add_core_of = BEL
+
+	}
+
+	provinces={
+		3576 6446 6560 6598 
+	}
+	manpower=171230
+	buildings_max_level_factor=1.000
+	state_category=city
+}

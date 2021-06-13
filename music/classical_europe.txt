@@ -1,0 +1,750 @@
+
+music_station = "classical_europe"
+
+music = {
+	song = "hoe_divertimento"
+	chance = {
+		modifier = {
+			factor = 1
+			
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "hoe_sextet"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "hoe_trio"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "hoe_canon"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "hoe_fur_elise"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "hoe_idyll"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "hoe_le_corsair"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "hoe_roman_carnival"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "vivaldi_spring"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+	}
+}
+# WAR SONGS ####################
+
+music = {
+	song = "hoew_prince_igor"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "hoew_carmagnole"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+			OR = {
+			has_government = liberty
+			has_government = order
+			has_government = glory
+			}
+		}		
+	}	
+}
+
+music = {
+	song = "hoew_chant_du_depart"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			OR = {
+			has_government = liberty
+			has_government = order
+			has_government = glory
+			}
+		}		
+	}	
+}
+
+music = {
+	song = "hoew_requiem"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "hoew_polovetsian_dance"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "hoew_russian_sailors"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			tag=RUS
+		}		
+	}	
+}
+music = {
+	song = "hoew_la_victoire_est_a_nous"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			tag=FRA
+		}		
+	}	
+}
+########################
+#     Special Songs    #
+########################
+
+music = {
+	song = "victory_battle_new_orleans"
+	chance = {
+		modifier = {
+			factor = 1
+			
+			tag = USA
+			has_war_with = CAN
+		}
+		modifier = {
+			factor = 0
+			not = {
+				tag = USA 
+				has_war_with = CAN
+				}
+		}
+	}
+}
+music = {
+	song = "usa_star_spangled_banner"
+	chance = {
+		modifier = {
+			factor = 0.1
+			
+			tag = USA
+		}
+		modifier = {
+			factor = 0
+			not = {
+				tag = USA 
+				}
+		}
+	}
+}
+music = {
+	song = "tur_mah_yuzune_asikanim"
+	chance = {
+		modifier = {
+			factor = 2
+			OR = {
+			tag = TUR
+			tag = CRI
+			tag = SAU
+			tag = LBA
+			tag = ALG
+			tag = MRC
+			tag = BNY
+			tag = BHR
+			tag = TUN
+			tag = EGY
+			tag = PER
+			tag = ZAN
+			tag = QAJ
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = {
+				tag = TUR 
+				tag = SAU
+				tag = LBA
+				tag = ALG
+				tag = MRC
+				tag = BNY
+				tag = BHR
+				tag = TUN
+				tag = EGY
+				tag = PER
+				tag = ZAN
+				tag = QAJ
+				tag = CRI
+				}
+			}	
+		}
+	}
+}
+music = {
+	song = "tur_su_karsiki_dagda_bir_yesil_cadir"
+	chance = {
+		modifier = {
+			factor = 2
+			OR = {
+			tag = TUR
+			tag = SAU
+			tag = CRI
+			tag = LBA
+			tag = ALG
+			tag = MRC
+			tag = BNY
+			tag = BHR
+			tag = TUN
+			tag = EGY
+			tag = PER
+			tag = ZAN
+			tag = QAJ
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = {
+				tag = TUR 
+				tag = SAU
+				tag = LBA
+				tag = CRI
+				tag = ALG
+				tag = MRC
+				tag = BNY
+				tag = BHR
+				tag = TUN
+				tag = EGY
+				tag = PER
+				tag = ZAN
+				tag = QAJ
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "tur_farig"
+	chance = {
+		modifier = {
+			factor = 2
+			OR = {
+			tag = TUR
+			tag = SAU
+			tag = LBA
+			tag = ALG
+			tag = MRC
+			tag = BNY
+			tag = CRI
+			tag = BHR
+			tag = TUN
+			tag = EGY
+			tag = PER
+			tag = ZAN
+			tag = QAJ
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = {
+				tag = TUR 
+				tag = SAU
+				tag = LBA
+				tag = ALG
+				tag = MRC
+				tag = BNY
+				tag = BHR
+				tag = TUN
+				tag = CRI
+				tag = EGY
+				tag = PER
+				tag = ZAN
+				tag = QAJ
+				}
+		}
+	}
+	}
+}
+music = {
+	song = "tur_uzzal"
+	chance = {
+		modifier = {
+			factor = 2
+			OR = {
+			tag = TUR
+			tag = SAU
+			tag = CRI
+			tag = LBA
+			tag = ALG
+			tag = MRC
+			tag = BNY
+			tag = BHR
+			tag = TUN
+			tag = EGY
+			tag = PER
+			tag = ZAN
+			tag = QAJ
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = {
+				tag = TUR 
+				tag = SAU
+				tag = LBA
+				tag = ALG
+				tag = CRI
+				tag = MRC
+				tag = BNY
+				tag = BHR
+				tag = TUN
+				tag = EGY
+				tag = PER
+				tag = ZAN
+				tag = QAJ
+				}
+		}
+	}
+	}
+}
+music = {
+	song = "tur_uskudara"
+	chance = {
+		modifier = {
+			factor = 2
+			OR = {
+			tag = TUR
+			tag = SAU
+			tag = LBA
+			tag = ALG
+			tag = MRC
+			tag = BNY
+			tag = BHR
+			tag = CRI
+			tag = TUN
+			tag = EGY
+			tag = PER
+			tag = ZAN
+			tag = QAJ
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = {
+				tag = TUR 
+				tag = SAU
+				tag = LBA
+				tag = CRI
+				tag = ALG
+				tag = MRC
+				tag = BNY
+				tag = BHR
+				tag = TUN
+				tag = EGY
+				tag = PER
+				tag = ZAN
+				tag = QAJ
+				}
+		}
+	}
+	}
+}
+music = {
+	song = "tur_guldur"
+	chance = {
+		modifier = {
+			factor = 2
+			OR = {
+			tag = TUR
+			tag = SAU
+			tag = LBA
+			tag = ALG
+			tag = MRC
+			tag = BNY
+			tag = CRI
+			tag = BHR
+			tag = TUN
+			tag = EGY
+			tag = PER
+			tag = ZAN
+			tag = QAJ
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = {
+				tag = TUR 
+				tag = SAU
+				tag = LBA
+				tag = ALG
+				tag = MRC
+				tag = CRI
+				tag = BNY
+				tag = BHR
+				tag = TUN
+				tag = EGY
+				tag = PER
+				tag = ZAN
+				tag = QAJ
+				}
+		}
+	}
+	}
+}
+music = { 
+	song = "spa_albeniz_sonata_d"
+	chance = { 
+		modifier = {
+			factor = 2 
+			OR = {
+			tag = SPR
+			tag = POR
+			tag = BRA
+			tag = ARG
+			tag = CHL
+			tag = VCP
+			tag = COL
+			tag = VNZ
+			tag = MEX
+			tag = CUB
+			tag = PRR
+			tag = SPH
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = { 
+				tag = SPR
+				tag = POR
+				tag = BRA
+				tag = ARG
+				tag = CHL
+				tag = VCP
+				tag = COL
+				tag = VNZ
+				tag = MEX
+				tag = CUB
+				tag = PRR
+				tag = SPH
+				}
+			}
+		}
+	}
+}			
+music = { 
+	song = "spa_rondo"
+	chance = { 
+		modifier = {
+			factor = 2 
+			OR = {
+			tag = SPR
+			tag = POR
+			tag = BRA
+			tag = ARG
+			tag = CHL
+			tag = VCP
+			tag = COL
+			tag = VNZ
+			tag = MEX
+			tag = CUB
+			tag = PRR
+			tag = SPH
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = { 
+				tag = SPR
+				tag = POR
+				tag = BRA
+				tag = ARG
+				tag = CHL
+				tag = VCP
+				tag = COL
+				tag = VNZ
+				tag = MEX
+				tag = CUB
+				tag = PRR
+				tag = SPH
+				}
+			}
+		}
+	}
+}	
+music = { 
+	song = "spa_fandango"
+	chance = { 
+		modifier = {
+			factor = 2 
+			OR = {
+			tag = SPR
+			tag = POR
+			tag = BRA
+			tag = ARG
+			tag = CHL
+			tag = VCP
+			tag = COL
+			tag = VNZ
+			tag = MEX
+			tag = CUB
+			tag = PRR
+			tag = SPH
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = { 
+				tag = SPR
+				tag = POR
+				tag = BRA
+				tag = ARG
+				tag = CHL
+				tag = VCP
+				tag = COL
+				tag = VNZ
+				tag = MEX
+				tag = CUB
+				tag = PRR
+				tag = SPH
+				}
+			}
+		}
+	}
+}	
+music = { 
+	song = "spa_sor_6"
+	chance = { 
+		modifier = {
+			factor = 2 
+			OR = {
+			tag = SPR
+			tag = POR
+			tag = BRA
+			tag = ARG
+			tag = CHL
+			tag = VCP
+			tag = COL
+			tag = VNZ
+			tag = MEX
+			tag = CUB
+			tag = PRR
+			tag = SPH
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = { 
+				tag = SPR
+				tag = POR
+				tag = BRA
+				tag = ARG
+				tag = CHL
+				tag = VCP
+				tag = COL
+				tag = VNZ
+				tag = MEX
+				tag = CUB
+				tag = PRR
+				tag = SPH
+				}
+			}
+		}
+	}
+}
+music = { 
+	song = "spa_celebren"
+	chance = { 
+		modifier = {
+			factor = 2 
+			OR = {
+			tag = SPR
+			tag = POR
+			tag = BRA
+			tag = ARG
+			tag = CHL
+			tag = VCP
+			tag = COL
+			tag = VNZ
+			tag = MEX
+			tag = CUB
+			tag = PRR
+			tag = SPH
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = { 
+				tag = SPR
+				tag = POR
+				tag = BRA
+				tag = ARG
+				tag = CHL
+				tag = VCP
+				tag = COL
+				tag = VNZ
+				tag = MEX
+				tag = CUB
+				tag = PRR
+				tag = SPH
+				}
+			}
+		}
+	}
+}
+music = { 
+	song = "spa_encouragement"
+	chance = { 
+		modifier = {
+			factor = 2 
+			OR = {
+			tag = SPR
+			tag = POR
+			tag = BRA
+			tag = ARG
+			tag = CHL
+			tag = VCP
+			tag = COL
+			tag = VNZ
+			tag = MEX
+			tag = CUB
+			tag = PRR
+			tag = SPH
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+				OR = { 
+				tag = SPR
+				tag = POR
+				tag = BRA
+				tag = ARG
+				tag = CHL
+				tag = VCP
+				tag = COL
+				tag = VNZ
+				tag = MEX
+				tag = CUB
+				tag = PRR
+				tag = SPH
+				}
+			}
+		}
+	}
+}
+music = { 
+	song = "zul_umanqoba"
+	chance = {
+		modifier = {
+			factor = 2
+			OR = {
+			tag = ZUL
+			tag = MTW
+			tag = SZL
+			tag = NDW
+			tag = XHO
+			}
+		}
+		modifier = {
+			factor = 0
+			not = {
+			OR = {
+			tag = ZUL
+			tag = MTW
+			tag = SZL
+			tag = NDW
+			tag = XHO
+			}
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+﻿capital = 37
+
+set_research_slots = 3
+
+set_technology = {
+	
+}
+set_popularities = {
+	liberty = 20
+	order = 80
+	equality = 0
+	glory = 0
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1935.10.22"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+set_convoys = 40
+
+create_country_leader = {
+	name = "Christian VII"
+	desc = "POLITICS_Christian_VII_DESC"
+	picture = "Portrait_DEN_Christian_VII.dds"
+	expire = "1947.1.1"
+	ideology = parliamentary_monarchism
+	traits = {
+		
+	}
+}
+

@@ -1,0 +1,43 @@
+﻿capital = 918
+
+oob = "AST_1790"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	uniforms = 1
+	plug_bayonets = 1
+	socket_bayonets = 1
+	marines = 1
+	early_cavalry = 1
+	seven_artillery = 1
+	}
+
+set_cosmetic_tag = AST_ENG
+add_ideas = {
+}
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 100
+	order = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.9.15"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Arthur Phillip"
+	desc = "POLITICS_Arthur_Phillip_DESC"
+	picture = "Portrait_AST_Phillip.dds"
+	expire = "1965.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}

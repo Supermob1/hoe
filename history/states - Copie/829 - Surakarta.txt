@@ -1,0 +1,19 @@
+state= {
+	id=829
+	name="STATE_829"
+	manpower = 855481
+	
+	state_category = pastoral
+
+	history= {
+		owner = UNC #SRK
+		#add_core_of = SRK
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		10491 12293
+	}
+}

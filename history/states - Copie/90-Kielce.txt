@@ -1,0 +1,25 @@
+
+state={
+	id=90
+	name="STATE_90"
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = UNC #PLI
+		buildings = {
+			infrastructure = 6
+
+		}
+		#add_core_of = PLI
+
+	}
+
+	provinces={
+		467 562 3458 3497 6416 6511 9427 11430 11532 
+	}
+	manpower=237300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

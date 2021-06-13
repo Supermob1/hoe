@@ -1,0 +1,22 @@
+
+state={
+	id=1045
+	name="STATE_1045"
+
+	history={
+		owner = HUD
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = HUD
+
+	}
+
+	provinces={
+		490 11682 13181 13184 13196 
+	}
+	manpower=311
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=870
+	name="STATE_870"
+	manpower = 13000
+	
+	state_category = pastoral
+	
+
+	history={
+		owner = UNC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		10442 12419 10697 1509 5203
+	}
+}

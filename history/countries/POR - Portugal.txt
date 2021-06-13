@@ -1,0 +1,51 @@
+﻿capital = 112
+
+oob = "POR_1790"
+
+set_research_slots = 3
+
+set_technology = {
+	
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = BRA
+		autonomous_state = autonomy_colony
+	}
+	else = {
+		puppet = BRA
+	}
+}
+
+set_convoys = 50
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_convoys = 100
+
+
+
+create_country_leader = {
+	name = "Maria I"
+	desc = "POLITICS_Maria_I_DESC"
+	picture = "Portrait_POR_Maria.dds"
+	expire = "1965.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

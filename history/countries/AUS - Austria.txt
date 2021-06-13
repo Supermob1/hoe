@@ -1,0 +1,150 @@
+﻿capital = 4
+
+oob = "AUS_1790"
+
+set_research_slots = 3
+add_ideas = {
+	HRE_emperor
+	HRE_member
+	
+	}
+set_technology = {
+	
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = HUN
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = CZE
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = MLO
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+	set_autonomy = {
+		target = TRN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = GAL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	else = {
+		puppet = HUN
+		puppet = MLO
+		puppet = CZE
+		puppet = TRN
+		puppet = GAL
+		
+	}
+}
+CZE = {
+	set_popularities = {
+		glory = 0
+		equality = 20
+		liberty = 10
+		order = 70
+	}
+	set_politics = {
+		ruling_party = order
+		last_election = "1930.11.9"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Joseph II"
+		desc = "POLITICS_Joseph_II_DESC"
+		picture = "Portrait_CZE_Joseph_II.dds"
+		expire = "1790.2.20"
+		ideology = absolutist
+		traits = {
+			#
+		}
+	}
+}
+1789.10.24 = {
+	declare_war_on = {
+		target = BEL
+		type = annex_everything
+	}
+}
+1788.2.2 = {
+	declare_war_on = {
+		target = TUR
+		type = take_state_focus
+	}
+	CZE = {
+		add_to_war = { 
+			targeted_alliance = PREV 
+			enemy = TUR 
+			hostility_reason = asked_to_join
+		}
+	}
+	GAL = {
+		add_to_war = { 
+			targeted_alliance = PREV 
+			enemy = TUR 
+			hostility_reason = asked_to_join
+		}
+	}
+	TRN = {
+		add_to_war = { 
+			targeted_alliance = PREV 
+			enemy = TUR 
+			hostility_reason = asked_to_join
+		}
+	}
+	HUN = {
+		add_to_war = { 
+			targeted_alliance = PREV 
+			enemy = TUR 
+			hostility_reason = asked_to_join
+		}
+	}
+}
+set_popularities = {
+	glory = 0
+	equality = 20
+	liberty = 10
+	order = 70
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Leopold II"
+	desc = "POLITICS_LEOPOLD_II_DESC"
+	picture = "Portrait_AUS_Leopold_II.dds"
+	expire = "1965.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Joseph II"
+	desc = "POLITICS_Joseph_II_DESC"
+	picture = "Portrait_AUS_Joseph_II.dds"
+	expire = "1790.2.20"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

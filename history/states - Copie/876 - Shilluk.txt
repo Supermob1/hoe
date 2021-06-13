@@ -1,0 +1,23 @@
+
+state={
+	id=876
+	name="STATE_876"
+	manpower = 212000
+	
+	state_category = pastoral
+	
+
+	history={
+		owner = UNC #SLL
+		#add_core_of = SLL
+		buildings = {
+			infrastructure = 2
+		
+		}
+		
+	}
+
+	provinces={
+		12800 12744 10851 12887 4918 1914 10795
+	}
+}

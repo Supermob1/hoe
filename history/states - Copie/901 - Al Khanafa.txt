@@ -1,0 +1,22 @@
+
+state={
+	id=901
+	name="STATE_901"
+
+	history={
+		owner = UNC #SAU
+		#add_core_of = SAU
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4968 5027 8004 10892 12727 12870 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

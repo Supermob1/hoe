@@ -1,0 +1,66 @@
+﻿capital = 277
+
+oob = "MEX_1790"
+
+# Starting tech
+set_technology = {
+	
+}
+set_cosmetic_tag = MEX_SPR
+
+set_convoys = 45
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = PRR
+		autonomous_state = autonomy_colony
+	}
+	
+	
+	set_autonomy = {
+		target = CUB
+		autonomous_state = autonomy_colony
+	}
+	
+	set_autonomy = {
+		target = GUA
+		autonomous_state = autonomy_colony
+	}
+	
+	else = {
+		puppet = CUB
+		puppet = GUA
+		puppet = PRR
+		
+		
+	}
+}
+
+set_popularities = {
+	liberty = 0
+	order = 100
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1770.7.1"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "Antonio María de Bucareli"
+	desc = "POLITICS_ANTONIO_BUCARELI_DESC"
+	picture = "Portrait_MEX_Bucareli.dds"
+	expire = "1779.4.9"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}

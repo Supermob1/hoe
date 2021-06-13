@@ -1,0 +1,21 @@
+state={
+	id=1071
+	name="STATE_1071"
+	
+	history={
+		owner = KWI
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = KWI
+
+	}
+
+	provinces={
+		941 4657 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,19 @@
+state= {
+	id=827
+	name="STATE_827"
+	manpower = 1235590
+	
+	state_category = small_island
+
+	history= {
+		owner = UNC #BAL
+		#add_core_of = BAL
+
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		4273
+	}
+}

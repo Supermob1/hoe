@@ -1,0 +1,27 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = UNC #MSK
+		#add_core_of = MSK
+		buildings = {
+			10760 = {
+				naval_base = 3
+
+			}
+		}
+		victory_points = {
+			10760 3 
+		}
+
+	}
+
+	provinces={
+		1947 2103 8002 8020 10760 
+	}
+	manpower=52840
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

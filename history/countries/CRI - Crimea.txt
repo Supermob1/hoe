@@ -1,0 +1,40 @@
+﻿capital = 137
+
+set_research_slots = 2
+
+add_ideas = {
+	
+}
+
+set_technology = {
+
+}
+
+
+set_popularities = {
+	liberty = 40
+	order = 60
+	equality = 0
+	glory = 0
+}
+
+set_politics = {
+
+	ruling_party = order
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Bahadir Giray"
+	desc = ""
+	picture = "Portrait_CRI_Bahadir.dds"
+	expire = "1814.1.1"
+	ideology = khanate
+	traits = {
+		#
+	}
+}
+

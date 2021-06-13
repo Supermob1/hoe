@@ -1,0 +1,55 @@
+focus_tree = {
+	id = FRA_Tree_1
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = FRA
+		}
+	}
+	
+	default = no
+	shared_focus = FRA_Legalize_Gay_Marriage
+	continuous_focus_position = { x = 50 y = 1100 }
+	
+}
+focus_tree = {
+	id = FRA_Tree_2
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = FRA
+		}
+	}
+	
+	default = no
+	shared_focus = FRA_Legalize_Gay_Marriage
+	shared_focus = FRA_Ban_Women
+	continuous_focus_position = { x = 50 y = 1100 }
+	
+}
+focus_tree = {
+	id = FRA_Tree_3
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = FRA
+		}
+	}
+	default = no
+	shared_focus = FRA_Legalize_Gay_Marriage
+	shared_focus = FRA_Ban_Women
+	shared_focus = FRA_Fight_Anti_Gay_Terrorist_Organizations
+	continuous_focus_position = { x = 50 y = 1100 }
+	
+}
+
+

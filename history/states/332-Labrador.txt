@@ -1,0 +1,22 @@
+
+state={
+	id=332
+	name="STATE_332"
+
+	history={
+		owner = QUE
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = QUE
+
+	}
+
+	provinces={
+		1426 4720 7683 7810 10534 12503 13180 
+	}
+	manpower=2464
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

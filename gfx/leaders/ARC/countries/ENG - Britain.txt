@@ -1,0 +1,150 @@
+﻿capital = 126
+
+oob = "ENG_1790"
+
+set_research_slots = 4
+
+
+# Starting tech
+set_technology = {
+
+}
+
+add_ideas = {
+}
+
+set_convoys = 800
+
+# DIPLOMACY
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = HAN
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = JAM
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = QUE
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = RAJ
+		puppet = AST
+		puppet = CAN
+		puppet = HAN
+		
+	}
+}
+
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = commonwealth_research
+}
+
+
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 30
+		}
+
+		conservatist = {
+			popularity = 60
+		}
+		
+		monarchist = {
+			popularity = 10
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservatist
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "William Pitt the Younger"
+	desc = "POLITICS_William_Pitt_DESC"
+	picture = "Portrait_ENG_Pitt.dds"
+	expire = "1965.1.1"
+	ideology = tory
+	traits = {
+		
+	}
+}
+create_corps_commander = {
+	name = "Ralph Abercromby"
+	picture = "Portrait_ENG_Abercromby.dds"
+	traits = { inspirational_leader}
+	skill = 2
+}
+create_corps_commander = {
+	name = "Prince Adolphus"
+	picture = "Portrait_ENG_Adolphus.dds"
+	traits = { young_leader }
+	skill = 1
+}
+create_corps_commander = {
+	name = "Henry Paget"
+	picture = "Portrait_ENG_Paget.dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "William Beresford"
+	picture = "Portrait_ENG_Beresford.dds"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "William Schaw Cathcart"
+	picture = "Portrait_ENG_Cathcart.dds"
+	traits = { }
+	skill = 2
+}

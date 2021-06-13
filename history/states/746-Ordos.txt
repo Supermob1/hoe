@@ -1,0 +1,22 @@
+
+state={
+	id=746
+	name="STATE_746"
+
+	history={
+		owner = MDN
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = MDN
+
+	}
+
+	provinces={
+		13208 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

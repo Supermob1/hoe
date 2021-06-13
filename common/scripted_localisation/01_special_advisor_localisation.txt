@@ -1,0 +1,129 @@
+defined_text = { #
+    name = specialAdvisorInfo   
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { i = 0 }
+        }
+        localization_key = "GFX_scientist_USA_benjamin_franklin"
+    }
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { i = 1 }
+        }
+        localization_key = "GFX_scientist_USA_thomas_paine"
+    }
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { i = 2 }
+        }
+        localization_key = "GFX_scientist_USA_david_bushnell"
+    }
+}
+defined_text = { #
+    name = specialAdvisorFundOrBan
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { specialAdvisorList^i = 1 }
+        }
+        localization_key = "GFX_political_scientists_funded_stamp"
+    }
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { specialAdvisorList^i = -1 }
+        }
+        localization_key = "GFX_political_scientists_banned_stamp"
+    }
+}
+
+
+
+
+defined_text = { #
+    name = specialAdvisorInfoTrait
+	text = { 
+        localization_key = "gfx_loc"
+    }
+}
+defined_text = { #
+    name = specialAdvisorInfoTraitElectricity
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { specialAdvisorListTraitsElectricity^i = 1 }
+        }
+        localization_key = "ELECTRICITY_TRAIT"
+    }
+}
+defined_text = { #
+    name = specialAdvisorInfoTraitLiberal
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { specialAdvisorListTraitsLiberal^i = 1 }
+        }
+        localization_key = "LIBERAL_TRAIT"
+    }
+}
+	
+defined_text = { #
+    name = specialAdvisorInfoTraitSubmarines
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { specialAdvisorListTraitsSubmarines^i = 1 }
+        }
+        localization_key = "SUBMARINES_TRAIT"
+    }
+}
+
+defined_text = { #
+    name = specialAdvisorInfoTraitEquality
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { specialAdvisorListTraitsEquality^i = 1 }
+        }
+        localization_key = "EQUALITY_TRAIT"
+    }
+}
+	
+defined_text = { #
+    name = specialAdvisorInfoTraitAnarchist
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { specialAdvisorListTraitsAnarchist^i = 1 }
+        }
+        localization_key = "ANARCHIST_TRAIT"
+    }
+}
+
+defined_text = { #
+    name = specialAdvisorInfoName   
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { i = 0 }
+        }
+        localization_key = "Benjamin Franklin"
+    }
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { i = 1 }
+        }
+        localization_key = "Thomas Paine"
+    }
+	text = { 
+        trigger = {
+			tag = USA
+            check_variable = { i = 2 }
+        }
+        localization_key = "David Bushnell"
+    }
+}

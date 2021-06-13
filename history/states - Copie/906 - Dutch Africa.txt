@@ -1,0 +1,19 @@
+
+state={
+	id=906
+	name="STATE_906"
+	manpower = 12000
+	
+	state_category = rural
+	history={
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		13268
+	}
+}

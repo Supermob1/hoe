@@ -1,0 +1,35 @@
+﻿capital = 427
+
+oob = "HYD_1790"
+
+set_research_slots = 2
+
+set_technology = {
+	
+}
+set_popularities = {
+	liberty = 30
+	order = 70
+	equality = 0
+	glory = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "Sikandar Jah"
+	desc = ""
+	picture = "Portrait_HYD_Jah.dds"
+	expire = "1795.04.18"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=1067
+	name="STATE_1067"
+	
+	history={
+		owner = PAI
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = PAI
+
+	}
+	
+	provinces={
+		4727 
+	}
+	manpower=102
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

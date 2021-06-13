@@ -1,0 +1,199 @@
+ideas = {
+
+	hidden_ideas = {
+
+		continuous_naval_production = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.2
+			}
+		}
+
+
+		continuous_air_production = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				cv_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				jet_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				cv_CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				cv_nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				rocket_interceptor_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				jet_tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				jet_strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+				guided_missile_equipment = {
+					instant = yes
+					build_cost_ic = -0.20
+				}
+			}		
+		}
+	}
+	country = {
+		idea_weapons_for_the_resistance = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = chi_war_of_resistance3
+			
+			modifier = {
+				resistance_growth_on_our_occupied_states = 0.1 
+				resistance_damage_to_garrison_on_our_occupied_states = 0.25 
+			}
+		}
+		# from decision
+		socialist_education = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = equality
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				equality_drift = 0.1
+				research_speed_factor = 0.035
+			}
+		}
+		# from decision
+		paramilitary_training = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = glory
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				glory_drift = 0.1
+				experience_gain_army = 0.1
+			}
+		}
+		# from decision
+		nation_building = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = liberty
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				liberty_drift = 0.1
+				stability_factor = 0.1
+			}
+		}
+		
+		military_parade = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = order
+			}
+
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+			modifier = {
+				order_drift = 0.1
+				mobilization_speed = 0.15
+			}
+		}
+	}	
+}

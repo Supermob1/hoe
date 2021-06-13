@@ -1,0 +1,25 @@
+
+state={
+	id=303
+	name="STATE_303"
+	resources={
+		oil=18.000
+	}
+
+	history={
+		owner = VCP
+		add_core_of = VCP
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		2156 2212 2226 5162 5190 8199 10970 12969 12983 
+	}
+	manpower=695900
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

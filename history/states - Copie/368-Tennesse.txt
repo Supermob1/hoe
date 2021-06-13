@@ -1,0 +1,26 @@
+
+state={
+	id=368
+	name="STATE_368"
+	resources={
+		steel=112.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = USA
+		#add_core_of = NCR
+
+	}
+
+	provinces={
+		913 7791 8014 
+	}
+	manpower=32303
+	buildings_max_level_factor=1.000
+	state_category=city
+}

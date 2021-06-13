@@ -1,0 +1,45 @@
+﻿capital = 155
+
+
+
+set_research_slots = 3
+
+set_technology = {
+
+}
+set_cosmetic_tag = HUN_AUS
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Joseph Johann"
+	desc = ""
+	picture = "Portrait_HUN_Johann.dds"
+	expire = "1847.1.13"
+	ideology = dukedom
+	traits = {
+	
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Leopold"
+	desc = ""
+	picture = "Portrait_HUN_Leopold.dds"
+	expire = "1795.6.14"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

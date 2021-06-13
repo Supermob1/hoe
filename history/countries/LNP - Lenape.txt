@@ -1,0 +1,82 @@
+﻿capital = 1010
+
+oob = "LNP_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_popularities = {
+    glory = 0
+    equality = 20
+    liberty = 0
+    order = 80
+}
+
+set_politics = {
+    ruling_party = order
+    last_election = "1790.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+create_country_leader = {
+	name = "Koquethagechton"
+	desc = ""
+	#picture = "Portrait_LNP_Koquethagechton.dds"
+	ideology = tribal_kingdom
+	traits = {
+		
+	}
+}
+1778.1.1 = {
+	create_country_leader = {
+		name = "Gelelemend"
+		desc = ""
+		#picture = "Portrait_LNP_Gelelemend.dds"
+		ideology = tribal_kingdom
+		traits = {
+			
+		}
+	}
+}
+set_country_flag = leader2_Hopocan
+create_country_leader = {
+	name = "Konieschquanoheel"
+	desc = "POLITICS_Hopocan_DESC"
+	picture = "Portrait_LNP_Hopocan.dds"
+	expire = "1818.1.1"
+	ideology = tribalism
+	traits = {
+		
+	}
+}
+create_corps_commander = {
+	name = "Konieschquanoheel"
+	picture = "Portrait_LNP_Hopocan.dds"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Gelelemend"
+	#picture = "Portrait_LNP_Koquethagechton.dds"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Woapalanne"
+	#picture = "Portrait_LNP_Woapalanne.dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Buckongahelas"
+	#picture = "Portrait_LNP_Buckongahelas.dds"
+	traits = { }
+	skill = 2
+}

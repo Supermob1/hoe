@@ -1,0 +1,23 @@
+
+state={
+	id=875
+	name="STATE_875"
+	manpower = 660000
+	
+	state_category = rural
+	
+
+	history={
+		owner = SHW
+		add_core_of = SHW
+		buildings = {
+			infrastructure = 2
+		
+		}
+		
+	}
+
+	provinces={
+		8062 4995 12812 12757 10775 8036 12714
+	}
+}

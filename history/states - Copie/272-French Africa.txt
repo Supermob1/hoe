@@ -1,0 +1,22 @@
+
+state={
+	id=272
+	name="STATE_272"
+	manpower = 182000
+	resources={
+		steel=4
+	}
+	
+	state_category = pastoral
+
+	history={
+		owner = UNC #UNC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		2100 4948 7972 8015 12710 12834 
+	}
+}

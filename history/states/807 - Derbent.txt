@@ -1,0 +1,20 @@
+state={
+	id=807
+	name="STATE_807"
+
+	history={
+		owner = TRK
+		add_core_of = TRK
+		victory_points = {
+		4458 1 }
+		victory_points = {
+		4545 2 }
+	}
+
+	provinces={
+		 4458 7495 4545
+	}
+	manpower= 517710
+	buildings_max_level_factor=1.000
+	state_category=town
+}

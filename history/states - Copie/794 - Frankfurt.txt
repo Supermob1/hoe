@@ -1,0 +1,18 @@
+
+state={
+	id=794
+	name="STATE_794"
+	manpower = 186780
+	
+	state_category = city
+	history={
+		owner = UNC #FRK
+		#add_core_of = FRK
+		victory_points = {
+			6488 20.0 
+		}
+	}
+	provinces={
+		6488
+	}
+}

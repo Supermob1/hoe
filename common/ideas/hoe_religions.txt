@@ -1,0 +1,1196 @@
+ideas = {
+	
+	country = {
+	
+		religion_anabaptist = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_anabaptist
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_anglican = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_anglican
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_armenian = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_armenian
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_assyrian = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_assyrian
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_atua = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_atua
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_aztec = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_aztec
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_babylonian = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_babylonian
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_baptist = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_baptist
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_bon = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_bon
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_calvinism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_calvinism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_carthaginian = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_carthaginian
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_catholic = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_catholic
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_celtic = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_celtic
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_confucianism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_confucianism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_deism= {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_deism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_druze = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_druze
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_fetishist = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_fetishist
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_freemason = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_freemason
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_germanic = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_germanic
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_hellenic = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_hellenic
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_promethian = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_promethian
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_hinduism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_hinduism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_hussite = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_hussite
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_ibadi = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_ibadi
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_incan = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_incan
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_jain = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_jain
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_judaism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_judaism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_karaite = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_karaite
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_kharijite = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_kharijite
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_khemitic = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_khemitic
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_wuism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_korean_shamanism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_lutherism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_lutherism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_mahayana = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_mahayana
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_manchu = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_manchu
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_mandaeism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_mandaeism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_manichaeism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_manichaeism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_mayan = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_mayan
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_miaphysite = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_miaphysite
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_neterism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_neterism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_norse = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_norse
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_orthodox = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_orthodox
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_puritan = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_puritan
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_quaker = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_quaker
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_romuva = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_romuva
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_ryukyu = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_ryukyu
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_samaritanism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_samaritanism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_satanism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_satanism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_shenist = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_shenist
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_shia = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_shia
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_shinto = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_shinto
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_sikhism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_sikhism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_slavic = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_slavic
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_stoneism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_stoneism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_sunni = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_sunni
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_suomensko = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_suomensko
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_taoism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_taoism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_tengri = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_tengri
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_therevada = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_therevada
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_totemist = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_totemist
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_vajrayana = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_vajrayana
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_wahhabism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_wahhabism
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_waldensian = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_waldensian
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_west_african = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_west_african
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_yazidi = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_yazidi
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_zoroastrian = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_zoroastrian
+			
+			modifier = {
+				
+				
+			}
+		}
+		religion_zunist = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_religion_zunist
+			
+			modifier = {
+				
+				
+			}
+		}
+	}
+	
+	
+}

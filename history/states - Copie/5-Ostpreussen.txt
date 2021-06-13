@@ -1,0 +1,28 @@
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
+		owner = UNC #PRU
+		victory_points = {
+			6332 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			
+			air_base = 6
+
+		}
+		#add_core_of = PRU
+
+	}
+
+	provinces={
+		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
+	}
+	manpower=1422263
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

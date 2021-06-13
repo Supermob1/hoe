@@ -1,0 +1,37 @@
+﻿capital = 888
+oob = "UNC_1790"
+
+set_research_slots = 0
+
+set_technology = {
+}
+
+set_popularities = {
+	glory = 0
+	equality = 100
+	liberty = 0
+	order = 0
+}
+set_politics = {
+	
+	ruling_party = equality
+	last_election = "1790.2.16"
+	election_frequency = 800
+	elections_allowed = no
+}
+
+set_convoys = 0
+
+
+
+
+create_country_leader = {
+	name = "Tribal Leaders and Local Monarchs"
+	desc = ""
+	picture = "Portrait_UNC_Nothing.dds"
+	expire = "1905.1.1"
+	ideology = tribalism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,262 @@
+spriteTypes = {	
+
+
+	spriteType = {
+		name = "GFX_idea_antoine_barnave"
+		texturefile = "gfx/interface/ideas/idea_antoine_barnave.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_louis_philippe"
+		texturefile = "gfx/interface/ideas/idea_louis_philippe.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_georges_cadoudal"
+		texturefile = "gfx/interface/ideas/idea_georges_cadoudal.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_emmanuel_sieyes"
+		texturefile = "gfx/interface/ideas/idea_emmanuel_sieyes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jacques_hebert"
+		texturefile = "gfx/interface/ideas/idea_jacques_hebert.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_cardinal_rohan"
+		texturefile = "gfx/interface/ideas/idea_cardinal_rohan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_etienne_letourneur"
+		texturefile = "gfx/interface/ideas/idea_etienne_letourneur.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_john_beckley"
+		texturefile = "gfx/interface/ideas/idea_john_beckley.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_alexander_hamilton"
+		texturefile = "gfx/interface/ideas/idea_alexander_hamilton.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_samuel_seabury"
+		texturefile = "gfx/interface/ideas/idea_samuel_seabury.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lewis_nicola"
+		texturefile = "gfx/interface/ideas/idea_lewis_nicola.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_josiah_warren"
+		texturefile = "gfx/interface/ideas/idea_josiah_warren.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_francis_asbury"
+		texturefile = "gfx/interface/ideas/idea_francis_asbury.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_henry_jackson"
+		texturefile = "gfx/interface/ideas/idea_henry_jackson.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_penal_colony"
+		texturefile = "gfx/interface/ideas/idea_penal_colony.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_food_shortages"
+		texturefile = "gfx/interface/ideas/idea_food_shortages.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diseased_locals"
+		texturefile = "gfx/interface/ideas/idea_diseased_locals.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_isolated_AST"
+		texturefile = "gfx/interface/ideas/idea_isolated_ast.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_norfolk_island"
+		texturefile = "gfx/interface/goals/focus_AST_norfolk.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AST_boomerang"
+		texturefile = "gfx/interface/goals/focus_AST_boomerang.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AST_pemulwuy"
+		texturefile = "gfx/interface/goals/focus_AST_pemulwuy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AST_southshead"
+		texturefile = "gfx/interface/goals/focus_AST_southshead.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_AUS_austrian_diplomacy"
+		texturefile = "gfx/interface/goals/focus_AUS_austrian_diplomacy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_HRE_ambitions"
+		texturefile = "gfx/interface/goals/focus_HRE_ambitions.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_brabant"
+		texturefile = "gfx/interface/goals/focus_AUS_brabant.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_dutch_friend"
+		texturefile = "gfx/interface/goals/focus_AUS_dutch_friend.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_dutch_foe"
+		texturefile = "gfx/interface/goals/focus_AUS_dutch_foe.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_dutch_habsburg"
+		texturefile = "gfx/interface/goals/focus_AUS_dutch_habsburg.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_schleswig"
+		texturefile = "gfx/interface/goals/focus_AUS_schleswig.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_swiss"
+		texturefile = "gfx/interface/goals/focus_AUS_swiss.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_spanish"
+		texturefile = "gfx/interface/goals/focus_AUS_spanish.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_comte"
+		texturefile = "gfx/interface/goals/focus_AUS_comte.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_lorraine"
+		texturefile = "gfx/interface/goals/focus_AUS_lorraine.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_italy"
+		texturefile = "gfx/interface/goals/focus_AUS_italy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_milan"
+		texturefile = "gfx/interface/goals/focus_AUS_milan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_venice"
+		texturefile = "gfx/interface/goals/focus_AUS_venice.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_habsburg_italy"
+		texturefile = "gfx/interface/goals/focus_AUS_habsburg_italy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_two_sicily"
+		texturefile = "gfx/interface/goals/focus_AUS_two_sicily.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_papal"
+		texturefile = "gfx/interface/goals/focus_AUS_papal.dds"
+	}
+	SpriteType = { 
+		name = "GFX_AUS_shadow_kingdom"
+		texturefile = "gfx/interface/goals/focus_AUS_shadow_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HRE_member"
+		texturefile = "gfx/interface/ideas/HRE_member.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HRE_elector"
+		texturefile = "gfx/interface/ideas/HRE_elector.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HRE_emperor"
+		texturefile = "gfx/interface/ideas/HRE_emperor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HRE_free_city"
+		texturefile = "gfx/interface/ideas/HRE_free_city.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14		
+	}
+	SpriteType = { 
+		name = "GFX_goal_russian_officers"
+		texturefile = "gfx/interface/goals/goal_russian_officers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_natives_tomohawk"
+		texturefile = "gfx/interface/goals/goal_natives_tomohawk.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_keep_shelekov"
+		texturefile = "gfx/interface/goals/goal_keep_shelekov.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_retire_shelekhov"
+		texturefile = "gfx/interface/goals/goal_retire_shelekhov.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_koniag_good"
+		texturefile = "gfx/interface/goals/goal_koniag_good.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_koniag_bad"
+		texturefile = "gfx/interface/goals/goal_koniag_bad.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_sunny_alaska"
+		texturefile = "gfx/interface/goals/goal_sunny_alaska.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_russian_eagle"
+		texturefile = "gfx/interface/goals/goal_russian_eagle.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_orthodox_cross"
+		texturefile = "gfx/interface/goals/goal_orthodox_cross.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_russia_defeated"
+		texturefile = "gfx/interface/goals/goal_russia_defeated.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_help_irkutsk"
+		texturefile = "gfx/interface/goals/goal_help_irkutsk.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_ban_irkutsk"
+		texturefile = "gfx/interface/goals/goal_ban_irkutsk.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_lady_shelikhov"
+		texturefile = "gfx/interface/goals/goal_lady_shelikhov.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_natives"
+		texturefile = "gfx/interface/goals/goal_natives.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_native_american"
+		texturefile = "gfx/interface/goals/goal_native_american.dds"
+	}
+	SpriteType = { 
+		name = "GFX_goal_russian_natives"
+		texturefile = "gfx/interface/goals/goal_russian_natives.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ALA_bad_trade"
+		texturefile = "gfx/interface/ideas/ALA_bad_trade.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_ALA_religious_split"
+		texturefile = "gfx/interface/ideas/ALA_religious_split.dds"
+	}
+	spriteType = {
+		name = "GFX_plate"
+		texturefile = "gfx/interface/ideas/plate.dds"
+	}
+	
+}

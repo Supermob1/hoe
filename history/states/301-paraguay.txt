@@ -1,0 +1,22 @@
+
+state={
+	id=301
+	name="STATE_301"
+	manpower = 98900
+	
+	state_category = town
+	
+	history={
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		2152 2173 2194 11023 12901 
+	}
+	
+}

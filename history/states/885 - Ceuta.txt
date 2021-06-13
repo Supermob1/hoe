@@ -1,0 +1,25 @@
+state= {
+	id=885
+	name="STATE_885"
+	manpower = 9152
+	
+	state_category = enclave
+	
+	
+	history=
+	{
+		owner = SPR
+		victory_points = {
+			9945 5 
+		}
+		buildings = {
+			infrastructure = 4
+			
+		}
+		add_claim_by = MRC
+	}
+
+	provinces=
+	{
+	9945}
+}

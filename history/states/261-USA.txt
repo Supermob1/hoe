@@ -1,0 +1,32 @@
+
+state={
+	id=261
+	name="STATE_261"
+	resources={
+		steel=48.000
+		aluminium=16.000
+	}
+
+	history={
+		owner = LNP
+		add_core_of = PNS
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = LNP
+		victory_points = {
+			6855 5 
+		}
+
+	}
+
+	provinces={
+		827 971 3829 3853 6855 6874 7528 9760 9808 
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

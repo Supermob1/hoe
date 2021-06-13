@@ -1,0 +1,41 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			USA = {
+				set_variable = {
+					var = upper_class_loyalty
+					value = 25
+				}
+				
+				set_variable = {
+					var = upper_class_influence
+					value = 75
+				}
+				update_upper_class = yes
+				
+				set_variable = {
+					var = middle_class_loyalty
+					value = 50
+				}
+				
+				set_variable = {
+					var = middle_class_influence
+					value = 20
+				}
+				update_middle_class = yes
+				
+				set_variable = {
+					var = lower_class_loyalty
+					value = 50
+				}
+				
+				set_variable = {
+					var = lower_class_influence
+					value = 5
+				}
+				update_lower_class = yes
+			}
+		}
+	}
+
+}

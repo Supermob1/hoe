@@ -1,0 +1,24 @@
+
+state={
+	id=874
+	name="STATE_874"
+	manpower = 68000
+	
+	state_category = rural
+	
+
+	history={
+		owner = HDJ
+		add_core_of = HDJ
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+		}
+		victory_points = {
+		13227 1 }
+	}
+
+	provinces={
+		13227 13228
+	}
+}

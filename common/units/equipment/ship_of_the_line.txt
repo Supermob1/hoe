@@ -1,0 +1,1278 @@
+equipments = {
+
+	carrack = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	carrack_1 = {
+		year = 1780
+
+		archetype = carrack
+		priority = 60
+
+	}
+	galleys = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	galleys_1 = {
+		year = 1780
+
+		archetype = galleys
+		priority = 60
+
+	}
+	galleys_2 = {
+		year = 1780
+
+		archetype = galleys
+		priority = 60
+
+	}
+	
+	galleon = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	galleon_1 = {
+		year = 1780
+
+		archetype = galleon
+		priority = 60
+
+	}
+	fourth_ship_of_the_line = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	fourth_ship_of_the_line_1 = {
+		year = 1780
+
+		archetype = fourth_ship_of_the_line
+		priority = 60
+
+	}
+	galliot = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	galliot_1 = {
+		year = 1780
+
+		archetype = galliot
+		priority = 60
+
+	}
+	catamaran = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	catamaran_1 = {
+		year = 1780
+
+		archetype = catamaran
+		priority = 60
+
+	}
+	catamaran_2 = {
+		year = 1780
+
+		archetype = catamaran
+		priority = 60
+
+	}
+	third_ship_of_the_line = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	third_ship_of_the_line_1 = {
+		year = 1780
+
+		archetype = third_ship_of_the_line
+		priority = 60
+
+	}
+	second_ship_of_the_line = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	second_ship_of_the_line_1 = {
+		year = 1780
+
+		archetype = second_ship_of_the_line
+		priority = 60
+
+	}
+	first_ship_of_the_line = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	first_ship_of_the_line_1 = {
+		year = 1780
+
+		archetype = first_ship_of_the_line
+		priority = 60
+
+	}
+	supreme_ship_of_the_line = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	supreme_ship_of_the_line_1 = {
+		year = 1780
+
+		archetype = supreme_ship_of_the_line
+		priority = 60
+
+	}
+	razee_ship_of_the_line = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	razee_ship_of_the_line_1 = {
+		year = 1780
+
+		archetype = razee_ship_of_the_line
+		priority = 60
+
+	}
+	steam_warship = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	steam_warship_1 = {
+		year = 1780
+
+		archetype = steam_warship
+		priority = 60
+
+	}
+	frigate = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	frigate_1 = {
+		year = 1780
+
+		archetype = frigate
+		priority = 60
+
+	}
+	frigate_2 = {
+		year = 1780
+
+		archetype = frigate
+		priority = 60
+
+	}
+	
+	heavy_frigate = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	heavy_frigate_1 = {
+		year = 1780
+
+		archetype = heavy_frigate
+		priority = 60
+
+	}
+	super_heavy_frigate = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	super_heavy_frigate_1 = {
+		year = 1780
+
+		archetype = super_heavy_frigate
+		priority = 60
+
+	}
+	paddle_frigate = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	paddle_frigate_1 = {
+		year = 1780
+
+		archetype = paddle_frigate
+		priority = 60
+
+	}
+	corvette = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	corvette_1 = {
+		year = 1780
+
+		archetype = corvette
+		priority = 60
+
+	}
+	corvette_2 = {
+		year = 1780
+
+		archetype = corvette
+		priority = 60
+
+	}
+	sloop = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	sloop_1 = {
+		year = 1780
+
+		archetype = sloop
+		priority = 60
+
+	}
+	sloop_2 = {
+		year = 1780
+
+		archetype = sloop
+		priority = 60
+
+	}
+	sloop_3 = {
+		year = 1780
+
+		archetype = sloop
+		priority = 60
+
+	}
+	sloop_4 = {
+		year = 1780
+
+		archetype = sloop
+		priority = 60
+
+	}
+	steam_sloop = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	steam_sloop_1 = {
+		year = 1780
+
+		archetype = steam_sloop
+		priority = 60
+
+	}
+	brig = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	brig_1 = {
+		year = 1780
+
+		archetype = brig
+		priority = 60
+
+	}
+	brig_2 = {
+		year = 1780
+
+		archetype = brig
+		priority = 60
+
+	}
+	schooner = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	schooner_1 = {
+		year = 1780
+
+		archetype = schooner
+		priority = 60
+
+	}
+	schooner_2 = {
+		year = 1780
+
+		archetype = schooner
+		priority = 60
+
+	}
+	cutter = {
+		year = 1700
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			
+		}
+
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 10
+		naval_speed = 5
+		reliability = 0.50
+		
+		naval_range = 1500
+		
+		max_strength = 150
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+	cutter_1 = {
+		year = 1780
+
+		archetype = cutter
+		priority = 60
+
+	}
+}

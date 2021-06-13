@@ -1,0 +1,24 @@
+
+state={
+	id=512
+	name="STATE_512"
+	resources={
+		oil=6.000
+	}
+
+	history={
+		owner = UNC
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1555 1568 1596 1624 1639 2149 2169 2199 2215 4573 4602 4643 5173 5184 5219 7550 7621 8161 8176 8192 8208 8215 10375 10390 10402 10418 10935 10953 10981 10992 11005 11009 11021 12306 12321 12349 12394 12409 12494 12946 12952 12970 12982 12998 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,23 @@
+state={
+	id=982
+	name="STATE_982"
+	
+	history={
+		owner = UNC #TUR
+		buildings = {
+			infrastructure = 4
+
+		}
+		#add_claim_by = GRE
+		#add_claim_by = BUL
+		#add_core_of = THR
+
+	}
+	
+	provinces={
+		878 893 11774 11905 
+	}
+	manpower=212250
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

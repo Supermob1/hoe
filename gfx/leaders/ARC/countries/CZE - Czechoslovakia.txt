@@ -1,0 +1,64 @@
+﻿capital = 9
+
+oob = "CZE_1790"
+
+set_technology = {
+	
+}
+add_ideas = {
+	HRE_elector
+	HRE_member
+	
+	}
+set_research_slots = 3
+set_cosmetic_tag = CZE_AUS
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 20
+		}
+
+		conservatist = {
+			popularity = 10
+		}
+		
+		monarchist = {
+			popularity = 70
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Joseph II"
+	desc = "POLITICS_Joseph_II_DESC"
+	picture = "Portrait_CZE_Joseph_II.dds"
+	expire = "1790.20.2"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,63 @@
+﻿capital = 500
+
+
+oob = "BRA_1790"
+
+# Starting tech
+set_technology = {
+	
+}
+set_cosmetic_tag = BRA_POR
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 0
+		}
+
+		conservatist = {
+			popularity = 60
+		}
+		
+		monarchist = {
+			popularity = 40
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservatist
+	last_election = "1934.7.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "José Luís de Castro"
+	desc = "POLITICS_José_Castro_DESC"
+	picture = "Portrait_BRA_Castro.dds"
+	expire = "1819.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}
+
+set_convoys = 40

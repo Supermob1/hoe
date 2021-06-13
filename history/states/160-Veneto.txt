@@ -1,0 +1,36 @@
+
+state={
+	id=160
+	name="STATE_160"
+
+	history={
+		owner = VEN
+		victory_points = {
+			6626 1 
+		}
+		victory_points = {
+			11584 10 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 1
+			11584 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = VEN
+
+	}
+
+	provinces={
+		656 3604 11584 
+	}
+	manpower=1102605
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

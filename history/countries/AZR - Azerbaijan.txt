@@ -1,0 +1,37 @@
+﻿capital = 229 #Baku
+
+oob = "AZR_1790"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+
+}
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 10
+	order = 90
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1790.2.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Qasim Khan"
+	desc = ""
+	picture = "Portrait_AZR_Generic_land_1.dds"
+	expire = "1953.3.1"
+	ideology = khanate
+	traits = {
+		
+	}
+}
+
+
+

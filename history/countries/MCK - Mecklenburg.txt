@@ -1,0 +1,41 @@
+﻿capital = 61
+
+oob = "MCK_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+add_ideas = {
+	HRE_member
+	}
+
+set_research_slots = 2
+
+
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	ruling_party = order
+	last_election = "1789.7.30"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Frederick Francis I"
+	desc = "POLITICS_Frederick_Franics_DESC"
+	picture = "Portrait_MCK_Frederick_Francis.dds"
+	expire = "1947.1.1"
+	ideology = dukedom
+	traits = {
+		
+	}
+}
+
+
+}

@@ -1,0 +1,19 @@
+state={
+	id=698
+	name="STATE_698"
+	manpower = 23556
+	
+	state_category = small_island
+	
+	history={
+		owner = POR
+		add_core_of = POR
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	
+	provinces={
+		1751 
+	}
+}

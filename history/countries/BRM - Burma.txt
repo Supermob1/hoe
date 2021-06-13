@@ -1,0 +1,38 @@
+﻿capital = 288
+
+oob = "BRM_1790"
+
+set_research_slots = 1
+
+set_technology = {
+	
+}
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1790.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_convoys = 50
+
+
+
+
+create_country_leader = {
+	name = "Badon Min"
+	desc = ""
+	picture = "Portrait_BRM_Badon.dds"
+	expire = "1805.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

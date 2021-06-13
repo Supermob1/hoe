@@ -1,0 +1,41 @@
+﻿capital = 363
+
+oob = "NCR_1790"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+
+
+}
+
+set_convoys = 400
+
+
+
+set_popularities = {
+	liberty = 100
+	order = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Alexander Martin"
+	desc = "POLITICS_ALEXANDER_MARTIN_DESC"
+	picture = "Portrait_NCR_Martin.dds"
+	expire = "1947.1.1"
+	ideology = democrat_republican
+	traits = {
+		
+	}
+}

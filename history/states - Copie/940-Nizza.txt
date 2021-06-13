@@ -1,0 +1,28 @@
+state={
+	id=940
+	name="STATE_940"
+	
+	history={
+		owner = UNC #SIE
+		#add_core_of = SIE
+		victory_points = {
+			9909 5 
+		}
+		buildings = {
+			infrastructure = 4
+			9909 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		3959 9909 
+	}
+	manpower=50400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

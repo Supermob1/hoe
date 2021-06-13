@@ -1,0 +1,19 @@
+
+state={
+	id=765
+	name="STATE_765"
+	manpower = 2300
+	
+	state_category = rural
+
+	history={
+		owner = UNC #PLI
+		#add_core_of = PLI
+		#add_core_of = LIT
+		
+	}
+
+	provinces={
+		6371 6220 9241
+	}
+}

@@ -1,0 +1,56 @@
+﻿capital = 1039
+oob = "SNC_1790"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Sayenqueraghta"
+	desc = ""
+	picture = "Portrait_SNC_Sayenqueraghta.dds"
+	ideology = absolutist
+
+}
+create_corps_commander = {
+	name = "Sayenqueraghta"
+	#picture = ".dds"
+	traits = { }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Little Beard"
+	#picture = ".dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Guyasuta"
+	#picture = ".dds"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Farmer's Brother"
+	#picture = ".dds"
+	traits = { }
+	skill = 2
+}
+
+set_country_flag = leader2_Sagoyewatha

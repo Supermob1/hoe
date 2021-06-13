@@ -1,0 +1,22 @@
+
+state={
+	id=665
+	name="STATE_665"
+
+	history={
+		owner = UNC #TUN
+		#add_core_of = TUN
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1105 7005 10026 11957 12000 13179 
+	}
+	manpower=407536
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

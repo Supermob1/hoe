@@ -1,0 +1,6 @@
+#IndianTribes
+
+graphical_culture = southamerican_2d
+graphical_culture_2d = southamerican_2d
+
+color = { 118 115 236}

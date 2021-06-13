@@ -1,0 +1,32 @@
+﻿capital = 814
+
+oob = "BUK_1790"
+
+set_technology = {
+
+}
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1780.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Mir Masum Shah Murad"
+	desc = ""
+	picture = "gfx/leaders/MRC/Portrait_MRC_Generic1.dds"
+	expire = "1965.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

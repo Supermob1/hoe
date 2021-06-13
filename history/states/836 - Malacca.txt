@@ -1,0 +1,22 @@
+state= {
+	id=836
+	name="STATE_836"
+	manpower = 597080
+	
+	state_category = town
+
+	history= {
+		owner = INS
+		add_claim_by = POR
+		
+		victory_points = {
+			13221 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		13221
+	}
+}

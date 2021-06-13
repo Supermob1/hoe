@@ -1,0 +1,24 @@
+
+state={
+	id=1046
+	name="STATE_1046"
+
+	history={
+		owner = UNC
+		buildings = {
+			infrastructure = 1
+			3691 = {
+				naval_base = 1
+
+			}
+
+		}
+	}
+
+	provinces={
+		1712 3208 3691 7364 7813 12147 13166 13186 
+	}
+	manpower=114
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

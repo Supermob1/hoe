@@ -1,0 +1,23 @@
+
+state={
+	id=66
+	name="STATE_66"
+
+	history={
+		owner = UNC #PRU
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+
+		}
+		#add_core_of = PRU
+
+	}
+
+	provinces={
+		334 389 9263 11343 
+	}
+	manpower=420120
+	buildings_max_level_factor=1.000
+	state_category=town
+}

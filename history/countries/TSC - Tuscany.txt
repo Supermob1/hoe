@@ -1,0 +1,39 @@
+﻿capital = 162
+
+oob = "TSC_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 2
+set_convoys = 0
+
+
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Leopold II"
+	desc = "POLITICS_Leopold_II_DESC"
+	picture = "Portrait_TSC_Leopold_II.dds"
+	expire = "1947.1.1"
+	ideology = dukedom
+	traits = {
+		
+	}
+}
+
+}

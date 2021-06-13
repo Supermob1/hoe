@@ -1,0 +1,32 @@
+﻿capital = 230 #Yerevan
+
+oob = "ARM_1790"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+
+}
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 25
+	order = 75
+}
+
+set_politics = {
+	ruling_party = order
+	last_election = "1790.2.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+
+state={
+	id=381
+	name="STATE_381"
+
+	history={
+		owner = SHO
+		add_core_of = SHO
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1815 3869 7688 10640 10711 12561 12633 12651 
+	}
+	manpower=32
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

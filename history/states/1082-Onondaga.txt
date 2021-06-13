@@ -1,0 +1,21 @@
+state={
+	id=1082
+	name="STATE_1082"
+	
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 8
+
+		}
+
+	}
+	
+	provinces={
+		3702 3747 6717 6795 
+	}
+	manpower=520
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

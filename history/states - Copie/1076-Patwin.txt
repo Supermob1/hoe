@@ -1,0 +1,22 @@
+
+state={
+	id=1076
+	name="STATE_1076"
+
+	history={
+		owner = WNT
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = WNT
+
+	}
+
+	provinces={
+		6745 9697 9713 11658 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

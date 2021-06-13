@@ -1,0 +1,76 @@
+defined_text = {
+	name = fundedorbanned_1
+	text = {
+		trigger = {
+			has_country_flag = banned_scientist_1
+			
+		}
+		localization_key = banned_scientist
+	}
+	
+	text = {
+		trigger = {
+			has_country_flag = funded_scientist_1
+		}
+		localization_key = funded_scientist
+	}
+	text = {
+		trigger = {
+			
+		}
+		localization_key = empty_scientist
+	}
+	
+	
+	
+}
+defined_text = {
+	name = fundedorbanned_2
+	text = {
+		trigger = {
+			has_country_flag = banned_scientist_2
+			
+		}
+		localization_key = banned_scientist
+	}
+	
+	text = {
+		trigger = {
+			has_country_flag = funded_scientist_2
+		}
+		localization_key = funded_scientist
+	}
+	text = {
+		trigger = {
+			
+		}
+		localization_key = empty_scientist
+	}
+	
+	
+}
+defined_text = {
+	name = fundedorbanned_3
+	text = {
+		trigger = {
+			has_country_flag = banned_scientist_3
+			
+		}
+		localization_key = banned_scientist
+	}
+	
+	text = {
+		trigger = {
+			has_country_flag = funded_scientist_3
+		}
+		localization_key = funded_scientist
+	}
+	text = {
+		trigger = {
+			
+		}
+		localization_key = empty_scientist
+	}
+	
+	
+}

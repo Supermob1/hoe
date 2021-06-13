@@ -1,0 +1,40 @@
+﻿capital = 2
+
+oob = "PAP_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 2
+set_convoys = 0
+
+set_popularities = {
+	liberty = 40
+	equality = 0
+	glory = 0
+	order = 60
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Pope Pius VI"
+	desc = "POLITICS_Pius_VI_DESC"
+	picture = "Portrait_PAP_Pius_VI.dds"
+	expire = "1947.1.1"
+	ideology = papal
+	traits = {
+		
+	}
+}
+
+}

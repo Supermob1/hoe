@@ -1,0 +1,31 @@
+
+state={
+	id=896
+	name="STATE_896"
+	manpower = 672132
+	
+	state_category = large_city
+
+	history={
+		owner = PRU
+		victory_points = {
+			6521 30 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 1
+			anti_air_building = 2
+			air_base = 2
+
+		}
+		add_core_of = PRU
+		
+		
+	}
+
+	provinces={
+		6521
+	}
+	
+}

@@ -1,0 +1,32 @@
+state=
+{
+	id=840
+	name="STATE_840"
+	manpower = 797206
+	
+	state_category = rural
+
+	resources={
+		rubber=116
+	}
+
+	history={
+		owner = UNC #INS
+		victory_points = { 7260 5 }
+		buildings = {
+			infrastructure = 3
+			10201 = {
+				naval_base = 2
+			}
+			7260 = {
+				naval_base = 1
+				coastal_bunker = 2
+			}
+			}
+
+	}
+	
+	provinces={
+		10201 7344 7260
+	}
+}

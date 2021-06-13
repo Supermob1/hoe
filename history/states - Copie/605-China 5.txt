@@ -1,0 +1,21 @@
+
+state={
+	id=605
+	name="STATE_605"
+
+	history={
+		owner = VNZ
+		add_core_of = VNZ
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		4526 4942 8024 8113 10855 
+	}
+	manpower=15884810
+	buildings_max_level_factor=1.000
+	state_category=city
+}

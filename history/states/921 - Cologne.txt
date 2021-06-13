@@ -1,0 +1,21 @@
+
+state={
+	id=921
+	name="STATE_921"
+
+	history={
+		owner = KOL
+		add_core_of = KOL
+		victory_points = {
+			587 15 
+		}
+
+	}
+
+	provinces={
+		587 13217 
+	}
+	manpower=367200
+	buildings_max_level_factor=1.000
+	state_category=city
+}

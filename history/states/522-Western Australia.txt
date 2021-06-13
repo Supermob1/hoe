@@ -1,0 +1,19 @@
+
+state={
+	id=522
+	name="STATE_522"
+	
+	manpower = 3672
+	state_category = rural
+
+	history={
+		owner = UNC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1652 2157 4630 5175 7453 8130 8228 8243 10983 
+	}
+}

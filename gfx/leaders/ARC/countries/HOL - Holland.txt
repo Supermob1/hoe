@@ -1,0 +1,85 @@
+﻿capital = 7
+
+oob = "HOL_1790"
+
+set_research_slots = 3
+
+
+set_technology = {
+	
+}
+
+# DIPLOMACY
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = INS
+		autonomous_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_colony
+	}
+	else = {
+		puppet = INS
+		puppet = SAF
+	}
+}
+
+
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 30
+		}
+
+		conservatist = {
+			popularity = 30
+		}
+		
+		monarchist = {
+			popularity = 40
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "1770.4.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 500
+
+
+create_country_leader = {
+	name = "William V"
+	desc = "POLITICS_William_V_DESC"
+	picture = "Portrait_HOL_William_V.dds"
+	expire = "1965.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

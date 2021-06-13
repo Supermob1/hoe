@@ -1,0 +1,46 @@
+﻿capital = 784
+
+oob = "ULM_1790"
+
+#starting tech 
+set_technology = {
+
+}
+add_ideas = {
+	HRE_free_city
+	
+
+	HRE_member
+	
+	}
+
+set_research_slots = 2
+set_convoys = 0
+
+set_cosmetic_tag = ULM_HRE
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 100
+	order = 0
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 12
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Ulm City Council"
+	desc = "POLITICS_City_Council_Ulm_DESC"
+	picture = "Portrait_ULM_City_Council.dds"
+	expire = "1947.1.1"
+	ideology = oligarchic
+	traits = {
+		
+	}
+}
+
+}

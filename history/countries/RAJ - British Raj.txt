@@ -1,0 +1,50 @@
+﻿capital = 430
+
+oob = "RAJ_1790"
+
+# Starting tech
+set_technology = {
+	
+	
+}
+
+
+set_convoys = 20
+
+
+set_popularities = {
+	liberty = 100
+	order = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Earl Cornwallis"
+	desc = "POLITICS_Cornwallis_DESC"
+	picture = "gfx/leaders/RAJ/Portrait_RAJ_Cornwallis.dds"
+	expire = "1965.1.1"
+	ideology = captaincy
+	traits = {
+		
+	}
+}
+create_corps_commander = {
+	name = "Sir Samuel Auchmuty"
+	picture = "Portrait_RAJ_Auchmuty.dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "David Baird"
+	picture = "Portrait_RAJ_Baird.dds"
+	traits = { }
+	skill = 3
+}

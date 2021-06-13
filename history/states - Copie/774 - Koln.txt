@@ -1,0 +1,21 @@
+
+state={
+	id=774
+	name="STATE_774"
+
+	history={
+		owner = UNC #KOL
+		#add_core_of = KOL
+		victory_points = {
+			587 15 
+		}
+
+	}
+
+	provinces={
+		6622 11346 
+	}
+	manpower=267200
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,22 @@
+state={
+	id=587
+	name="STATE_587"
+
+	history={
+		owner = KIS
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KIS
+		add_core_of = KAZ
+		add_core_of = ORT
+	}
+
+	provinces={
+		475 642 3593 4523 7641 10262 11701 12163 12233 12474 13008 
+	}
+	manpower=127237
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

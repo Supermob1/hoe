@@ -1,0 +1,39 @@
+﻿capital = 1
+
+oob = "CRS_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+
+
+set_research_slots = 2
+set_convoys = 0
+
+set_popularities = {
+	liberty = 80	
+	glory = 20
+	equality = 0
+	order = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1786.4.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Pasquale Paoli"
+	desc = "POLITICS_Pasquale_Paoli_DESC"
+	picture = "Portrait_CRS_Pasquale_Paoli.dds"
+	expire = "1947.1.1"
+	ideology = republicanist
+	traits = {
+		
+	}
+}
+
+}

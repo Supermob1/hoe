@@ -1,0 +1,24 @@
+state=
+{
+	id=312
+	name="STATE_312"
+	manpower=125529
+	resources={
+
+		chromium=1
+
+	}
+	
+	state_category = town
+	history={
+		owner = GUA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = GUA
+
+	}
+	provinces={
+		2031 8017 12865
+	}
+}

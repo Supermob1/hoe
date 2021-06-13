@@ -1,0 +1,23 @@
+
+state={
+	id=660
+	name="STATE_660"
+	manpower = 885820
+	
+	state_category = wasteland
+	resources={
+		rubber=4
+	}
+	history={
+		owner = BRI
+		add_core_of = BRI
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1883 1974 1993 8078 9152 11108 12830 
+	}
+}

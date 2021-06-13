@@ -1,0 +1,23 @@
+
+state={
+	id=895
+	name="STATE_895"
+	manpower = 100
+	
+	state_category = tiny_island
+
+	history={
+		owner = UNC #AST
+		buildings = {
+			infrastructure = 1
+			
+		}
+		
+		
+	}
+
+	provinces={
+		13254
+	}
+	
+}

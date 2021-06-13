@@ -1,0 +1,19 @@
+state={
+	id=1095
+	name="STATE_1095"
+	provinces={
+		1836 4772 10709 12566 
+	}
+	history={
+		owner = HDA
+		add_core_of = HDA
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+	manpower=1040
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

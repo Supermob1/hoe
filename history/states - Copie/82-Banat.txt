@@ -1,0 +1,27 @@
+
+state={
+	id=82
+	name="STATE_82"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = UNC #UNC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		#add_core_of = AUS
+		#add_claim_by = TUR
+
+	}
+
+	provinces={
+		614 646 662 3614 3649 6643 9606 11592 11608 11787 
+	}
+	manpower=1224611
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

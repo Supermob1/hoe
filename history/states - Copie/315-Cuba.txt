@@ -1,0 +1,30 @@
+
+state={
+	id=315
+	name="STATE_315"
+	resources={
+		steel=3.000
+		chromium=90.000
+	}
+
+	history={
+		owner = CUB
+		add_core_of = CUB
+		buildings = {
+			infrastructure = 4
+			7622 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4600 7451 7622 10374 10498 
+	}
+	manpower=200440
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,27 @@
+state={
+	id=990
+	name="STATE_990"
+	
+	history={
+		owner = IRQ
+		victory_points = {
+			2089 1 
+		}
+		buildings = {
+			infrastructure = 5
+			2089 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = IRQ
+
+	}
+	provinces={
+		78 2004 2089 7977 12726 12879 
+	}
+	manpower=210254
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

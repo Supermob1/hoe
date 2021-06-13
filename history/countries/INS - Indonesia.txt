@@ -1,0 +1,37 @@
+﻿capital = 335 #Jakarta
+
+oob = "INS_1790"
+
+set_research_slots = 2
+
+# Starting tech
+
+set_technology = {
+	
+}
+
+set_convoys = 25
+set_popularities = {
+	liberty = 100
+	order = 0
+	equality = 0
+	glory = 0
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1790.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "William Arnold Alting"
+	desc = ""
+	picture = "Portrait_INS_Alting.dds"
+	expire = "1953.3.1"
+	ideology = oligarchic
+	traits = {
+		
+	}
+}
+set_cosmetic_tag = INS_HOL # Netherlands East Indies

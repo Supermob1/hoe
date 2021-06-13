@@ -1,0 +1,32 @@
+
+state={
+	id=56
+	name="STATE_56"
+
+	history={
+		owner = LUB
+		victory_points = {
+			241 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			dockyard = 2
+			241 = {
+				naval_base = 8
+
+			}
+			air_base = 1
+
+		}
+		add_core_of = LUB
+
+	}
+
+	provinces={
+		241 247 309 
+	}
+	manpower=228718
+	buildings_max_level_factor=1.000
+	state_category=city
+}

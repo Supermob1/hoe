@@ -1,0 +1,67 @@
+﻿capital = 111
+
+oob = "FIN_1790"
+
+set_research_slots = 3
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+set_convoys = 5
+
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 10
+		}
+
+		conservatist = {
+			popularity = 20
+		}
+		
+		monarchist = {
+			popularity = 60
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Georg Magnus Sprengtporten"
+	desc = "POLITICS_Georg_Magnus_DESC"
+	picture = "Portrait_FIN_Georg.dds"
+	expire = "1819.13.10"
+	ideology = dukedom
+	traits = {
+		despised_leader
+	}
+}

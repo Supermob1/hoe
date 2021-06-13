@@ -1,0 +1,27 @@
+state=
+{
+	id=842
+	name="STATE_842" #Shikoku
+	manpower = 2041309
+	state_category = large_city
+	history=
+	{
+		owner = UNC #JAP
+		#add_core_of = JAP
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		
+		victory_points = {
+			1133 5
+		}
+	}
+	provinces={
+		1051 1133 4054 4142 7113
+	}
+}

@@ -1,0 +1,20 @@
+state={
+	id=1047
+	name="STATE_1047"
+	
+	history={
+		owner = QUE
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = QUE
+
+	}
+	
+	provinces={
+		1764 3661 4419 6510 6676 7875 9480 9634 10249 10700 12205 12276 13160 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

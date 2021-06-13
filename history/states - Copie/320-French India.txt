@@ -1,0 +1,23 @@
+
+state={
+	id=320
+	name="STATE_320"
+	manpower = 175000
+
+	state_category = enclave
+
+	history={
+		owner = UNC #UNC
+		victory_points = {
+			10149 1
+		}
+		buildings = {
+			infrastructure = 5
+			10149 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={ 10149 }
+}

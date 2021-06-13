@@ -1,0 +1,27 @@
+
+state={
+	id=1004
+	name="STATE_1004"
+
+	history={
+		owner = MIA
+		add_core_of = MIA
+		add_claim_by = USA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6890 2 
+		}
+
+	}
+
+	provinces={
+		689 691 870 6710 11637 11656 
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

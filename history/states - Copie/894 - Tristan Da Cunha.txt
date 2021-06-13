@@ -1,0 +1,25 @@
+
+state={
+	id=894
+	name="STATE_894"
+	manpower = 100
+	
+	state_category = tiny_island
+
+	history={
+		owner = UNC #ENG
+		buildings = {
+			infrastructure = 1
+			13253 = { 
+			naval_base = 1
+			}
+		}
+		#add_core_of = ENG
+		
+	}
+
+	provinces={
+		13253
+	}
+	
+}

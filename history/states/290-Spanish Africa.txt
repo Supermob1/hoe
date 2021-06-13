@@ -1,0 +1,29 @@
+
+state={
+	id=290
+	name="STATE_290"
+	manpower = 182600
+	
+	
+	state_category = rural
+	
+	resources={
+		steel=20
+	}
+
+	history={
+		owner = MRC
+		add_core_of = MRC
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			12100 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		4199 7215 10113 12087 12100 
+	}
+}

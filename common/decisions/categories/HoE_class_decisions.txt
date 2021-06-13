@@ -1,0 +1,23 @@
+upper_class = {
+	icon = generic_political_actions
+
+	allowed = {
+		always = yes
+	}
+}
+
+middle_class = {
+	icon = generic_political_actions
+
+	allowed = {
+		always = yes
+	}
+}
+
+lower_class = {
+	icon = generic_political_actions
+
+	allowed = {
+		always = yes
+	}
+}

@@ -1,0 +1,4 @@
+NDefines.NGame.START_DATE = "1790.1.1.12"
+NDefines.NGame.END_DATE = "1820.1.1.1"
+NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.45
+NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY = -0.37

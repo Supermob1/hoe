@@ -1,0 +1,24 @@
+
+state={
+	id=796
+	name="STATE_796"
+
+	history={
+		owner = UNC #SXG
+		#add_core_of = SXG
+		victory_points = {
+			3500 2 
+		}
+		victory_points = {
+			482 1 
+		}
+
+	}
+
+	provinces={
+		482 3500 6501 9497 
+	}
+	manpower=255000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

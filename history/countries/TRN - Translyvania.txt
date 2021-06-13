@@ -1,0 +1,50 @@
+﻿capital = 84
+
+oob = "WAL_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+
+
+set_cosmetic_tag = TRN_AUS
+set_research_slots = 2
+set_convoys = 0
+
+set_popularities = {
+	liberty = 40
+	order = 60
+	equality = 0
+	glory = 0
+}
+
+set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Count György Bánffy"
+	desc = ""
+	picture = "Portrait_TRN_Gyorgy.dds"
+	expire = "1822.1.1"
+	ideology = dukedom
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Ioan Bob"
+	desc = ""
+	picture = "Portrait_TRN_Ioan_Bob.dds"
+	expire = "1830.1.1"
+	ideology = traditionalist
+	traits = {
+		
+	}
+}
+
+}

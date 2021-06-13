@@ -1,0 +1,22 @@
+
+state={
+	id=717
+	name="STATE_717"
+
+	history={
+		owner = VCP
+		add_core_of = VCP
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		5131 
+	}
+	manpower=1580465
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

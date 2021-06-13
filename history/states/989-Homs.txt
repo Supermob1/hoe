@@ -1,0 +1,22 @@
+
+state={
+	id=989
+	name="STATE_989"
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		1056 1072 1108 4550 10087 10383 12442 
+	}
+	manpower=534240
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

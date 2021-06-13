@@ -1,0 +1,86 @@
+scripted_gui = {
+    political_science_tech_bg = {
+        context_type = player_context
+        
+        window_name = "political_science_window"
+        parent_window_token = technology_tab
+        
+        visible = {
+            NOT = { has_country_flag = uncivilised }
+        }
+        effects = {
+            political_scientist_portrait_1_fg_click = {
+                set_variable = { show_scientists = 1 }
+            }
+            political_scientist_portrait_1_fg_cancel_click = {
+                set_variable = { show_scientists = 0 }
+            }
+            political_scientist_portrait_2_fg_click = {
+                set_variable = { show_scientists = 1 }
+            }
+            political_scientist_portrait_2_fg_cancel_click = {
+                set_variable = { show_scientists = 0 }
+            }
+            political_scientist_portrait_3_fg_click = {
+                set_variable = { show_scientists = 1 }
+            }
+            political_scientist_portrait_3_fg_cancel_click = {
+                set_variable = { show_scientists = 0 }
+            }
+        }
+        triggers = {
+            political_scientist_portrait_1_fg_visible = {
+                check_variable = { show_scientists = 0 }
+            }
+            political_scientist_portrait_1_fg_cancel_visible = {
+               check_variable = { show_scientists = 1 }
+            }
+            political_scientist_portrait_2_fg_visible = {
+                check_variable = { show_scientists = 0 }
+            }
+            political_scientist_portrait_2_fg_cancel_visible = {
+               check_variable = { show_scientists = 2 }
+            }
+            political_scientist_portrait_3_fg_visible = {
+                check_variable = { show_scientists = 0 }
+            }
+            political_scientist_portrait_3_fg_cancel_visible = {
+               check_variable = { show_scientists = 3 }
+            }
+        }
+        
+    }
+	political_science_tech = {
+        context_type = player_context
+        
+        window_name = "political_science_win"
+        
+        visible = {
+           check_variable = { show_scientists = 1 }
+        }
+       
+ 		dynamic_lists = {
+			specialAdvisor_List_container = {
+				array = specialAdvisorList
+				entry_container = specialAdvisor_List
+			}
+		}	
+		
+		
+		properties = {
+			specialAdvisor_List_icon = { image = "[specialAdvisorInfo]" }
+			specialAdvisor_List_fund_icon = { image = "[specialAdvisorFundOrBan]" }		
+		}
+         effects = {
+            close_button_click = {
+                set_variable = { show_scientists = 0 }
+            } 
+			 specialAdvisor_List_click = {
+				set_variable = { specialAdvisorList^i = 1 } 
+			}
+			 specialAdvisor_List_cancel_click = {
+				set_variable = { specialAdvisorList^i = -1 } 
+			}	
+		}
+	}
+}

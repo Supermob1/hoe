@@ -1,0 +1,22 @@
+
+state={
+	id=687
+	name="STATE_687"
+
+	history={
+		owner = VNZ
+		add_core_of = VNZ
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		8107 12716 
+	}
+	manpower=54330
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=1011
+	name="STATE_1011"
+
+	history={
+		owner = OTT
+		add_core_of = OTT
+		add_claim_by = USA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6890 2 
+		}
+
+	}
+
+	provinces={
+		659 3685 3872 11791 
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

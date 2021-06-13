@@ -1,0 +1,19 @@
+state={
+	id=959
+	name="STATE_959"
+	
+	history={
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 6
+		}
+
+	}
+	provinces={
+		6683 
+	}
+	manpower=2121
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

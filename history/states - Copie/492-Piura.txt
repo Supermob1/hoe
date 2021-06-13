@@ -1,0 +1,21 @@
+
+state={
+	id=492
+	name="STATE_492"
+
+	history={
+		owner = VCP
+		add_core_of = VCP
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		2210 2225 5202 12997 13086 
+	}
+	manpower=317900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

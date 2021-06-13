@@ -1,0 +1,36 @@
+﻿capital = 1084
+oob = "OBD_1790"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 100
+	order = 0
+}
+set_politics = {
+	
+	ruling_party = liberty
+	last_election = "1790.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "John Skenandoa"
+	desc = ""
+	picture = "Portrait_OBD_John_Skenandoa.dds"
+	ideology = traditionalist
+	traits = {
+	}
+}
+set_country_flag = leader2_Han_Yerry
+create_corps_commander = {
+	name = "Han Yerry"
+	#picture = "Portrait_OBD_Han_Yerry.dds"
+	traits = { }
+	skill = 3
+}

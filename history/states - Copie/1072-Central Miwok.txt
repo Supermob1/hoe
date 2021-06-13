@@ -1,0 +1,21 @@
+state={
+	id=1072
+	name="STATE_1072"
+
+	history={
+		owner = YOK
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = YOK
+
+	}
+	
+	provinces={
+		1432 6694 6876 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

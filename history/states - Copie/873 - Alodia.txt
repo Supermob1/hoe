@@ -1,0 +1,28 @@
+
+state={
+	id=873
+	name="STATE_873"
+
+	history={
+		owner = UNC #SNN
+		#add_core_of = SNN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			
+
+		}
+		victory_points = {
+			4963 5 
+		}
+
+	}
+
+	provinces={
+		1206 1977 4910 4963 7156 7989 8105 10745 10844 10902 11999 12725 12771 12836 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

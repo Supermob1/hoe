@@ -1,0 +1,25 @@
+
+state={
+	id=760
+	name="STATE_760"
+	manpower = 23095
+	
+	state_category = enclave
+	
+	resources={
+	}
+
+	history={
+		owner = UNC #VEN
+		#add_core_of = GRE
+		#add_core_of = ION
+		#add_core_of = VEN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		13212
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		steel=8.000
+		oil=4.000
+	}
+
+	history={
+		owner = UNC #PLI
+		victory_points = {
+			9427 10 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 2
+
+		}
+		#add_core_of = PLI
+		#add_claim_by = GAL
+
+	}
+
+	provinces={
+		11398 
+	}
+	manpower=247043
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,51 @@
+﻿capital = 64
+
+oob = "BND_1790"
+
+#starting tech 
+set_technology = {
+
+}
+add_ideas = {
+	HRE_member
+	HRE_elector
+	}
+set_research_slots = 2
+set_convoys = 0
+
+set_cosmetic_tag = BND_HRE
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Frederick William II"
+	desc = "POLITICS_Frederick_William_DESC"
+	picture = "Portrait_BND_Frederick_William.dds"
+	expire = "1947.1.1"
+	ideology = absolutist
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Georg Friedrich Christian von Heydebreck"
+	desc = "POLITICS_Frederick_William_DESC"
+	picture = "Portrait_BND_Heydebreck.dds"
+	expire = "1947.1.1"
+	ideology = traditionalist
+	traits = {
+		
+	}
+}
+
+}

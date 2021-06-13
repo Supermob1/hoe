@@ -1,0 +1,19 @@
+
+state={
+	id=905
+	name="STATE_905"
+	manpower = 750000
+	
+	state_category = rural
+	history={
+		owner = FUJ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FUJ
+	}
+
+	provinces={
+		5039 1909 12858 12802 4957 8008
+	}
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=818
+	name="STATE_818"
+
+	history={
+		owner = UNC #VIN
+		#add_core_of = VIN
+		#add_core_of = DAI
+
+	}
+
+	provinces={
+		1248 4255 4554 7229 7426 10137 10180 10309 
+	}
+	manpower=1319885
+	buildings_max_level_factor=3.000
+	state_category=city
+}

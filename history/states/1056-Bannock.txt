@@ -1,0 +1,20 @@
+state={
+	id=1056
+	name="STATE_1056"
+	
+	history={
+		owner = BNC
+		add_core_of = BNC
+		buildings = {
+			infrastructure = 4
+
+		}
+	}
+	
+	provinces={
+		10651 12573 
+	}
+	manpower=20
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=904
+	name="STATE_904"
+	manpower = 14000
+	
+	state_category = tiny_island
+	history={
+		owner = UNC #KNI
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			13267 1
+		}
+	}
+
+	provinces={
+		13267
+	}
+}

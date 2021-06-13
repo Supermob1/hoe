@@ -1,0 +1,27 @@
+
+state={
+	id=872
+	name="STATE_872"
+	manpower = 248000
+	
+	state_category = large_city
+	
+
+	history={
+		owner = UNC #PLI
+		#add_core_of = PLI
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			362 = {
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces={
+		362
+	}
+}

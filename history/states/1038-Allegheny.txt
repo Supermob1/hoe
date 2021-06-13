@@ -1,0 +1,22 @@
+state={
+	id=1038
+	name="STATE_1038"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = USA
+		add_core_of = PNS
+
+	}
+	
+	provinces={
+		880 3687 6705 6899 9662 11648 11800 
+	}
+	manpower=13333
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

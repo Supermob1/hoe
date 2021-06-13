@@ -1,0 +1,66 @@
+﻿capital = 365
+
+oob = "GRG_1790"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+
+
+}
+
+set_convoys = 400
+
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 80
+		}
+
+		conservatist = {
+			popularity = 40
+		}
+		
+		monarchist = {
+			popularity = 0
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = liberal
+	last_election = "1790.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "George Mathews"
+	desc = "POLITICS_GEORGE_MATHEWS_DESC"
+	picture = "Portrait_GRG_George_MATHEWS.dds"
+	expire = "1947.1.1"
+	ideology = democrat-republican
+	traits = {
+		
+	}
+}

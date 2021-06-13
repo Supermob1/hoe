@@ -1,0 +1,19 @@
+state=
+{
+	id=118
+	name="STATE_118"
+	manpower=5374
+	
+	state_category = enclave
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	provinces={
+		4135
+	}
+}

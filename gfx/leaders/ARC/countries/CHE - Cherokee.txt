@@ -1,0 +1,93 @@
+﻿capital = 19
+
+oob = "CHE_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_politics = {
+	
+	parties = {
+		liberal = { 
+			popularity = 0
+		}
+
+		conservatist = {
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 0
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 100
+		}
+	}
+	ruling_party = neutrality
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Little Turkey"
+	desc = "POLITICS_Little_Turkey_DESC"
+	picture = "Portrait_CHE_Little_Turkey.dds"
+	expire = "1947.1.1"
+	ideology = tribalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Dragging Canoe"
+	desc = "POLITICS_Dragging_Canoe_DESC"
+	picture = "Portrait_CHE_Dragging_Canoe.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Path Killer"
+	desc = "POLITICS_Path_Killer_DESC"
+	picture = "Portrait_CHE_Path_Killer.dds"
+	expire = "1965.1.1"
+	ideology = traditionalist
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Hanging Maw"
+	desc = "POLITICS_Hanging_Maw_DESC"
+	picture = "Portrait_CHE_Hanging_Maw.dds"
+	expire = "1965.1.1"
+	ideology = absolutist
+	traits = {
+		
+	}
+}

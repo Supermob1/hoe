@@ -1,0 +1,23 @@
+
+state={
+	id=609
+	name="STATE_609"
+
+	history={
+		owner = VCP
+		add_core_of = VCP
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		2198 5216 
+	}
+	manpower=7710100
+	buildings_max_level_factor=1.000
+	state_category=town
+	impassable = yes
+}

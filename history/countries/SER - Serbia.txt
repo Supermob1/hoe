@@ -1,0 +1,48 @@
+﻿capital = 107
+
+oob = "SER_1790"
+
+set_research_slots = 3
+
+
+set_technology = {
+
+}
+set_cosmetic_tag = SER_AUS
+set_convoys = 0
+set_popularities = {
+	liberty = 40
+	order = 20
+	glory = 40
+	equality = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "Habsburg Military Occupation"
+	desc = ""
+	picture = "Portrait_SER_habsburg.dds"
+	expire = "1830.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Karađorđe"
+	desc = ""
+	picture = "Portrait_SER_Karadorde.dds"
+	expire = "1830.1.1"
+	ideology = republicanist
+	traits = {
+		#
+	}
+}

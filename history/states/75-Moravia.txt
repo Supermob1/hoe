@@ -1,0 +1,27 @@
+
+state={
+	id=75
+	name="STATE_75"
+
+	history={
+		owner = CZE
+		victory_points = {
+			3569 1 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			air_base = 2
+
+		}
+		add_core_of = CZE
+
+	}
+
+	provinces={
+		421 557 569 3553 3569 3718 6562 6576 6590 11511 11525 
+	}
+	manpower=1305599
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=184
+	name="STATE_184"
+	resources={
+		chromium=16.000
+	}
+
+	history={
+		owner = UNC #TUR
+		buildings = {
+			infrastructure = 4
+			8435 = {
+				naval_base = 1
+
+			}
+		}
+		#add_claim_by = GRE
+		#add_claim_by = BUL
+		#add_core_of = THR
+
+	}
+
+	provinces={
+		849 8435 
+	}
+	manpower=230250
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

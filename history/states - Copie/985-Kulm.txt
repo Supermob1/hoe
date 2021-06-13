@@ -1,0 +1,22 @@
+
+state={
+	id=985
+	name="STATE_985"
+
+	history={
+		owner = UNC #PRU
+		buildings = {
+			infrastructure = 6
+
+		}
+		#add_core_of = PRU
+
+	}
+
+	provinces={
+		243 3295 3381 6347 
+	}
+	manpower=210500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

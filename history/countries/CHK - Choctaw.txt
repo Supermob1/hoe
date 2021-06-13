@@ -1,0 +1,45 @@
+﻿capital = 1008
+
+oob = "CHK_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_popularities = {
+    glory = 0
+    equality = 0
+    liberty = 20
+    order = 80
+}
+
+set_politics = {
+    ruling_party = order
+    last_election = "1790.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+create_country_leader = {
+	name = "Franchimastabé"
+	desc = ""
+	picture = "Portrait_CHK_Franchimastabé.dds"
+	ideology = tribal_kingdom
+}
+1790.1.1 = {
+	create_country_leader = {
+		name = "Pushmataha"
+		desc = "POLITICS_Pushmataha_DESC"
+		picture = "Portrait_CHK_Pushmataha.dds"
+		expire = "1947.1.1"
+		ideology = tribalism
+		traits = {
+			
+		}
+	}
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=365
+	name="STATE_365"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			air_base = 2
+			11975 = {
+				naval_base = 1
+
+			}
+
+		}
+		#add_core_of = GRG
+		add_core_of = USA
+		victory_points = {
+			11975 2 
+		}
+
+	}
+
+	provinces={
+		1480 7118 10394 10437 10465 11975 12470 
+	}
+	manpower=61230
+	buildings_max_level_factor=1.000
+	state_category=town
+}

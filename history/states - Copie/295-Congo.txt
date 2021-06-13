@@ -1,0 +1,23 @@
+
+state={
+	id=295
+	name="STATE_295"
+
+	history={
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		13083 
+	}
+	manpower=393438
+	buildings_max_level_factor=1.000
+	state_category=rural
+	impassable = yes
+}

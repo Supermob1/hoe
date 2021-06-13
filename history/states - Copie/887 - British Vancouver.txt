@@ -1,0 +1,21 @@
+
+state={
+	id=887
+	name="STATE_887"
+	manpower = 800
+	
+	state_category = rural
+
+	history={
+		owner = HUD
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HUD
+	}
+
+	provinces={
+		12259 1420 12272 
+	}
+	
+}

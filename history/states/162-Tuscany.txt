@@ -1,0 +1,36 @@
+
+state={
+	id=162
+	name="STATE_162"
+
+	history={
+		owner = TSC
+		victory_points = {
+			9907 3 
+		}
+		victory_points = {
+			11833 1 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			air_base = 2
+			11833 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = TSC
+
+	}
+
+	provinces={
+		910 1616 6875 9750 9879 9907 11833 11889 
+	}
+	manpower=9112350
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

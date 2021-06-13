@@ -1,0 +1,21 @@
+
+state={
+	id=784
+	name="STATE_784"
+
+	history={
+		owner = UNC #ULM
+		#add_core_of = ULM
+		victory_points = {
+			3690 15 
+		}
+
+	}
+
+	provinces={
+		3690 
+	}
+	manpower=213412
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

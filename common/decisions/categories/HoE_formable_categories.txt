@@ -1,0 +1,15 @@
+form_sioux_category = {
+	icon = generic_formable_nations
+	picture = GFX_decision_form_sioux
+	
+	
+	allowed = {
+			OR = {
+				original_tag = TTN
+				original_tag = ASS
+				original_tag = YKR
+				original_tag = YKT
+				original_tag = SNT
+			}
+	}
+}

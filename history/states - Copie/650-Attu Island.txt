@@ -1,0 +1,18 @@
+state=
+{
+	id=650
+	name="STATE_650"
+	manpower=2
+	state_category = tiny_island
+	
+	history=
+	{
+		owner = UNC #SOV
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces=
+	{
+13067 	}
+}

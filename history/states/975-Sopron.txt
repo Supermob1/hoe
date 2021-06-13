@@ -1,0 +1,22 @@
+
+state={
+	id=975
+	name="STATE_975"
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		682 686 701 3670 3680 3683 3700 6672 6685 6720 9608 9624 9643 11610 11627 11630 13125 
+	}
+	manpower=620046
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=557
+	name="STATE_557"
+
+	history={
+		owner = UNC
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1115 1897 1962 4920 5012 5034 5077 7943 7979 7992 8035 8038 8058 8111 10725 10779 10814 10838 10868 10875 
+	}
+	manpower=47690
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

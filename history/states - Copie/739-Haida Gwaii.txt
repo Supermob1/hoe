@@ -1,0 +1,20 @@
+state={
+	id=739
+	name="STATE_739"
+
+	history={
+		owner = UNC #UNC
+		buildings = {
+			
+
+
+		}
+	}
+
+	provinces={
+		1869
+	}
+	manpower=2684
+	buildings_max_level_factor=1	
+	state_category="small_island"
+}

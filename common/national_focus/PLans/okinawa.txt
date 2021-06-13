@@ -1,0 +1,265 @@
+focus_tree = {
+	id = okinawa
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RYU
+		}
+	}
+	default = no
+	focus = {
+		id = The_Three_Mountains
+		icon = GFX_goal_unknown
+		cost = 0,00
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = The_Status_of_the_islands
+		icon = GFX_goal_unknown
+		cost = 0,00
+		x = 19
+		y = 1
+
+	}
+	focus = {
+		id = Abide_To_Japan
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = The_Three_Mountains
+		}
+		mutually_exclusive = {
+			focus = Abide_To_Qing
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = Relations_Warloards
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Abide_To_Japan
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = Trade_Japan
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Relations_Warloards
+		}
+		x = 0
+		y = 4
+
+	}
+	focus = {
+		id = Protect_Our_Shores
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Abide_To_Japan
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = Close_Ties
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Protect_Our_Shores
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = Abide_To_Qing
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = The_Three_Mountains
+		}
+		mutually_exclusive = {
+			focus = Abide_To_Japan
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = Visit_Emperor
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Abide_To_Qing
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = Loophole
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Visit_Emperor
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = Tributary
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Abide_To_Qing
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = Investments
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Tributary
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = Religious_question
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = The_Status_of_the_islands
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = Formalizing_the_Language
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = The_Status_of_the_islands
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = Advancing_Our_Society
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = The_Status_of_the_islands
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = Firearms_from_qing
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Religious_question
+		}
+		prerequisite = {
+			focus = Formalizing_the_Language
+		}
+		prerequisite = {
+			focus = Advancing_Our_Society
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = For_every_man_convoy
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Firearms_from_qing
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = Black_boats
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Firearms_from_qing
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = Amami_Islands
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Trade_Japan
+		}
+		prerequisite = {
+			focus = Close_Ties
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = Okinawa_is_Qing
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = Loophole
+		}
+		prerequisite = {
+			focus = Investments
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = Expand_Ports
+		icon = GFX_goal_unknown
+		cost = 0,00
+		prerequisite = {
+			focus = For_every_man_convoy
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = Lacqeware_selling
+		icon = GFX_plate
+		cost = 0,00
+		prerequisite = {
+			focus = Black_boats
+		}
+		x = 24
+		y = 5
+
+	}
+}

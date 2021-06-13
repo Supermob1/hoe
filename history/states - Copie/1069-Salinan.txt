@@ -1,0 +1,20 @@
+state={
+	id=1069
+	name="STATE_1069"
+	
+	history={
+		owner = SLN
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = SLN
+
+	}
+	provinces={
+		986 3840 9637 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

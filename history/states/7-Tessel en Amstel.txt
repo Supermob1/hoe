@@ -1,0 +1,36 @@
+
+state={
+	id=7
+	name="STATE_7"
+
+	history={
+		owner = HOL
+		add_core_of = HOL
+		victory_points = {
+			3211 10 
+		}
+		victory_points = {
+			9498 15 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+			dockyard = 2
+			3314 = {
+				naval_base = 6
+
+			}
+			
+
+		}
+
+	}
+
+	provinces={
+		68 3211 3314 
+	}
+	manpower=302131
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

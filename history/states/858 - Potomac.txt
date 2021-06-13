@@ -1,0 +1,26 @@
+
+state={
+	id=858
+	name="STATE_858"
+	manpower = 26638
+	
+	state_category = rural
+	
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = MRY
+		victory_points = {
+			3957 20 
+		}
+		buildings = {
+			infrastructure = 3
+			
+		}
+	}
+
+	provinces={
+		3957
+	}
+}

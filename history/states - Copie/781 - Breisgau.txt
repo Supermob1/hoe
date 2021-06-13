@@ -1,0 +1,21 @@
+
+state={
+	id=781
+	name="STATE_781"
+
+	history={
+		owner = UNC #UNC
+		#add_core_of = AUS
+		victory_points = {
+			6712 20 
+		}
+
+	}
+
+	provinces={
+		3692 6712 11640 
+	}
+	manpower=346000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

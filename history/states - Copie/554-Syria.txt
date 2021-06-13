@@ -1,0 +1,26 @@
+
+state={
+	id=554
+	name="STATE_554"
+
+	history={
+		owner = UNC #JOR
+		victory_points = {
+			4111 3 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+		#add_core_of = JOR
+
+	}
+
+	provinces={
+		1074 4111 4486 7184 
+	}
+	manpower=460866
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=165
+	name="STATE_165"
+	manpower = 937393
+	
+	state_category = large_city
+
+	resources = {
+		oil = 12
+		tungsten = 12
+	}
+	
+	history={
+		owner = SPR
+		add_core_of = ARA
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 7
+
+		}
+	}
+
+	provinces={
+		854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797 9824 11779 
+	}
+}

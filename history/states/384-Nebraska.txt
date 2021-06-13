@@ -1,0 +1,26 @@
+
+state={
+	id=384
+	name="STATE_384"
+
+	history={
+		owner = CRW
+		add_core_of = CRW
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12586 1 
+		}
+
+	}
+
+	provinces={
+		1875 3613 4839 6722 7745 7840 10587 
+	}
+	manpower=915
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

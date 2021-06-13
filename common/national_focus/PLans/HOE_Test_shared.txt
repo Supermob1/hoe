@@ -1,0 +1,106 @@
+	shared_focus = {
+		id = FRA_Legalize_Gay_Marriage
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		cost = 10.00
+
+		completion_reward = {
+			army_experience = 20
+		}
+	}
+	shared_focus = {
+		id = FRA_State_mandated_boyfriends
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		relative_position_id = FRA_Legalize_Gay_Marriage
+		cost = 10.00
+		prerequisite = { focus = FRA_Legalize_Gay_Marriage }
+
+		completion_reward = {
+			army_experience = 20
+		}
+	}
+	shared_focus = {
+		id = FRA_Mandatory_Homosexuality
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		relative_position_id = FRA_State_mandated_boyfriends
+		cost = 10.00
+		prerequisite = { focus = FRA_State_mandated_boyfriends }
+
+		completion_reward = {
+			army_experience = 20
+		}
+	}
+	shared_focus = {
+		id = FRA_Ban_Women
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		x = 3
+		y = 1
+		
+		completion_reward = {
+		}
+	}
+	shared_focus = {
+		id = FRA_Illegalize_Heterosexuality
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		x = 0
+		y = 1
+		relative_position_id = FRA_Ban_Women
+		prerequisite = { focus = FRA_Ban_Women }
+		
+		completion_reward = {
+		}
+	}
+	shared_focus = {
+		id = FRA_Reeducation_Camps_for_Hets
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		x = 0
+		y = 1
+		relative_position_id = FRA_Illegalize_Heterosexuality
+		prerequisite = { focus = FRA_Illegalize_Heterosexuality }
+		
+		completion_reward = {
+		}
+	}
+	shared_focus = {
+		id = FRA_Fight_Anti_Gay_Terrorist_Organizations
+		icon = GFX_focus_norfolk_island
+		cost = 5.00
+		x = 2
+		y = 4
+		completion_reward = {
+		}
+	}
+	shared_focus = {
+		id = FRA_Give_Trans_People_Rights
+		icon = GFX_focus_norfolk_island
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = FRA_Fight_Anti_Gay_Terrorist_Organizations
+		prerequisite = { focus = FRA_Fight_Anti_Gay_Terrorist_Organizations }
+		
+		completion_reward = {
+		}
+	}
+	shared_focus = {
+		id = FRA_No_More_Hets
+		icon = GFX_focus_norfolk_island
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = FRA_Give_Trans_People_Rights
+		prerequisite = { focus = FRA_Give_Trans_People_Rights }
+		
+		completion_reward = {
+		}
+	}
+
+

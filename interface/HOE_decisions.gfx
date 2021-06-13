@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+	### categories
+	
+	spriteType = {
+		name = "GFX_decision_form_sioux"
+		texturefile = "gfx/interface/decisions/decision_form_sioux.dds"
+	}
+	
+
+}

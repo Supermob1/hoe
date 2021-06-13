@@ -1,0 +1,64 @@
+﻿capital = 319
+
+oob = "DOM_1790"
+
+# Starting tech
+set_technology = {
+
+}
+set_cosmetic_tag = DOM_SPR
+
+set_convoys = 45
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 40
+		}
+
+		conservatist = {
+			popularity = 50
+		}
+		
+		monarchist = {
+			popularity = 0
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 10
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservatist
+	last_election = "1790.7.1"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "Joaquin Garcia y Moreno"
+	desc = ""
+	picture = "Portrait_DOM_Moreno.dds"
+	expire = "1840.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}

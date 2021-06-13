@@ -1,0 +1,22 @@
+state={
+	id=811
+	name="STATE_811"
+
+	history={
+		owner = UNC #ZAN
+		#add_core_of = PER
+		#add_core_of = ZAN
+		#add_core_of = QAJ
+		
+		VICTORY_POINTS = {
+		12852 5 }
+		
+	}
+
+	provinces={
+		5089 4928 8031
+	}
+	manpower= 349600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

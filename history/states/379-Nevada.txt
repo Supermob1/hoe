@@ -1,0 +1,27 @@
+
+state={
+	id=379
+	name="STATE_379"
+	resources={
+		steel=136.000
+		tungsten=62.000
+		aluminium=44.000
+	}
+
+	history={
+		owner = PAI
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = PAI
+
+	}
+
+	provinces={
+		4521 4736 10422 12134 12399 
+	}
+	manpower=57
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

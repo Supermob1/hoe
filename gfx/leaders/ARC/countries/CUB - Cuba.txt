@@ -1,0 +1,62 @@
+﻿capital = 315
+
+oob = "CUB_1790"
+set_cosmetic_tag = CUB_SPR
+# Starting tech
+set_technology = {
+	
+}
+
+
+set_convoys = 20
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 20
+		}
+
+		conservatist = {
+			popularity = 80
+		}
+		
+		monarchist = {
+			popularity = 0
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservatist
+	last_election = "1790.1.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Luis de Las Casas"
+	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=766
+	name="STATE_766"
+	manpower = 25500
+	
+	state_category = rural
+
+	history={
+		owner = UNC #LAT
+		#add_core_of = LAT
+		
+	}
+
+	provinces={
+		3255 11358
+	}
+}

@@ -1,0 +1,11 @@
+is_emperor = {
+    IF = {
+        limit = { has_idea = HRE_emperor }
+        set_country_flag = is_emperor_of_HRE
+        }
+    else_if = {
+        limit = { NOT = { has_idea = HRE_emperor }}
+        clr_country_flag = is_emperor_of_HRE
+        
+    }
+}

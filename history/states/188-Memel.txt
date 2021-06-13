@@ -1,0 +1,36 @@
+
+state={
+	id=188
+	name="STATE_188"
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			3288 = {
+				naval_base = 1
+
+			}
+			6332 = {
+				bunker = 1
+
+			}
+			anti_air_building = 2
+			6332 = {
+				naval_base = 5
+
+			}
+		}
+		add_core_of = LIT
+		add_core_of = PRU
+
+	}
+
+	provinces={
+		281 348 395 3288 3384 6332 11265 
+	}
+	manpower=116500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

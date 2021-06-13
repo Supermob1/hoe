@@ -1,0 +1,22 @@
+
+state={
+	id=424
+	name="STATE_424" #Madras
+	manpower = 1754633
+	state_category = rural
+	
+
+	history={
+		owner = UNC #MYS
+		#add_core_of = MYS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		4414 10756 10897 10296 12779
+	}
+}

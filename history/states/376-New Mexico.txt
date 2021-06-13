@@ -1,0 +1,27 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		oil=20.000
+		aluminium=52.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = MEX
+
+	}
+
+	provinces={
+		1954 1998 3867 3883 4955 4975 5038 5044 8070 9773 10740 10867 10894 12301 12720 12791 
+	}
+	manpower=17100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

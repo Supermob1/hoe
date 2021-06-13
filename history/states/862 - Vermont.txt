@@ -1,0 +1,22 @@
+
+state={
+	id=862
+	name="STATE_862"
+
+	history={
+		owner =VMT
+		add_core_of = VMT
+		add_claim_by = NWY
+		add_claim_by = NWH
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		7629 9675 
+	}
+	manpower=44224
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

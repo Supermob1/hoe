@@ -1,0 +1,20 @@
+state={
+	id=973
+	name="STATE_973"
+	
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = AUS
+
+	}
+	
+	provinces={
+		671 3674 6673 
+	}
+	manpower=130212
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

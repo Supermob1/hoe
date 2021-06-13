@@ -1,0 +1,5 @@
+﻿l_english:
+ IMPERIAL_TAB_TOOLTIP:0 "Holy Roman Empire Tab"
+ EMPEROR_TEXT: "[event_target:is_emperor_of_HRE.GetName] is the seat of the Emperor"
+ AUS_is_emperor:0 "§YAustria§! is the seat of the Emperor"
+ 

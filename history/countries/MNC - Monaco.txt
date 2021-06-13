@@ -1,0 +1,57 @@
+﻿capital = 744
+
+oob = "GEN_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Honare III"
+	desc = "POLITICS_Honare_III_DESC"
+	picture = "Portrait_MNC_Honare.dds"
+	expire = "1947.1.1"
+	ideology = absolutist
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "National Convention"
+	desc = "POLITICS_National_Convention_DESC"
+	picture = "Portrait_MNC_National_Convention.dds"
+	expire = "1950.1.1"
+	ideology = radicalism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "National Convention"
+	desc = "POLITICS_National_Convention_DESC"
+	picture = "Portrait_MNC_National_Convention.dds"
+	expire = "1950.1.1"
+	ideology = parliamentarist
+	traits = {
+	}
+}
+
+}

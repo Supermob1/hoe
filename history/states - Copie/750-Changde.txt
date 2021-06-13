@@ -1,0 +1,26 @@
+
+state={
+	id=750
+	name="STATE_750"
+
+	history={
+		owner = UNC #UNC
+		victory_points = {
+			773 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		#add_core_of = AUS
+
+	}
+
+	provinces={
+		3776 11734 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

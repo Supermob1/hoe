@@ -1,0 +1,41 @@
+﻿capital = 898
+
+oob = "ECM_1790"
+
+set_research_slots = 3
+
+add_ideas = {
+}
+
+set_technology = {
+	
+}
+
+set_convoys = 10
+
+set_popularities = {
+	equality = 0
+	glory = 0
+	order = 100
+	liberty = 0
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.6.9"
+	election_frequency = 12
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Neophytus VII"
+	desc = "POLITICS_Neophytus_DESC"
+	picture = "Portrait_Greece_Neophytus.dds"
+	expire = "1794.10.9"
+	ideology = patriarchy
+	traits = {
+		#
+	}
+}

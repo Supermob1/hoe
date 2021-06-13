@@ -1,0 +1,23 @@
+state={
+	id=742
+	name="STATE_742"
+
+	history={
+		owner = KOK
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KOK
+		victory_points = {
+		2058 3 }
+
+	}
+
+	provinces={
+		4542 8027 10417 12805 12581 2058 10488 7519 5087 1766 4923 4467
+	}
+	manpower=245500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

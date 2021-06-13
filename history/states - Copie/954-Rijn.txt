@@ -1,0 +1,25 @@
+state={
+	id=954
+	name="STATE_954"
+	
+	history={
+		owner = UNC #HOL
+		#add_core_of = HOL
+		victory_points = {
+			391 40 
+		}
+		buildings = {
+			infrastructure = 8
+			dockyard = 3
+			air_base = 5
+
+		}
+
+	}
+	provinces={
+		391 6241 9363 11456 
+	}
+	manpower=501234
+	buildings_max_level_factor=1.000
+	state_category=city
+}

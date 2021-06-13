@@ -1,0 +1,23 @@
+
+state={
+	id=881
+	name="STATE_881"
+	manpower = 1350000
+	
+	state_category = rural
+	
+
+	history={
+		owner = BRN
+		add_core_of = BRN
+		buildings = {
+			infrastructure = 3
+		
+		}
+		
+	}
+
+	provinces={
+		4997 7963 2081 13138 3123 10780 
+	}
+}

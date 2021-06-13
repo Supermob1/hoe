@@ -1,0 +1,69 @@
+﻿capital = 762
+
+oob = "HAM_1790"
+
+#starting tech 
+set_technology = {
+
+}
+add_ideas = {
+	HRE_free_city
+	HRE_member
+	
+	}
+set_research_slots = 2
+set_convoys = 0
+
+set_cosmetic_tag = HAM_HRE
+
+set_politics = {
+	
+	parties = {
+		liberal = { 
+			popularity = 0
+		}
+
+		conservatist = {
+			popularity = 100
+		}
+		
+		monarchist = {
+			popularity = 0
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	ruling_party = conservatist
+	last_election = "1790.6.1"
+	election_frequency = 12
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "City Council"
+	desc = "POLITICS_City_council_hamburg_DESC"
+	picture = "Portrait_HAM_City_Council.dds"
+	expire = "1947.1.1"
+	ideology = oligarchic
+	traits = {
+		
+	}
+}
+
+}

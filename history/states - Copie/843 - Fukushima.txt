@@ -1,0 +1,27 @@
+state=
+{
+	id=843
+	name="STATE_843" #Fukushima
+	manpower = 908000
+	state_category = city
+	history=
+	{
+		owner = UNC #AZU
+		#add_core_of = AZU
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		
+		victory_points = {
+			4153 5
+		}
+	}
+	provinces={
+		4122 4118 1024 4153
+	}
+}

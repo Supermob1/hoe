@@ -1,0 +1,20 @@
+
+state={
+	id=768
+	name="STATE_768"
+	manpower = 541000
+	
+	state_category = rural
+
+	history={
+		owner = PLI
+		add_core_of = UKR
+		add_core_of = PLI
+		
+		
+	}
+
+	provinces={
+		3494 9465 6497 504 11454
+	}
+}

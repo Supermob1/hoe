@@ -1,0 +1,19 @@
+state={
+	id=970
+	name="STATE_970"
+	
+	history={
+		owner = UNC #WUU
+		buildings = {
+			infrastructure = 8
+		}
+		#add_core_of = WUU
+	}
+	
+	provinces={
+		694 3679 
+	}
+	manpower=120203
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

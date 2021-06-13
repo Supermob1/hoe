@@ -1,0 +1,22 @@
+
+state={
+	id=1030
+	name="STATE_1030"
+
+	history={
+		owner = YOK
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = YOK
+
+	}
+
+	provinces={
+		677 3678 6681 6699 
+	}
+	manpower=112
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

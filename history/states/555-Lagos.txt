@@ -1,0 +1,28 @@
+
+state={
+	id=555
+	name="STATE_555" #Kuril Islands
+	manpower = 1666
+	
+	state_category = tiny_island
+
+	history={
+		owner = MTS
+		add_core_of = MTS
+		add_core_of = AIN
+		
+		buildings = {
+			infrastructure = 1
+			1399 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1399 1515 13037 
+	}
+}

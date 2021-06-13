@@ -1,0 +1,40 @@
+﻿capital = 160
+
+oob = "VEN_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+
+
+set_research_slots = 3
+set_convoys = 0
+
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1786.4.4"
+	election_frequency = 62
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Doge Ludovico Manin"
+	desc = "POLITICS_Ludovico_Manin_DESC"
+	picture = "Portrait_VEN_Ludovico_Manin.dds"
+	expire = "1947.1.1"
+	ideology = oligarchic
+	traits = {
+		
+	}
+}
+
+}

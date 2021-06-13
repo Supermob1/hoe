@@ -1,0 +1,41 @@
+﻿capital = 48
+
+oob = "BUL_1790"
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+
+
+set_convoys = 5
+
+set_popularities = {
+	liberty = 90
+	equality = 0
+	order = 10
+	glory = 0
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1931.6.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Indzhe Voyvoda"
+	desc = "POLITICS_Voyvoda_DESC"
+	picture = "Portrait_BUL_Indzhe.dds"
+	expire = "1821.1.1"
+	ideology = republicanist
+	traits = {
+		#
+	}
+}

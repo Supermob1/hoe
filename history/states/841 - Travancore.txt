@@ -1,0 +1,29 @@
+state=
+{
+	id=841
+	name="STATE_841"
+	manpower = 3674446
+	
+	state_category = rural
+
+
+	history={
+		owner = TRV
+		add_core_of = TRV
+		victory_points = {
+			10278 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+			1321 = {
+				naval_base = 4
+			}
+		}
+	}
+	
+	provinces={
+		1238 1321 7288 7402 7447 10274 10130 12275
+	}
+}

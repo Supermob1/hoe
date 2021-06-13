@@ -1,0 +1,21 @@
+
+state={
+	id=780
+	name="STATE_780"
+
+	history={
+		owner = SLZ
+		add_core_of = SLZ
+		victory_points = {
+			688 10 
+		}
+
+	}
+
+	provinces={
+		668 688 3675 
+	}
+	manpower=223741
+	buildings_max_level_factor=1.000
+	state_category=town
+}

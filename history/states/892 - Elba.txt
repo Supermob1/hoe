@@ -1,0 +1,31 @@
+
+state={
+	id=892
+	name="STATE_892"
+
+	history={
+		owner = PIO
+		buildings = {
+			infrastructure = 2
+			13244 = {
+				naval_base = 2
+				bunker = 4
+
+			}
+			13243 = {
+				bunker = 4
+
+			}
+
+		}
+		add_core_of = PIO
+
+	}
+
+	provinces={
+		13243 13244 
+	}
+	manpower=112000
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

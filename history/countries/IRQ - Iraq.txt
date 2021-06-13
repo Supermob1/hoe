@@ -1,0 +1,36 @@
+﻿capital = 291
+
+oob = "IRQ_1790"
+
+# Starting tech
+set_technology = {
+	
+}
+set_cosmetic_tag = IRQ_TUR
+set_convoys = 5
+set_popularities = {
+
+	order = 70
+	equality = 0
+	glory = 0
+	order = 30
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1791.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Sulayman Agha"
+	desc = "POLITICS_Agha_DESC"
+	picture = "GFX_portrait_Agha.dds"
+	expire = "1802.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,35 @@
+﻿capital = 289
+
+oob = "SIA_1790"
+
+# Starting tech
+set_technology = {
+
+}
+
+set_convoys = 15
+
+set_popularities = {
+
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+	}
+
+create_country_leader = {
+	name = "Rama I"
+	desc = "POLITICS_RAMA_I_DESC"
+	picture = "Portrait_Siam_Rama_I.dds"
+	expire = "1806.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,37 @@
+﻿capital = 292
+
+oob = "SAU_1790"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+set_convoys = 5
+
+
+set_popularities = {
+	liberty = 0
+	order = 100
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Abdul-Aziz bin Muhammad"
+	desc = "POLITICS_ABDULAZIZ_Muhammad_DESC"
+	picture = "Portrait_SAU_Abdulazis.dds"
+	expire = "1965.1.1"
+	ideology = islamist
+	traits = {
+		#
+	}
+}

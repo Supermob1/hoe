@@ -1,0 +1,26 @@
+state={
+	id=405
+	name="STATE_405"
+
+	history={
+		owner = UNC #BUK
+		victory_points = {
+			1459 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			air_base = 1
+
+		}
+		#add_core_of = BUK
+
+	}
+
+	provinces={
+		756 1216 1384 1459 1573 1632 1919 7639 9605 10187 10205 10601 10671 11687 12239 12722 12430 12250 12218 10148 4686
+	}
+	manpower=997313
+	buildings_max_level_factor=1.000
+	state_category=city
+}

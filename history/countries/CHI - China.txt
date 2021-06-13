@@ -1,0 +1,71 @@
+﻿capital = 608 # Beijing
+
+oob = "CHI_1790"
+
+# Starting tech
+set_technology = {
+	
+}
+
+add_ideas = {
+}
+
+set_convoys = 40
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = TIB
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = MON
+		autonomous_state = autonomy_dominion
+	}
+	set_autonomy = {
+		target = MAN
+		autonomous_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = XSM
+		autonomous_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = SIK
+		autonomous_state = autonomy_dominion
+	}
+	else = {
+		puppet = TIB
+		puppet = MON
+		puppet = MAN
+		puppet = XSM
+		puppet = SIK
+	}
+}
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Aisin Gioro Hongli"
+	desc = "POLITICS_Aisin_DESC"
+	picture = "Portrait_CHI_Aisin.dds"
+	expire = "1799.1.1"
+	ideology = absolutist
+	traits = {
+		
+	}
+}
+
+}

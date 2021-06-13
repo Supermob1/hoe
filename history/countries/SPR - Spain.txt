@@ -1,0 +1,39 @@
+﻿capital = 41
+
+oob = "SPR_1790"
+
+set_research_slots = 3
+
+set_technology = {
+
+}
+
+set_popularities = {
+	liberty = 40
+	order = 60
+	equality = 0
+	glory = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_convoys = 150
+
+
+
+
+create_country_leader = {
+	name = "Carlos IV"
+	desc = "POLITICS_Carlos_IV_DESC"
+	picture = "Portrait_SPR_Carlos_IV.dds"
+	expire = "2000.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,65 @@
+﻿capital = 845
+
+oob = "HW1_1790"
+
+set_research_slots = 1
+
+set_technology = {
+	
+}
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 0
+		}
+
+		conservatist = {
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 100
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "1790.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_convoys = 50
+
+
+
+
+create_country_leader = {
+	name = "Kahekili II"
+	desc = ""
+	picture = "Portrait_HW1_Kahekili.dds"
+	expire = "1819.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

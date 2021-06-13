@@ -1,0 +1,29 @@
+
+state={
+	id=372
+	name="STATE_372"
+	resources={
+		aluminium=20.000
+	}
+
+	history={
+		owner = QPW
+		add_core_of = QPW
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12489 1 
+		}
+
+	}
+
+	provinces={
+		7586 10477 12458 12489 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

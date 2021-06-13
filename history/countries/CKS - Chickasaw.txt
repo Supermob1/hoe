@@ -1,0 +1,61 @@
+﻿capital = 370
+
+oob = "CKS_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_popularities = {
+    glory = 0
+    equality = 20
+    liberty = 30
+    order = 50
+}
+
+set_politics = {
+    ruling_party = order
+    last_election = "1790.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+create_country_leader = {
+	name = "Mingatuska"
+	desc = "POLITICS_Mingatuska_DESC"
+	picture = "Portrait_CKS_Mingatuska.dds"
+	expire = "1794.1.1"
+	ideology = tribal_kingdom
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Piomingo"
+	desc = ""
+	picture = "Portrait_CKS_Piomingo.dds"
+	expire = "1794.1.1"
+	ideology = traditionalist
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Ugulaycabe"	# Pro Spanish
+	#picture = "Portrait_CKS_Ugulaycabe.dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Piomingo"	# Pro American
+	#picture = "Portrait_CKS_Piomingo.dds"
+	traits = { }
+	skill = 2
+}
+

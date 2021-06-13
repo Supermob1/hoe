@@ -1,0 +1,22 @@
+
+state={
+	id=899
+	name="STATE_899"
+
+	history={
+		owner = UNC #TUR
+		#add_core_of = BOS
+		#add_core_of = HRZ
+		victory_points = {
+			9894 1 
+		}
+
+	}
+
+	provinces={
+		6942 9894 11845 13264 
+	}
+	manpower=246040
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

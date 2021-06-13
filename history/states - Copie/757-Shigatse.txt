@@ -1,0 +1,23 @@
+state={
+	id=757
+	name="STATE_757"
+	
+	state_category = enclave
+
+	history={
+		owner = PAP
+		add_core_of = PAP
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		13211
+	}
+	manpower=15500
+	buildings_max_level_factor=1.000
+}

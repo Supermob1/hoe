@@ -1,0 +1,40 @@
+﻿capital = 689
+
+oob = "JAM_1790"
+
+# Starting tech
+set_technology = {
+	
+}
+set_cosmetic_tag = JAM_ENG
+
+set_convoys = 45
+
+
+set_popularities = {
+	liberty = 100
+	order = 0
+	
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "Lord Thomas Howard"
+	desc = ""
+	picture = "Portrait_JAM_Howard.dds"
+	expire = "1791.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}

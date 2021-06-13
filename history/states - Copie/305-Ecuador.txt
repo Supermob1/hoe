@@ -1,0 +1,20 @@
+
+state={
+	id=305
+	name="STATE_305"
+	manpower = 200500
+	
+	state_category = city
+
+	history={
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		5051 5120 8047 8075 8252 10888 11020 12798 
+	}
+}

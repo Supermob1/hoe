@@ -1,0 +1,30 @@
+state=
+{
+	id=422
+	name="STATE_422"
+	manpower = 300378
+	
+	state_category = rural
+
+	resources={
+		rubber=116
+	}
+
+	history={
+		owner = UNC #KAN
+		#add_core_of = KAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			12258 = {
+				naval_base = 1
+				}
+		}
+
+	}
+	
+	provinces={
+		1213 4219 10229 10287 12258 
+	}
+}

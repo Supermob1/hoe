@@ -1,0 +1,21 @@
+state={
+	id=1034
+	name="STATE_1034"
+	
+	history={
+		owner = NSC
+		add_core_of = NSC
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+	provinces={
+		4362 10174 10230 
+	}
+	manpower=8020
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

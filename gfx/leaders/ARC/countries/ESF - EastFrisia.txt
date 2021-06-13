@@ -1,0 +1,56 @@
+﻿capital = 771
+
+oob = "ESF_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 0
+
+
+set_politics = {
+	
+	parties = {
+		liberal = { 
+			popularity = 60
+		}
+
+		conservatist = {
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 40
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+
+		neutrality = {
+			popularity = 0
+		}
+	}
+	ruling_party = liberal
+	last_election = "1790.6.1"
+	election_frequency = 12
+	elections_allowed = yes
+}
+
+
+
+}

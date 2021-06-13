@@ -1,0 +1,19 @@
+
+state={
+	id=902
+	name="STATE_902"
+	manpower = 15000
+	
+	state_category = enclave
+	history={
+		owner = VAD
+		add_core_of = VAD
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		13266
+	}
+}

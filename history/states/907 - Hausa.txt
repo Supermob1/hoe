@@ -1,0 +1,17 @@
+
+state={
+	id=907
+	name="STATE_907"
+	manpower = 82000
+	
+	state_category = rural
+	history={
+		owner = HAU
+		add_core_of = HAU
+		
+	}
+
+	provinces={
+		8109 10820 5028
+	}
+}

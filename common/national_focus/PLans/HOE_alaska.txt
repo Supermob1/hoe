@@ -1,0 +1,787 @@
+focus_tree = {
+	id = alaska_Tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ALA
+		}
+
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1100 }
+	
+	####################
+	##Military Affairs##
+	####################
+	
+	focus = {
+		id = ALA_expand_naval
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 2
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_seize_native_sailors
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = ALA_expand_naval
+		}
+		x = 3
+		y = 1
+		
+		completion_reward = {
+			
+        
+		}
+	}
+	focus = {
+		id = ALA_land_for_service
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = ALA_expand_naval
+		}
+		x = 1
+		y = 1
+		
+		completion_reward = {
+			
+        
+		}
+	}
+	focus = {
+		id = ALA_expand_the_militias
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = ALA_land_for_service
+		}
+		prerequisite = {
+			focus = ALA_seize_native_sailors
+		}
+		x = 2
+		y = 2
+		
+		completion_reward = {
+			
+        
+		}
+	}
+	focus = {
+		id = ALA_russian_officers
+		icon = GFX_goal_russian_officers
+		cost = 10.00
+		prerequisite = {
+			focus = ALA_expand_the_militias
+		}
+		
+		x = 1
+		y = 3
+		
+		completion_reward = {
+			
+        
+		}
+	}
+	focus = {
+		id = ALA_native_armies
+		icon = GFX_goal_natives_tomohawk
+		cost = 10.00
+		prerequisite = {
+			focus = ALA_expand_the_militias
+		}
+		
+		x = 3
+		y = 3
+		
+		completion_reward = {
+			
+        
+		}
+	}
+	
+	
+	
+	###################
+	##Early Political##
+	###################
+	focus = {
+		id = ALA_retire_shelekhov
+		icon = GFX_goal_retire_shelekhov
+		x = 9
+		y = 0
+
+		cost = 2
+		mutually_exclusive = { focus = ALA_retain_shelekov }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_country_leader = {
+			name = "Grigory Shelikhov"
+			ruling_only = yes
+			}
+		}
+		
+		bypass = {
+			
+			has_country_leader = {
+			name = "Alexander Baranov"
+			ruling_only = yes
+			}
+			
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			custom_effect_tooltip = Shelikhov_leaves
+			
+			hidden_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Alexander Baranov"
+				desc = "POLITICS_ALEXANDER_BARANOV_DESC"
+				picture = "Portrait_ALA_Baranov.dds"
+				expire = "1819.1.1"
+				ideology = corporatocracy
+				traits = {
+				}
+				
+			}
+			}
+			
+		}
+	}
+	focus = {
+		id = ALA_retain_shelekov
+		icon = GFX_goal_keep_shelekov
+		x = 13
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			custom_effect_tooltip = Shelikhov_Stays
+				
+		}
+	}
+	focus = {
+		id = ALA_marry_koniag
+		icon = GFX_goal_koniag_good
+		x = 9
+		y = 1
+
+		cost = 4
+		prerequisite = {
+			focus = ALA_retire_shelekhov
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_kill_koniag
+		icon = GFX_goal_koniag_bad
+		x = 13
+		y = 1
+
+		cost = 4
+		prerequisite = {
+			focus = ALA_retain_shelekov
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_advertise
+		icon = GFX_goal_sunny_alaska
+		x = 11
+		y = 2
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_kill_koniag
+			focus = ALA_marry_koniag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_deal_with_the_aleuts
+		icon = GFX_goal_demand_sudetenland
+		x = 13
+		y = 3
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_kill_koniag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_expand_pavloskaya
+		icon = GFX_goal_generic_improve_relations
+		x = 9
+		y = 3
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_marry_koniag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_control_native_trade
+		icon = GFX_goal_continuous_suppression
+		x = 11
+		y = 4
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_expand_pavloskaya
+			focus = ALA_deal_with_the_aleuts
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_legitimise
+		icon = GFX_goal_russian_eagle
+		x = 9
+		y = 5
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_expand_pavloskaya
+			focus = ALA_deal_with_the_aleuts
+		}
+		mutually_exclusive = { focus = ALA_expand_the_board }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_expand_the_board
+		icon = GFX_goal_generic_trade
+		x = 13
+		y = 5
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_expand_pavloskaya
+			focus = ALA_deal_with_the_aleuts
+		}
+		mutually_exclusive = { focus = ALA_legitimise }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_religious_question
+		icon = GFX_goal_orthodox_cross
+		x = 11
+		y = 6
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_legitimise
+			focus = ALA_expand_the_board
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_ukase
+		icon = GFX_goal_continuous_increase_nu
+		x = 9
+		y = 7
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_legitimise
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_break_ties
+		icon = GFX_goal_russia_defeated
+		x = 13
+		y = 7
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_legitimise
+			focus = ALA_expand_the_board
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	###############
+	##Native Path##
+	###############
+	focus = {
+		id = ALA_equal_koniag_rights
+		icon = GFX_goal_natives
+		x = 7
+		y = 3
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_marry_koniag
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_native_alaska
+		icon = GFX_goal_native_american
+		x = 5
+		y = 4
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_equal_koniag_rights
+		}
+		prerequisite = {
+			focus = ALA_native_armies
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_native_with_russian_features
+		icon = GFX_goal_russian_natives
+		x = 7
+		y = 4
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_equal_koniag_rights
+		}
+		mutually_exclusive = { focus = ALA_native_alaska }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#################
+	##Shelekov Dead##
+	#################
+	focus = {
+		id = ALA_embargo_irkutsk
+		icon = GFX_goal_ban_irkutsk
+		x = 15
+		y = 6
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_expand_the_board
+		}
+		#mutually_exclusive = { focus = ALA_ecourage_irkutsk }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_encourage_irkutsk
+		icon = GFX_goal_help_irkutsk
+		x = 17
+		y = 6
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_expand_the_board
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_lady_shelikhov
+		icon = GFX_goal_lady_shelikhov
+		x = 15
+		y = 8
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_embargo_irkutsk
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ALA_reign_of_malinkov
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 17
+		y = 8
+
+		cost = 10
+		prerequisite = {
+			focus = ALA_encourage_irkutsk
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+}
+
+

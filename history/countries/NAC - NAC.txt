@@ -1,0 +1,48 @@
+﻿capital = 858
+
+oob = "USA_1936"
+
+set_research_slots = 4
+
+# Starting tech
+set_technology = {
+
+
+}
+
+
+
+
+set_convoys = 400
+
+set_popularities = {
+	liberty = 40
+	order = 0
+	equality = 60
+	glory = 0
+}
+
+set_politics = {
+	
+	ruling_party = equality
+	last_election = "1792.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	
+}
+
+
+
+create_country_leader = {
+	name = "Albert Gallatin"
+	desc = "POLITICS_Gallatin_DESC"
+	picture = "Portrait_NAC_Gallatin.dds"
+	expire = "1812.1.1"
+	ideology = anarcho_liberal
+	traits = {
+		
+	}
+}

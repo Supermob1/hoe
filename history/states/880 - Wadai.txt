@@ -1,0 +1,23 @@
+
+state={
+	id=880
+	name="STATE_880"
+	manpower = 615000
+	
+	state_category = rural
+	
+
+	history={
+		owner = WDI
+		add_core_of = WDI
+		buildings = {
+			infrastructure = 3
+		
+		}
+		
+	}
+
+	provinces={
+		7919 3181 1473 4978 4897
+	}
+}

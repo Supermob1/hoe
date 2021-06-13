@@ -1,0 +1,37 @@
+﻿capital = 864
+
+oob = "MSQ_1790"
+
+# Starting tech
+set_technology = {
+	
+}
+
+set_convoys = 3
+set_popularities = {
+
+	order = 80
+	equality = 20
+	liberty = 0
+	glory = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1934.7.1"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+
+
+create_country_leader = {
+	name = "George II Frederic"
+	desc = "POLITICS_George_Frederic"
+	picture = "Portrait_MSQ_George.dds"
+	expire = "1824.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

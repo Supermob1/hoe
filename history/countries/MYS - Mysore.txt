@@ -1,0 +1,35 @@
+﻿capital = 425
+
+oob = "MYS_1790"
+
+set_research_slots = 2
+
+set_technology = {
+	
+}
+set_popularities = {
+	liberty = 50
+	order = 50
+	equality = 0
+	glory = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "Tipu Sultan"
+	desc = ""
+	picture = "Portrait_MYS_Tipu.dds"
+	expire = "1840.01.01"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

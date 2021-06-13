@@ -1,0 +1,22 @@
+
+state={
+	id=890
+	name="STATE_890"
+	manpower = 18282
+	
+	state_category = tiny_island
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ENG
+		
+	}
+
+	provinces={
+		13240 13241 
+	}
+	
+}

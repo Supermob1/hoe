@@ -1,0 +1,60 @@
+﻿capital = 1085
+oob = "MWK_1790"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Joseph Brant"
+	desc = ""
+	picture = "Portrait_MWK_Joseph_Brant.dds"
+	ideology = tribal_kingdom
+	traits = {
+	}
+}
+set_country_flag = leader2_Johannes_Tekarihoga
+1780.1.1 = {
+	clr_country_flag = leader2_Johannes_Tekarihoga
+	set_country_flag = leader2_Henry_Crogan
+}
+create_corps_commander = {
+	name = "Joesph Brant"
+	picture = "Portrait_MWK_Joseph_Brant.dds"
+	traits = { }
+	skill = 4
+}
+create_corps_commander = {
+	name = "John Deseronto"
+	#picture = ".dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Thomas Davis"	#Related to Brant
+	#picture = ".dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "David Hill"	
+	#picture = ".dds"
+	traits = { }
+	skill = 2
+}
+

@@ -1,0 +1,35 @@
+﻿capital = 617
+
+oob = "SIK_1790"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	
+}
+set_cosmetic_tag = SIK_CHI
+
+set_popularities = {
+	liberty = 70
+	order = 30
+	equality = 0
+	glory = 0
+}
+
+set_politics = {
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Yi Letu"
+	desc = ""
+	picture = "Portrait_SIK_Yi.dds"
+	expire = "1793.1.1"
+	ideology = captaincy
+	traits = {
+		#
+	}
+}

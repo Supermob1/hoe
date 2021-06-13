@@ -1,0 +1,21 @@
+state={
+	id=968
+	name="STATE_968"
+	
+	history={
+		owner = SOV
+		add_core_of = PRU
+		add_core_of = ESF
+		buildings = {
+			infrastructure = 4
+
+		}	
+	}
+	
+	provinces={
+		13215 
+	}
+	manpower=30300
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

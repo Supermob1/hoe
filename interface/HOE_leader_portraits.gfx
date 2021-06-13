@@ -1,0 +1,14 @@
+spriteTypes = {
+
+
+	
+	spriteType = {
+		name = "GFX_AST_Francis_Grose"
+		textureFile = "gfx//leaders//AST//Portrait_AST_Francis_Grose.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_Wynn"
+		textureFile = "gfx//leaders//WLE//Portrait_WLE_Wynn.dds"
+	}		
+}

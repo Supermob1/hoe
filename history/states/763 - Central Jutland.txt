@@ -1,0 +1,18 @@
+
+state={
+	id=763
+	name="STATE_763"
+
+	history={
+		owner = DNO
+		add_core_of = DNO
+
+	}
+
+	provinces={
+		317 332 11251 11366 
+	}
+	manpower=890000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

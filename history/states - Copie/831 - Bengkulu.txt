@@ -1,0 +1,19 @@
+state= {
+	id=831
+	name="STATE_831"
+	manpower = 914950
+	
+	state_category = pastoral
+
+	history= {
+		owner = UNC #RAJ
+		#add_core_of = RAJ
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1533 7368 7440 10194 10382 12138 12415
+	}
+}

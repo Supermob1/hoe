@@ -1,0 +1,38 @@
+﻿capital = 37
+
+oob = "DNO_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 2
+set_convoys = 0
+
+set_popularities = {
+	liberty = 40
+	order = 60
+	equality = 0
+	glory = 0
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1786.4.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Christian VII"
+	desc = "POLITICS_Christian_VII_DESC"
+	picture = "Portrait_DNO_Christian_VII.dds"
+	expire = "1947.1.1"
+	ideology = parliamentary_monarchism
+	traits = {
+		
+	}
+}
+
+}

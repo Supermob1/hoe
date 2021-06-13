@@ -1,0 +1,22 @@
+
+state={
+	id=592
+	name="STATE_592"
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1585 1598 4575 4604 5110 7581 
+	}
+	manpower=17980670
+	buildings_max_level_factor=1.000
+	state_category=city
+}

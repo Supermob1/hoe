@@ -1,0 +1,21 @@
+
+state={
+	id=789
+	name="STATE_789"
+	manpower = 28233
+	
+	state_category = town
+	history={
+		owner = PRU
+		add_core_of = PRU
+		victory_points = {
+	405 5
+		
+		
+	}
+	
+	}
+	provinces={
+		405
+	}
+}

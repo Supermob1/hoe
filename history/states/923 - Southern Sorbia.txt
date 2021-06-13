@@ -1,0 +1,24 @@
+
+state={
+	id=923
+	name="STATE_923"
+
+	history={
+		owner = SAX
+		add_core_of = SAX
+		add_core_of = SOR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		573 3514 
+	}
+	manpower=276688
+	buildings_max_level_factor=1.000
+	state_category=town
+}

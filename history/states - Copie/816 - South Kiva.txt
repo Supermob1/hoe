@@ -1,0 +1,19 @@
+state={
+	id=816
+	name="STATE_816"
+
+	history={
+		owner = UNC #KHI
+		#add_core_of = KHI
+		
+		
+		
+	}
+
+	provinces={
+		1493 7618 12491 8099 12333 7491
+	}
+	manpower= 130864
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

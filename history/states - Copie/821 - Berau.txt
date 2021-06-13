@@ -1,0 +1,26 @@
+state= {
+	id=821
+	name="STATE_821"
+	manpower = 519938
+	resources={
+		rubber=138
+		oil=10
+	}
+	
+	state_category = rural
+
+	history= {
+		owner = UNC #BAU
+		#add_core_of = BAU
+
+		buildings = {
+			infrastructure = 2
+			10325 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		12243 2047 4236 7415 1404 10325 7231
+	}
+}

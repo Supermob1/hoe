@@ -1,0 +1,29 @@
+﻿capital = 373
+oob = "MIS_1790"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_popularities = {
+	glory = 100
+	equality = 0
+	liberty = 0
+	order = 0
+}
+set_politics = {
+	
+	ruling_party = glory
+	last_election = "1790.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Shaumonekusse"	
+	desc = ""
+	picture = "Portrait_MIS_Shaumonekusse.dds"
+	expire = "1832.1.1"
+	ideology = glory_tribalism
+}

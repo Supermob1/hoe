@@ -1,0 +1,68 @@
+﻿capital = 6
+
+oob = "BEL_1790"
+
+set_research_slots = 3
+
+
+set_technology = {
+
+
+}
+
+set_politics = {
+
+		parties = {
+		liberal = { 
+			popularity = 60
+		}
+
+		conservatist = {
+			popularity = 40
+		}
+		
+		monarchist = {
+			popularity = 0
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	
+	}
+	
+	ruling_party = liberal
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = yes
+	
+}
+
+set_cosmetic_tag = BEL_HRE
+set_convoys = 80
+
+
+create_country_leader = {
+	name = "Jan Frans Vonck"
+	desc = "POLITICS_JAN_VONCK_DESC"
+	picture = "Portrait_BEL_Jan_Vonck.dds"
+	expire = "1965.1.1"
+	ideology = radicalism
+	traits = {
+		#
+	}
+}

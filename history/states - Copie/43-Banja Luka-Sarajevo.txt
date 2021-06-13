@@ -1,0 +1,27 @@
+
+state={
+	id=43
+	name="STATE_43"
+	resources={
+		steel=4.000
+		aluminium=194.000
+	}
+	
+	history={
+		owner = UNC #TUR
+		buildings = {
+			infrastructure = 4
+
+		}
+		#add_core_of = TUR
+		#add_core_of = BOS
+
+	}
+
+	provinces={
+		606 953 6799 11574 11741 11872 11899 
+	}
+	manpower=143023
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

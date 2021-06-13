@@ -1,0 +1,29 @@
+
+state={
+	id=1010
+	name="STATE_1010"
+	resources={
+		
+	}
+
+	history={
+		owner = LNP
+		
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_claim_by = LNP
+		
+
+	}
+
+	provinces={
+		4601 9775 11760 11776 11890 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

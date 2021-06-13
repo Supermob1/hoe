@@ -1,0 +1,21 @@
+
+state={
+	id=740
+	name="STATE_740"
+	manpower = 800
+	
+	state_category = rural
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		7259 1214 
+	}
+	
+}

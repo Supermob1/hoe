@@ -1,0 +1,39 @@
+
+state={
+	id=531
+	name="STATE_531" #Kansai
+	manpower = 1368560
+	state_category = metropolis
+	resources={
+		aluminium=6
+	}
+
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			1136 = {
+				naval_base = 6
+
+			}
+			7072 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			7072 20
+		}
+		
+
+	}
+
+	provinces={
+		1067 1136 7072 9985 11960 12031 
+	}
+}

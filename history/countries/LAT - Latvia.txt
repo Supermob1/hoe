@@ -1,0 +1,41 @@
+﻿capital = 190
+
+oob = "LAT_1790"
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	
+}
+set_cosmetic_tag = LAT_PLI
+set_research_slots = 3
+
+set_convoys = 10
+set_popularities = {
+	liberty = 20
+	order = 80
+	equality = 0
+	glory = 0
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1931.10.3"
+	election_frequency = 108
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Peter von Biron"
+	desc = "POLITICS_PETER_BIRON_DESC"
+	picture = "Portrait_LAT_Biron.dds"
+	expire = "1800.1.1"
+	ideology = dukedom
+	traits = {
+		#
+	}
+}

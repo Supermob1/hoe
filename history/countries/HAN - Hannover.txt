@@ -1,0 +1,48 @@
+﻿capital = 59
+
+oob = "HAN_1790"
+
+#starting tech 
+set_technology = {
+
+}
+set_cosmetic_tag = HAN_ENG
+
+set_research_slots = 2
+set_convoys = 0
+add_ideas = {
+	HRE_elector
+	HRE_member
+	
+	}
+set_popularities = {
+	liberty = 20
+	order = 80
+	equality = 0
+	glory = 0
+}
+set_politics = {
+
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "George III"
+	desc = "POLITICS_George_III_DESC"
+	picture = "Portrait_ENG_George_III.dds"
+	expire = "1947.1.1"
+	ideology = dukedom
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Carl August Von Alten"
+	picture = "Portrait_HAN_Alten.dds"
+	traits = {  }
+	skill = 3
+}

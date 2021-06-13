@@ -1,0 +1,25 @@
+
+state={
+	id=878
+	name="STATE_878"
+	manpower = 1100000
+	
+	state_category = rural
+	
+
+	history={
+		owner = UNC #ZIM
+		#add_core_of = ZIM
+		buildings = {
+			infrastructure = 2
+		
+		}
+		victory_points = {
+			4851 5
+		}
+	}
+
+	provinces={
+		7842 2151 4851 10929 2216 1874
+	}
+}

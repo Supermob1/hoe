@@ -1,0 +1,40 @@
+﻿capital = 46
+
+oob = "WAL_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+set_cosmetic_tag = MLO_TUR
+
+set_research_slots = 2
+set_convoys = 0
+
+
+set_popularities = {
+	glory = 0
+	equality = 20
+	liberty = 20
+	order = 60
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mihai Sutu"
+	desc = "POLITICS_Mihai_Sutu_DESC"
+	picture = "Portrait_WAL_Miahi_Sutu.dds"
+	expire = "1794.1.1"
+	ideology = suzerainty
+	traits = {
+		
+	}
+}
+
+}

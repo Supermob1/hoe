@@ -1,0 +1,21 @@
+	state={
+	id=988
+	name="STATE_988"
+	
+	history={
+		owner = UNC #HDJ
+		buildings = {
+			infrastructure = 3
+
+		}
+		#add_core_of = HDJ
+
+	}
+	
+	provinces={
+		1923 5006 8073 10786 
+	}
+	manpower=123000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

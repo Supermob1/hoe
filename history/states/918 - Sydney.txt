@@ -1,0 +1,33 @@
+
+state={
+	id=918
+	name="STATE_918"
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			12406 = {
+				naval_base = 2
+				coastal_bunker = 2
+
+			}
+
+		}
+		victory_points = {
+			12406 5 
+		}
+		add_core_of = AST
+
+	}
+
+	provinces={
+		12406 
+	}
+	manpower=1530
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

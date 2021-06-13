@@ -1,0 +1,21 @@
+state={
+	id=1002
+	name="STATE_1002"
+	
+	history={
+		owner = POR
+		add_core_of = POR
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+	
+	provinces={
+		799 924 3798 3861 6924 9787 
+	}
+	manpower=821022
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

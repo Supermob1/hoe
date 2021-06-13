@@ -1,0 +1,17 @@
+
+state={
+	id=908
+	name="STATE_908"
+	manpower = 482000
+	
+	state_category = rural
+	history={
+		owner = KWA
+		add_core_of = KWA
+		
+	}
+
+	provinces={
+		9137 7978 11194 4889
+	}
+}

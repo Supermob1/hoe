@@ -1,0 +1,36 @@
+﻿capital = 423
+
+oob = "ARC_1790"
+
+set_research_slots = 2
+
+set_technology = {
+	
+}
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 30
+	order = 70
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "Muhammad Ali Khan Walla Jah"
+	desc = ""
+	picture = "Portrait_ARC_Walla_Jah.dds"
+	expire = "1795.04.18"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

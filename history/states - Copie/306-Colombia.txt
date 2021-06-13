@@ -1,0 +1,22 @@
+
+state={
+	id=306
+	name="STATE_306"
+
+	history={
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		7936 7991 10846 12872 
+	}
+	manpower=550339
+	buildings_max_level_factor=1.000
+	state_category=city
+}

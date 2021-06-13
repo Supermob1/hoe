@@ -1,0 +1,22 @@
+
+state={
+	id=549
+	name="STATE_549"
+
+	history={
+		owner = VNZ
+		add_core_of = VNZ
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4892 5000 5056 
+	}
+	manpower=410477
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

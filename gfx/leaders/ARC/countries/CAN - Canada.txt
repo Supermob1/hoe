@@ -1,0 +1,65 @@
+﻿capital = 276
+
+oob = "CAN_1790"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	
+}
+set_cosmetic_tag = CAN_ALY
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 30
+		}
+
+		conservatist = {
+			popularity = 70
+		}
+		
+		monarchist = {
+			popularity = 0
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservatist
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "John Graves Simcoe"
+	desc = "POLITICS_JOHN_SIMCOE_DESC"
+	picture = "Portrait_CAN_Simcoe.dds"
+	expire = "1965.1.1"
+	ideology = tory
+	traits = {
+		#
+	}
+}
+
+
+set_convoys = 100

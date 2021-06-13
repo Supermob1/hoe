@@ -1,0 +1,23 @@
+
+state={
+	id=635
+	name="STATE_635"
+	resources={
+		chromium=178.000
+	}
+	
+	state_category = small_island
+
+	history={
+		owner = UNC
+		buildings = {
+			}
+
+	}
+
+	provinces={
+		1237 1263 4231 4247 4268 7264 10160 12120 12132 
+	}
+	manpower=876
+	buildings_max_level_factor=1.000
+}

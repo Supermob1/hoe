@@ -1,0 +1,23 @@
+
+state={
+	id=319
+	name="STATE_319"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = DOM
+		add_core_of = DOM
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		7632 7660 
+	}
+	manpower=201440
+	buildings_max_level_factor=1.000
+	state_category=town
+}

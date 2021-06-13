@@ -1,0 +1,22 @@
+
+state={
+	id=348
+	name="STATE_348"
+
+	history={
+		owner = UNC #TUR
+		buildings = {
+			infrastructure = 3
+
+		}
+		#add_core_of = TUR
+
+	}
+
+	provinces={
+		804 919 3807 3862 3964 11826 11839 11844 
+	}
+	manpower=295384
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

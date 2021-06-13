@@ -1,0 +1,41 @@
+﻿capital = 671 #Hanoi
+
+oob = "DAI_1790"
+
+set_research_slots = 3
+
+# Starting tech
+
+set_technology = {
+	
+}
+
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+
+	ruling_party = order
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Quang Trung" 
+	desc = ""
+	picture = "Portrait_VIN_Trung.dds"
+	expire = "1953.3.1"
+	ideology = despotism 
+	traits = {
+		
+	}
+}
+
+
+
+

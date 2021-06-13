@@ -1,0 +1,21 @@
+state={
+	id=946
+	name="STATE_946"
+	
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = VEN
+
+	}
+	
+	provinces={
+		628 3657 6656 9613 
+	}
+	manpower=430230
+	buildings_max_level_factor=1.000
+	state_category=town
+}

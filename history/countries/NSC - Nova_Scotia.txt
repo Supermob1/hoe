@@ -1,0 +1,38 @@
+﻿capital = 464
+
+oob = "NSC_1790"
+
+#starting tech
+set_technology = {
+
+}
+
+
+set_research_slots = 2
+set_convoys = 0
+
+
+set_popularities = {
+    glory = 0
+    equality = 0
+    liberty = 40
+    order = 60
+}
+
+set_politics = {
+    ruling_party = order
+    last_election = "1770.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Lord William Campbell"
+	desc = "POLITICS_William_Campbell_NSC_DESC"
+	picture = "Portrait_NSC_Campbell.dds"
+	expire = "1805.1.1"
+	ideology = tory
+	traits = {
+		#
+	}
+}

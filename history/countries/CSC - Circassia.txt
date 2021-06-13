@@ -1,0 +1,37 @@
+﻿capital = 804
+
+oob = "IME_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 0
+	
+set_popularities = {
+	liberty = 0
+	glory = 0
+	order = 0
+	equality = 100
+}
+set_politics = {
+	ruling_party = equality
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tribal Confederacy"
+	desc = "POLITICS_CSC_Conderacy_DESC"
+	picture = "Portrait_CSC_Tribal.dds"
+	expire = "1947.1.1"
+	ideology = free_tribalism
+	traits = {
+		
+	}
+}
+
+}

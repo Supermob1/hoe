@@ -1,0 +1,21 @@
+
+state = { 
+	id = 844
+	name = "STATE_844"
+	manpower = 435000
+	state_category = town
+
+	history = {
+		owner = JSK
+		add_core_of = JSK
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 1
+			}
+	}
+
+	provinces = {
+		4067 1063 9865 6873
+	}
+}

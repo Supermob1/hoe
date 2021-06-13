@@ -1,0 +1,28 @@
+﻿capital = 374
+
+oob = "KIO_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_popularities = {
+    glory = 0
+    equality = 20
+    liberty = 30
+    order = 50
+}
+
+set_politics = {
+    ruling_party = order
+    last_election = "1790.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+

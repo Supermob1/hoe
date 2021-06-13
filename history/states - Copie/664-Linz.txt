@@ -1,0 +1,25 @@
+
+state={
+	id=664
+	name="STATE_664"
+	resources={
+		steel=20.000
+	}
+
+	history={
+		owner = UNC #UNC
+		buildings = {
+			infrastructure = 6
+
+		}
+		#add_core_of = AUS
+
+	}
+
+	provinces={
+		732 3684 9665 
+	}
+	manpower=430414
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=845
+	name="STATE_845"
+	manpower = 216049
+	state_category = town
+	history={
+		owner = UNC #HW1
+		buildings = {
+			infrastructure = 3
+		}
+		#add_core_of = HWI
+		victory_points = {
+			7195 1
+		 }
+	}
+
+	provinces={
+		7195
+	}
+}

@@ -1,0 +1,76 @@
+﻿capital = 91
+
+oob = "GAL_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+
+set_cosmetic_tag = GAL_AUS
+set_research_slots = 3
+set_convoys = 0
+
+
+set_politics = {
+	
+	parties = {
+		liberal = { 
+			popularity = 0
+		}
+
+		conservatist = {
+			popularity = 30
+		}
+		
+		monarchist = {
+			popularity = 70
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	ruling_party = monarchist
+	last_election = "1786.4.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Leopold VII"
+	desc = ""
+	picture = "Portrait_GAL_Leopold.dds"
+	expire = "1792.1.1"
+	ideology = parliamentary_monarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Joseph II"
+	desc = "POLITICS_Joseph_II_DESC"
+	picture = "Portrait_GAL_Joseph_II.dds"
+	expire = "1790.20.2"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}
+
+}

@@ -1,0 +1,22 @@
+state={
+	id=744
+	name="STATE_744"
+
+	history={
+		owner = MNC
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = MNC
+		victory_points = {13206 1 }
+	}
+
+	provinces={
+		13206
+	}
+	
+	manpower= 20000
+	buildings_max_level_factor= 3.000
+	state_category= enclave
+}

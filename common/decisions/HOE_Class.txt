@@ -1,0 +1,113 @@
+upper_class = {
+	evaluate_upper_class = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	raise_taxes = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	lower_taxes = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	bribe_for_political_support = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	grant_monopolies = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	crack_down_corruption = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+}
+	
+middle_class = {
+	evaluate_middle_class = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	more_merchant_protections = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+}
+
+lower_class	= {
+	evaluate_lower_class = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	land_reforms = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	push_for_equality = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+	
+	establish_serfdom = {
+		complete_effect = {
+#			country_event = {
+#				id = unknown
+#				days = 0
+#			}
+		}
+	}
+}

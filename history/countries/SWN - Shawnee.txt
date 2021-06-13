@@ -1,0 +1,75 @@
+﻿capital = 396
+
+oob = "SWN_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+
+set_research_slots = 1
+set_convoys = 0
+
+
+set_popularities = {
+    glory = 70
+    equality = 0
+    liberty = 0
+    order = 30
+}
+
+set_politics = {
+    ruling_party = glory
+    last_election = "1790.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+create_country_leader = {
+	name = "Cornstalk"
+	desc = ""
+	picture = "Portrait_SWN_Cornstalk.dds"
+	ideology = glory_tribalism
+	traits = {
+		
+	}
+}
+set_country_flag = leader2_Cheeseekau
+1777.1.1 = {
+	create_country_leader = {
+		name = "Blue Jacket"
+		desc = "POLITICS_Blue_Jacket_DESC"
+		picture = "Portrait_SWN_Blue.dds"
+		expire = "1810.1.1"
+		ideology = glory_tribalism
+		traits = {
+			
+		}
+	}
+	clr_country_flag = leader2_Cheeseekau
+	set_country_flag = leader2_Black_Snake
+}
+create_corps_commander = {
+	name = "Black Snake"
+	#picture = "Portrait_OBD_Black_Snake.dds"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Cheeseekau"
+	#picture = "Portrait_OBD_Cheeseekau.dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Blackfish"
+	#picture = "Portrait_OBD_Blackfish.dds"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Black Hoof"
+	#picture = "Portrait_OBD_Black_Hoof.dds"
+	traits = { }
+	skill = 2
+}

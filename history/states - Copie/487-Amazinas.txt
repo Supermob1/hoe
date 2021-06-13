@@ -1,0 +1,22 @@
+
+state={
+	id=487
+	name="STATE_487"
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2160 2174 5179 5188 5229 5230 8157 8211 8225 8240 10924 10938 10952 10982 10987 10996 12902 12916 12930 12973 12979 13134 13174 13195 
+	}
+	manpower=67166
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

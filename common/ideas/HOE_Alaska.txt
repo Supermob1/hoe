@@ -1,0 +1,58 @@
+ideas = {
+	country = {
+		native_oppression = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = ALA_angry_natives
+						
+			modifier = {
+                stability_factor = -0.2
+			}
+	    }
+		inefficient_trade = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = ALA_bad_trade
+						
+			modifier = {
+                consumer_goods_factor = 0.25
+				trade_opinion_factor = -0.25
+			}
+	    }
+		religious_split_alaska = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = ALA_religious_split
+						
+			modifier = {
+                political_power_gain = -0.5
+				stability_weekly = -0.01
+			}
+	    }
+				
+	   
+
+	}
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=91
+	name="STATE_91"
+
+	history={
+		owner = UNC #GAL
+		victory_points = {
+			11479 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			air_base = 5
+
+		}
+		#add_core_of = GAL
+		#add_claim_by = PLI
+
+	}
+
+	provinces={
+		491 536 3434 3743 6431 6460 6483 6522 9425 9454 9468 9558 11411 11479 11550 
+	}
+	manpower=2050475
+	buildings_max_level_factor=1.000
+	state_category=city
+}

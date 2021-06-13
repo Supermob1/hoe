@@ -1,0 +1,32 @@
+
+state={
+	id=981
+	name="STATE_981"
+
+	history={
+		owner = UNC #TUR
+		victory_points = {
+			4109 10 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			
+			4109 = {
+				naval_base = 9
+
+			}
+
+		}
+		#add_core_of = GRE
+
+	}
+
+	provinces={
+		976 1109 3988 4109 7127 11895 13251 
+	}
+	manpower=423420
+	buildings_max_level_factor=1.000
+	state_category=town
+}

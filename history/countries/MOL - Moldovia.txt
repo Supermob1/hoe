@@ -1,0 +1,40 @@
+﻿capital = 79
+
+oob = "MOL_1790"
+
+#starting tech 
+set_technology = {
+
+}
+
+set_cosmetic_tag = MOL_TUR
+
+set_research_slots = 2
+set_convoys = 0
+
+
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Alexandru Moruzi"
+	desc = "POLITICS_Alexandru_Moruzi_DESC"
+	picture = "Portrait_MOL_Alexandru_Moruzi.dds"
+	expire = "1947.1.1"
+	ideology = suzerainty
+	traits = {
+		
+	}
+}
+
+}

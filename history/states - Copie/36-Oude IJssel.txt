@@ -1,0 +1,22 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = UNC #HOL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		6286 9309 9403 
+	}
+	manpower=220341
+	buildings_max_level_factor=1.000
+	state_category=city
+}

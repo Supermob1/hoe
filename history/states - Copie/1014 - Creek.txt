@@ -1,0 +1,29 @@
+
+state={
+	id=1014
+	name="STATE_1014"
+
+	history={
+		owner = CRK
+		add_core_of = CRK
+		add_claim_by = USA
+		add_claim_by = GRG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			
+
+		}
+		victory_points = {
+			12384 1 
+		}
+
+	}
+
+	provinces={
+		638 5090 7583 7612 9949 9996 10492 12384 
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

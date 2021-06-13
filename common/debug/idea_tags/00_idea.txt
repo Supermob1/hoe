@@ -1,0 +1,114 @@
+idea_categories = {
+
+	hidden_ideas = {
+		hidden = yes
+	
+		cost = 0
+		removal_cost = -1
+	}
+
+	country = {
+		national_spirit = yes
+		
+		cost = 0
+		removal_cost = -1
+	}
+	
+	government = {
+		slot = trade_laws
+		slot = tariffs
+		slot = foreign_investment
+		slot = economy
+		slot = stability
+		slot = popularity
+		slot = taxes
+		slot = slavery
+		
+		
+
+		#cost = 150
+		removal_cost = -1
+	}
+	military = {
+		slot = mobilization_laws
+		slot = officer_training
+		slot = conscription
+		slot = age_laws
+		slot = procurement_of_weapons
+		slot = foreign_relations_idea
+		
+		cost = 150
+		removal_cost = -1
+	
+	}
+	
+	minister = {
+		slot = head_of_government
+		slot = second_of_government
+		slot = justice_minister
+		slot = foreign_minister
+		slot = defense_minister
+		slot = economic_minister
+		slot = agriculture_minister
+		slot = education_minister
+		slot = head_of_intel
+		slot = political_advisor
+		slot = political_advisor
+		
+		
+		cost = 150
+		removal_cost = -1 # works
+	}
+	
+	research_production = {
+		slot = weapons_manufacturer
+		slot = captain_of_the_horse
+		slot = air_naval_manufacturer
+		slot = air_naval_manufacturer
+		slot = industrial_concern
+
+		cost = 150
+		removal_cost = 0
+	}
+	
+	military_staff = {	
+		slot = chief_of_staff
+		slot = chief_of_army
+		slot = chief_of_navy
+		slot = chief_of_guerrila_force
+		slot = theorist
+		slot = theorist
+		
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	society = {
+		slot = religion_idea
+		slot = religious_tolerance_idea
+		slot = voting_franchise_idea
+		slot = centralism_idea
+		slot = role_women_idea
+		slot = security_law
+		slot = press_rights
+		slot = education_investment
+	
+		cost = #150
+		removal_cost = 0
+	}
+	state_of_country = {
+		slot = police_effectiveness
+		slot = health
+		slot = corruption
+		slot = agarianism_vs_urbanism
+		slot = literacy_idea
+		slot = employment
+		slot = abundance
+		slot = westernisation
+	
+		cost = #150
+		removal_cost = 10
+	}
+
+}

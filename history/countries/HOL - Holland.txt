@@ -1,0 +1,41 @@
+﻿capital = 695
+
+oob = "HOL_1790"
+
+set_research_slots = 3
+
+
+set_technology = {
+	
+}
+
+
+
+set_popularities = {
+	liberty = 30
+	order = 70
+	equality = 0
+	glory = 0
+}
+
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1770.4.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 100
+
+
+create_country_leader = {
+	name = "Jan Fredrik Berewout"
+	desc = "POLITICS_Berewout_DESC"
+	picture = "Portrait_HOL_Berwout.dds"
+	expire = "1785.1.1"
+	ideology = absolutist
+	traits = {
+		#
+	}
+}

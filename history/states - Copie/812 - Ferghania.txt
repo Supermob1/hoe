@@ -1,0 +1,18 @@
+state={
+	id=812
+	name="STATE_812"
+
+	history={
+		owner = UNC #KOK
+		#add_core_of = KOK
+		
+		
+	}
+
+	provinces={
+		10530 10408 1483 12370 7706 12640 10660
+	}
+	manpower= 169784
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=809
+	name="STATE_809"
+
+	history={
+		owner = UNC
+
+	}
+
+	provinces={
+		1830 7855 10707 13069 13202 13203 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

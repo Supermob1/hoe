@@ -1,0 +1,29 @@
+﻿capital = 771
+
+oob = "ESF_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+
+set_research_slots = 2
+set_convoys = 0
+
+set_popularities = {
+	liberty = 60
+	order = 40
+	equality = 0
+	glory = 0
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.6.1"
+	election_frequency = 12
+	elections_allowed = yes
+}
+
+
+
+}

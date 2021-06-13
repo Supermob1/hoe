@@ -1,0 +1,1432 @@
+technologies = {
+
+	carrack = {
+		
+		enable_equipments = {
+			carrack_1
+		}
+		
+		path = {
+			leads_to_tech = man_o_war
+			
+			
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = galleys
+			
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = galleon			
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 6 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			carrack
+		}
+	}
+	galleon = {
+		
+		enable_equipments = {
+			galleon_1
+		}
+		
+		path = {
+			leads_to_tech = catamaran
+			
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = galliot
+			
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 6 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	galleys = {
+		
+		enable_equipments = {
+			galleys_1
+		}
+		
+		path = {
+			leads_to_tech = frigate
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = galliot
+			
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	man_o_war = {
+		
+		enable_equipments = {
+			fourth_ship_of_the_line_1
+		}
+		
+		path = {
+			leads_to_tech = great_ships
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	galliot = {
+		
+		enable_equipments = {
+			galliot_1
+		}
+		
+		
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	catamaran = {
+		
+		enable_equipments = {
+			catamaran_1
+		}
+		
+		path = {
+			leads_to_tech = udema
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 6 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	udema = {
+		
+		enable_equipments = {
+			catamaran_2
+		}
+		
+		
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 6 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	great_ships = {
+		
+		enable_equipments = {
+			third_ship_of_the_line_1
+		}
+		
+		path = {
+			leads_to_tech = three_deckers
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = two_deckers
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	three_deckers = {
+		
+		enable_equipments = {
+			first_ship_of_the_line_1
+		}
+		
+		path = {
+			leads_to_tech = sea_fortresses
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = steamers
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	sea_fortresses = {
+		
+		enable_equipments = {
+			supreme_ship_of_the_line_1
+		}
+		
+		
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	two_deckers = {
+		
+		enable_equipments = {
+			second_ship_of_the_line_1
+		}
+		
+		
+		path = {
+			leads_to_tech = raze_ships
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = steamers
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	raze_ships = {
+		
+		enable_equipments = {
+			razee_ship_of_the_line_1
+		}
+		
+		
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	steamers = {
+		
+		enable_equipments = {
+			steam_warship_1
+		}
+		
+		
+		
+		
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 3 y = 25 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	frigate = {
+		
+		enable_equipments = {
+			frigate_1
+		}
+		
+		
+		path = {
+			leads_to_tech = galley_frigates
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = post_ship
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_frigate
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = half_battery_frigate
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 11 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	heavy_frigate = {
+		
+		enable_equipments = {
+			heavy_frigate_1
+		}
+		
+		
+		path = {
+			leads_to_tech = super_heavy_frigate
+			research_cost_coeff = 1
+		}
+		
+		
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	super_heavy_frigate = {
+		
+		enable_equipments = {
+			super_heavy_frigate_1
+		}
+		
+		
+		path = {
+			leads_to_tech = paddle_frigate
+			research_cost_coeff = 1
+		}
+		
+		
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	 paddle_frigate = {
+		
+		enable_equipments = {
+			paddle_frigate_1
+		}
+		
+		
+		path = {
+			leads_to_tech = paddle_frigate
+			research_cost_coeff = 1
+		}
+		
+		
+		
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 8 y = 25 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	half_battery_frigate = {
+		
+		enable_equipments = {
+			frigate_2
+		}
+			
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		path = {
+			leads_to_tech = super_heavy_frigate
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 17 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	galley_frigates = {
+		
+		enable_equipments = {
+			galleys_2
+		}
+			
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	post_ship = {
+		
+		enable_equipments = {
+			corvette_1
+		}
+			
+		research_cost = 1.5
+
+		start_year = 1700
+		path = {
+			leads_to_tech = steam_corvette
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = naval_folder
+			position = { x = 14 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	steam_corvette = {
+		
+		enable_equipments = {
+			corvette_2
+		}
+			
+		research_cost = 1.5
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 14 y = 25 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	
+	merchantman = {
+		
+		enable_equipments = {
+			sloop_1
+		}
+			
+		research_cost = 1.5
+		
+		path = {
+			leads_to_tech = gunned_merchantman
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = schooner
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 18 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	gunned_merchantman = {
+		
+		enable_equipments = {
+			sloop_2
+		}
+			
+		research_cost = 1.5
+
+		path = {
+			leads_to_tech = brig
+			research_cost_coeff = 1
+		}
+
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 18 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	brig = {
+		
+		enable_equipments = {
+			brig_1
+		}
+			
+		research_cost = 1.5
+
+		path = {
+			leads_to_tech = post_ship
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sloop
+			research_cost_coeff = 1
+		}
+		
+		
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 18 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	sloop = {
+		
+		enable_equipments = {
+			sloop_3
+		}
+			
+		research_cost = 1.5
+
+		path = {
+			leads_to_tech = cruiser
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = steam_sloop
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = bermuda_sloop
+			research_cost_coeff = 1
+		}
+		
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 18 y = 15 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	steam_sloop = {
+		
+		enable_equipments = {
+			steam_sloop_1
+		}
+			
+		research_cost = 1.5
+
+		
+
+		
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 18 y = 25 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	cruiser = {
+		
+		enable_equipments = {
+			brig_2
+		}
+			
+		research_cost = 1.5
+
+		
+
+		
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 16 y = 21 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	bermuda_sloop = {
+		
+		enable_equipments = {
+			sloop_4
+		}
+			
+		research_cost = 1.5
+
+		
+
+		
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 20 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	schooner = {
+		
+		enable_equipments = {
+			schooner_1
+		}
+			
+		research_cost = 1.5
+		path = {
+			leads_to_tech = cutter
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = clipper
+			research_cost_coeff = 1
+		}
+		
+
+		
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 16 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	cutter = {
+		
+		enable_equipments = {
+			cutter_1
+		}
+			
+		research_cost = 1.5
+
+		
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 14 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	clipper = {
+		
+		enable_equipments = {
+			schooner_2
+		}
+			
+		research_cost = 1.5
+
+		
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 16 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	flute = {
+		
+		enable_equipments = {
+			fourth_ship_of_the_line_1
+		}
+			
+		research_cost = 1.5
+		path = {
+			leads_to_tech = heavy_flute
+			research_cost_coeff = 1
+		}
+		
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	heavy_flute = {
+		
+		enable_equipments = {
+			fourth_ship_of_the_line_1
+		}
+			
+		research_cost = 1.5
+	
+		
+		
+		start_year = 1700
+		
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				OR = { tag = ENG tag = FRA }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			heavy_ship
+			galleyed_ships
+		}
+	}
+	
+	
+	
+	
+	
+	
+	transport = {
+
+		transport_capacity = -0.5
+		naval_invasion_capacity = 10
+		
+		path = {
+			leads_to_tech = landing_craft 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = flute
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1922
+		
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+	
+	landing_craft = {
+
+		invasion_preparation = -0.5
+		amphibious_invasion_defence = 0.15
+		naval_invasion_capacity = 40
+
+		path = {
+			leads_to_tech = tank_landing_craft 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = 13 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+	
+	tank_landing_craft = {
+		invasion_preparation = -0.25
+		amphibious_invasion = 0.25
+		naval_invasion_capacity = 100
+		
+		path = {
+			leads_to_tech = steam_landing_craft 
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1944
+		
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+	steam_landing_craft = {
+
+		amphibious_invasion = 0.25
+		amphibious_invasion_defence = 0.5
+		naval_invasion_capacity = 100
+
+		research_cost = 2
+		start_year = 1944
+		
+		folder = {
+			name = naval_folder
+			position = { x = 12 y = 30 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+	
+	
+}

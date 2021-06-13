@@ -1,0 +1,37 @@
+﻿capital = 902
+
+
+
+set_research_slots = 3
+
+set_technology = {
+	
+}
+add_ideas = {
+
+	HRE_member
+	}
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Aloys I"
+	desc = ""
+	picture = "Portrait_VAD_Aloys.dds"
+	expire = "1805.1.1"
+	ideology = principality
+	traits = {
+		
+	}
+}
+

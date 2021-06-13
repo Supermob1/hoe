@@ -1,0 +1,22 @@
+
+state={
+	id=662
+	name="STATE_662"
+
+	history={
+		owner = UNC #UNC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2059 4924 4976 12894 
+	}
+	manpower=1468
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

@@ -1,0 +1,24 @@
+state={
+	id=1055
+	name="STATE_1055"
+	
+	history={
+		owner = SHO
+		add_core_of = SHO
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			4865 1 
+		}
+
+	}
+	
+	provinces={
+		1663 1862 4816 4865 7756 7827 7888 10591 12425 13153 
+	}
+	manpower=20
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

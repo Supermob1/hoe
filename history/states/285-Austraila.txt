@@ -1,0 +1,36 @@
+
+state={
+	id=285
+	name="STATE_285"
+
+	history={
+		owner = UNC
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			
+
+		}
+		victory_points = {
+			7859 2 
+		}
+		victory_points = {
+			12406 5 
+		}
+		victory_points = {
+			7520 1 
+		}
+		add_core_of = UNC
+
+	}
+
+	provinces={
+		1537 1611 1861 4478 4673 4763 4864 7450 7471 7496 7520 7664 7859 10388 10427 10682 12435 12532 12560 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

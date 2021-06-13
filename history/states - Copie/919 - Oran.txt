@@ -1,0 +1,31 @@
+
+state={
+	id=919
+	name="STATE_919"
+	manpower = 20000
+	state_category = town
+	
+	history={
+		owner = UNC #SPR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			7132 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		
+		victory_points = {
+			7132 5
+		}
+		
+		#add_core_of = ALG
+	}
+
+	provinces={
+		7132 
+	}
+}
+          

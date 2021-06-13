@@ -1,0 +1,114 @@
+﻿capital = 858
+
+oob = "USA_1790"
+
+set_research_slots = 4
+
+# Starting tech
+set_technology = {
+
+
+}
+
+set_convoys = 400
+
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 60
+	order = 40
+}
+set_politics = {
+	
+	ruling_party = liberty
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+
+}
+
+
+create_country_leader = {
+	name = "John Adams"
+	desc = "POLITICS_John_Adams_DESC"
+	picture = "Portrait_USA_John_Adams.dds"
+	expire = "1965.1.1"
+	ideology = federalist
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Thomas Jefferson"
+	desc = "POLITICS_Thomas_Jefferson_DESC"
+	picture = "Portrait_USA_Thomas_Jefferson.dds"
+	expire = "1965.1.1"
+	ideology = democrat_republican
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Thomas Paine"
+	desc = "POLITICS_Thomas_Paine_DESC"
+	picture = "Portrait_USA_Thomas_Paine.dds"
+	expire = "1965.1.1"
+	ideology = enlightenmentism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Henry Knox"
+	desc = "POLITICS_Henry_Knox_DESC"
+	picture = "Portrait_USA_Henry_Knox.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Robert Owen"
+	desc = "POLITICS_Robert_Owen_DESC"
+	picture = "Portrait_USA_Robert_Owen.dds"
+	expire = "1965.1.1"
+	ideology = utopianist
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "George III"
+	desc = "POLITICS_George_III_DESC"
+	picture = "Portrait_ENG_George_III.dds"
+	expire = "1965.1.1"
+	ideology = parliamentary_monarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Richard Allen"
+	desc = "POLITICS_Richard_Allen_DESC"
+	picture = "Portrait_USA_Richard_Allen.dds"
+	expire = "1965.1.1"
+	ideology = christian
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "George Washington"
+	desc = "POLITICS_GEORGE_WASHINGTON_DESC"
+	picture = "Portrait_USA_George_Washington.dds"
+	expire = "1947.1.1"
+	ideology = washington
+	traits = {
+		
+	}
+}

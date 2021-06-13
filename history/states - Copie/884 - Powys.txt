@@ -1,0 +1,31 @@
+state= {
+	id=884
+	name="STATE_884"
+	manpower = 17800
+	
+	state_category = city
+	
+	resources={
+		steel=14
+		aluminium=10
+	}
+
+	history=
+	{
+		owner = UNC #ENG
+		#add_core_of = WLE
+		victory_points = { 377 5 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			377 = {
+				naval_base = 3
+			}
+		}
+		#add_core_of = ENG
+	}
+
+	provinces=
+	{
+  377 407 13235 13231 3274 11361 13236 253	}
+}

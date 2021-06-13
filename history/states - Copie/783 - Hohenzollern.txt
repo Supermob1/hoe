@@ -1,0 +1,21 @@
+
+state={
+	id=783
+	name="STATE_783"
+
+	history={
+		owner = UNC #HOH
+		#add_core_of = HOH
+		victory_points = {
+			3679 1 
+		}
+
+	}
+
+	provinces={
+		6934 
+	}
+	manpower=18204
+	buildings_max_level_factor=1.000
+	state_category=town
+}

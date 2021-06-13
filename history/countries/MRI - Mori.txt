@@ -1,0 +1,44 @@
+﻿capital = 529
+
+oob = "MRI_1790"
+
+
+
+set_research_slots = 2
+
+add_ideas = {
+	
+}
+
+set_technology = {
+
+}
+
+
+set_convoys = 400
+
+set_popularities = {
+	order = 100
+	liberty = 0
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "Mori Narifusa"
+	desc = ""
+	picture = "Portrait_MRI_Narifusa.dds"
+	expire = "1989.1.1"
+	ideology = absolutist
+	traits = {
+	}
+}

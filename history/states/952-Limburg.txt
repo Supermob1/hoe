@@ -1,0 +1,22 @@
+state={
+	id=952
+	name="STATE_952"
+	
+	history={
+		owner = LIE
+		add_core_of = LIE
+		add_core_of = FLA
+		buildings = {
+			infrastructure = 8
+
+		}
+
+	}
+	
+	provinces={
+		9574 11562 
+	}
+	manpower=300130
+	buildings_max_level_factor=1.000
+	state_category=town
+}

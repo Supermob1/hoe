@@ -1,0 +1,19 @@
+
+state={
+	id=778
+	name="STATE_778"
+	manpower = 78173
+	
+	state_category = rural
+	history={
+		owner = BAV
+		add_core_of = BAV
+		
+		
+		
+	}
+
+	provinces={
+		6570 529
+	}
+}

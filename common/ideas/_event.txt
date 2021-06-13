@@ -1,0 +1,19 @@
+ideas = {
+
+	country = {
+		political_turmoil = {
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			
+			picture = FRA_scw_intervention_republicans_focus
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=745
+	name="STATE_745"
+
+	history={
+		owner = MLO
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = MLO
+
+	}
+
+	provinces={
+		607 3780 6790 9584 11726 
+	}
+	manpower=447704
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

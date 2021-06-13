@@ -1,0 +1,20 @@
+
+state={
+	id=62
+	name="STATE_62"
+
+	history={
+		owner = UNC #LUB
+		#add_core_of = LUB
+		buildings = {
+			infrastructure = 6
+		}
+	}
+
+	provinces={
+		11331 
+	}
+	manpower=330442
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

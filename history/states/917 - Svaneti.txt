@@ -1,0 +1,21 @@
+state={
+	id=917
+	name="STATE_917"
+	manpower = 127000
+	
+	state_category = rural
+	
+	
+
+	history={
+		owner = SVA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SVA
+	}
+
+	provinces={
+		654 9626
+	}
+}

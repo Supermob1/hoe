@@ -1,0 +1,21 @@
+state={
+	id=925
+	name="STATE_925"
+
+	history={
+		owner = ALA
+		add_core_of = ALA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		7884
+	}
+	manpower= 12500
+	buildings_max_level_factor=1
+	state_category="rural"
+}

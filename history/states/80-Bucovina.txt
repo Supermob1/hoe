@@ -1,0 +1,25 @@
+
+state={
+	id=80
+	name="STATE_80"
+
+	history={
+		owner = GAL
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+
+		}
+		add_claim_by = PLI
+		add_core_of = GAL
+		add_core_of = MOL
+
+	}
+
+	provinces={
+		577 6761 9548 11689 
+	}
+	manpower=152733
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

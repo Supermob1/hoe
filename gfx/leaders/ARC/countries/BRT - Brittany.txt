@@ -1,0 +1,53 @@
+﻿capital = 14
+oob = "BRT_1790"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+set_war_support = 0.1
+set_convoys = 10
+
+
+
+set_politics = {
+
+	parties = {
+		liberal = { 
+			popularity = 0
+		}
+
+		conservatist = {
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 80
+		}
+		imperialist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 20
+		}
+		fascism = {
+			popularity = 0
+		}
+		anarchist = {
+			popularity = 0
+		}
+		religious = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "1790.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}

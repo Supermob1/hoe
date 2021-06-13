@@ -1,0 +1,22 @@
+
+state={
+	id=629
+	name="STATE_629"
+	manpower = 18370
+	state_category = town
+	history={
+		owner = HWI
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
+		add_core_of = HWI
+		victory_points = {
+			10048 5
+		 }
+	}
+
+	provinces={
+		10048 12021
+	}
+}

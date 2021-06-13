@@ -1,0 +1,25 @@
+
+state={
+	id=551
+	name="STATE_551"
+
+	history={
+		owner = UNC #SNN
+		#add_core_of = SNN
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			10784 5 
+		}
+
+	}
+
+	provinces={
+		2003 2046 2088 4961 7925 10743 10784 12796 12806 12826 12862 12881 
+	}
+	manpower=650500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

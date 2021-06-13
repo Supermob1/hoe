@@ -1,0 +1,21 @@
+state={
+	id=986
+	name="STATE_986"
+	
+	history={
+		owner = UNC #PLI
+		buildings = {
+			infrastructure = 6
+
+		}
+		#add_core_of = PLI
+
+	}
+	
+	provinces={
+		6401 6678 
+	}
+	manpower=21400
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

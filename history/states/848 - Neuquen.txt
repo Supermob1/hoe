@@ -1,0 +1,22 @@
+
+state={
+	id=848
+	name="STATE_848"
+
+	history={
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		650 5191 5228 8194 8222 12914 
+	}
+	manpower=8638
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

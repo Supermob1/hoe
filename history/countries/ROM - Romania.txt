@@ -1,0 +1,33 @@
+﻿capital = 46
+
+oob = "ROM_1790"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+# Starting tech
+set_technology = {
+
+}
+
+
+
+
+set_convoys = 10
+
+
+set_popularities = {
+	liberty = 100
+	order = 0
+	
+	equality = 0
+	glory = 0
+}
+	set_politics = {
+	
+	ruling_party = order
+	last_election = "1790.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}

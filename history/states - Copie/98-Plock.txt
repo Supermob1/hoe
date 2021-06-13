@@ -1,0 +1,22 @@
+
+state={
+	id=98
+	name="STATE_98"
+
+	history={
+		owner = UNC #PLI
+		buildings = {
+			infrastructure = 6
+
+		}
+		#add_core_of = PLI
+
+	}
+
+	provinces={
+		493 548 3230 6259 6321 9439 9546 11515 
+	}
+	manpower=434500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

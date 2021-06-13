@@ -1,0 +1,20 @@
+
+
+state={
+	id=777
+	name="STATE_777"
+	manpower = 11020
+	
+	state_category = city
+	history={
+		owner = BAV
+		add_core_of = BAV
+		
+		
+		
+	}
+
+	provinces={
+		3547 9522
+	}
+}

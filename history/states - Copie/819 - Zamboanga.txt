@@ -1,0 +1,19 @@
+state=
+{
+	id=819
+	name="STATE_819"
+	manpower = 391746
+	
+	state_category = rural
+	
+	history=
+	{
+		owner = UNC #SPH
+		
+		#add_core_of = SPH
+	}
+
+	provinces={
+		1421 4399 7360 7389 7417
+	}
+}

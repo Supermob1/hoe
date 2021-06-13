@@ -1,0 +1,26 @@
+
+state={
+	id=736
+	name="STATE_736"
+
+	history={
+		owner = UNC #VEN
+		#add_core_of = VEN
+		buildings = {
+			infrastructure = 1
+			11735 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6626 11735 13245 
+	}
+	manpower=148590
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=410
+	name="STATE_410"
+	manpower = 97894
+	
+	state_category = rural
+
+	history={
+		owner = UNC #ZAN
+		buildings = {
+			infrastructure = 2
+		}
+		#add_core_of = PER
+		#add_core_of = QAJ
+		#add_core_of = ZAN
+	}
+
+	provinces={
+		1889 2039 2070 4891 10782 13082 
+	}
+}

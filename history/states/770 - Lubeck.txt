@@ -4,15 +4,17 @@ state={
 	name="STATE_770"
 
 	history={
-		owner = MCK
-		add_core_of = MCK
+		owner = KOL
+		add_core_of = KOL
 		buildings = {
 			infrastructure = 6
+
 		}
+
 	}
 
 	provinces={
-		11305 13214 
+		247 309 
 	}
 	manpower=310412
 	buildings_max_level_factor=1.000

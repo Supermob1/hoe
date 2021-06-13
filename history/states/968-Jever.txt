@@ -3,9 +3,8 @@ state={
 	name="STATE_968"
 	
 	history={
-		owner = SOV
+		owner = PRU
 		add_core_of = PRU
-		add_core_of = ESF
 		buildings = {
 			infrastructure = 4
 

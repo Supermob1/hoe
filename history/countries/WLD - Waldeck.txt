@@ -1,0 +1,26 @@
+﻿capital = 795
+
+oob = "WLD_1790"
+
+#starting tech 
+set_technology = {
+	
+}
+add_ideas = {
+	HRE_member
+}
+set_research_slots = 1
+set_convoys = 0
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1790.4.4"
+	election_frequency = 48
+	elections_allowed = no
+}

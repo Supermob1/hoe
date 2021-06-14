@@ -2,22 +2,23 @@
 state={
 	id=767
 	name="STATE_767"
-	manpower = 23000
-	
-	state_category = rural
 
 	history={
 		owner = TUR
 		buildings = {
 			infrastructure = 5
+
 		}
 		add_core_of = UKR
 		add_core_of = CRI
 		add_claim_by = SOV
-		
+
 	}
 
 	provinces={
-		3755 11683 11546 6597
+		741 754 3575 3738 3755 3757 9698 9714 11546 11670 11683 11703 11715 
 	}
+	manpower=23000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

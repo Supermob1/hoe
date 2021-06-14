@@ -2,18 +2,20 @@
 state={
 	id=765
 	name="STATE_765"
-	manpower = 2300
-	
-	state_category = rural
 
 	history={
-		owner = PLI
-		add_core_of = PLI
-		add_core_of = LIT
-		
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 5
+		}
+
 	}
 
 	provinces={
-		6371 6220 9241
+		409 434 458 463 511 522 559 574 3403 3452 3468 3557 6423 6451 6478 6495 6507 6578 6597 6605 9413 9419 9433 9573 11422 11425 11437 11462 11504 11561 
 	}
+	manpower=2300
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

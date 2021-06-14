@@ -2,20 +2,22 @@
 state={
 	id=203
 	name="STATE_203"
-	manpower = 367243
-	
-	state_category = large_town
 
 	history={
 		owner = SOV
 		buildings = {
 			infrastructure = 5
+
 		}
 		add_core_of = SOV
 		add_core_of = UKR
+
 	}
 
 	provinces={
-		434 458 488 3452 3468 6451 6478 9451 9491 11409 11424 11438 11530 
+		429 568 588 721 737 767 3399 3573 3767 6596 6771 9571 9712 9729 11700 
 	}
+	manpower=367243
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

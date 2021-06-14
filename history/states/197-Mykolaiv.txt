@@ -2,23 +2,23 @@
 state={
 	id=197
 	name="STATE_197"
-	manpower = 99590
-	
-	state_category = rural
 
 	history={
 		owner = SOV
 		buildings = {
 			infrastructure = 5
-			
+
 		}
 		add_core_of = SOV
 		add_core_of = UKR
 		add_core_of = CRI
-		
+
 	}
 
 	provinces={
-		409 574 3403 9573 
+		238 315 343 371 398 489 546 582 3225 3480 3542 3584 6458 6508 6532 6589 9437 9477 9491 9506 9519 9543 9566 11325 11383 11489 11530 11553 11557 
 	}
+	manpower=99590
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

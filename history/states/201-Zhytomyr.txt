@@ -2,21 +2,21 @@
 state={
 	id=201
 	name="STATE_201"
-	manpower = 757537
-	
-	state_category = town
 
 	history={
-		owner = PLI
+		owner = CSC
 		buildings = {
 			infrastructure = 5
-			air_base = 3
+
 		}
-		add_core_of = PLI
-		add_core_of = UKR
+		add_core_of = CSC
+
 	}
 
 	provinces={
-		441 550 3470 3570 6593 9466 9493 9533 11464 11477 11490 11514 3543 9568
+		666 670 683 3672 9628 11632 
 	}
+	manpower=757537
+	buildings_max_level_factor=1.000
+	state_category=town
 }

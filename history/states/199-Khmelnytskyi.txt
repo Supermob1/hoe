@@ -2,9 +2,6 @@
 state={
 	id=199
 	name="STATE_199"
-	manpower = 558224
-	
-	state_category = town
 
 	history={
 		owner = PLI
@@ -12,12 +9,17 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 3
+
 		}
 		add_core_of = PLI
 		add_core_of = UKR
+
 	}
 
 	provinces={
-		462 3430 3457 3511 6429 6509 
+		441 462 3430 3457 3470 3507 3511 3543 3570 6429 6509 6520 6556 6593 9249 9466 9493 9533 9568 11453 11477 11514 11543 
 	}
+	manpower=558224
+	buildings_max_level_factor=1.000
+	state_category=town
 }

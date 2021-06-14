@@ -1,6 +1,9 @@
 ######################
 #	    Europe       #
 ######################
+LIP = "countries/Brunswick.txt"  #Lippe
+ANH = "countries/Brunswick.txt"  #Anhalt
+WLD = "countries/Brunswick.txt"  #Waldeck
 ABK = "countries/Abkhazia.txt"
 ARA = "countries/Aragon.txt"
 AND = "countries/Andorra.txt"

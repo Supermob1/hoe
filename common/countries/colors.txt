@@ -1,5 +1,26 @@
 #reload countrycolors
 
+LIP = {
+	color = rgb { 140 109 158 }
+	color_ui = rgb { 0 156 255 }
+}
+
+ABK = {
+	color = rgb { 147 198 63 }
+	color_ui = rgb { 0 156 255 }
+}
+
+ANH = {
+	color = rgb { 158 93 66 }
+	color_ui = rgb { 0 156 255 }
+}
+
+WLD = {
+	color = rgb { 112 158 138 }
+	color_ui = rgb { 0 156 255 }
+}
+
+
 GER = {
 	color = rgb { 0 156 255}
 	color_ui = rgb { 0 156 255 }

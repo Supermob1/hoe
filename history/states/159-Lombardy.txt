@@ -12,7 +12,6 @@ state={
 			infrastructure = 8
 			arms_factory = 4
 			industrial_complex = 5
-			
 
 		}
 		add_core_of = VEN
@@ -20,7 +19,7 @@ state={
 	}
 
 	provinces={
-		773 969 11568 
+		773 969 4902 11568 
 	}
 	manpower=621967
 	buildings_max_level_factor=1.000

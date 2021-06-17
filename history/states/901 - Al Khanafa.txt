@@ -4,8 +4,8 @@ state={
 	name="STATE_901"
 
 	history={
-		owner = SAU
-		add_core_of = SAU
+		owner = UNC
+		add_core_of = UNC
 		buildings = {
 			infrastructure = 1
 

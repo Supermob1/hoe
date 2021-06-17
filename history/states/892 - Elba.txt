@@ -7,15 +7,6 @@ state={
 		owner = PIO
 		buildings = {
 			infrastructure = 2
-			13244 = {
-				naval_base = 2
-				bunker = 4
-
-			}
-			13243 = {
-				bunker = 4
-
-			}
 
 		}
 		add_core_of = PIO
@@ -23,7 +14,7 @@ state={
 	}
 
 	provinces={
-		13243 13244 
+		13243 
 	}
 	manpower=112000
 	buildings_max_level_factor=1.000

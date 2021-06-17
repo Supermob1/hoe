@@ -2,21 +2,23 @@
 state={
 	id=558
 	name="STATE_558"
-	manpower = 2195234
-	
-	state_category = rural
 	resources={
-		rubber=3
+		rubber=3.000
 	}
+
 	history={
 		owner = UNC
 		buildings = {
 			infrastructure = 1
+
 		}
 
 	}
 
 	provinces={
-		1891 1932 1969 1992 2025 2050 4938 4952 4972 8021 8034 10831 12731 12817 12900 
+		1992 2025 2050 4938 4952 4972 8021 8034 10831 12731 12900 
 	}
+	manpower=2195234
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

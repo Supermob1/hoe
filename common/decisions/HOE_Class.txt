@@ -5,6 +5,7 @@ upper_class = {
 #				id = unknown
 #				days = 0
 #			}
+			load_oob = "unlock_irregulars"
 		}
 	}
 	

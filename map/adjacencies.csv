@@ -8,9 +8,18 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
+9279;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
 3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn
 3260;3374;;2408;-1;-1;2973;1625;;Sjaelland-SdFyn
 3277;3325;;2408;-1;-1;-1;-1;;Fyn-Jylland
+3374;3305;;2408;-1;-1;-1;-1;;Fyn-Jylland
+6389;3305;;2408;-1;-1;-1;-1;;Fyn-Jylland
+3206;316;;2506;-1;-1;-1;-1;;Fyn-Jylland
+6235;316;;2506;-1;-1;-1;-1;;Fyn-Jylland
+6235;394;;2506;-1;-1;-1;-1;;Fyn-Jylland
+9296;316;impassable;;-1;-1;-1;-1;;Fyn-Jylland
+9228;6066;;990;-1;-1;-1;-1;;Fyn-Jylland
+9228;11278;;990;-1;-1;-1;-1;;Fyn-Jylland
 11251;3325;;2408;2956;1628;2960;1629;;Fyn-SdrJylland
 83;185;sea;1885;-1;-1;-1;-1;;Estonia-Ösel
 185;6201;sea;1885;-1;-1;-1;-1;;Ösel-Dagö
@@ -96,15 +105,37 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 379;11350;sea;5533;-1;-1;-1;-1;;St Vincent-Barbados
 379;13009;sea;5533;-1;-1;-1;-1;;St Vincent-St Lucia
 13009;177;sea;5533;-1;-1;-1;-1;;St Lucia-Martinique
-13233;13230;sea;8340;-1;-1;-1;-1;;Gwynedd-Angelsea
+13233;10907;sea;8340;-1;-1;-1;-1;;Gwynedd-Angelsea
+3311;10907;sea;8340;-1;-1;-1;-1;;Man-Angelsea
+3311;6350;sea;8340;-1;-1;-1;-1;;Man-Lothian
+3311;3379;sea;8340;-1;-1;-1;-1;;Man-Ulster
+6350;3379;sea;8340;-1;-1;-1;-1;;Lothian-Ulster
+12816;3373;sea;3590;-1;-1;-1;-1;;Scottish Islands
+7216;3373;sea;3590;-1;-1;-1;-1;;Scottish Islands
+7216;7148;sea;3590;-1;-1;-1;-1;;Scottish Islands
+11266;7148;sea;3590;-1;-1;-1;-1;;Scottish Islands
+3178;10127;sea;3590;-1;-1;-1;-1;;Scottish Islands
+3178;6205;sea;3590;-1;-1;-1;-1;;Scottish Islands
+3178;1140;sea;3590;-1;-1;-1;-1;;Scottish Islands
+12733;1140;sea;3590;-1;-1;-1;-1;;Scottish Islands
+10104;1140;sea;3590;-1;-1;-1;-1;;Scottish Islands
+10104;10869;sea;3590;-1;-1;-1;-1;;Scottish Islands
+3178;6046;sea;3590;-1;-1;-1;-1;;Scottish Islands
+11266;10127;sea;3590;-1;-1;-1;-1;;Scottish Islands
+1143;7148;sea;3590;-1;-1;-1;-1;;Scottish Islands
 177;7123;sea;5533;-1;-1;-1;-1;;Martinique-Dominica
 7123;9377;sea;5533;-1;-1;-1;-1;;Dominica-Guadeloupe
 9377;4450;sea;2887;-1;-1;-1;-1;;Guadeloupe-Montserrat
 13222;4450;sea;2887;-1;-1;-1;-1;;Barthelemy-Guadeloupe
 4450;13084;sea;2887;-1;-1;-1;-1;;Montserrat-Anguilla
 1440;4155;sea;5507;-1;-1;-1;-1;;Puerto Rico-Virgin Islands
-10203;9805;sea;5864;-1;-1;-1;-1;;Corfu-Epirus
-1106;12001;sea;5913;-1;-1;-1;-1;;Lefkada-Epirus
+10203;8128;sea;5864;-1;-1;-1;-1;;Corfu-Epirus
+10203;4913;sea;5864;-1;-1;-1;-1;;Corfu-Epirus
+10203;1106;sea;;-1;-1;-1;-1;;Corfu-Epirus
+1956;5136;sea;5864;-1;-1;-1;-1;;Corfu-Epirus
+1106;5136;sea;5913;-1;-1;-1;-1;;Lefkada-Epirus
+13212;13261;sea;225;-1;-1;-1;-1;;Lefkada-Epirus
+13212;12058;sea;225;-1;-1;-1;-1;;Lefkada-Epirus
 8435;6864;sea;7452;-1;-1;-1;-1;;Lesbos-Turkey
 6550;4112;sea;7226;-1;-1;-1;-1;;Chios-Turkey
 7003;9941;sea;7226;-1;-1;-1;-1;;Kos-Bodrum
@@ -133,62 +164,28 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13247;13250;sea;7226;-1;-1;-1;-1;;Aegan Isle-Strait
 3401;7003;sea;7226;-1;-1;-1;-1;;Aegan Isle-Strait
 7304;4360;sea;8614;-1;-1;-1;-1;;New Foundland-Strait
-13244;11833;sea;5579;-1;-1;-1;-1;;Elba-Strait
+13243;3924;sea;5579;-1;-1;-1;-1;;Elba-Strait
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-10825;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
-10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
-10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
-10910;12807;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-10810;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;8041;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
-4318;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
-1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
-1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
-3989;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
-1129;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
-4558;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4558;12653;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4558;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-12763;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-2084;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-10821;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4998;12831;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4998;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-1978;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-1978;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-7975;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-8044;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-8044;5064;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-12805;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12805;5087;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12805;1766;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-10417;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-10417;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-8027;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-7224;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-7224;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12218;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12370;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains
-12370;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
-5062;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
-5062;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4768;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
-11901;6946;sea;5812;-1;-1;-1;-1;;MareNostrum
-11735;6946;sea;5786;-1;-1;-1;-1;;MareNostrum
-11564;6946;sea;5786;-1;-1;-1;-1;;MareNostrum
+11735;7136;sea;5786;-1;-1;-1;-1;;MareNostrum
+11564;7136;sea;5786;-1;-1;-1;-1;;MareNostrum
+6946;7136;sea;5786;-1;-1;-1;-1;;MareNostrum
+6946;6611;sea;5786;-1;-1;-1;-1;;MareNostrum
+6946;7939;sea;5786;-1;-1;-1;-1;;MareNostrum
+11901;7939;sea;5786;-1;-1;-1;-1;;MareNostrum
+3943;7939;sea;5786;-1;-1;-1;-1;;MareNostrum
+13265;5101;sea;5838;-1;-1;-1;-1;;MareNostrum
+11816;5101;sea;5838;-1;-1;-1;-1;;MareNostrum
+11816;2068;sea;5838;-1;-1;-1;-1;;MareNostrum
 11816;3868;sea;5838;-1;-1;-1;-1;;MareNostrum
-6889;13280;sea;5838;-1;-1;-1;-1;;MareNostrum
+10868;3868;sea;5838;-1;-1;-1;-1;;MareNostrum
+10868;2068;sea;5838;-1;-1;-1;-1;;MareNostrum
+10868;6889;sea;5838;-1;-1;-1;-1;;MareNostrum
+2068;5101;sea;5838;-1;-1;-1;-1;;MareNostrum
+6946;11901;sea;5786;-1;-1;-1;-1;;MareNostrum
 3401;13247;sea;6801;-1;-1;-1;-1;;Hellenia
 3401;13252;sea;6801;-1;-1;-1;-1;;Hellenia
 13247;13252;sea;6801;-1;-1;-1;-1;;Hellenia
@@ -197,9 +194,17 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7127;4109;sea;6801;-1;-1;-1;-1;;Hellenia
 7127;13246;sea;6801;-1;-1;-1;-1;;Hellenia
 8435;849;sea;7452;-1;-1;-1;-1;;Hellenia
+6864;849;sea;7452;-1;-1;-1;-1;;Hellenia
 13251;3973;sea;7452;-1;-1;-1;-1;;Hellenia
 13251;7127;sea;7452;-1;-1;-1;-1;;Hellenia
 13248;13252;sea;6801;-1;-1;-1;-1;;Hellenia
+11584;6626;impassable;;-1;-1;-1;-1;;Impassable test
+11584;10203;impassable;;-1;-1;-1;-1;;Impassable test
+1843;10498;impassable;;-1;-1;-1;-1;;Impassable test
+11584;1106;impassable;;-1;-1;-1;-1;;Impassable test
+4170;10007;impassable;;-1;-1;-1;-1;;Impassable test
+7026;11984;impassable;;-1;-1;-1;-1;;Impassable test
+6979;11767;impassable;;-1;-1;-1;-1;;Impassable test
 8642;13157;large_river;12149;-1;-1;-1;-1;;Quebec
 13154;13157;large_river;749;-1;-1;-1;-1;;Quebec
 13154;13201;large_river;3775;-1;-1;-1;-1;;Quebec
@@ -207,4 +212,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13199;13156;large_river;9667;-1;-1;-1;-1;;Quebec
 13154;13199;large_river;9667;-1;-1;-1;-1;;Quebec
 13155;13159;large_river;12582;-1;-1;-1;-1;;Quebec
+5205;10233;sea;13155;-1;-1;-1;-1;;Quebec
 -1;-1;;-1;-1;-1;-1;-1;-1

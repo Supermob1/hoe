@@ -2,29 +2,17 @@
 state={
 	id=235
 	name="STATE_235"
-	resources={
-		chromium=20.000
-	}
-
 	history={
-		owner = SOV
-		victory_points = {
-			6702 1 
-		}
-		victory_points = {
-			11661 3 
-		}
+		owner = MDN
 		buildings = {
 			infrastructure = 4
-			air_base = 2
-
 		}
-		add_core_of = SOV
+		add_core_of = MDN
 
 	}
 
 	provinces={
-		1726 
+		1891 
 	}
 	manpower=146279
 	buildings_max_level_factor=1.000

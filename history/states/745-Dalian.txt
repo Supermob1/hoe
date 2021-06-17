@@ -7,13 +7,14 @@ state={
 		owner = MLO
 		buildings = {
 			infrastructure = 8
+
 		}
 		add_core_of = MLO
 
 	}
 
 	provinces={
-		607 3780 6790 9584 11726 
+		607 3776 3780 6790 8103 9584 10900 11726 11734 
 	}
 	manpower=447704
 	buildings_max_level_factor=1.000

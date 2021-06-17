@@ -4,17 +4,17 @@ state={
 	name="STATE_746"
 
 	history={
-		owner = MDN
+		owner = SWI
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = MDN
+		add_core_of = SWI
 
 	}
 
 	provinces={
-		13208 
+		10788 
 	}
 	manpower=120000
 	buildings_max_level_factor=1.000

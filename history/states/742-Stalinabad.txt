@@ -1,3 +1,4 @@
+
 state={
 	id=742
 	name="STATE_742"
@@ -10,12 +11,13 @@ state={
 		}
 		add_core_of = KOK
 		victory_points = {
-		2058 3 }
+			2058 3 
+		}
 
 	}
 
 	provinces={
-		4542 8027 10417 12805 12581 2058 10488 7519 5087 1766 4923 4467
+		4686 7556 7597 10148 10506 10603 12340 12397 12658 
 	}
 	manpower=245500
 	buildings_max_level_factor=1.000

@@ -1,5 +1,30 @@
 #reload countrycolors
 
+FRS = {
+	color = rgb { 68 67 44 }
+	color_ui = rgb { 0 156 255 }
+}
+
+MSA = {
+	color = rgb { 133 174 79 }
+	color_ui = rgb { 0 156 255 }
+}
+
+VAD = {
+	color = rgb { 3 42 95 }
+	color_ui = rgb { 0 156 255 }
+}
+
+ORT = {
+	color = rgb { 90 201 6 }
+	color_ui = rgb { 0 156 255 }
+}
+
+KIS = {
+	color = rgb { 44 183 223 }
+	color_ui = rgb { 0 156 255 }
+}
+
 LIP = {
 	color = rgb { 140 109 158 }
 	color_ui = rgb { 0 156 255 }

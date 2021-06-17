@@ -4,6 +4,8 @@
 LIP = "countries/Brunswick.txt"  #Lippe
 ANH = "countries/Brunswick.txt"  #Anhalt
 WLD = "countries/Brunswick.txt"  #Waldeck
+FRS = "countries/Brunswick.txt"  #Fürstenland
+MSA = "countries/Lucca.txt" #Massa and Carrara
 ABK = "countries/Abkhazia.txt"
 ARA = "countries/Aragon.txt"
 AND = "countries/Andorra.txt"

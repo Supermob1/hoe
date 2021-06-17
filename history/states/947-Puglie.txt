@@ -1,7 +1,8 @@
+
 state={
 	id=947
 	name="STATE_947"
-	
+
 	history={
 		owner = NAP
 		victory_points = {
@@ -11,7 +12,6 @@ state={
 			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 1
-			
 			11837 = {
 				naval_base = 10
 
@@ -25,9 +25,9 @@ state={
 		add_core_of = NAP
 
 	}
-	
+
 	provinces={
-		883 6843 6939 6979 6980 9784 11837 11998 
+		6843 6979 9784 11837 11998 
 	}
 	manpower=1215170
 	buildings_max_level_factor=1.000

@@ -4,17 +4,17 @@ state={
 	name="STATE_585"
 
 	history={
-		owner = KAZ
+		owner = KHI
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = KAZ
+		add_core_of = KHI
 
 	}
 
 	provinces={
-		1532 1554 4488 4578 4581 4629 4636 4638 7486 7501 7507 7682 7777 10353 10366 10420 12397 12471 
+		4581 4638 7243 7486 7600 7657 12471 
 	}
 	manpower=414857
 	buildings_max_level_factor=1.000

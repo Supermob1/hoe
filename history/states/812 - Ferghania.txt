@@ -1,3 +1,4 @@
+
 state={
 	id=812
 	name="STATE_812"
@@ -5,14 +6,13 @@ state={
 	history={
 		owner = KOK
 		add_core_of = KOK
-		
-		
+
 	}
 
 	provinces={
-		10530 10408 1483 12370 7706 12640 10660
+		1459 1483 2058 4467 4923 7682 10187 10488 10530 10601 10660 11687 12581 12805 
 	}
-	manpower= 169784
+	manpower=169784
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

@@ -1,21 +1,22 @@
 
 state={
 	id=580
-	name="STATE_580" #Tobolsk
-	manpower =1088
-	
-	state_category = wasteland
+	name="STATE_580"
 
 	history={
-		owner = UNC #SOV
+		owner = MRC
 		buildings = {
 			infrastructure = 1
 
 		}
-		#add_core_of = SOV
+		add_core_of = MRC
+
 	}
 
 	provinces={
-		1659 1744 1812 4710 4715 4746 4774 4846 7733 7768 7796 7867 7895 10592 10604 10620 12602 12630 12700 
+		4022 5004 5046 5095 7203 12849 
 	}
+	manpower=1088
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

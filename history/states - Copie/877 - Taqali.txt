@@ -8,8 +8,8 @@ state={
 	
 
 	history={
-		owner = UNC #TQL
-		#add_core_of = TQL
+		owner = TQL
+		add_core_of = TQL
 		buildings = {
 			infrastructure = 2
 		

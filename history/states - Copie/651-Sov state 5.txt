@@ -1,25 +1,21 @@
 
 state={
 	id=651
-	name="STATE_651" #Ufa
-	manpower = 31507
-
-	state_category = city
+	name="STATE_651"
 
 	history={
-		owner = UNC #SOV
+		owner = MTH
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
+			infrastructure = 4
+		}
+		add_core_of = MTH
 
-		}
-		victory_points = {
-			1278 1 
-		}
-		#add_core_of = SOV
 	}
 
 	provinces={
-		273 291 1258 1278 1305 3289 4283 4354 6246 6285 7237 7416 7431 7444 9349 10226 12130 12172 
+		1510 1579 4557 4883 7574 7619 10171 10401 12420 
 	}
+	manpower=31507
+	buildings_max_level_factor=1.000
+	state_category=city
 }

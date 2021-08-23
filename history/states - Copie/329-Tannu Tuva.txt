@@ -12,7 +12,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = UNC #MON
+		owner = MON
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -20,7 +20,7 @@ state={
 		victory_points = {
 			10627 3
 		}
-		#add_core_of = MON
+		add_core_of = MON
 	}
 
 	provinces={

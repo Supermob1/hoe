@@ -11,19 +11,6 @@ add_ideas = {
 }
 set_research_slots = 3
 set_cosmetic_tag = CZE_AUS
-
-1789.10.24 = {
-	declare_war_on = {
-		target = BEL
-		type = annex_everything
-	}
-}
-1788.2.2 = {
-	declare_war_on = {
-		target = TUR
-		type = take_state_focus
-	}
-}
 set_popularities = {
 	glory = 0
 	equality = 20

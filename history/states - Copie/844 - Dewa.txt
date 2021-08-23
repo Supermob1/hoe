@@ -6,8 +6,8 @@ state = {
 	state_category = town
 
 	history = {
-		owner = UNC #JSK
-		#add_core_of = JSK
+		owner = JSK
+		add_core_of = JSK
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1

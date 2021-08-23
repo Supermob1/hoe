@@ -1,23 +1,22 @@
+
 state={
 	id=722
 	name="STATE_722"
-	manpower = 263
-
-	state_category = enclave
 
 	history={
-		owner = UNC #SWE
+		owner = HAN
 		buildings = {
 			infrastructure = 3
-			9140 = {
-				naval_base = 1
-			}
+
 		}
-		#add_core_of = SWE
-		#add_core_of = FIN
+		add_core_of = HAN
+
 	}
-	
+
 	provinces={
-		6012 6183 9140 11142 
+		6513 7194 9375 13073 
 	}
+	manpower=263
+	buildings_max_level_factor=1.000
+	state_category=enclave
 }

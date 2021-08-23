@@ -1,14 +1,10 @@
 
 state={
 	id=431
-	name="STATE_431" #West Bengal
-	manpower = 15086455
-	
-	state_category = city
-	
+	name="STATE_431"
 	resources={
-		steel=13 #was: 20
-		tungsten=11 #was: 16
+		steel=13.000
+		tungsten=11.000
 	}
 
 	history={
@@ -20,7 +16,9 @@ state={
 			air_base = 2
 			4245 = {
 				naval_base = 6
+
 			}
+
 		}
 		victory_points = {
 			4245 5 
@@ -29,6 +27,9 @@ state={
 	}
 
 	provinces={
-		1159 1609 4062 4204 4245 4435 4644 7220 7475 7537 7565 7593 7662 10077 10389 12050 12338 
+		1444 1569 1637 1656 4544 4571 7475 7537 7565 7593 10358 10389 10471 12035 12307 12452 
 	}
+	manpower=15086455
+	buildings_max_level_factor=1.000
+	state_category=city
 }

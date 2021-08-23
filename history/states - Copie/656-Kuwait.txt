@@ -6,16 +6,10 @@ state={
 	state_category = rural
 	
 	history={
-		owner = UNC #KUW
-		#add_core_of = KUW
-		victory_points = {
-			8085 1 
-		}
+		owner = IRQ
+		add_core_of = IRQ
 		buildings = {
 			infrastructure = 4
-			8085 = {
-				naval_base = 4
-			}
 		}
 
 	}

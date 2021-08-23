@@ -1,18 +1,15 @@
 
 state={
 	id=113
-	name="STATE_113" #Leinster
-	manpower = 2250844
+	name="STATE_113"
 	resources={
-		tungsten=6
-		steel=3
-		rubber=5
+		tungsten=6.000
+		steel=3.000
+		rubber=5.000
 	}
-	
-	state_category = city
-	
+
 	history={
-		owner = UNC #ENG
+		owner = ENG
 		victory_points = {
 			11293 5 
 		}
@@ -22,12 +19,18 @@ state={
 			industrial_complex = 3
 			11293 = {
 				naval_base = 6
+
 			}
+
 		}
-		#add_core_of = IRE
+		add_core_of = IRE
+
 	}
 
 	provinces={
-		285 303 369 3342 3359 7377 11293 11303 
+		285 303 369 3342 3359 7377 9310 11293 11303 
 	}
+	manpower=2250844
+	buildings_max_level_factor=1.000
+	state_category=city
 }

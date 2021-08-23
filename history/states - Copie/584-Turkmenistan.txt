@@ -1,20 +1,20 @@
+
 state={
 	id=584
 	name="STATE_584"
 
 	history={
-		owner = UNC #KHI
+		owner = KHI
 		buildings = {
 			infrastructure = 2
-			
 
 		}
-		#add_core_of = KHI
+		add_core_of = KHI
 
 	}
 
 	provinces={
-		1593 4563 4599 7477 7563 7635 10359 10406 10510 12359 10348 12383 4620 1517 12454 7541
+		1517 1593 3593 4523 4563 4599 4620 7477 7541 7563 7618 7635 7641 8099 10348 10359 10406 10510 11701 12333 12359 12383 12454 12491 
 	}
 	manpower=118280
 	buildings_max_level_factor=1.000

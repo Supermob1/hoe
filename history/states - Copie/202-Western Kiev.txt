@@ -2,30 +2,32 @@
 state={
 	id=202
 	name="STATE_202"
-	manpower = 1277261
 	resources={
-		oil=14
-		aluminium=12
+		oil=14.000
+		aluminium=12.000
 	}
-	
-	state_category = city
 
 	history={
-		owner = UNC #SOV
+		owner = SOV
 		victory_points = {
-			525 25
+			525 25 
 		}
 		buildings = {
 			infrastructure = 7
 			arms_factory = 3
 			industrial_complex = 2
 			air_base = 3
+
 		}
-		#add_core_of = SOV
-		#add_core_of = UKR
+		add_core_of = SOV
+		add_core_of = UKR
+
 	}
 
 	provinces={
-		489 525 582 9543 11557 
+		418 457 473 501 523 547 558 570 580 3306 3409 3455 3469 3492 3520 3554 3567 3580 6254 6304 6330 6432 6481 6517 6519 6543 6554 6565 6577 6591 6603 9260 9328 9424 9449 9518 9531 9542 9556 11244 11283 11397 11412 11439 11487 11500 11513 11526 11541 
 	}
+	manpower=1277261
+	buildings_max_level_factor=1.000
+	state_category=city
 }

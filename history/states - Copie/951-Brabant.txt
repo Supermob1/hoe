@@ -4,7 +4,7 @@ state={
 	name="STATE_951"
 
 	history={
-		owner = UNC #BEL
+		owner = BEL
 		victory_points = {
 			516 30 
 		}
@@ -12,10 +12,10 @@ state={
 			infrastructure = 8
 
 		}
-		#add_core_of = AUS
-		#add_claim_by = HOL
-		#add_core_of = BEL
-		#add_core_of = FLA
+		add_core_of = AUS
+		add_claim_by = HOL
+		add_core_of = BEL
+		add_core_of = FLA
 
 	}
 

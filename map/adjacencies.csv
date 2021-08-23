@@ -170,22 +170,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
-11735;7136;sea;5786;-1;-1;-1;-1;;MareNostrum
-11564;7136;sea;5786;-1;-1;-1;-1;;MareNostrum
-6946;7136;sea;5786;-1;-1;-1;-1;;MareNostrum
-6946;6611;sea;5786;-1;-1;-1;-1;;MareNostrum
-6946;7939;sea;5786;-1;-1;-1;-1;;MareNostrum
-11901;7939;sea;5786;-1;-1;-1;-1;;MareNostrum
-3943;7939;sea;5786;-1;-1;-1;-1;;MareNostrum
-13265;5101;sea;5838;-1;-1;-1;-1;;MareNostrum
-11816;5101;sea;5838;-1;-1;-1;-1;;MareNostrum
-11816;2068;sea;5838;-1;-1;-1;-1;;MareNostrum
-11816;3868;sea;5838;-1;-1;-1;-1;;MareNostrum
-10868;3868;sea;5838;-1;-1;-1;-1;;MareNostrum
-10868;2068;sea;5838;-1;-1;-1;-1;;MareNostrum
-10868;6889;sea;5838;-1;-1;-1;-1;;MareNostrum
-2068;5101;sea;5838;-1;-1;-1;-1;;MareNostrum
-6946;11901;sea;5786;-1;-1;-1;-1;;MareNostrum
 3401;13247;sea;6801;-1;-1;-1;-1;;Hellenia
 3401;13252;sea;6801;-1;-1;-1;-1;;Hellenia
 13247;13252;sea;6801;-1;-1;-1;-1;;Hellenia
@@ -198,10 +182,20 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13251;3973;sea;7452;-1;-1;-1;-1;;Hellenia
 13251;7127;sea;7452;-1;-1;-1;-1;;Hellenia
 13248;13252;sea;6801;-1;-1;-1;-1;;Hellenia
+10904;7930;sea;2919;-1;-1;-1;-1;;Persia
+4959;7930;sea;2919;-1;-1;-1;-1;;Persia
+7982;7930;sea;2919;-1;-1;-1;-1;;Persia
+3649;11605;impassable;;-1;-1;-1;-1;;Transylvania
+3665;11605;impassable;;-1;-1;-1;-1;;Transylvania
+6679;11605;impassable;;-1;-1;-1;-1;;Transylvania
+6679;660;impassable;;-1;-1;-1;-1;;Transylvania
+690;660;impassable;;-1;-1;-1;-1;;Transylvania
+690;6729;impassable;;-1;-1;-1;-1;;Transylvania
+690;11672;impassable;;-1;-1;-1;-1;;Transylvania
+9685;11672;impassable;;-1;-1;-1;-1;;Transylvania
+10760;10725;impassable;;-1;-1;-1;-1;;Impassable test
 11584;6626;impassable;;-1;-1;-1;-1;;Impassable test
-11584;10203;impassable;;-1;-1;-1;-1;;Impassable test
 1843;10498;impassable;;-1;-1;-1;-1;;Impassable test
-11584;1106;impassable;;-1;-1;-1;-1;;Impassable test
 4170;10007;impassable;;-1;-1;-1;-1;;Impassable test
 7026;11984;impassable;;-1;-1;-1;-1;;Impassable test
 6979;11767;impassable;;-1;-1;-1;-1;;Impassable test

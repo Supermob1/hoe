@@ -1,6 +1,6 @@
 ﻿capital = 4
 
-oob = "AUS_1790"
+oob = "unlock_irregulars"
 
 set_research_slots = 3
 add_ideas = {
@@ -9,70 +9,35 @@ add_ideas = {
 	
 	}
 set_technology = {
-	
+	infantry_weapons = 1
 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = HUN
-		autonomous_state = autonomy_dominion
-	}
-	set_autonomy = {
-		target = CZE
-		autonomous_state = autonomy_dominion
-	}
-	set_autonomy = {
-		target = MLO
-		autonomous_state = autonomy_integrated_puppet
-	}
-	
-	set_autonomy = {
-		target = TRN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = GAL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	else = {
-		puppet = HUN
-		puppet = MLO
-		puppet = CZE
-		puppet = TRN
-		puppet = GAL
-		
-	}
+set_autonomy = {
+	target = CZE
+	autonomous_state = autonomy_personal_union
 }
-CZE = {
-	set_popularities = {
-		glory = 0
-		equality = 20
-		liberty = 10
-		order = 70
-	}
-	set_politics = {
-		ruling_party = order
-		last_election = "1930.11.9"
-		election_frequency = 48
-		elections_allowed = no
-	}
+set_autonomy = {
+	target = HUN
+	autonomous_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = GAL
+	autonomous_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = SLV
+	autonomous_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = CRO
+	autonomous_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = MLO
+	autonomous_state = autonomy_personal_union
+}
+create_faction = "Habsburg Monarchy"
 
-	create_country_leader = {
-		name = "Joseph II"
-		desc = "POLITICS_Joseph_II_DESC"
-		picture = "Portrait_CZE_Joseph_II.dds"
-		expire = "1790.2.20"
-		ideology = absolutist
-		traits = {
-			#
-		}
-	}
-}
 1789.10.24 = {
 	declare_war_on = {
 		target = BEL
@@ -84,31 +49,30 @@ CZE = {
 		target = TUR
 		type = take_state_focus
 	}
-	CZE = {
+	SOV = {
 		add_to_war = { 
-			targeted_alliance = PREV 
-			enemy = TUR 
+			targeted_alliance = AUS
+			enemy = TUR
 			hostility_reason = asked_to_join
 		}
 	}
-	GAL = {
+	every_country = {
+		limit = {
+			is_subject_of = AUS
+		}
 		add_to_war = { 
-			targeted_alliance = PREV 
-			enemy = TUR 
+			targeted_alliance = AUS
+			enemy = TUR
 			hostility_reason = asked_to_join
 		}
 	}
-	TRN = {
-		add_to_war = { 
-			targeted_alliance = PREV 
-			enemy = TUR 
-			hostility_reason = asked_to_join
+	every_country = {
+		limit = {
+			is_subject_of = TUR
 		}
-	}
-	HUN = {
 		add_to_war = { 
-			targeted_alliance = PREV 
-			enemy = TUR 
+			targeted_alliance = TUR
+			enemy = AUS
 			hostility_reason = asked_to_join
 		}
 	}

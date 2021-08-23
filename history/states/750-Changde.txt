@@ -4,17 +4,17 @@ state={
 	name="STATE_750"
 
 	history={
-		owner = MLO
+		owner = ZAN
 		buildings = {
 			infrastructure = 5
 
 		}
-		add_core_of = MLO
+		add_core_of = ZAN
 
 	}
 
 	provinces={
-		10613 
+		2044 
 	}
 	manpower=200000
 	buildings_max_level_factor=1.000

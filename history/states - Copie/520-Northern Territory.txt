@@ -9,8 +9,8 @@ state={
 	
 
 	history={
-		owner = UNC #UNC
-		##add_core_of = AST
+		owner = UNC
+		#add_core_of = AST
 	}
 
 	provinces={

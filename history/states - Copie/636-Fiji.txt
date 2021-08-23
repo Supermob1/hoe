@@ -7,7 +7,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = UNC #UNC
+		owner = UNC
 		buildings = {
 		}
 		

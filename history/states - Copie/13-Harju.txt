@@ -2,13 +2,12 @@
 state={
 	id=13
 	name="STATE_13"
-	manpower = 481332
 	resources={
-		steel=3
+		steel=3.000
 	}
-	state_category = town
+
 	history={
-		owner = UNC #SOV
+		owner = SOV
 		victory_points = {
 			3152 5 
 		}
@@ -19,12 +18,18 @@ state={
 			3152 = {
 				naval_base = 3
 				coastal_bunker = 1
+
 			}
+
 		}
-		#add_core_of = EST
+		add_core_of = EST
+
 	}
 
 	provinces={
-		83 185 308 496 567 3074 3152 3174 6201 6381 9079 11127 11291 11426 
+		185 
 	}
+	manpower=481332
+	buildings_max_level_factor=1.000
+	state_category=town
 }

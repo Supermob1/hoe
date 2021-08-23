@@ -7,7 +7,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = UNC #PRU
+		owner = PRU
 		victory_points = {
 			6521 30 
 		}
@@ -19,7 +19,7 @@ state={
 			air_base = 2
 
 		}
-		#add_core_of = PRU
+		add_core_of = PRU
 		
 		
 	}

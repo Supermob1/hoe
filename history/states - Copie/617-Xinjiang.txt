@@ -7,8 +7,8 @@ state={
 	state_category = town
 
 	history={
-		owner = UNC #SIK
-		#add_core_of = SIK
+		owner = SIK
+		add_core_of = SIK
 		buildings = {
 			infrastructure = 3
 			

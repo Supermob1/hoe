@@ -1,27 +1,21 @@
 
 state={
 	id=433
-	name="STATE_433" #Rajasthan
-	manpower = 18009555
-	
-	state_category = town
-	
-	
-	resources={
-		tungsten=42
-	}
+	name="STATE_433"
 
 	history={
 		owner = MTH
-		add_core_of = MTH
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 4
 		}
+		add_core_of = MTH
 
 	}
 
 	provinces={
-		1199 1908 2054 4149 4915 4971 4984 7905 7998 10847 10866 12041 12718 12743 12829 12844 12876 12886 
+		1908 4149 4984 10847 12886 
 	}
+	manpower=18009555
+	buildings_max_level_factor=1.000
+	state_category=town
 }

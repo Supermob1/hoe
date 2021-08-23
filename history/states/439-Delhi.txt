@@ -2,25 +2,20 @@
 state={
 	id=439
 	name="STATE_439"
-	manpower = 28459644
-	
-	state_category = city
-	
+
 	history={
-		owner = MOG
-		add_core_of = MOG
+		owner = NEP
+		add_core_of = NEP
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
-			air_base = 4
-		}
-		victory_points = {
-			2086 15 
 		}
 
 	}
 
 	provinces={
-		1129 1898 2002 2032 2076 2086 3989 5002 5157 7106 10021 10729 11955 12708 12868 
+		1129 1898 2076 3989 5157 7106 10021 12708 
 	}
+	manpower=28459644
+	buildings_max_level_factor=1.000
+	state_category=city
 }

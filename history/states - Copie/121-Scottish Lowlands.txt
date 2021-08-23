@@ -1,20 +1,20 @@
 
 state={
 	id=121
-	name="STATE_121" #Lothian
-	manpower = 759069
-	
-	state_category = city
-
-	resources = {
-		rubber = 30
+	name="STATE_121"
+	resources={
+		rubber=30.000
 	}
-	
+
 	history={
-		owner = UNC #ENG
-		#add_core_of = SCO
-		victory_points = { 9392 10 }
-		victory_points = { 6300 1 }
+		owner = ENG
+		add_core_of = SCO
+		victory_points = {
+			9392 10 
+		}
+		victory_points = {
+			6300 1 
+		}
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1
@@ -22,12 +22,18 @@ state={
 			air_base = 3
 			6300 = {
 				naval_base = 5
+
 			}
+
 		}
-		#add_core_of = ENG
+		add_core_of = ENG
+
 	}
 
 	provinces={
-		159 6300 9314 9383 9392 11378 
+		3273 6385 9383 9392 
 	}
+	manpower=759069
+	buildings_max_level_factor=1.000
+	state_category=city
 }

@@ -7,9 +7,9 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = UNC #MTS
-		#add_core_of = MTS
-		#add_core_of = AIN
+		owner = MTS
+		add_core_of = MTS
+		add_core_of = AIN
 		
 		buildings = {
 			infrastructure = 1

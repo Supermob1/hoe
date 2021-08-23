@@ -1,27 +1,29 @@
 
 state={
 	id=266
-	name="STATE_266" #Tehran
-	manpower = 1682916
-	
-	state_category = town
+	name="STATE_266"
 
 	history={
-		owner = UNC #QAJ
+		owner = QAJ
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 1
+
 		}
 		victory_points = {
 			10837 10 
 		}
-		#add_core_of = ZAN
-		#add_core_of = PER
+		add_core_of = ZAN
+		add_core_of = PER
+
 	}
 
 	provinces={
-		4580 10385 10768 10837 
+		1896 1982 2071 4553 4580 4609 4637 4755 4825 4901 7602 7969 8040 8093 8125 10385 10454 10523 10768 10837 10922 11671 12704 12748 12793 12818 12861 13120 
 	}
+	manpower=1682916
+	buildings_max_level_factor=1.000
+	state_category=town
 }

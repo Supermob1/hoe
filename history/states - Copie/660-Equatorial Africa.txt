@@ -9,8 +9,8 @@ state={
 		rubber=4
 	}
 	history={
-		owner = UNC #BRI
-		#add_core_of = BRI
+		owner = BRI
+		add_core_of = BRI
 		buildings = {
 			infrastructure = 1
 		}

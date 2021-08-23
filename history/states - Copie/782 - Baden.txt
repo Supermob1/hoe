@@ -4,8 +4,8 @@ state={
 	name="STATE_782"
 
 	history={
-		owner = UNC #BAD
-		#add_core_of = BAD
+		owner = BAD
+		add_core_of = BAD
 		victory_points = {
 			6542 3 
 		}
@@ -13,7 +13,7 @@ state={
 	}
 
 	provinces={
-		3530 6542 6568 6581 
+		3530 6542 6568 6581 6712 
 	}
 	manpower=473000
 	buildings_max_level_factor=1.000

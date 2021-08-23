@@ -4,8 +4,8 @@ state={
 	name="STATE_796"
 
 	history={
-		owner = UNC #SXG
-		#add_core_of = SXG
+		owner = SXG
+		add_core_of = SXG
 		victory_points = {
 			3500 2 
 		}

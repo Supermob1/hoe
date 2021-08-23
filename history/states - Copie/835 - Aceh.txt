@@ -6,8 +6,8 @@ state= {
 	state_category = pastoral
 
 	history= {
-		owner = UNC #ACH
-		#add_core_of = ACH
+		owner = ACH
+		add_core_of = ACH
 		
 
 		buildings = {

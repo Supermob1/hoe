@@ -4,8 +4,8 @@ state={
 	name="STATE_795"
 
 	history={
-		owner = UNC #BRS
-		#add_core_of = BRS
+		owner = BRS
+		add_core_of = BRS
 		victory_points = {
 			11402 5 
 		}
@@ -13,7 +13,7 @@ state={
 	}
 
 	provinces={
-		9375 11402 
+		526 7206 10037 11402 
 	}
 	manpower=27600
 	buildings_max_level_factor=1.000

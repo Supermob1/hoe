@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = UNC #TUR
+		owner = TUR
 		victory_points = {
 			10007 1 
 		}
@@ -22,7 +22,7 @@ state=
 				naval_base = 1
 			}
 		}
-		#add_claim_by = GRE
+		add_claim_by = GRE
 	}
 	provinces=
 	{

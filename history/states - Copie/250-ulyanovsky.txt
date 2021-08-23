@@ -2,23 +2,24 @@
 state={
 	id=250
 	name="STATE_250"
-	manpower = 181169
-	
-	state_category = town
 	resources={
-		steel=14 #was: 20
+		steel=14.000
 	}
 
 	history={
-		owner = UNC #SOV
+		owner = AWD
+		add_core_of = AWD
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 5
+
 		}
-		#add_core_of = SOV
+
 	}
 
 	provinces={
-		286 345 392 3196 3197 3246 3269 3276 3334 3372 3382 6226 6294 6302 6337 6394 9338 11273 11319 11373 
+		5002 5086 8114 9951 10794 11955 12137 
 	}
+	manpower=181169
+	buildings_max_level_factor=1.000
+	state_category=town
 }

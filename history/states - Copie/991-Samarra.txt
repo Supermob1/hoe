@@ -4,7 +4,7 @@ state={
 	name="STATE_991"
 
 	history={
-		owner = UNC #IRQ
+		owner = IRQ
 		victory_points = {
 			2097 5 
 		}
@@ -15,7 +15,7 @@ state={
 			
 
 		}
-		#add_core_of = IRQ
+		add_core_of = IRQ
 
 	}
 

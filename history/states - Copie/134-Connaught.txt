@@ -1,28 +1,27 @@
 
-state=
-{
+state={
 	id=134
 	name="STATE_134"
-	manpower = 634122
-	
-	state_category = town
-	
-	resources = {
-		aluminium=12
-		steel=1
-		oil=4
-	}
-	
-	history=
-	{
-		owner = UNC #ENG
-		buildings = {
-			infrastructure = 6
-		}
-		#add_core_of = IRE
+	resources={
+		aluminium=12.000
+		steel=1.000
+		oil=4.000
 	}
 
-	provinces=
-	{
-337 3396 9255 9303 9321 9369 11238 11287 11371 	}
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = IRE
+
+	}
+
+	provinces={
+		3396 9255 9303 9321 9369 11238 11287 11371 
+	}
+	manpower=634122
+	buildings_max_level_factor=1.000
+	state_category=town
 }

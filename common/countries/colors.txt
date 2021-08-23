@@ -1,5 +1,40 @@
 #reload countrycolors
 
+BWP = {
+	color = rgb { 93 45 71 }
+	color_ui = rgb { 0 156 255 }
+}
+
+AWD = {
+	color = rgb { 227 254 188 }
+	color_ui = rgb { 0 156 255 }
+}
+
+KUT = {
+	color = rgb { 177 63 32 }
+	color_ui = rgb { 0 156 255 }
+}
+
+PUN = {
+	color = rgb { 193 105 227 }
+	color_ui = rgb { 0 156 255 }
+}
+
+SND = {
+	color = rgb { 177 15 187 }
+	color_ui = rgb { 0 156 255 }
+}
+
+KAL = {
+	color = rgb { 93 90 1 }
+	color_ui = rgb { 0 156 255 }
+}
+
+BLC = {
+	color = rgb { 177 75 197 }
+	color_ui = rgb { 0 156 255 }
+}
+
 FRS = {
 	color = rgb { 68 67 44 }
 	color_ui = rgb { 0 156 255 }

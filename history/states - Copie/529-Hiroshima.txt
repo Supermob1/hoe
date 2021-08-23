@@ -6,8 +6,8 @@ state={
 	state_category = large_city
 
 	history={
-		owner = UNC #MRI
-		#add_core_of = MRI
+		owner = MRI
+		add_core_of = MRI
 		buildings = {
 			infrastructure = 7
 			dockyard = 1

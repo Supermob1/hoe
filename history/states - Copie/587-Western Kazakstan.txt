@@ -1,20 +1,20 @@
+
 state={
 	id=587
 	name="STATE_587"
 
 	history={
-		owner = UNC #KIS
+		owner = OMA
 		buildings = {
 			infrastructure = 1
 
 		}
-		#add_core_of = KIS
-		#add_core_of = KAZ
-		#add_core_of = ORT
+		add_core_of = OMA
+
 	}
 
 	provinces={
-		475 642 3593 4523 7641 10262 11701 12163 12233 12474 13008 
+		1897 7982 
 	}
 	manpower=127237
 	buildings_max_level_factor=1.000

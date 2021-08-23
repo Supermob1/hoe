@@ -6,8 +6,8 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = UNC #SBA
-		#add_core_of = SBA
+		owner = SBA
+		add_core_of = SBA
 
 		buildings = {
 			infrastructure = 2

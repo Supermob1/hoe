@@ -4,22 +4,16 @@ state={
 	name="STATE_419"
 
 	history={
-		owner = UNC #QAJ
+		owner = MTH
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 4
 		}
-		victory_points = {
-			1896 3 
-		}
-		#add_core_of = PER
-		#add_core_of = QAJ
-		#add_core_of = ZAN
+		add_core_of = MTH
 
 	}
 
 	provinces={
-		1822 1896 2071 4755 4825 7604 12793 12861 13120 
+		4410 5040 7938 8120 10332 
 	}
 	manpower=359080
 	buildings_max_level_factor=1.000

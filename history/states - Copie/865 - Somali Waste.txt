@@ -8,7 +8,7 @@ state={
 	
 
 	history={
-		owner = UNC #GLI
+		owner = GLI
 		buildings = {
 			infrastructure = 1
 		}

@@ -8,8 +8,8 @@ state={
 	
 
 	history={
-		owner = UNC #WDI
-		#add_core_of = WDI
+		owner = WDI
+		add_core_of = WDI
 		buildings = {
 			infrastructure = 3
 		

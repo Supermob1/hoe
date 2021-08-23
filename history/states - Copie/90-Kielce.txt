@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = UNC #PLI
+		owner = PLI
 		buildings = {
 			infrastructure = 6
 
 		}
-		#add_core_of = PLI
+		add_core_of = PLI
 
 	}
 

@@ -6,8 +6,8 @@ state={
 	
 	state_category = city
 	history={
-		owner = UNC #FRK
-		#add_core_of = FRK
+		owner = FRK
+		add_core_of = FRK
 		victory_points = {
 			6488 20.0 
 		}

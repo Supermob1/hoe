@@ -4,8 +4,8 @@ state={
 	name="STATE_62"
 
 	history={
-		owner = UNC #LUB
-		#add_core_of = LUB
+		owner = LUB
+		add_core_of = LUB
 		buildings = {
 			infrastructure = 6
 		}

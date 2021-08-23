@@ -2,15 +2,12 @@
 state={
 	id=12
 	name="STATE_12"
-	manpower = 390062
 	resources={
-		steel=2
+		steel=2.000
 	}
-	
-	state_category = city
-	
+
 	history={
-		owner = UNC #SOV
+		owner = SOV
 		victory_points = {
 			9340 5 
 		}
@@ -24,11 +21,17 @@ state={
 			air_base = 1
 			9340 = {
 				naval_base = 3
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		222 310 319 341 3298 3388 6459 7482 9240 9275 9317 9340 9501 10323 10493 11222 11302 
+		308 592 3174 3298 3388 6099 6178 6381 6408 9221 9240 9317 9485 9501 10323 10493 11222 11291 11302 13127 
 	}
+	manpower=390062
+	buildings_max_level_factor=1.000
+	state_category=city
 }

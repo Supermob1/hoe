@@ -3,14 +3,14 @@ state={
 	name="STATE_994"
 	
 	history={
-		owner = UNC #TUR
+		owner = TUR
 		victory_points = {
 			9893 3 
 		}
 		buildings = {
 			infrastructure = 4
 		}
-		#add_core_of = TUR
+		add_core_of = TUR
 
 	}
 	provinces={

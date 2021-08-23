@@ -3,13 +3,13 @@ state={
 	name="STATE_949"
 	
 	history={
-		owner = UNC #VEN
+		owner = VEN
 		buildings = {
 			infrastructure = 6
 
 
 		}
-		#add_core_of = VEN
+		add_core_of = VEN
 
 	}
 	

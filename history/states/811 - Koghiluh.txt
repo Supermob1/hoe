@@ -1,22 +1,21 @@
+
 state={
 	id=811
 	name="STATE_811"
 
 	history={
-		owner = ZAN
-		add_core_of = PER
-		add_core_of = ZAN
-		add_core_of = QAJ
-		
-		VICTORY_POINTS = {
-		12852 5 }
-		
+		owner = MTH
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = MTH
+
 	}
 
 	provinces={
-		5089 4928 8031
+		2054 4915 7905 7998 
 	}
-	manpower= 349600
+	manpower=349600
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

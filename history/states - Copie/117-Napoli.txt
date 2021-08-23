@@ -4,7 +4,7 @@ state={
 	name="STATE_117"
 
 	history={
-		owner = UNC #NAP
+		owner = NAP
 		victory_points = {
 			819 20 
 		}
@@ -19,12 +19,12 @@ state={
 			}
 
 		}
-		#add_core_of = NAP
+		add_core_of = NAP
 
 	}
 
 	provinces={
-		819 851 923 955 9826 
+		851 955 9826 
 	}
 	manpower=2572422
 	buildings_max_level_factor=1.000

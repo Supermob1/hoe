@@ -1,22 +1,24 @@
 
 state={
 	id=590
-	name="STATE_590" #Akmolinsk
-	manpower = 408950
-	
-	state_category = pastoral
+	name="STATE_590"
 
 	history={
-		owner = UNC #ORT
+		owner = ORT
 		buildings = {
 			infrastructure = 4
+
 		}
-		#add_core_of = ORT
-		#add_core_of = KIS
-		#add_core_of = KAZ
+		add_core_of = ORT
+		add_core_of = KIS
+		add_core_of = KAZ
+
 	}
 
 	provinces={
-		1223 1229 1309 1375 1391 1418 1662 1680 1694 4232 4238 4281 4309 4333 4850 7298 7326 7383 7407 7425 7741 7874 10211 10239 10308 10633 12152 12619 
+		1239 1287 1375 1402 1668 1879 4333 4595 4661 4670 4685 4764 4867 7317 7332 7335 7350 7405 7407 7890 10161 10218 10235 10290 10292 10584 10630 10633 10653 12152 12385 12594 12635 13148 
 	}
+	manpower=408950
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

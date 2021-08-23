@@ -1,20 +1,22 @@
 
 state={
 	id=210
-	name="STATE_210" #Nevel
-	manpower =392237
-	
-	state_category = rural
+	name="STATE_210"
 
 	history={
-		owner = UNC #SOV
+		owner = FRA
 		buildings = {
 			infrastructure = 5
+
 		}
-		#add_core_of = SOV
+		add_core_of = FRA
+
 	}
 
 	provinces={
-		207 248 354 387 3333 6242 6293 9254 9331 9353 9386 11234 11259 
+		667 9609 
 	}
+	manpower=392237
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

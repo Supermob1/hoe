@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = UNC #SKA
-		#add_core_of = SKA
+		owner = SKA
+		add_core_of = SKA
 		victory_points = {
 			4652 1 
 		}

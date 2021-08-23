@@ -7,17 +7,17 @@ state={
 	}
 
 	history={
-		owner = UNC #CSC
+		owner = CSC
 		buildings = {
 			infrastructure = 3
 
 		}
-		#add_core_of = CSC
+		add_core_of = CSC
 
 	}
 
 	provinces={
-		666 670 685 714 1455 3667 6674 6692 6718 6733 9628 9632 9647 9649 11609 11614 11633 11664 
+		685 714 9647 9649 11614 11664 
 	}
 	manpower=162663
 	buildings_max_level_factor=1.000

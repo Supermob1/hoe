@@ -1,20 +1,21 @@
+
 state={
 	id=814
 	name="STATE_814"
 
 	history={
-		owner = UNC #BUK
-		#add_core_of = BUK
-		
+		owner = BUK
+		add_core_of = BUK
 		victory_points = {
-		12161 5 }
-		
+			12161 5 
+		}
+
 	}
 
 	provinces={
-		1623 4549 10742  4482 4499 7775 7924 10414 1649 12161 10470
+		756 1216 1384 1554 1573 1623 1632 1919 4542 4629 7639 7775 9605 10205 10470 10671 12161 12218 12239 12250 12430 12722 
 	}
-	manpower= 530390
+	manpower=530390
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

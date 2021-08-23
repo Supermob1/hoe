@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = UNC #PRU
+		owner = PRU
 		buildings = {
 			infrastructure = 8
 			arms_factory = 3
@@ -15,7 +15,7 @@ state={
 			
 
 		}
-		#add_core_of = PRU
+		add_core_of = PRU
 
 	}
 

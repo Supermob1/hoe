@@ -8,8 +8,8 @@ state={
 	
 
 	history={
-		owner = UNC #BRN
-		#add_core_of = BRN
+		owner = BRN
+		add_core_of = BRN
 		buildings = {
 			infrastructure = 3
 		

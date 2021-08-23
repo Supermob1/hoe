@@ -3,8 +3,8 @@ state={
 	name="STATE_817"
 
 	history={
-		owner = UNC #CAM
-		#add_core_of = VIN
+		owner = CAM
+		add_core_of = VIN
 		
 		
 		

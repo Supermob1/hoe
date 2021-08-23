@@ -1,31 +1,35 @@
-state= {
+
+state={
 	id=122
 	name="STATE_122"
-	manpower = 89914
-	
-	state_category = city
-	
 	resources={
-		tungsten=40
-		oil=20
+		tungsten=40.000
+		oil=20.000
 	}
 
-	history=
-	{
-		owner = UNC #ENG
-		#add_core_of = WLE
-		victory_points = { 377 5 }
+	history={
+		owner = ENG
+		add_core_of = WLE
+		victory_points = {
+			377 5 
+		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			13233 = {
 				naval_base = 3
+
 			}
+
 		}
-		#add_core_of = ENG
+		add_core_of = ENG
+
 	}
 
-	provinces=
-	{
-311 6363 9364 13234 13233 13230 13232	}
+	provinces={
+		6363 9364 10907 13233 
+	}
+	manpower=89914
+	buildings_max_level_factor=1.000
+	state_category=city
 }

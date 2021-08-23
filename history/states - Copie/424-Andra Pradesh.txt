@@ -1,22 +1,21 @@
 
 state={
 	id=424
-	name="STATE_424" #Madras
-	manpower = 1754633
-	state_category = rural
-	
+	name="STATE_424"
 
 	history={
-		owner = UNC #MYS
-		#add_core_of = MYS
+		owner = MYS
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
 		}
+		add_core_of = MYS
 
 	}
 
 	provinces={
-		4414 10756 10897 10296 12779
+		4414 5032 7310 10296 10756 10897 12779 
 	}
+	manpower=1754633
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -4,17 +4,17 @@ state={
 	name="STATE_893"
 
 	history={
-		owner = UNC #PIO
+		owner = PIO
 		buildings = {
 			infrastructure = 2
 
 		}
-		#add_core_of = PIO
+		add_core_of = PIO
 
 	}
 
 	provinces={
-		3924 9598 
+		3924 
 	}
 	manpower=30420
 	buildings_max_level_factor=1.000

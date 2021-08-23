@@ -1,19 +1,20 @@
+
 state={
 	id=971
 	name="STATE_971"
-	
+
 	history={
-		owner = UNC #SAX
+		owner = SAX
 		buildings = {
 			infrastructure = 7
 
 		}
-		#add_core_of = SAX
+		add_core_of = SAX
 
 	}
-	
+
 	provinces={
-		425 478 9535 9560 11545 13213 
+		425 478 6441 9535 9560 11545 13213 
 	}
 	manpower=701141
 	buildings_max_level_factor=1.000

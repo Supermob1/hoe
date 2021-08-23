@@ -12,7 +12,7 @@ state=
 
 	history=
 	{
-		owner = UNC #BRU
+		owner = BRU
 		victory_points = {
 			7371 1
 		}
@@ -25,7 +25,7 @@ state=
 				naval_base = 2
 			}
 		}
-		#add_core_of = BRU
+		add_core_of = BRU
 	}
 
 	provinces={

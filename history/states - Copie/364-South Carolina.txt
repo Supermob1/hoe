@@ -17,7 +17,7 @@ state={
 			}
 		}
 		add_core_of = USA
-		#add_core_of = SCR
+		add_core_of = SCR
 		victory_points = {
 			7202 1 
 		}

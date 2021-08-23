@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = USA
-		#add_core_of = VRG
+		add_core_of = VRG
 		buildings = {
 			infrastructure = 5
 

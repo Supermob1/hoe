@@ -4,9 +4,9 @@ state={
 	name="STATE_818"
 
 	history={
-		owner = UNC #VIN
-		#add_core_of = VIN
-		#add_core_of = DAI
+		owner = VIN
+		add_core_of = VIN
+		add_core_of = DAI
 
 	}
 

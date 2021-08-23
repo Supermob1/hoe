@@ -4,7 +4,7 @@ state={
 	name="STATE_751"
 
 	history={
-		owner = UNC #TNT
+		owner = TNT
 		victory_points = {
 			773 2 
 		}
@@ -13,12 +13,12 @@ state={
 			industrial_complex = 1
 
 		}
-		#add_core_of = TNT
+		add_core_of = TNT
 
 	}
 
 	provinces={
-		6631 11598 
+		1174 6631 11598 
 	}
 	manpower=59842
 	buildings_max_level_factor=1.000

@@ -5,12 +5,12 @@ state={
 	manpower = 18370
 	state_category = town
 	history={
-		owner = UNC #HWI
+		owner = HWI
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 		}
-		#add_core_of = HWI
+		add_core_of = HWI
 		victory_points = {
 			10048 5
 		 }

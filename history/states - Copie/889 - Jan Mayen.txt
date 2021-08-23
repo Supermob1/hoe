@@ -7,11 +7,11 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = UNC #HOL
+		owner = HOL
 		buildings = {
 			
 		}
-		#add_core_of = JAN
+		add_core_of = JAN
 		
 	}
 

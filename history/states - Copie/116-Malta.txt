@@ -5,7 +5,7 @@ state=
 	manpower = 46846
 	state_category = small_island
 	history= {
-		owner = UNC #KNI
+		owner = KNI
 		add_core_of= KNI
 		victory_points = {
 			12003 5 

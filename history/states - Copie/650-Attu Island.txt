@@ -7,7 +7,7 @@ state=
 	
 	history=
 	{
-		owner = UNC #SOV
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 		}

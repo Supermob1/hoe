@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = UNC #UES
-		#add_core_of = UES
+		owner = UES
+		add_core_of = UES
 		buildings = {
 		
 			arms_factory = 1

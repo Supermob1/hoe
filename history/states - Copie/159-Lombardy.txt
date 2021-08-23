@@ -4,7 +4,7 @@ state={
 	name="STATE_159"
 
 	history={
-		owner = UNC #VEN
+		owner = VEN
 		victory_points = {
 			11568 5 
 		}
@@ -12,15 +12,14 @@ state={
 			infrastructure = 8
 			arms_factory = 4
 			industrial_complex = 5
-			
 
 		}
-		#add_core_of = VEN
+		add_core_of = VEN
 
 	}
 
 	provinces={
-		773 969 11568 
+		773 969 4902 11568 
 	}
 	manpower=621967
 	buildings_max_level_factor=1.000

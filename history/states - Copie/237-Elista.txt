@@ -2,19 +2,21 @@
 state={
 	id=237
 	name="STATE_237"
-	manpower = 98846
-	
-	state_category = rural
 
 	history={
-		owner = UNC #SOV
+		owner = OMA
 		buildings = {
 			infrastructure = 2
+
 		}
-		#add_core_of = SOV
+		add_core_of = OMA
+
 	}
 
 	provinces={
-		481 742 745 759 3413 3439 3475 3597 3746 3774 6463 6791 6794 9426 9594 9720 9739 11566 11724 
+		10725 
 	}
+	manpower=98846
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

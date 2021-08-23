@@ -4,7 +4,7 @@ state={
 	name="STATE_186"
 
 	history={
-		owner = UNC #TUR
+		owner = TUR
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -18,7 +18,7 @@ state={
 		victory_points = {
 			13260 1 
 		}
-		#add_core_of = GRE
+		add_core_of = GRE
 
 	}
 

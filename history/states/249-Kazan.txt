@@ -2,26 +2,18 @@
 state={
 	id=249
 	name="STATE_249"
-	resources={
-		steel=25.000
-	}
 
 	history={
-		owner = SOV
+		owner = MTH
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-
+			infrastructure = 4
 		}
-		victory_points = {
-			6338 1 
-		}
-		add_core_of = SOV
+		add_core_of = MTH
 
 	}
 
 	provinces={
-		7882 
+		1059 1101 1538 4104 4513 7090 9946 10060 10428 11924 
 	}
 	manpower=306810
 	buildings_max_level_factor=1.000

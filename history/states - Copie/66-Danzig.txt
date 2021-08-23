@@ -4,13 +4,13 @@ state={
 	name="STATE_66"
 
 	history={
-		owner = UNC #PRU
+		owner = PRU
 		buildings = {
 			infrastructure = 6
 			dockyard = 1
 
 		}
-		#add_core_of = PRU
+		add_core_of = PRU
 
 	}
 

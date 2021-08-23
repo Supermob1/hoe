@@ -8,8 +8,8 @@ state={
 	
 
 	history={
-		owner = UNC #ZIM
-		#add_core_of = ZIM
+		owner = ZIM
+		add_core_of = ZIM
 		buildings = {
 			infrastructure = 2
 		

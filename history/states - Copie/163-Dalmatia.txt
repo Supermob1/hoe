@@ -4,7 +4,7 @@ state={
 	name="STATE_163"
 
 	history={
-		owner = UNC #VEN
+		owner = VEN
 		buildings = {
 			infrastructure = 5
 			3943 = {
@@ -13,13 +13,13 @@ state={
 			}
 
 		}
-		#add_core_of = VEN
-		#add_core_of = CRO
+		add_core_of = VEN
+		add_core_of = CRO
 
 	}
 
 	provinces={
-		3943 3974 6946 11816 11901 13265 
+		2068 3943 3974 5101 6946 7939 10868 11816 11901 13265 
 	}
 	manpower=334566
 	buildings_max_level_factor=1.000

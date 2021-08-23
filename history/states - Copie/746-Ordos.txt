@@ -4,20 +4,17 @@ state={
 	name="STATE_746"
 
 	history={
-		owner = UNC #TSC
-		victory_points = {
-			13207 1 
-		}
+		owner = SWI
 		buildings = {
 			infrastructure = 2
 
 		}
-		#add_core_of = TSC
+		add_core_of = SWI
 
 	}
 
 	provinces={
-		13208 
+		10788 
 	}
 	manpower=120000
 	buildings_max_level_factor=1.000

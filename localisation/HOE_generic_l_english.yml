@@ -1,5 +1,8 @@
 ﻿l_english:
- 
+ autonomy_vice_royalty:0 "Viceroyalty"
+ autonomy_captaincy_general:0 "Captaincy General"
+ autonomy_personal_union:0 "Personal Union"
+ autonomy_beylik:0 "Beylik"
  ### FOCUSES ###
  generic_capital_infrasctructure:0 "Expansion Of The Capital"
  generic_capital_infrasctructure_desc:0 "The capital is the heart of hour nation. To keep growing it is important to expand our capital."

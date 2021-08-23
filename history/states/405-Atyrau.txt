@@ -4,22 +4,16 @@ state={
 	name="STATE_405"
 
 	history={
-		owner = BUK
-		victory_points = {
-			1459 3 
-		}
+		owner = TIB
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 3
-			air_base = 1
-
 		}
-		add_core_of = BUK
+		add_core_of = TIB
 
 	}
 
 	provinces={
-		4578 4636 7501 7507 7777 10353 10366 10420 12329 
+		2041 2084 10821 
 	}
 	manpower=997313
 	buildings_max_level_factor=1.000

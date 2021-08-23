@@ -8,8 +8,8 @@ state={
 	
 
 	history={
-		owner = UNC #HDJ
-		#add_core_of = HDJ
+		owner = HDJ
+		add_core_of = HDJ
 		buildings = {
 			infrastructure = 4
 			dockyard = 1

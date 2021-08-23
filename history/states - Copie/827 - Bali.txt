@@ -6,8 +6,8 @@ state= {
 	state_category = small_island
 
 	history= {
-		owner = UNC #BAL
-		#add_core_of = BAL
+		owner = BAL
+		add_core_of = BAL
 
 		buildings = {
 			infrastructure = 4

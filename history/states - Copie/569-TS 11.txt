@@ -1,21 +1,22 @@
 
 state={
 	id=569
-	name="STATE_569" #Kemerovo
-	manpower = 175150
-	
-	state_category = town
+	name="STATE_569"
 
 	history={
-		owner = UNC #SOV
+		owner = INS
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+
 		}
-		#add_core_of = SOV
+		add_core_of = INS
+
 	}
 
 	provinces={
-		1369 1685 1702 1816 4665 4789 4793 7757 7822 7886 10580 10649 12631 
+		5077 8071 10812 10814 12851 
 	}
+	manpower=175150
+	buildings_max_level_factor=1.000
+	state_category=town
 }

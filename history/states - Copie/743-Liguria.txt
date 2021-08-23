@@ -4,7 +4,7 @@ state={
 	name="STATE_743"
 
 	history={
-		owner = UNC #GEN
+		owner = GEN
 		buildings = {
 			infrastructure = 3
 			dockyard = 2
@@ -13,7 +13,7 @@ state={
 
 			}
 		}
-		#add_core_of = GEN
+		add_core_of = GEN
 		victory_points = {
 			6788 15 
 		}

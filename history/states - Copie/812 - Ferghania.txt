@@ -1,18 +1,21 @@
+
 state={
 	id=812
 	name="STATE_812"
 
 	history={
-		owner = UNC #KOK
-		#add_core_of = KOK
-		
-		
+		owner = MTH
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = MTH
+
 	}
 
 	provinces={
-		10530 10408 1483 12370 7706 12640 10660
+		4106 7205 8076 11993 12080 12743 
 	}
-	manpower= 169784
+	manpower=169784
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

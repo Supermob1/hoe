@@ -5,11 +5,11 @@ state={
 	manpower = 107336
 	state_category = small_island
 	history={
-		owner = UNC #HW3
+		owner = HW3
 		buildings = {
 			infrastructure = 2
 		}
-		#add_core_of = HW3
+		add_core_of = HW3
 		victory_points = {
 			7112 1
 		 }

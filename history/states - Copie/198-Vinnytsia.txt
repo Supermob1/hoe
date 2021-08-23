@@ -2,21 +2,23 @@
 state={
 	id=198
 	name="STATE_198"
-	manpower = 310377
-
-	state_category = large_town
 
 	history={
-		owner = UNC #PLI
+		owner = PLI
 		buildings = {
 			infrastructure = 5
 			air_base = 3
+
 		}
-		#add_core_of = PLI
-		#add_core_of = UKR
+		add_core_of = PLI
+		add_core_of = UKR
+
 	}
 
 	provinces={
-		476 6455 6480 9423 9435 9481 9576 
+		476 488 504 550 3494 6455 6480 6497 9423 9435 9451 9465 9481 9576 11409 11424 11438 11454 11464 11490 
 	}
+	manpower=310377
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

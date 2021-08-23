@@ -9,8 +9,8 @@ state={
 		oil = 8
 	}
 	history={
-		owner = UNC #WRZ
-		#add_core_of = WRZ
+		owner = WRZ
+		add_core_of = WRZ
 		victory_points = {
 	9416 3
 		

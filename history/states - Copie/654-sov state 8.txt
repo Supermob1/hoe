@@ -7,11 +7,11 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = UNC #MON
+		owner = MON
 		buildings = {
 			infrastructure = 1
 		}
-		#add_core_of = MON
+		add_core_of = MON
 	}
 
 	provinces={

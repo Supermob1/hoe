@@ -4,7 +4,7 @@ state={
 	name="STATE_920"
 
 	history={
-		owner = UNC #TUG
+		owner = TUG
 		buildings = {
 			infrastructure = 1
 
@@ -12,12 +12,12 @@ state={
 		victory_points = {
 			5053 1 
 		}
-		#add_core_of = ALG
+		add_core_of = ALG
 
 	}
 
 	provinces={
-		1126 1967 3987 4903 4970 5035 5053 8077 9943 9983 10082 11935 12888 13145 
+		2923 4903 4970 4992 5035 8061 8077 9943 11261 12082 12888 
 	}
 	manpower=412000
 	buildings_max_level_factor=1.000

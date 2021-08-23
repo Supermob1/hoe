@@ -1,26 +1,28 @@
 
 state={
 	id=200
-	name="STATE_200" #Zaporozhe
-	manpower = 643786
-	state_category = town
+	name="STATE_200"
 
 	history={
-		owner = UNC #SOV
+		owner = SOV
 		victory_points = {
-			11405 1
+			11405 1 
 		}
 		buildings = {
 			infrastructure = 5
 			air_base = 3
+
 		}
-		#add_core_of = SOV
-		#add_core_of = UKR
-		#add_core_of = CRI
-		
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = CRI
+
 	}
 
 	provinces={
-		429 588 3399 3767 6596 9571 9729 11405 11700 
+		39 85 150 226 333 344 2999 3035 3077 3101 3143 3176 3215 3323 6022 6056 6122 6167 6203 6245 6264 6303 9046 9144 9153 9177 9256 9265 9343 11039 11084 11131 11154 11250 11315 11326 11349 
 	}
+	manpower=643786
+	buildings_max_level_factor=1.000
+	state_category=town
 }

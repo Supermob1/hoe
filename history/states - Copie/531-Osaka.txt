@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = UNC #IMJ
-		#add_core_of = IMJ
+		owner = IMJ
+		add_core_of = IMJ
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2

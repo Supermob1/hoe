@@ -2,24 +2,20 @@
 state={
 	id=414
 	name="STATE_414"
-	manpower = 854001
-	
-	state_category = wasteland
 
 	history={
-		owner = UNC #ZAN
+		owner = MTH
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
-		victory_points = {
-			10913 5 
-		}
-		#add_core_of = PER
-		#add_core_of = QAJ
-		#add_core_of = ZAN
+		add_core_of = MTH
+
 	}
 
 	provinces={
-		1986 10913 11249 12809
+		1199 2092 4971 12829 
 	}
+	manpower=854001
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

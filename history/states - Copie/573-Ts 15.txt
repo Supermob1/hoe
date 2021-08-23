@@ -1,24 +1,22 @@
 
 state={
 	id=573
-	name="STATE_573" #Zlatoust
-	manpower = 6872
-	
-	state_category = pastoral
-	resources={
-		chromium=23 #was: 32
-	}
+	name="STATE_573"
 
 	history={
-		owner = UNC #SOV
+		owner = ALG
 		buildings = {
 			infrastructure = 4
 
 		}
-		#add_core_of = SOV
+		add_core_of = ALG
+
 	}
 
 	provinces={
-		237 278 361 3280 4758 7320 10136 10142 10329 11223 11307 12117 
+		4051 
 	}
+	manpower=6872
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

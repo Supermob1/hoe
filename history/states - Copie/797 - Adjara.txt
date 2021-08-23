@@ -4,8 +4,8 @@ state={
 	name="STATE_797"
 
 	history={
-		owner = UNC #TUR
-		#add_core_of = GEO
+		owner = TUR
+		add_core_of = GEO
 		buildings = {
 		3653 = {
 				naval_base = 2

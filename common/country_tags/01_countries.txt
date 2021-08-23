@@ -159,7 +159,11 @@ TRV = "countries/Travancore.txt"
 YGK = "countries/Yogyakarta.txt"
 ZAI = "countries/Zaidi.txt"
 ZAN = "countries/Zand.txt"
-
+BLC = "countries/Hyderabad.txt" #Balochistan
+KAL = "countries/Hyderabad.txt" #Kalat
+SND = "countries/Hyderabad.txt" #Sindh
+AWD = "countries/Hyderabad.txt" #Awadh
+BWP = "countries/Hyderabad.txt" #Bahawalpur
 ######################
 #     North America  #
 ######################

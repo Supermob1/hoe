@@ -4,28 +4,17 @@ state={
 	name="STATE_103"
 
 	history={
-		owner = UNC #HUN
-		victory_points = {
-			3924 1 
-		}
+		owner = AUS
 		buildings = {
 			infrastructure = 5
-			dockyard = 1
-			industrial_complex = 1
-			11564 = {
-				naval_base = 3
-
-			}
-			
 
 		}
-		#add_core_of = HUN
-		#add_core_of = CRO
+		add_core_of = AUS
 
 	}
 
 	provinces={
-		591 984 3592 3596 3601 6611 11564 
+		591 984 2064 3596 3601 6611 
 	}
 	manpower=159077
 	buildings_max_level_factor=1.000

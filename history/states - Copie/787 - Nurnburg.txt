@@ -4,8 +4,8 @@ state={
 	name="STATE_787"
 
 	history={
-		owner = UNC #NRM
-		#add_core_of = NRM
+		owner = NRM
+		add_core_of = NRM
 
 	}
 

@@ -2,23 +2,20 @@
 state={
 	id=432
 	name="STATE_432"
-	manpower = 997455
-	
-	state_category = town
-	
-	resources={
-		oil=5 #was: 6
-	}
 
 	history={
-		owner = UNC #RAJ
+		owner = BRM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 		}
+		add_core_of = BRM
 
 	}
 
 	provinces={
-		1497 1525 1553 1581 7455 10090 10349 10514 12366 12395 
+		1116 1497 1525 1553 7455 10349 10514 12322 12366 12395 
 	}
+	manpower=997455
+	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -6,8 +6,8 @@ state={
 	history={
 		owner =VMT
 		add_core_of = VMT
-		#add_claim_by = NWY
-		#add_claim_by = NWH
+		add_claim_by = NWY
+		add_claim_by = NWH
 		buildings = {
 			infrastructure = 4
 		}

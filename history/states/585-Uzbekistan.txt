@@ -4,17 +4,17 @@ state={
 	name="STATE_585"
 
 	history={
-		owner = KHI
+		owner = KIS
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = KHI
+		add_core_of = KIS
 
 	}
 
 	provinces={
-		4581 4638 7243 7486 7600 7657 12471 
+		4578 4581 4636 4638 7243 7486 7501 7507 7597 7600 7657 7777 10353 10420 12329 12471 
 	}
 	manpower=414857
 	buildings_max_level_factor=1.000

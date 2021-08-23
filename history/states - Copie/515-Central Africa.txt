@@ -1,11 +1,11 @@
+
 state={
 	id=515
 	name="STATE_515"
-	
-	state_category = wasteland
 
 	history={
-		owner = UNC #UNC
+		owner = NAP
+		add_core_of = NAP
 		buildings = {
 			infrastructure = 1
 
@@ -14,8 +14,9 @@ state={
 	}
 
 	provinces={
-		1956 2068 4902 4913 5136 7939 8028 8128 10758 10805 10893 10917 
+		9598 
 	}
 	manpower=165750
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

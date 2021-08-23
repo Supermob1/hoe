@@ -10,7 +10,7 @@ state={
 
 		}
 		add_core_of = USA
-		#add_core_of = NCR
+		add_core_of = NCR
 	}
 
 	provinces={

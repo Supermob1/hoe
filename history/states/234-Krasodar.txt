@@ -2,35 +2,19 @@
 state={
 	id=234
 	name="STATE_234"
-	resources={
-		tungsten=26.000
-		oil=18.000
-	}
 
 	history={
-		owner = SOV
-		victory_points = {
-			3720 1 
-		}
-		victory_points = {
-			3734 5 
-		}
+		owner = BLC
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
-			6755 = {
-				naval_base = 3
-				coastal_bunker = 1
-
-			}
 
 		}
-		add_core_of = SOV
+		add_core_of = BLC
 
 	}
 
 	provinces={
-		7849 
+		1179 5043 7917 12774 
 	}
 	manpower=522596
 	buildings_max_level_factor=1.000

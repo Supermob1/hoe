@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = UNC #JHR
+		owner = JHR
 		
 		
 		victory_points = {
@@ -28,7 +28,7 @@ state={
 				naval_base = 5
 			}
 		}
-		#add_core_of = JHR
+		add_core_of = JHR
 	}
 
 	provinces={

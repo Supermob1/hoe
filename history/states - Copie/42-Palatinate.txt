@@ -4,7 +4,7 @@ state={
 	name="STATE_42"
 
 	history={
-		owner = UNC #BAV
+		owner = BAV
 		victory_points = {
 			11435 10 
 		}
@@ -16,7 +16,7 @@ state={
 			industrial_complex = 3
 
 		}
-		#add_core_of = BAV
+		add_core_of = BAV
 
 	}
 

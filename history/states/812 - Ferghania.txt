@@ -4,13 +4,16 @@ state={
 	name="STATE_812"
 
 	history={
-		owner = KOK
-		add_core_of = KOK
+		owner = MTH
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = MTH
 
 	}
 
 	provinces={
-		1459 1483 2058 4467 4923 7682 10187 10488 10530 10601 10660 11687 12581 12805 
+		4106 7205 8076 11993 12080 12743 
 	}
 	manpower=169784
 	buildings_max_level_factor=1.000

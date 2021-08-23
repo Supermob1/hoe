@@ -6,7 +6,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = UNC #SNM
+		owner = SNM
 		victory_points = {
 			773 2
 		}
@@ -15,7 +15,7 @@ state={
 			industrial_complex = 1
 
 		}
-		#add_core_of = SNM
+		add_core_of = SNM
 		victory_points = {13209 1}
 	}
 	

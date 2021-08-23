@@ -1,25 +1,21 @@
 
 state={
 	id=436
-	name="STATE_436" #Jabalpur
-	manpower = 8569235
-	
-	state_category = rural
-	
-	resources={
-		chromium=6
-	}
+	name="STATE_436"
 
 	history={
-		owner = UNC #MTH
-		#add_core_of = MTH
+		owner = MTH
 		buildings = {
 			infrastructure = 4
 		}
+		add_core_of = MTH
 
 	}
 
 	provinces={
-		1510 4557 4883 4950 4953 7430 7497 7574 7619 8120 10030 10401 10801 10872 12375 12420 12480 12781 12799 12854 
+		4045 4950 4953 5096 10801 10872 12799 12854 
 	}
+	manpower=8569235
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

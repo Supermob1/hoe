@@ -4,14 +4,14 @@ state={
 	name="STATE_92"
 
 	history={
-		owner = UNC #PLI
+		owner = PLI
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			air_base = 1
 
 		}
-		#add_core_of = PLI
+		add_core_of = PLI
 
 	}
 

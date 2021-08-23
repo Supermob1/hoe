@@ -1,15 +1,11 @@
 
 state={
 	id=604
-	name="STATE_604" #Qinghai
-	manpower = 1532900
-	
-	state_category = town
+	name="STATE_604"
 
 	history={
 		owner = XSM
 		add_core_of = XSM
-		
 		victory_points = {
 			7940 10 
 		}
@@ -20,11 +16,15 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 
 	}
 
 	provinces={
-		1882 2053 2099 4536 4888 4914 4964 7270 7940 7997 8018 10490 10750 10796 10817 10834 11448 12815 12846 12899 13146
+		1882 1918 1999 2053 2099 4536 4888 4914 4964 4999 7270 7940 7988 7997 8018 8104 10490 10750 10796 10817 10834 11448 12815 12837 12846 12899 13146 
 	}
+	manpower=1532900
+	buildings_max_level_factor=1.000
+	state_category=town
 }

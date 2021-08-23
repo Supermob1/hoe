@@ -4,13 +4,13 @@ state={
 	name="STATE_803"
 
 	history={
-		owner = UNC #IME
-		#add_core_of = IME
+		owner = IME
+		add_core_of = IME
 
 	}
 
 	provinces={
-		3656 3658 
+		654 3656 3658 6671 
 	}
 	manpower=225402
 	buildings_max_level_factor=1.000

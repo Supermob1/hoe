@@ -5,20 +5,14 @@ state={
 	state_category = town
 	
 	manpower = 146843
-	resources={
-		steel=8
-	}
 
 	history={
-		owner = UNC #UNC
+		owner = AUS
 		buildings = {
 			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 1
 		}
-		victory_points = { 6583 5 }
-		#add_core_of = LUX
-		#add_core_of = BEL
+		add_core_of = LUX
+		add_core_of = BEL
 	}
 
 	provinces={	6583 13229	}

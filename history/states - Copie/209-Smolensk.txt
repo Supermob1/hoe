@@ -1,24 +1,21 @@
 
 state={
 	id=209
-	name="STATE_209" #Pskov
-	manpower = 771065
-	
-	state_category = town
+	name="STATE_209"
 
 	history={
-		owner = UNC #SOV
-		victory_points = {
-			11202 3
-		}
+		owner = ENG
 		buildings = {
 			infrastructure = 6
-			air_base = 4
 		}
-		#add_core_of = SOV
+		add_core_of = ENG
+
 	}
 
 	provinces={
-		95 415 3053 3310 6324 9120 9319 9408 11097 11202 11304 11392 
+		1140 1143 3178 6062 7148 7216 10104 10127 10869 12733 
 	}
+	manpower=771065
+	buildings_max_level_factor=1.000
+	state_category=town
 }

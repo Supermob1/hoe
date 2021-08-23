@@ -6,8 +6,8 @@ state= {
 	state_category = pastoral
 
 	history= {
-		owner = UNC #YGK
-		#add_core_of = YGK
+		owner = YGK
+		add_core_of = YGK
 
 		buildings = {
 			infrastructure = 2

@@ -6,7 +6,7 @@ state= {
 	state_category = pastoral
 
 	history= {
-		owner = UNC #INS
+		owner = INS
 		
 
 		buildings = {

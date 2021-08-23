@@ -7,7 +7,7 @@ state={
 		victory_points = {
 			6389 10 
 		}
-		owner = UNC #DNO
+		owner = DNO
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		#add_core_of = DNO
+		add_core_of = DNO
 
 	}
 

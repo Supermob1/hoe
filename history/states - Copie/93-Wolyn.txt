@@ -4,18 +4,17 @@ state={
 	name="STATE_93"
 
 	history={
-		owner = UNC #PLI
+		owner = SOV
 		buildings = {
 			infrastructure = 5
 
 		}
-		#add_core_of = PLI
-		#add_core_of = UKR
+		add_core_of = SOV
 
 	}
 
 	provinces={
-		422 474 513 572 3412 6435 6520 6557 11441 11543 
+		750 765 775 3587 3734 3752 3765 6741 6755 6768 6781 6783 9709 9726 9742 9744 11696 11729 
 	}
 	manpower=420622
 	buildings_max_level_factor=1.000

@@ -9,7 +9,7 @@ state= {
 		tungsten = 6
 	}
 	history= {
-		owner = UNC #ENG
+		owner = ENG
 		victory_points = { 540 10 }
 		buildings = {
 			infrastructure = 7
@@ -22,7 +22,7 @@ state= {
 			}
 
 		}
-		#add_core_of = ENG
+		add_core_of = ENG
 	}
 
 	provinces= {

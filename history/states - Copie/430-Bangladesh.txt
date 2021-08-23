@@ -1,31 +1,21 @@
 
 state={
 	id=430
-	name="STATE_430" #East Bengal
-	manpower = 13552588
-	
-	state_category = town
+	name="STATE_430"
 
 	history={
-		owner = UNC #RAJ
-		victory_points = {
-			11929 1
-		}
+		owner = RAJ
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-			11968 = {
-				naval_base = 3
-
-			}
-			
 		}
-		#add_core_of = PAK
-		#add_core_of = RAJ
+		add_core_of = RAJ
 
 	}
 
 	provinces={
-		997 1075 4162 4616 7078 7124 7179 7634 9935 9991 9993 10035 10416 10443 11911 11929 11968 12010 12423 2843
+		1159 1609 2843 4062 4162 4204 4245 4616 4644 7078 7124 7179 7220 7634 7662 9935 9991 9993 10035 10077 10416 10443 11911 11929 11968 12010 12050 12338 12423 
 	}
+	manpower=13552588
+	buildings_max_level_factor=1.000
+	state_category=town
 }

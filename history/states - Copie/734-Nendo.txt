@@ -5,7 +5,7 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = UNC #SPH
+		owner = SPH
 		buildings = {
 			infrastructure = 1
 		}

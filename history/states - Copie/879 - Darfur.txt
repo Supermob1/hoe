@@ -8,8 +8,8 @@ state={
 	
 
 	history={
-		owner = UNC #DRF
-		#add_core_of = DRF
+		owner = DRF
+		add_core_of = DRF
 		buildings = {
 			infrastructure = 3
 		

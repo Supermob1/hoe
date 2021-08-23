@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = UNC #TUR
+		owner = TUR
 		victory_points = {
 			949 15 
 		}
@@ -17,7 +17,7 @@ state={
 			air_base = 1
 
 		}
-		#add_core_of = BUL
+		add_core_of = BUL
 
 	}
 

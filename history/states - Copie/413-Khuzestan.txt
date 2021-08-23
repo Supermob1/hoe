@@ -2,32 +2,33 @@
 state={
 	id=413
 	name="STATE_413"
-	manpower = 688595
 	resources={
-		oil=42
+		oil=42.000
 	}
-	
-	state_category = rural
-	
 
 	history={
-		owner = UNC #QAJ
+		owner = QAJ
 		buildings = {
 			infrastructure = 5
 			5005 = {
 				naval_base = 1
+
 			}
+
 		}
 		victory_points = {
 			7953 1 
 		}
-		#add_core_of = PER
-		#add_core_of = QAJ
-		#add_core_of = ZAN
-	
+		add_core_of = PER
+		add_core_of = QAJ
+		add_core_of = ZAN
+
 	}
 
 	provinces={
-		1922 5005 7953 
+		5005 7953 
 	}
+	manpower=688595
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

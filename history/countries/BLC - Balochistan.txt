@@ -1,0 +1,24 @@
+﻿capital = 234
+
+oob = "BLC_1790"
+
+set_research_slots = 1
+
+set_technology = {
+
+}
+
+set_popularities = {
+	glory = 0
+	equality = 0
+	liberty = 0
+	order = 100
+}
+set_politics = {
+	ruling_party = order
+	last_election = "1790.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_convoys = 50

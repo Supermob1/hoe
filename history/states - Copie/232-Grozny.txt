@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = UNC #AVR
+		owner = AVR
 		buildings = {
 			infrastructure = 4
 
@@ -15,12 +15,12 @@ state={
 		victory_points = {
 			9645 5 
 		}
-		#add_core_of = AVR
+		add_core_of = AVR
 
 	}
 
 	provinces={
-		1450 3672 3682 3711 6689 6701 7554 9645 
+		1450 1455 3682 3711 6689 6701 7554 9645 
 	}
 	manpower=884255
 	buildings_max_level_factor=1.000

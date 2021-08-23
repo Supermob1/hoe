@@ -6,8 +6,8 @@ state={
 	
 	state_category = rural
 	history={
-		owner = UNC #BAV
-		#add_core_of = BAV
+		owner = BAV
+		add_core_of = BAV
 		
 		
 		

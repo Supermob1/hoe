@@ -4,9 +4,9 @@ state={
 	name="STATE_771"
 
 	history={
-		owner = UNC #PRU
-		#add_core_of = PRU
-		#add_core_of = ESF
+		owner = PRU
+		add_core_of = PRU
+		add_core_of = ESF
 		buildings = {
 			infrastructure = 8
 

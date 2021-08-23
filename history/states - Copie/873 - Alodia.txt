@@ -4,8 +4,8 @@ state={
 	name="STATE_873"
 
 	history={
-		owner = UNC #SNN
-		#add_core_of = SNN
+		owner = SNN
+		add_core_of = SNN
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

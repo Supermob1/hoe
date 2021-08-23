@@ -2,17 +2,13 @@
 state={
 	id=664
 	name="STATE_664"
-	resources={
-		steel=20.000
-	}
-
 	history={
-		owner = UNC #UNC
+		owner = AUS
 		buildings = {
 			infrastructure = 6
 
 		}
-		#add_core_of = AUS
+		add_core_of = AUS
 
 	}
 

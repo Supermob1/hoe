@@ -1,19 +1,20 @@
+
 state={
 	id=946
 	name="STATE_946"
-	
+
 	history={
-		owner = UNC #VEN
+		owner = PAP
 		buildings = {
 			infrastructure = 6
 
 		}
-		#add_core_of = VEN
+		add_core_of = PAP
 
 	}
-	
+
 	provinces={
-		628 3657 6656 9613 
+		2056 
 	}
 	manpower=430230
 	buildings_max_level_factor=1.000

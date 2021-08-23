@@ -4,18 +4,17 @@ state={
 	name="STATE_770"
 
 	history={
-		owner = UNC #HAN
-		#add_core_of = HAN
-		victory_points = {
-			13214 10 
-		}
+		owner = KOL
+		add_core_of = KOL
 		buildings = {
 			infrastructure = 6
+
 		}
+
 	}
 
 	provinces={
-		11305 13214 
+		247 309 
 	}
 	manpower=310412
 	buildings_max_level_factor=1.000

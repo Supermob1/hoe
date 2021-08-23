@@ -4,7 +4,7 @@ state={
 	name="STATE_749"
 
 	history={
-		owner = UNC #PRM
+		owner = PRM
 		victory_points = {
 			6973 1 
 		}
@@ -13,7 +13,7 @@ state={
 			industrial_complex = 2
 
 		}
-		#add_core_of = PRM
+		add_core_of = PRM
 
 	}
 

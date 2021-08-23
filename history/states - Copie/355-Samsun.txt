@@ -4,7 +4,7 @@ state={
 	name="STATE_355"
 
 	history={
-		owner = UNC #TUR
+		owner = TUR
 		buildings = {
 			infrastructure = 3
 			11894 = {
@@ -16,8 +16,8 @@ state={
 
 			}
 		}
-		#add_core_of = TUR
-		#add_core_of = PON
+		add_core_of = TUR
+		add_core_of = PON
 
 	}
 

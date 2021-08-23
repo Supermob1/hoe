@@ -9,7 +9,6 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			
 
 		}
 		add_core_of = TUR
@@ -17,7 +16,7 @@ state={
 	}
 
 	provinces={
-		6940 6953 9849 9874 
+		6953 
 	}
 	manpower=123130
 	buildings_max_level_factor=1.000

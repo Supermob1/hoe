@@ -4,7 +4,7 @@ state={
 	name="STATE_231"
 
 	history={
-		owner = UNC #GEO
+		owner = GEO
 		victory_points = {
 			1599 5 
 		}
@@ -15,15 +15,14 @@ state={
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 3
-			
 
 		}
-		#add_core_of = GEO
+		add_core_of = GEO
 
 	}
 
 	provinces={
-		1530 1599 4534 4605 6436 6671 9702 12309 
+		1530 1599 9626 9632 9702 11708 12380 13123 
 	}
 	manpower=327712
 	buildings_max_level_factor=1.000

@@ -4,22 +4,16 @@ state={
 	name="STATE_252"
 
 	history={
-		owner = SOV
-		victory_points = {
-			11375 10 
-		}
+		owner = MTH
 		buildings = {
-			infrastructure = 5
-			arms_factory = 2
-			air_base = 1
-
+			infrastructure = 4
 		}
-		add_core_of = SOV
+		add_core_of = MTH
 
 	}
 
 	provinces={
-		10561 
+		7497 12375 12480 
 	}
 	manpower=875352
 	buildings_max_level_factor=1.000

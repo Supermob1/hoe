@@ -11,7 +11,7 @@ state=
 	}
 
 	history={
-		owner = UNC #INS
+		owner = INS
 		victory_points = { 7260 5 }
 		buildings = {
 			infrastructure = 3

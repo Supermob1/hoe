@@ -7,7 +7,7 @@ state=
 	state_category = rural
 	history=
 	{
-		owner = UNC #TUR
+		owner = TUR
 		victory_points = {
 			9940 1 
 		}
@@ -22,8 +22,8 @@ state=
 				naval_base = 3
 			}
 		}
-		#add_claim_by = GRE
-		#add_core_of = CRT
+		add_claim_by = GRE
+		add_core_of = CRT
 	}
 	provinces=
 	{

@@ -4,9 +4,9 @@ state={
 	name="STATE_924"
 
 	history={
-		owner = UNC #SAX
-		#add_core_of = SAX
-		#add_core_of = SOR
+		owner = SAX
+		add_core_of = SAX
+		add_core_of = SOR
 		buildings = {
 			infrastructure = 4
 

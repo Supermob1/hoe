@@ -1,21 +1,23 @@
+
 state={
 	id=742
 	name="STATE_742"
 
 	history={
-		owner = UNC #KOK
+		owner = KOK
 		buildings = {
 			infrastructure = 1
 
 		}
-		#add_core_of = KOK
+		add_core_of = KOK
 		victory_points = {
-		2058 3 }
+			2058 3 
+		}
 
 	}
 
 	provinces={
-		4542 8027 10417 12805 12581 2058 10488 7519 5087 1766 4923 4467
+		1459 1483 2058 4686 4923 7556 7682 7706 10148 10187 10366 10408 10488 10506 10530 10601 10603 10660 11687 12340 12397 12581 12583 12640 12658 
 	}
 	manpower=245500
 	buildings_max_level_factor=1.000

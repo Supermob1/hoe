@@ -4,8 +4,8 @@ state={
 	name="STATE_775"
 
 	history={
-		owner = UNC #TRI
-		#add_core_of = TRI
+		owner = TRI
+		add_core_of = TRI
 		buildings = {
 			infrastructure = 6
 

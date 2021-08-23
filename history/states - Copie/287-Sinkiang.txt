@@ -1,14 +1,11 @@
 
 state={
 	id=287
-	name="STATE_287" #Taklamakan
-	manpower = 353100
-	
-	state_category = wasteland
+	name="STATE_287"
 
 	history={
-		owner = UNC #SIK
-		#add_core_of = SIK
+		owner = SIK
+		add_core_of = SIK
 		buildings = {
 			infrastructure = 1
 
@@ -17,6 +14,9 @@ state={
 	}
 
 	provinces={
-		1698 1943 2074 4947 4973 8042 8086 10315 10885 10911 12864 5736 12890 10865
+		1698 1943 2010 2074 4947 4973 5011 5094 5736 8037 8042 8068 8086 10315 10755 10865 10885 10911 12801 12864 12890 
 	}
+	manpower=353100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

@@ -8,8 +8,8 @@ state={
 	
 
 	history={
-		owner = UNC #SLL
-		#add_core_of = SLL
+		owner = SLL
+		add_core_of = SLL
 		buildings = {
 			infrastructure = 2
 		

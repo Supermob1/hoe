@@ -4,7 +4,7 @@ state={
 	name="STATE_56"
 
 	history={
-		owner = UNC #LUB
+		owner = LUB
 		victory_points = {
 			241 5 
 		}
@@ -19,12 +19,12 @@ state={
 			air_base = 1
 
 		}
-		#add_core_of = LUB
+		add_core_of = LUB
 
 	}
 
 	provinces={
-		241 247 309 
+		241 
 	}
 	manpower=228718
 	buildings_max_level_factor=1.000

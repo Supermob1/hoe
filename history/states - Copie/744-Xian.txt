@@ -3,12 +3,12 @@ state={
 	name="STATE_744"
 
 	history={
-		owner = UNC #MNC
+		owner = MNC
 		buildings = {
 			infrastructure = 6
 
 		}
-		#add_core_of = MNC
+		add_core_of = MNC
 		victory_points = {13206 1 }
 	}
 

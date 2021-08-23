@@ -9,34 +9,6 @@ set_technology = {
 set_cosmetic_tag = MEX_SPR
 
 set_convoys = 45
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = PRR
-		autonomous_state = autonomy_colony
-	}
-	
-	
-	set_autonomy = {
-		target = CUB
-		autonomous_state = autonomy_colony
-	}
-	
-	set_autonomy = {
-		target = GUA
-		autonomous_state = autonomy_colony
-	}
-	
-	else = {
-		puppet = CUB
-		puppet = GUA
-		puppet = PRR
-		
-		
-	}
-}
 
 set_popularities = {
 	liberty = 0

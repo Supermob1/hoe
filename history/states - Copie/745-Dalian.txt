@@ -4,23 +4,17 @@ state={
 	name="STATE_745"
 
 	history={
-		owner = UNC #MLO
-		victory_points = {
-			3780 15 
-		}
+		owner = MLO
 		buildings = {
 			infrastructure = 8
-			arms_factory = 3
-			industrial_complex = 2
-			air_base = 2
 
 		}
-		#add_core_of = MLO
+		add_core_of = MLO
 
 	}
 
 	provinces={
-		607 3780 6790 9584 11726 
+		607 3776 3780 6790 8103 9584 10900 11726 11734 
 	}
 	manpower=447704
 	buildings_max_level_factor=1.000

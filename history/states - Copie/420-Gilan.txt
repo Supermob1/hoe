@@ -2,21 +2,20 @@
 state={
 	id=420
 	name="STATE_420"
-	manpower = 446105
-	
-	state_category = rural
 
 	history={
-		owner = UNC #QAJ
+		owner = MTH
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 		}
-		#add_core_of = PER
-		#add_core_of = QAJ
-		#add_core_of = ZAN
+		add_core_of = MTH
+
 	}
 
 	provinces={
-		4553 4609 4637 4901 7969 10454 10523 
+		4187 7165 9975 
 	}
+	manpower=446105
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

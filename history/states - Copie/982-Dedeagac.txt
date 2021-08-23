@@ -3,14 +3,14 @@ state={
 	name="STATE_982"
 	
 	history={
-		owner = UNC #TUR
+		owner = TUR
 		buildings = {
 			infrastructure = 4
 
 		}
-		#add_claim_by = GRE
-		#add_claim_by = BUL
-		#add_core_of = THR
+		add_claim_by = GRE
+		add_claim_by = BUL
+		add_core_of = THR
 
 	}
 	

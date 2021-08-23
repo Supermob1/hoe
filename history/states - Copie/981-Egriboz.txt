@@ -4,7 +4,7 @@ state={
 	name="STATE_981"
 
 	history={
-		owner = UNC #TUR
+		owner = TUR
 		victory_points = {
 			4109 10 
 		}
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		#add_core_of = GRE
+		add_core_of = GRE
 
 	}
 

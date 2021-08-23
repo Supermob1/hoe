@@ -3,12 +3,12 @@
 	name="STATE_988"
 	
 	history={
-		owner = UNC #HDJ
+		owner = HDJ
 		buildings = {
 			infrastructure = 3
 
 		}
-		#add_core_of = HDJ
+		add_core_of = HDJ
 
 	}
 	

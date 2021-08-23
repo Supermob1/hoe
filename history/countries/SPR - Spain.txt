@@ -7,6 +7,47 @@ set_research_slots = 3
 set_technology = {
 
 }
+	set_autonomy = {
+		target = MEX
+		autonomous_state = autonomy_vice_royalty
+	}
+	set_autonomy = {
+		target = ARG
+		autonomous_state = autonomy_vice_royalty
+	}
+	set_autonomy = {
+		target = VCP
+		autonomous_state = autonomy_vice_royalty
+	}
+	set_autonomy = {
+		target = COL
+		autonomous_state = autonomy_vice_royalty
+	}
+	set_autonomy = {
+		target = CUB
+		autonomous_state = autonomy_captaincy_general
+	}
+	set_autonomy = {
+		target = GUA
+		autonomous_state = autonomy_captaincy_general
+	}
+	set_autonomy = {
+		target = CHL
+		autonomous_state = autonomy_captaincy_general
+	}
+	set_autonomy = {
+		target = DOM
+		autonomous_state = autonomy_captaincy_general
+	}
+	set_autonomy = {
+		target = PRR
+		autonomous_state = autonomy_captaincy_general
+	}
+	set_autonomy = {
+		target = VNZ
+		autonomous_state = autonomy_captaincy_general
+	}
+create_faction = "Spanish Empire"
 
 set_popularities = {
 	liberty = 40

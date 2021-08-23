@@ -7,7 +7,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = UNC #SPH
+		owner = SPH
 		buildings = {
 			infrastructure = 3
 			air_base = 2

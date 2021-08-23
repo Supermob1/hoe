@@ -1,20 +1,21 @@
+
 state={
 	id=810
 	name="STATE_810"
 
 	history={
-		owner = UNC #PER
-		#add_core_of = PER
-		#add_core_of = ZAN
-		#add_core_of = QAJ
-		
-		
+		owner = MTH
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = MTH
+
 	}
 
 	provinces={
-		7990 10890 10759 12852 12739 12895
+		2105 11995 
 	}
-	manpower= 691263
+	manpower=691263
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

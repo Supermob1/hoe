@@ -1,22 +1,21 @@
 
 state={
 	id=437
-	name="STATE_437" #Indore
-	manpower = 9933610
-
-	state_category = rural
+	name="STATE_437"
 
 	history={
-		owner = UNC #MTH
-		#add_core_of = MTH
+		owner = MTH
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
 		}
+		add_core_of = MTH
 
 	}
 
 	provinces={
-		1949 2036 2092 2105 4106 7080 7205 8076 10807 10816 11993 11995 12080 
+		1949 2036 7080 10807 
 	}
+	manpower=9933610
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

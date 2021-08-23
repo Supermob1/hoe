@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = UNC #TUR
+		owner = TUR
 		buildings = {
 			infrastructure = 4
 			air_base = 3
@@ -18,7 +18,7 @@ state={
 			}
 
 		}
-		#add_claim_by = GRE
+		add_claim_by = GRE
 
 	}
 

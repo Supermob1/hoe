@@ -4,8 +4,8 @@ state={
 	name="STATE_513"
 
 	history={
-		owner = UNC #ALG
-		#add_core_of = ALG
+		owner = ALG
+		add_core_of = ALG
 		buildings = {
 			infrastructure = 2
 
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		1128 3991 4018 4150 7008 7033 7040 7149 9960 10045 12018 12020 13074 
+		1126 1128 1967 4018 5053 7033 7040 7065 7149 9960 10059 12020 13064 13077 
 	}
 	manpower=390150
 	buildings_max_level_factor=1.000

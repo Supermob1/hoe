@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = UNC #TUR
+		owner = TUR
 		buildings = {
 			infrastructure = 4
 			dockyard = 1
@@ -20,7 +20,7 @@ state={
 		victory_points = {
 			3401 5 
 		}
-		#add_core_of = GRE
+		add_core_of = GRE
 
 	}
 

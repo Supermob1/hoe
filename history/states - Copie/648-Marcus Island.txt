@@ -6,7 +6,7 @@ state=
 	manpower=2
 	history=
 	{
-		owner = UNC #SPH
+		owner = SPH
 		buildings = {
 			infrastructure = 1
 		}

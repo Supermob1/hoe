@@ -6,11 +6,11 @@ state={
 	
 	state_category = rural
 	history={
-		owner = UNC #FUJ
+		owner = FUJ
 		buildings = {
 			infrastructure = 2
 		}
-		#add_core_of = FUJ
+		add_core_of = FUJ
 	}
 
 	provinces={

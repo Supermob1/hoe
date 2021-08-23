@@ -6,22 +6,12 @@ state={
 	state_category = town
 	
 	history={
-		owner = UNC #SPR
+		owner = SPR
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			dockyard = 1
-			7132 = {
-				naval_base = 1
-				coastal_bunker = 1
-			}
 		}
 		
-		victory_points = {
-			7132 5
-		}
-		
-		#add_core_of = ALG
+		add_core_of = ALG
 	}
 
 	provinces={

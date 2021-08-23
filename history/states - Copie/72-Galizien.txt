@@ -4,13 +4,13 @@ state={
 	name="STATE_72"
 
 	history={
-		owner = UNC #GAL
+		owner = GAL
 		buildings = {
 			infrastructure = 6
 
 		}
-		#add_claim_by = PLI
-		#add_core_of = GAL
+		add_claim_by = PLI
+		add_core_of = GAL
 
 	}
 

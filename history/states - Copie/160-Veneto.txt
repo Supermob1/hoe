@@ -4,7 +4,7 @@ state={
 	name="STATE_160"
 
 	history={
-		owner = UNC #VEN
+		owner = VEN
 		victory_points = {
 			6626 1 
 		}
@@ -23,12 +23,12 @@ state={
 			}
 
 		}
-		#add_core_of = VEN
+		add_core_of = VEN
 
 	}
 
 	provinces={
-		656 3604 11584 
+		628 656 3604 3657 6656 9613 11584 
 	}
 	manpower=1102605
 	buildings_max_level_factor=1.000

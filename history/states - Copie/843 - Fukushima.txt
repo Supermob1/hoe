@@ -6,8 +6,8 @@ state=
 	state_category = city
 	history=
 	{
-		owner = UNC #AZU
-		#add_core_of = AZU
+		owner = AZU
+		add_core_of = AZU
 		buildings = {
 			infrastructure = 4
 			

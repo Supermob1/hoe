@@ -6,8 +6,8 @@ state={
 	
 	state_category = rural
 	history={
-		owner = UNC #HAU
-		#add_core_of = HAU
+		owner = HAU
+		add_core_of = HAU
 		
 	}
 

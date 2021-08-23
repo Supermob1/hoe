@@ -2,12 +2,10 @@
 state={
 	id=495
 	name="STATE_495"
-	resources={
-		aluminium=4.000
-	}
 
 	history={
-		owner = UNC
+		owner = POR
+		add_core_of = POR
 		buildings = {
 			infrastructure = 0
 

@@ -12,7 +12,7 @@ state={
 
 		}
 		add_core_of = SWN
-		#add_claim_by = USA
+		add_claim_by = USA
 		victory_points = {
 			1595 2
 		}

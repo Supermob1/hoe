@@ -1,19 +1,19 @@
+
 state={
 	id=732
 	name="STATE_732"
 
 	history={
-		owner = UNC #SIK
+		owner = SIK
 		buildings = {
 			infrastructure = 1
 
 		}
-		
 
 	}
 
 	provinces={
-		1675 4316 4391 4768 5062 12511 
+		1675 1825 4224 4316 4391 4768 5062 12370 12511 13147 
 	}
 	manpower=625500
 	buildings_max_level_factor=1.000

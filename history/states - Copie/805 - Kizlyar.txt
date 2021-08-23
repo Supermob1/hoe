@@ -1,18 +1,22 @@
+
 state={
 	id=805
 	name="STATE_805"
 
 	history={
-		owner = UNC #SOV
+		owner = TIB
+		buildings = {
+			infrastructure = 4
 
-		victory_points = {
-		683 3 }
+		}
+		add_core_of = TIB
+
 	}
 
 	provinces={
-		 683 700 712 728 6730 6748 11632 
+		7273 7316 8005 12884 
 	}
-	manpower= 75442
+	manpower=75442
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

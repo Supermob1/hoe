@@ -8,8 +8,8 @@ state={
 	
 
 	history={
-		owner = UNC #PTT
-		#add_core_of = PTT
+		owner = PTT
+		add_core_of = PTT
 		victory_points = {
 			7329 1 
 		}

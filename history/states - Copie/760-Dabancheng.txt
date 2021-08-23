@@ -10,10 +10,10 @@ state={
 	}
 
 	history={
-		owner = UNC #VEN
-		#add_core_of = GRE
-		#add_core_of = ION
-		#add_core_of = VEN
+		owner = VEN
+		add_core_of = GRE
+		add_core_of = ION
+		add_core_of = VEN
 		buildings = {
 			infrastructure = 1
 		}

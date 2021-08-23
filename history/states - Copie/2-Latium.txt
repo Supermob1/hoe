@@ -4,7 +4,7 @@ state={
 	name="STATE_2"
 
 	history={
-		owner = UNC #PAP
+		owner = PAP
 		victory_points = {
 			9904 40 
 		}
@@ -26,12 +26,12 @@ state={
 			}
 
 		}
-		#add_core_of = PAP
+		add_core_of = PAP
 
 	}
 
 	provinces={
-		6862 9904 11751 11846 
+		6862 7987 9904 11751 11846 
 	}
 	manpower=847746
 	buildings_max_level_factor=1.000

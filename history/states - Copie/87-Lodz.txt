@@ -4,7 +4,7 @@ state={
 	name="STATE_87"
 
 	history={
-		owner = UNC #PLI
+		owner = PLI
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -13,7 +13,7 @@ state={
 		victory_points = {
 			9508 1 
 		}
-		#add_core_of = PLI
+		add_core_of = PLI
 
 	}
 

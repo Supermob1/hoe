@@ -6,8 +6,8 @@ state=
 	state_category = large_city
 	history=
 	{
-		owner = UNC #CHO
-		#add_core_of = CHO
+		owner = CHO
+		add_core_of = CHO
 		buildings = {
 			infrastructure = 3
 			air_base = 3

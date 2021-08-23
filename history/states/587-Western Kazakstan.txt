@@ -4,17 +4,17 @@ state={
 	name="STATE_587"
 
 	history={
-		owner = SOV
+		owner = OMA
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SOV
+		add_core_of = OMA
 
 	}
 
 	provinces={
-		7861 
+		1897 7982 
 	}
 	manpower=127237
 	buildings_max_level_factor=1.000

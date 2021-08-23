@@ -1,27 +1,22 @@
 
 state={
 	id=423
-	name="STATE_423" #Madurai
-	manpower = 13238611
-	
-	state_category = rural
-	
-	resources={
-		rubber=28
-	}
+	name="STATE_423"
 
 	history={
-		owner = UNC #ARC
-		#add_core_of = ARC
+		owner = ARC
+		add_core_of = ARC
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
+
 		}
-		
 
 	}
 
 	provinces={
-		1268 1381 1409 4327 4416 4420 7265 7436 10246 12164 12247 1344 7310 1430 10152 12180 
+		1268 1344 1381 1409 1430 4327 4416 4420 7265 7288 7436 10130 10152 12164 12180 12247 
 	}
+	manpower=13238611
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

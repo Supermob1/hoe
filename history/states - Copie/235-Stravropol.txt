@@ -2,28 +2,19 @@
 state={
 	id=235
 	name="STATE_235"
-	manpower = 146279
-	
-	state_category = rural
-	resources={
-		chromium=20
-	}
-
 	history={
-		owner = UNC #SOV
-		victory_points = {
-		6702 1 }
-		victory_points = {
-		11661 3
-		}
+		owner = MDN
 		buildings = {
 			infrastructure = 4
-			air_base = 2
 		}
-		#add_core_of = SOV
+		add_core_of = MDN
+
 	}
 
 	provinces={
-		731 748 3748 6702 6750 6753 9688 9705 9707 9722 9726 9742 11661 11678 11690 11693 11694 11696 11727 
+		1891 
 	}
+	manpower=146279
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

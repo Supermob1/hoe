@@ -4,24 +4,17 @@ state={
 	name="STATE_450"
 
 	history={
-		owner = UNC
-		victory_points = {
-			11954 3 
-		}
+		owner = ALG
+		add_core_of = ALG
 		buildings = {
 			infrastructure = 3
-			air_base = 1
-			11954 = {
-				naval_base = 1
-
-			}
 
 		}
 
 	}
 
 	provinces={
-		1062 1127 4120 7063 10123 11954 
+		1013 1095 4131 4146 9964 10731 12760 
 	}
 	manpower=39170
 	buildings_max_level_factor=1.000

@@ -2,22 +2,18 @@
 state={
 	id=215
 	name="STATE_215"
-	resources={
-		steel=30.000
-	}
 
 	history={
-		owner = SOV
+		owner = MTH
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 4
 		}
-		add_core_of = SOV
+		add_core_of = MTH
 
 	}
 
 	provinces={
-		1659 1664 1744 1812 3169 4710 4715 4746 4774 4846 7733 7768 7796 7867 7895 10592 10604 10620 12602 12630 12700 
+		12041 12844 12876 
 	}
 	manpower=123873
 	buildings_max_level_factor=1.000

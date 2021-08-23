@@ -7,13 +7,13 @@ state={
 	}
 
 	history={
-		owner = UNC #TUR
+		owner = TUR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		#add_core_of = TUR
+		add_core_of = TUR
 
 	}
 

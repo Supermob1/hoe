@@ -6,8 +6,8 @@ state= {
 	state_category = town
 
 	history= {
-		owner = UNC #INS
-		#add_claim_by = POR
+		owner = INS
+		add_claim_by = POR
 		
 		victory_points = {
 			13221 3

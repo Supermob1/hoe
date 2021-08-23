@@ -4,7 +4,7 @@ state={
 	name="STATE_455"
 
 	history={
-		owner = UNC #JOR
+		owner = JOR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -13,12 +13,12 @@ state={
 		victory_points = {
 			7151 1 
 		}
-		#add_core_of = JOR
+		add_core_of = JOR
 
 	}
 
 	provinces={
-		1544 4017 4574 7001 7151 7170 10089 
+		1544 4017 4115 4574 4591 7001 7151 7170 10089 
 	}
 	manpower=403500
 	buildings_max_level_factor=1.000

@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+			name = "GFX_autonomy_vice_royalty_icon"
+			textureFile = "gfx/interface/autonomy/autonomy_vice_royalty.dds"
+	}
+	spriteType = {
+			name = "GFX_autonomy_captaincy_general_icon"
+			textureFile = "gfx/interface/autonomy/autonomy_captaincy_general.dds"
+	}
+	spriteType = {
+			name = "GFX_autonomy_personal_union_icon"
+			textureFile = "gfx/interface/autonomy/autonomy_personal_union.dds"
+	}
+}

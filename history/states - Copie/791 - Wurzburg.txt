@@ -10,8 +10,8 @@ state={
 		aluminium = 12
 	}
 	history={
-		owner = UNC #WRZ
-		#add_core_of = WRZ
+		owner = WRZ
+		add_core_of = WRZ
 		victory_points = {
 	 6421 1
 	}

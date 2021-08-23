@@ -2,12 +2,12 @@ state={
 	id=993
 	name="STATE_993"
 	history={
-		owner = UNC #TUR
+		owner = TUR
 		buildings = {
 			infrastructure = 3
 
 		}
-		#add_core_of = TUR
+		add_core_of = TUR
 
 	}
 	provinces={

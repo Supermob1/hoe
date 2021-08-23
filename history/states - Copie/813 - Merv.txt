@@ -1,18 +1,22 @@
+
 state={
 	id=813
 	name="STATE_813"
 
 	history={
-		owner = UNC #AFG
-		#add_core_of = AFG
-		
-		
+		owner = BUK
+		add_core_of = BUK
+		buildings = {
+			infrastructure = 3
+
+		}
+
 	}
 
 	provinces={
-		5003 4958 7560 10357
+		1649 4482 4549 4958 5003 7448 7491 7560 7584 7924 10357 10414 10476 10742 12877 
 	}
-	manpower= 320685
+	manpower=320685
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

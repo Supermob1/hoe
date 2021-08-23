@@ -10,7 +10,7 @@ state={
 	history={
 		owner = USA
 		add_core_of = USA
-		#add_core_of = DLW
+		add_core_of = DLW
 		victory_points = {
 		13223 3 }
 		buildings = {

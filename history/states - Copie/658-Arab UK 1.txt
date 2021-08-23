@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = UNC #BNY
-		#add_core_of = BNY
+		owner = BNY
+		add_core_of = BNY
 		victory_points = {
 			7960 1 
 		}

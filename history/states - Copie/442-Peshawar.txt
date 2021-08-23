@@ -2,20 +2,22 @@
 state={
 	id=442
 	name="STATE_442"
-	manpower = 520500
-	
-	state_category = rural
 
 	history={
-		owner = UNC #AFG
+		owner = AFG
 		buildings = {
 			infrastructure = 3
 			air_base = 3
+
 		}
-		#add_core_of = PAK
+		add_core_of = PAK
+
 	}
 
 	provinces={
-		1978 2084 4558 4998 12717 12763 
+		1978 4990 4998 5082 5105 7847 7975 8044 8090 10737 10781 10813 10826 12717 12831 
 	}
+	manpower=520500
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

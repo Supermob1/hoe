@@ -1,21 +1,17 @@
 
 state={
 	id=133
-	name="STATE_133" #Lanark
-	manpower = 550858
-	
-	state_category = city
-	
+	name="STATE_133"
 	resources={
-		steel=36
-		tungsten=40
+		steel=36.000
+		tungsten=40.000
 	}
 
 	history={
-		owner = UNC #ENG
-		#add_core_of = SCO
+		owner = ENG
+		add_core_of = SCO
 		victory_points = {
-			3273 15
+			3273 15 
 		}
 		buildings = {
 			infrastructure = 7
@@ -25,14 +21,18 @@ state={
 			air_base = 3
 			6395 = {
 				naval_base = 2
+
 			}
 
 		}
-		#add_core_of = ENG
-		
+		add_core_of = ENG
+
 	}
 
 	provinces={
-		3273 6320 6350 6385 6395 9237 9350 11218 
+		6320 6350 6395 9237 9350 11218 
 	}
+	manpower=550858
+	buildings_max_level_factor=1.000
+	state_category=city
 }

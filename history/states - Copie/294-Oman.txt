@@ -7,15 +7,15 @@ state={
 	}
 
 	history={
-		owner = UNC #OMA
+		owner = OMA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			
 
 		}
-		#add_core_of = OMA
-		#add_core_of = MSK
+		add_core_of = OMA
+		add_core_of = MSK
 
 	}
 

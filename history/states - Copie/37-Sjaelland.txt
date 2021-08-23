@@ -12,7 +12,7 @@ state= {
 	
 	history=
 	{
-		owner = UNC #DNO
+		owner = DNO
 		victory_points = { 
 			6287 20 
 		}
@@ -35,7 +35,7 @@ state= {
 				naval_base = 1
 			}
 		}
-		#add_core_of = DNO
+		add_core_of = DNO
 	}
 
 	provinces= {

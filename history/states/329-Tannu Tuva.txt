@@ -2,28 +2,28 @@
 state={
 	id=329
 	name="STATE_329"
-	manpower = 9400
 	resources={
-
-		chromium=2
-
+		chromium=2.000
 	}
-	
-	state_category = rural
 
 	history={
 		owner = MON
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
+
 		}
 		victory_points = {
-			10627 3
+			10627 3 
 		}
 		add_core_of = MON
+
 	}
 
 	provinces={
-		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 
+		1676 1877 4680 4781 4800 7703 7731 7804 7819 7843 9548 10531 10597 10627 10646 10713 12509 12610 12625 12695 
 	}
+	manpower=9400
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

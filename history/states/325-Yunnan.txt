@@ -2,14 +2,8 @@
 state={
 	id=325
 	name="STATE_325"
-	manpower = 8332722
-	
-	state_category = town
-	
 	resources={
-	
-		tungsten=3
-		
+		tungsten=3.000
 	}
 
 	history={
@@ -25,11 +19,15 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
+
 		}
-		
+
 	}
 
 	provinces={
-		1114 1172 1196 1319 1383 1522 1653 4501 4559 4937 5009 7446 7606 7965 7976 8023 8126 10346 10413 10776 10863 12262 12282 12789 12898 10726 7294 2067 
+		1114 1172 1196 1319 1383 1522 1653 1999 2067 4501 4559 4937 4999 5009 7294 7446 7606 7965 7976 8023 8126 10346 10413 10726 10776 10863 12262 12282 12789 12898 
 	}
+	manpower=8332722
+	buildings_max_level_factor=1.000
+	state_category=town
 }
